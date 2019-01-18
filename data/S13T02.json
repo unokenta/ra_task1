@@ -1,0 +1,2181 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "ツジムラさん、私に何かお話があるというふうに聞いて来たんですけれども、もしよかったら、今教えていただけますでしょうか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "ツジムラさん、私に何かお話があるというふうに聞いて来たんですけれども、もしよかったら、今教えていただけますでしょうか？"
+            }
+        },
+        {
+            "id": 1,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 2,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 3,
+            "speaker": "B",
+            "utterance": "今ウクレレの練習をして、もっと弾けるようになりたいんです。",
+            "understand": {
+                "MI": {
+                    "theme_positive_1": "ウクレレの練習をして、もっと弾けるようになりたい"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "speaker": "A",
+            "utterance": "ウクレレの練習？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "ウクレレの練習？"
+            }
+        },
+        {
+            "id": 5,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 6,
+            "speaker": "A",
+            "utterance": "ウクレレですか",
+            "utterance_request": {
+                "utterance_request": "{theme_positive_summary}ですか。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "ウクレレですか"
+            }
+        },
+        {
+            "id": 7,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 8,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 10,
+            "speaker": "A",
+            "utterance": "どうしてそう思われるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "どうしてそう思われるんですか？"
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "B",
+            "utterance": "そうですね、１つには、僕の父親がすごくハワイが好きで、ハワイといえばウクレレなので、父親はそれでわりと練習して、上達しているので、僕もちょっとそれがうらやましいというか、興味を持ってしまったというのが１つあります。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "僕の父親がすごくハワイが好きで、ハワイといえばウクレレなので、父親はそれでわりと練習して、上達しているので、僕もちょっとそれがうらやましいというか、興味を持ってしまった"
+                }
+            }
+        },
+        {
+            "id": 12,
+            "speaker": "A",
+            "utterance": "お父さまが、もともとハワイがお好きで、今、現在、ウクレレを弾いてらっしゃるということですか？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "お父さまが、もともとハワイがお好きで、今、現在、ウクレレを弾いてらっしゃるということですか？"
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 14,
+            "speaker": "B",
+            "utterance": "アマチュアですけれども、結構上達してるんで。"
+        },
+        {
+            "id": 15,
+            "speaker": "A",
+            "utterance": "あー、そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "あー、そうですか。"
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "A",
+            "utterance": "それを見てうらやましいなと。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "それを見てうらやましいなと。"
+            }
+        },
+        {
+            "id": 17,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 18,
+            "speaker": "B",
+            "utterance": "僕もちょっとやってみようかなという気持ちになりまして。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "僕もちょっとやってみようかなという気持ちになりまして"
+                }
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "A",
+            "utterance": "そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "そうですか。"
+            }
+        },
+        {
+            "id": 20,
+            "speaker": "A",
+            "utterance": "どうしていいなと思われたんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "どうしていいなと思われたんですか？"
+            }
+        },
+        {
+            "id": 21,
+            "speaker": "B",
+            "utterance": "やっぱり１つには、すごい音色が軽くていいなというのと、それから、僕はギターは前にやったことがありますので、ギターやったことある人だったら、やり方はほぼ一緒ですから、あとは、この押さえ方を覚えれば、ある程度弾けるようになるっていうふうに、父親がそうやって申しておりましたので。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "すごい音色が軽くていい",
+                    "reason_positive_2": "押さえ方を覚えれば、ある程度弾けるようになるっていうふうに、父親がそうやって申しておりましたので"
+                }
+            }
+        },
+        {
+            "id": 22,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 23,
+            "speaker": "B",
+            "utterance": "ええ、父も若い頃ギターをずいぶんやってたみたいですからね。"
+        },
+        {
+            "id": 24,
+            "speaker": "B",
+            "utterance": "だから、それで、もうまったくやったことない未知の楽器をやるよりは、取っ付きやすいだろうということあります。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "もうまったくやったことない未知の楽器をやるよりは、取っ付きやすいだろうということあります"
+                }
+            }
+        },
+        {
+            "id": 25,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 26,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "あと、あともう１つあるのは、ちっちゃいので、あまり置き場所に困らないということです。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "ちっちゃいので、あまり置き場所に困らない"
+                }
+            }
+        },
+        {
+            "id": 28,
+            "speaker": "A",
+            "utterance": "いいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "いいですね。"
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "A",
+            "utterance": "先ほどね、「本で大変だ」というふうにおっしゃってたので、ウクレレは小さいから、置き場所に困らないと。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "reason",
+                "utterance": "先ほどね、「本で大変だ」というふうにおっしゃってたので、ウクレレは小さいから、置き場所に困らないと。"
+            }
+        },
+        {
+            "id": 30,
+            "speaker": "B",
+            "utterance": "そうですよ。"
+        },
+        {
+            "id": 31,
+            "speaker": "B",
+            "utterance": "もう僕の友達なんて、ある日突然ドラムに目覚めてしまったら、置き場所なんか、ほんとにもう部屋中ドラムみたいになってしまって。"
+        },
+        {
+            "id": 32,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "B",
+            "utterance": "やっぱりどんな趣味でも、何かを犠牲にしなきゃいけないんですね。"
+        },
+        {
+            "id": 34,
+            "speaker": "B",
+            "utterance": "そういう意味では、ウクレレはあんまり犠牲にするものがなくていいのかなって。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "ウクレレはあんまり犠牲にするものがなくていい"
+                }
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "気軽にできるかなっていうところがあります。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "気軽にできる"
+                }
+            }
+        },
+        {
+            "id": 36,
+            "speaker": "A",
+            "utterance": "気軽にできる",
+            "utterance_request": {
+                "utterance_request": "{reason_positive}"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "気軽にできる"
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "B",
+            "utterance": "そう、音色もきれいですし。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "音色もきれい"
+                }
+            }
+        },
+        {
+            "id": 38,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 39,
+            "speaker": "B",
+            "utterance": "ギターもそうですけれども、歌の伴奏にもなりますし、あと、ウクレレそのもので弾いたりとかもできますので、やっぱりそういう楽器というのは、いろいろ応用がきいて楽しみですよね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "歌の伴奏にもなりますし、あと、ウクレレそのもので弾いたりとかもできますので、やっぱりそういう楽器というのは、いろいろ応用がきいて"
+                }
+            }
+        },
+        {
+            "id": 40,
+            "speaker": "B",
+            "utterance": "例えばね、笛とかだと吹くしかないですからね。"
+        },
+        {
+            "id": 41,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 42,
+            "speaker": "B",
+            "utterance": "吹きながら歌えないですからね。"
+        },
+        {
+            "id": 43,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 44,
+            "speaker": "A",
+            "utterance": "ということは、伴奏になるということは、弾きながらご自身でもちょっと歌ってみたりということですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "ということは、伴奏になるということは、弾きながらご自身でもちょっと歌ってみたりということですか？"
+            }
+        },
+        {
+            "id": 45,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 46,
+            "speaker": "B",
+            "utterance": "いろいろ歌を歌ってみたいなと思っております。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "いろいろ歌を歌ってみたい"
+                }
+            }
+        },
+        {
+            "id": 47,
+            "speaker": "A",
+            "utterance": "いいですねー。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "いいですねー。"
+            }
+        },
+        {
+            "id": 48,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 49,
+            "speaker": "A",
+            "utterance": "どんな歌を歌われるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "どんな歌を歌われるんですか？"
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "B",
+            "utterance": "僕が１つ、父親の影響というのもありますけれども、もう１つすごくウクレレの曲で気に入った曲が、ハワイ出身のイズラエル・カマカヴィヴォオレという人が、ミュージシャンがいて。"
+        },
+        {
+            "id": 51,
+            "speaker": "A",
+            "utterance": "もう１度、お名前。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "もう１度、お名前。"
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "B",
+            "utterance": "イズラエル・カマカヴィヴォオレという人です。"
+        },
+        {
+            "id": 53,
+            "speaker": "B",
+            "utterance": "ええ、たぶんハワイの独特の名字なんだと思いますけれども、その人のウクレレの曲がすごくよかったんですが、学生のときかな、ずいぶん前に見た映画なんですけれども、映画で「小説家を見つけたら」という映画がありまして、それの音楽をその人がやっていて、それが、最後の映画が終わったあとのエンドロールのところで、流れてすごくそれが耳に残っていて、いいなというのがありましたんで。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "その人のウクレレの曲がすごくよかった"
+                }
+            }
+        },
+        {
+            "id": 54,
+            "speaker": "A",
+            "utterance": "それをよく覚えてらっしゃるんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "それをよく覚えてらっしゃるんですね。"
+            }
+        },
+        {
+            "id": 55,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 56,
+            "speaker": "B",
+            "utterance": "ですから、それも。"
+        },
+        {
+            "id": 57,
+            "speaker": "A",
+            "utterance": "何年前でしたっけ？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "utterance": "何年前でしたっけ？"
+            }
+        },
+        {
+            "id": 58,
+            "speaker": "B",
+            "utterance": "ずいぶん前ですね。"
+        },
+        {
+            "id": 59,
+            "speaker": "B",
+            "utterance": "もう１０年以上前じゃないかと思いますけど。"
+        },
+        {
+            "id": 60,
+            "speaker": "A",
+            "utterance": "１０年以上前、はい。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "utterance": "１０年以上前、はい。"
+            }
+        },
+        {
+            "id": 61,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 62,
+            "speaker": "A",
+            "utterance": "小説家を？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "utterance": "小説家を？"
+            }
+        },
+        {
+            "id": 63,
+            "speaker": "B",
+            "utterance": "「小説家を見つけたら」という。"
+        },
+        {
+            "id": 64,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 65,
+            "speaker": "A",
+            "utterance": "それも映画のタイトルからして、ちょっとね、ぴったりの。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "reason",
+                "utterance": "それも映画のタイトルからして、ちょっとね、ぴったりの。"
+            }
+        },
+        {
+            "id": 66,
+            "speaker": "B",
+            "utterance": "あー、そうですね。"
+        },
+        {
+            "id": 67,
+            "speaker": "A",
+            "utterance": "ツジムラさんに。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "reason",
+                "utterance": "ツジムラさんに。"
+            }
+        },
+        {
+            "id": 68,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 69,
+            "speaker": "A",
+            "utterance": "あー、そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "あー、そうですか。"
+            }
+        },
+        {
+            "id": 70,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 71,
+            "speaker": "A",
+            "utterance": "それで、映画の内容もよかったんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "それで、映画の内容もよかったんですか？"
+            }
+        },
+        {
+            "id": 72,
+            "speaker": "B",
+            "utterance": "そうですね、映画の内容とその曲はあんまり関係なかったんですけれどね、映画は映画で、僕の好きなショーン・コネリーという俳優が出てましたので、それはよかったんですけれども、それはそれとしまして、やっぱり初めて聴いた曲で、それまでウクレレの曲というのはほとんど聴いたことがなかったわけです。"
+        },
+        {
+            "id": 73,
+            "speaker": "B",
+            "utterance": "ギターとか、あるいはジャズとか、そういうのは聴いたことありましたけど、ウクレレだけの曲というのは、わりとそのとき、初めて意識的に聴いたかなという感じで。"
+        },
+        {
+            "id": 74,
+            "speaker": "B",
+            "utterance": "だから、ウクレレというとなんとなくハワイアンで、軽い感じで弾いてるというイメージがありましたけど、こういう曲もウクレレでできるんだというような感じですね。"
+        },
+        {
+            "id": 75,
+            "speaker": "A",
+            "utterance": "どういう曲だったんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "どういう曲だったんですか？"
+            }
+        },
+        {
+            "id": 76,
+            "speaker": "B",
+            "utterance": "フォークソングといいますか、すごいメロディーが複雑な曲で、それをウクレレの簡単な伴奏でやってるというんで。"
+        },
+        {
+            "id": 77,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 78,
+            "speaker": "B",
+            "utterance": "こういう弾き方もあるのかというね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "こういう弾き方もあるのかというね"
+                }
+            }
+        },
+        {
+            "id": 79,
+            "speaker": "A",
+            "utterance": "ほんとですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "ほんとですね。"
+            }
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 81,
+            "speaker": "A",
+            "utterance": "ごういう弾き方もあるのかと",
+            "utterance_request": {
+                "utterance_request": "{reason_positive_summary}"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "ごういう弾き方もあるのかと"
+            }
+        },
+        {
+            "id": 82,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 83,
+            "speaker": "A",
+            "utterance": "ただハワイアンで弾いてるだけかと私も思ってました。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "reason",
+                "utterance": "ただハワイアンで弾いてるだけかと私も思ってました。"
+            }
+        },
+        {
+            "id": 84,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 85,
+            "speaker": "A",
+            "utterance": "あー、そうなんですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "あー、そうなんですか。"
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 87,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 88,
+            "speaker": "A",
+            "utterance": "そこがちょっと印象に残った？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "そこがちょっと印象に残った？"
+            }
+        },
+        {
+            "id": 89,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 90,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 91,
+            "speaker": "B",
+            "utterance": "それからちょっと興味を持って、ウクレレのほかのミュージシャンのＣＤも買ったりするんですけど。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "ウクレレのほかのミュージシャンのＣＤも買ったり"
+                }
+            }
+        },
+        {
+            "id": 92,
+            "speaker": "A",
+            "utterance": "えっ、その映画を見たあとで？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "えっ、その映画を見たあとで？"
+            }
+        },
+        {
+            "id": 93,
+            "speaker": "B",
+            "utterance": "あとです。"
+        },
+        {
+            "id": 94,
+            "speaker": "A",
+            "utterance": "興味を持って、すぐに行動に移されたんですね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "興味を持って、すぐに行動に移されたんですね？"
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "B",
+            "utterance": "すぐにってこともないですけど、やっぱりウクレレって、ちょっとほかのも聴いてみたいなーっていうのがやっぱ心のどこかにありまして、例えばＣＤ屋さんに行ったときに、ウクレレかと思ってちょっと買おうかなとか、そういう感じで、だんだん集めてしまったというのがありますけどね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "ウクレレって、ちょっとほかのも聴いてみたいなーっていうのがやっぱ心のどこかにあり",
+                    "confidence_2": "ＣＤ屋さんに行ったときに、ウクレレかと思ってちょっと買おうかなとか、そういう感じで、だんだん集めてしまった"
+                }
+            }
+        },
+        {
+            "id": 96,
+            "speaker": "B",
+            "utterance": "映画の「スター・ウォーズ」の音楽を全部ウクレレで弾いてるとか、そういうのを。"
+        },
+        {
+            "id": 97,
+            "speaker": "B",
+            "utterance": "いろいろ、ウクレレって弾き方によっては、どんな音楽でもできるっていうんで、あの単純な、弦が４本しかないんですが、あんな単純な楽器でいろんな曲ができるんだなというんで、今はまだ始めたばっかりというか、押さえ方の練習をしてる時点ですけれども、ゆくゆくは、こういう自分の好きな曲を弾きこなせるようになったらいいかなというふうに思ってるんです。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "ウクレレって弾き方によっては、どんな音楽でもできるっていうんで、あの単純な、弦が４本しかないんですが、あんな単純な楽器でいろんな曲ができる",
+                    "thought_positive_2": "ゆくゆくは、こういう自分の好きな曲を弾きこなせるようになったらいいかな"
+                }
+            }
+        },
+        {
+            "id": 98,
+            "speaker": "A",
+            "utterance": "分かりました。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "分かりました。"
+            }
+        },
+        {
+            "id": 99,
+            "speaker": "A",
+            "utterance": "そうしたら、すでに、例えば、順番的にちょっと整理させていただいていいですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "そうしたら、すでに、例えば、順番的にちょっと整理させていただいていいですか？"
+            }
+        },
+        {
+            "id": 100,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 101,
+            "speaker": "A",
+            "utterance": "最初に映画を見て、「こんなウクレレの演奏もあるんだ」と思われた。",
+            "utterance_request": {
+                "utterance_request": "最初に映画を見て、「{thought_positive_summary}んだ」と思われた。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "最初に映画を見て、「こんなウクレレの演奏もあるんだ」と思われた。"
+            }
+        },
+        {
+            "id": 102,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 103,
+            "speaker": "A",
+            "utterance": "そのあと、ちょっとしばらくして、すごくウクレレに興味をそれから持ったので、ＣＤを何枚か買われたってことですよね？",
+            "utterance_request": {
+                "utterance_request": "そのあと、ちょっとしばらくして、すごく{theme_positive_summary}に興味をそれから持ったので、{commitment}ってことですよね？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そのあと、ちょっとしばらくして、すごくウクレレに興味をそれから持ったので、ＣＤを何枚か買われたってことですよね？"
+            }
+        },
+        {
+            "id": 104,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 105,
+            "speaker": "A",
+            "utterance": "で、それから、映画を１０年前っておっしゃったんですけども、それからそのあとはどんな感じなんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "で、それから、映画を１０年前っておっしゃったんですけども、それからそのあとはどんな感じなんですか？"
+            }
+        },
+        {
+            "id": 106,
+            "speaker": "B",
+            "utterance": "そんなに、ほかの音楽もいろいろ、ロックとかジャズとかも聴きますので、そんなに集中的にウクレレの曲ばっかり買ってたということはないんですけれども、だけど、折に触れてといいますか、たまにＣＤ屋さんの棚を見てると、こんなＣＤが新しく出たんだという感じで、だから、それまではウクレレコーナーなんて絶対見なかったところを、ウクレレコーナーもちょっと見るようになったりとか。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "ＣＤ屋さんの棚を見てると、こんなＣＤが新しく出たんだという感じで、だから、それまではウクレレコーナーなんて絶対見なかったところを、ウクレレコーナーもちょっと見るようになった"
+                }
+            }
+        },
+        {
+            "id": 107,
+            "speaker": "A",
+            "utterance": "なったということですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なったということですね。"
+            }
+        },
+        {
+            "id": 108,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 109,
+            "speaker": "B",
+            "utterance": "それでちょっとずつ買って。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "それでちょっとずつ買って"
+                }
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "B",
+            "utterance": "あと、それと並行して、父親がウクレレの練習してたんで、それまでは、別に僕は興味なかったんですけど、父親がなんかやってるって感じだったんですけれども、やっぱりだんだん聴くたびに、僕は独り暮らししてますので、父親と、もう実家のほうで年に２～３回ぐらいしか会わないんですが、やっぱり行くたびに上達してるのがちょっとうらやましいなというのもありまして。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "父親と、もう実家のほうで年に２～３回ぐらいしか会わないんですが、やっぱり行くたびに上達してるのがちょっとうらやましいなというのもありまして"
+                }
+            }
+        },
+        {
+            "id": 111,
+            "speaker": "A",
+            "utterance": "すてきですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "すてきですね。"
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 113,
+            "speaker": "A",
+            "utterance": "お父さまがウクレレを始められたのというのは、いつ頃なんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason_time",
+                "utterance": "お父さまがウクレレを始められたのというのは、いつ頃なんですか？"
+            }
+        },
+        {
+            "id": 114,
+            "speaker": "B",
+            "utterance": "そうですね、うちの父親が初めてハワイに行ったのが、もうかれこれ２０年前とかそれくらいだと思いますけど、うちの父親ももともとハワイにはそんなに思い入れがなくて、ただ海外旅行するんで、一番日本語も通じるし、気楽でいいだろうみたいな感じで行ったら、すごいハワイが気に入ってしまって、もうそれでリピーターみたいになってしまったんで、それで、やっぱりハワイに行くとしょっちゅういろんなところでウクレレミュージシャンがいて、演奏してますので、父親もそれで興味を持ったようです。"
+        },
+        {
+            "id": 115,
+            "speaker": "A",
+            "utterance": "うん、うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん、うん。"
+            }
+        },
+        {
+            "id": 116,
+            "speaker": "A",
+            "utterance": "お父さんが実際に実家に帰ったときに弾いてらっしゃったのは、いつ頃ですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason_time",
+                "utterance": "お父さんが実際に実家に帰ったときに弾いてらっしゃったのは、いつ頃ですか？"
+            }
+        },
+        {
+            "id": 117,
+            "speaker": "A",
+            "utterance": "何年前ぐらいになりますか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason_time",
+                "utterance": "何年前ぐらいになりますか？"
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "B",
+            "utterance": "そうですね、やっぱりその映画を僕が見る前ですから、１０年以上前になるかと思います。"
+        },
+        {
+            "id": 119,
+            "speaker": "A",
+            "utterance": "じゃあ、そちらのほうが早かったわけですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason_time",
+                "utterance": "じゃあ、そちらのほうが早かったわけですね。"
+            }
+        },
+        {
+            "id": 120,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "父親のほうが早かったです。"
+        },
+        {
+            "id": 122,
+            "speaker": "A",
+            "utterance": "お父さまがもともとウクレレを弾いてらっしゃった。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "お父さまがもともとウクレレを弾いてらっしゃった。"
+            }
+        },
+        {
+            "id": 123,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 124,
+            "speaker": "A",
+            "utterance": "そのあと、映画をご覧になって。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "そのあと、映画をご覧になって。"
+            }
+        },
+        {
+            "id": 125,
+            "speaker": "B",
+            "utterance": "はい、映画を見たりとか、いろいろ気になって曲を聴いたりしてるうちに、自分もちょっと興味が出てきて。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "映画を見たりとか、いろいろ気になって曲を聴いたりしてるうちに、自分もちょっと興味が出てきて"
+                }
+            }
+        },
+        {
+            "id": 126,
+            "speaker": "A",
+            "utterance": "出てきた。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "出てきた。"
+            }
+        },
+        {
+            "id": 127,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 128,
+            "speaker": "A",
+            "utterance": "でも、さっきお話をお伺いしたら、押さえ方っておっしゃってたので、もうすでにウクレレは持ってらっしゃるってことですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、さっきお話をお伺いしたら、押さえ方っておっしゃってたので、もうすでにウクレレは持ってらっしゃるってことですか？"
+            }
+        },
+        {
+            "id": 129,
+            "speaker": "B",
+            "utterance": "持ってるんです、実は。"
+        },
+        {
+            "id": 130,
+            "speaker": "A",
+            "utterance": "そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうですか。"
+            }
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 132,
+            "speaker": "A",
+            "utterance": "それはいつ頃購入されたんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "それはいつ頃購入されたんですか？"
+            }
+        },
+        {
+            "id": 133,
+            "speaker": "B",
+            "utterance": "実はもうかれこれ２年前ぐらいに買ったんですが。",
+            "understand": {
+                "MI": {
+                    "confidence_time_1": "２年前",
+                    "confidence_2": "２年前ぐらいに買った"
+                }
+            }
+        },
+        {
+            "id": 134,
+            "speaker": "A",
+            "utterance": "２年前？",
+            "utterance_request": {
+                "utterance_request": "{confidence_time_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_time",
+                "utterance": "２年前？"
+            }
+        },
+        {
+            "id": 135,
+            "speaker": "B",
+            "utterance": "ええ、ずーっともう放置していたというのがあります。",
+            "understand": {
+                "MI": {
+                    "disimportance_negative_1": "ずーっともう放置していた"
+                }
+            }
+        },
+        {
+            "id": 136,
+            "speaker": "A",
+            "utterance": "あー、そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disimportance",
+                "utterance": "あー、そうですか。"
+            }
+        },
+        {
+            "id": 137,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 138,
+            "speaker": "A",
+            "utterance": "２年前には買ったんだけれども、弾いてみたいなと思われて。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "２年前には買ったんだけれども、弾いてみたいなと思われて。"
+            }
+        },
+        {
+            "id": 139,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 140,
+            "speaker": "A",
+            "utterance": "２年前ぐらいに買ったんだけども、ずーっともう放置していた",
+            "utterance_request": {
+                "utterance_request": "{confidence}んだけども、{disimportance}"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disimportance",
+                "utterance": "２年前ぐらいに買ったんだけども、ずーっともう放置していた"
+            }
+        },
+        {
+            "id": 141,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 142,
+            "speaker": "A",
+            "utterance": "それをまた最近練習したいということなんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "importance",
+                "utterance": "それをまた最近練習したいということなんですか？"
+            }
+        },
+        {
+            "id": 143,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 144,
+            "speaker": "B",
+            "utterance": "だから、いつか弾けるようになりたいので、このままもうずっと置いといても、宝の持ち腐れという感じになってしまいますので、毎日ちょっとずつできたらいいなと思ってるんですけど、やっぱり楽器というのは、毎日少しずつ練習しないと覚えられないんですけど、僕の場合、すごい仕事とか忙しい時期とちょっと余裕のある時期というのが、わりとまとまってきてるので、やっぱり忙しい時期っていうのは、ちょっとウクレレやってる場合じゃないときというのが結構ありますので、そうやってインターバルがあいちゃうと、なかなか上達しないんですよね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "いつか弾けるようになりたい",
+                    "commitment_frequency_2": "毎日ちょっとずつ",
+                    "commitment_3": "毎日ちょっとずつできたら",
+                    "disreason_4": "忙しい時期っていうのは、ウクレレやってる場合じゃないときというのが結構あります",
+                    "disconfidence_5": "インターバルがあいちゃうと、なかなか上達しない"
+                }
+            }
+        },
+        {
+            "id": 145,
+            "speaker": "B",
+            "utterance": "ですから、例えば１日１０分でもいいから練習したりとかという時間を持てたらいいなというふうに今思ってます。",
+            "understand": {
+                "MI": {
+                    "commitment_quantity_frequency_1": "１日１０分でもいいから練習したりとかという時間を持てたら"
+                }
+            }
+        },
+        {
+            "id": 146,
+            "speaker": "A",
+            "utterance": "今そう思ってらっしゃるんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "今そう思ってらっしゃるんですね。"
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 148,
+            "speaker": "A",
+            "utterance": "最初はお仕事がすごく忙しいことが集中したり、インターバルがあったりということなので、なかなか２年間は練習が進まなかったけれども、今は忙しさには関係なく、１日に１０分でも、練習できればいいなってことですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "最初はお仕事がすごく忙しいことが集中したり、インターバルがあったりということなので、なかなか２年間は練習が進まなかったけれども、今は忙しさには関係なく、１日に１０分でも、練習できればいいなってことですね。"
+            }
+        },
+        {
+            "id": 149,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 150,
+            "speaker": "B",
+            "utterance": "そういう習慣をつければいいかなと。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "そういう習慣をつければいいかな"
+                }
+            }
+        },
+        {
+            "id": 151,
+            "speaker": "A",
+            "utterance": "習慣をつける。",
+            "utterance_request": {
+                "utterance_request": "{commitment_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "習慣をつける。"
+            }
+        },
+        {
+            "id": 152,
+            "speaker": "A",
+            "utterance": "あー、なんかいい言葉ですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "あー、なんかいい言葉ですね。"
+            }
+        },
+        {
+            "id": 153,
+            "speaker": "A",
+            "utterance": "あー、そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "あー、そうですか。"
+            }
+        },
+        {
+            "id": 154,
+            "speaker": "B",
+            "utterance": "僕がギターを覚えたのは、もう中学校ぐらいのときですから、時間は結構あったんですけれども、もう毎日、指の押さえ方の練習を毎日毎日やってるうちに、初めのうちは本とか楽譜を見ながら１個１個指を押さえる、確認しながらしかできないんですけれども、それがある日突然、何も見なくてもぱっと押さえられるようになるというのは、わりとすごい面白い経験だったんで、ですので、ウクレレの場合もギターと押さえ方の形は違うんですけど、基本は一緒ですから、ちょっとずつやっていけば、きっとある程度は弾けるようになるはずだというふうに思ってるので。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "ギターを覚えたのは、もう中学校ぐらいのときですから、時間は結構あったんですけれども、もう毎日、指の押さえ方の練習を毎日毎日やってるうちに、初めのうちは本とか楽譜を見ながら１個１個指を押さえる、確認しながらしかできないんですけれども、それがある日突然、何も見なくてもぱっと押さえられるようになるというのは、わりとすごい面白い経験だったんで、ですので、ウクレレの場合もギターと押さえ方の形は違うんですけど、基本は一緒ですから、ちょっとずつやっていけば、きっとある程度は弾けるようになるはずだというふうに思ってる"
+                }
+            }
+        },
+        {
+            "id": 155,
+            "speaker": "A",
+            "utterance": "そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうですよね。"
+            }
+        },
+        {
+            "id": 156,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 157,
+            "speaker": "A",
+            "utterance": "今おっしゃってたように、やはり今、お忙しい時期が集中しているという今の時期と時間があった中学の頃とはやはり違うと思うんですけれども、今いろんなお仕事に時間を取られることも含めて、それでも、例えば５分でも１０分でも、例えばさっきおっしゃってたように習慣付けたい。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "今おっしゃってたように、やはり今、お忙しい時期が集中しているという今の時期と時間があった中学の頃とはやはり違うと思うんですけれども、今いろんなお仕事に時間を取られることも含めて、それでも、例えば５分でも１０分でも、例えばさっきおっしゃってたように習慣付けたい。"
+            }
+        },
+        {
+            "id": 158,
+            "speaker": "B",
+            "utterance": "うん、そうですね。"
+        },
+        {
+            "id": 159,
+            "speaker": "A",
+            "utterance": "それをするために何かいいアイデアないでしょうかね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "それをするために何かいいアイデアないでしょうかね？"
+            }
+        },
+        {
+            "id": 160,
+            "speaker": "B",
+            "utterance": "今はウクレレ、ちょっとさっきの本の話もありますけど、部屋が狭いので、収納にもう入れて、弾くたびに出して弾いて、またしまったりとかしてますので、もうさっきの話とリンクしますけど、本が減って、スペースが空いたら、そこにもうウクレレをいつでも取れる状態に置いといて、ちょっと仕事の息抜きとかで、「はー」という感じやるといいかなというふうに。",
+            "understand": {
+                "MI": {
+                    "confidence_action_1": "ウクレレをいつでも取れる状態に置いといて、ちょっと仕事の息抜きとかで、「はー」という感じやる"
+                }
+            }
+        },
+        {
+            "id": 161,
+            "speaker": "A",
+            "utterance": "いいですね、いいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "いいですね、いいですね。"
+            }
+        },
+        {
+            "id": 162,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 163,
+            "speaker": "A",
+            "utterance": "仕事の息抜き。",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "仕事の息抜き。"
+            }
+        },
+        {
+            "id": 164,
+            "speaker": "A",
+            "utterance": "さっきお仕事の合間に本を整理するっておっしゃってましたけど、全部お仕事に入っていけばできそうな感じありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "さっきお仕事の合間に本を整理するっておっしゃってましたけど、全部お仕事に入っていけばできそうな感じありますか？"
+            }
+        },
+        {
+            "id": 165,
+            "speaker": "A",
+            "utterance": "できそうな感じありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "できそうな感じありますか？"
+            }
+        },
+        {
+            "id": 166,
+            "speaker": "B",
+            "utterance": "うん、そうですね。"
+        },
+        {
+            "id": 167,
+            "speaker": "B",
+            "utterance": "だから、逆に、そういう息抜きがあれば、仕事にもぱっと移れるみたいな、そういう感じで、効率がよくなるんじゃないかなというふうにも思ってます。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "そういう息抜きがあれば、仕事にもぱっと移れるみたいな、そういう感じで、効率がよくなるんじゃないかなというふうにも思ってます"
+                }
+            }
+        },
+        {
+            "id": 168,
+            "speaker": "A",
+            "utterance": "素晴らしいメリットですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "importance",
+                "utterance": "素晴らしいメリットですね。"
+            }
+        },
+        {
+            "id": 169,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 170,
+            "speaker": "A",
+            "utterance": "本を片付けるメリット、ウクレレまで来てますね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "importance",
+                "utterance": "本を片付けるメリット、ウクレレまで来てますね。"
+            }
+        },
+        {
+            "id": 171,
+            "speaker": "B",
+            "utterance": "うん、そうですね。"
+        },
+        {
+            "id": 172,
+            "speaker": "A",
+            "utterance": "どんどん出てきますね、本からまた。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "importance",
+                "utterance": "どんどん出てきますね、本からまた。"
+            }
+        },
+        {
+            "id": 173,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 174,
+            "speaker": "A",
+            "utterance": "そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうですか。"
+            }
+        },
+        {
+            "id": 175,
+            "speaker": "A",
+            "utterance": "見えると、そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "見えると、そうですよね。"
+            }
+        },
+        {
+            "id": 176,
+            "speaker": "A",
+            "utterance": "目に付くと確かにそうかもしれない。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "目に付くと確かにそうかもしれない。"
+            }
+        },
+        {
+            "id": 177,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 178,
+            "speaker": "A",
+            "utterance": "しかも、ウクレレだから、おっしゃってたようにね、リラクゼーションというか。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "importance",
+                "utterance": "しかも、ウクレレだから、おっしゃってたようにね、リラクゼーションというか。"
+            }
+        },
+        {
+            "id": 179,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 180,
+            "speaker": "A",
+            "utterance": "気分転換。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "importance",
+                "utterance": "気分転換。"
+            }
+        },
+        {
+            "id": 181,
+            "speaker": "B",
+            "utterance": "すごい音がきれいなので、弾いてると気持ちいいというのもありますよね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "すごい音がきれいなので、弾いてると気持ちいい"
+                }
+            }
+        },
+        {
+            "id": 182,
+            "speaker": "A",
+            "utterance": "あー、いいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "あー、いいですね。"
+            }
+        },
+        {
+            "id": 183,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 184,
+            "speaker": "A",
+            "utterance": "そうしたら、ちょっとしまい込んでるウクレレを出すのはどうしましょう？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment",
+                "utterance": "そうしたら、ちょっとしまい込んでるウクレレを出すのはどうしましょう？"
+            }
+        },
+        {
+            "id": 185,
+            "speaker": "A",
+            "utterance": "いつしましょうか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "いつしましょうか？"
+            }
+        },
+        {
+            "id": 186,
+            "speaker": "A",
+            "utterance": "いつ出してきましょうか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "いつ出してきましょうか？"
+            }
+        },
+        {
+            "id": 187,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 188,
+            "speaker": "A",
+            "utterance": "ちっちゃいですよ。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "ちっちゃいですよ。"
+            }
+        },
+        {
+            "id": 189,
+            "speaker": "B",
+            "utterance": "そう、ちっちゃいですからね。"
+        },
+        {
+            "id": 190,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 191,
+            "speaker": "B",
+            "utterance": "今、もう今日すぐにといってもいいんですけれども、ちょっと、それにはいろいろと心の準備みたいのも必要ですので、いずれ近いうちにというふうに思っております。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "いろいろと心の準備みたいのも必要",
+                    "commitment_time_2": "いずれ近いうちに"
+                }
+            }
+        },
+        {
+            "id": 192,
+            "speaker": "A",
+            "utterance": "近いうちにというのは？",
+            "utterance_request": {
+                "utterance_request": "{commitment_time}というのは？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "近いうちにというのは？"
+            }
+        },
+        {
+            "id": 193,
+            "speaker": "B",
+            "utterance": "そうですね、本が減ってからということもありますし、あと、その本を減らすという、自炊とか、その選別とかっていうことで、わりと今それに時間を取られてしまっているので、それがある程度一山越えて、それで、ちょっとほかのことをやれる時間ができたかなというときに始めようかなというふうに思っております。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "本を減らすという、自炊とか、その選別とかっていうことで、わりと今それに時間を取られてしまっている",
+                    "commitment_time_2": "ほかのことをやれる時間ができたかなというとき",
+                    "commitment_positive_3": "ちょっとほかのことをやれる時間ができたかなというときに始めようかなというふうに思っております"
+                }
+            }
+        },
+        {
+            "id": 194,
+            "speaker": "A",
+            "utterance": "分かりました。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "分かりました。"
+            }
+        },
+        {
+            "id": 195,
+            "speaker": "A",
+            "utterance": "では、そういう、まず本を片付けることを先にして。",
+            "utterance_request": {
+                "utterance_request": "では、そういう、まず{disreason_summary}ことを先にして。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_action",
+                "utterance": "では、そういう、まず本を片付けることを先にして。"
+            }
+        },
+        {
+            "id": 196,
+            "speaker": "B",
+            "utterance": "そう、部屋を片付けてからって感じです。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "部屋を片付けてからって感じ"
+                }
+            }
+        },
+        {
+            "id": 197,
+            "speaker": "A",
+            "utterance": "全部やり遂げてからだと難しいので、ある程度それが。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "全部やり遂げてからだと難しいので、ある程度それが。"
+            }
+        },
+        {
+            "id": 198,
+            "speaker": "B",
+            "utterance": "そう、ある程度余裕ができたらという感じですね。",
+            "understand": {
+                "MI": {
+                    "commitment_time_1": "ある程度余裕ができたら"
+                }
+            }
+        },
+        {
+            "id": 199,
+            "speaker": "A",
+            "utterance": "できたら、ウクレレを取り出して、そこに置くという感じですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "できたら、ウクレレを取り出して、そこに置くという感じですか？"
+            }
+        },
+        {
+            "id": 200,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 201,
+            "speaker": "B",
+            "utterance": "そう思っております。"
+        },
+        {
+            "id": 202,
+            "speaker": "A",
+            "utterance": "あー、素晴らしい。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_action",
+                "utterance": "あー、素晴らしい。"
+            }
+        },
+        {
+            "id": 203,
+            "speaker": "A",
+            "utterance": "そうしたら、今、もうすでに自炊の作業であったり、古本屋さんに来てもらったりということはやっていらっしゃる。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "そうしたら、今、もうすでに自炊の作業であったり、古本屋さんに来てもらったりということはやっていらっしゃる。"
+            }
+        },
+        {
+            "id": 204,
+            "speaker": "A",
+            "utterance": "これからも続けるよって、さっきお伺いしたんですけども、じゃあ、そのペースでいくと、無理のない、おっしゃっていたペースでいくと、いつ頃そのウクレレ君は、目に付くところに出てきそうですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "これからも続けるよって、さっきお伺いしたんですけども、じゃあ、そのペースでいくと、無理のない、おっしゃっていたペースでいくと、いつ頃そのウクレレ君は、目に付くところに出てきそうですか？"
+            }
+        },
+        {
+            "id": 205,
+            "speaker": "B",
+            "utterance": "いや、もう僕も、そろそろちゃんと練習したいなと思ってますので、もうなんなら今月中とかぐらいに、１カ月以内にぐらいに。",
+            "understand": {
+                "MI": {
+                    "commitment_time_1": "今月中とかぐらい",
+                    "commitment_time_2": "１カ月以内にぐらい"
+                }
+            }
+        },
+        {
+            "id": 206,
+            "speaker": "B",
+            "utterance": "１５ですかね。"
+        },
+        {
+            "id": 207,
+            "speaker": "B",
+            "utterance": "だから、もう今月中ぐらいにできたらいいなというふうに思ってます。",
+            "understand": {
+                "MI": {
+                    "commitment_time_1": "今月中ぐらい"
+                }
+            }
+        },
+        {
+            "id": 208,
+            "speaker": "A",
+            "utterance": "そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "そうですか。"
+            }
+        },
+        {
+            "id": 209,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 210,
+            "speaker": "A",
+            "utterance": "じゃあ、あと２週間ぐらいにウクレレ君が、本がある程度整理されたその場所に出てきてくれてということですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "じゃあ、あと２週間ぐらいにウクレレ君が、本がある程度整理されたその場所に出てきてくれてということですよね。"
+            }
+        },
+        {
+            "id": 211,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 212,
+            "speaker": "B",
+            "utterance": "だから、本を裁断するというのも、なるべくもう場所をとるような、辞典みたいなやつから始めたので、それでそういう分厚い本はひと通りそろそろ終わったかなという感じで、スペースが空いてきてますので、もう少し空いたら、そこのところにウクレレを置いて、仕事の合間に弾けたらいいなと思っております。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "もう少し空いたら、そこのところにウクレレを置いて、仕事の合間に弾けたらいいなと思っております"
+                }
+            }
+        },
+        {
+            "id": 213,
+            "speaker": "A",
+            "utterance": "私、質問してお話伺ってて、「すごいなー」と思ったのは、私の思ったことなんですけども、例えば、今もうすでにされている作業、ウクレレのスペースをつくる部分の作業も含めて２週間とかね、だいたいご自身で、よくそういう配分を分かってらっしゃるんだなって、ちょっとそこはびっくりしました。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": [
+                    "commitment_starttime",
+                    "commitment_action"
+                ],
+                "utterance": "私、質問してお話伺ってて、「すごいなー」と思ったのは、私の思ったことなんですけども、例えば、今もうすでにされている作業、ウクレレのスペースをつくる部分の作業も含めて２週間とかね、だいたいご自身で、よくそういう配分を分かってらっしゃるんだなって、ちょっとそこはびっくりしました。"
+            }
+        },
+        {
+            "id": 214,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 215,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 216,
+            "speaker": "B",
+            "utterance": "あんまり僕そんなに計画性とかないんですけれども、でも、自炊というのをしばらく、ある程度、量をやってますので、あとこれぐらい、あと２週間ぐらいあれば、この本棚の本はだいたいできるかなというような目途はついておりますので。"
+        },
+        {
+            "id": 217,
+            "speaker": "A",
+            "utterance": "そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "そうですか。"
+            }
+        },
+        {
+            "id": 218,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 219,
+            "speaker": "A",
+            "utterance": "分かりました。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "分かりました。"
+            }
+        },
+        {
+            "id": 220,
+            "speaker": "A",
+            "utterance": "そうしたら、ウクレレ君がね、ウクレレちゃんが現れてくれるのも。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "そうしたら、ウクレレ君がね、ウクレレちゃんが現れてくれるのも。"
+            }
+        },
+        {
+            "id": 221,
+            "speaker": "B",
+            "utterance": "そうですね、手元に置いといて。"
+        },
+        {
+            "id": 222,
+            "speaker": "A",
+            "utterance": "２週間を目途にという感じですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "２週間を目途にという感じですね。"
+            }
+        },
+        {
+            "id": 223,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 224,
+            "speaker": "B",
+            "utterance": "でも、手元に置いといたけど、実は練習する時間がなくて、だんだん目障りになってきて、またしまったりとかいうことにならないように、ならないように、ちょっとずつ弾いて、手になじませていきたいなと思っております。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "ちょっとずつ弾いて、手になじませていきたい"
+                }
+            }
+        },
+        {
+            "id": 225,
+            "speaker": "A",
+            "utterance": "あっ、いいフレーズですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "あっ、いいフレーズですね。"
+            }
+        },
+        {
+            "id": 226,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 227,
+            "speaker": "A",
+            "utterance": "そうならないように目に付くところに置いて、手に？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "そうならないように目に付くところに置いて、手に？"
+            }
+        },
+        {
+            "id": 228,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 229,
+            "speaker": "A",
+            "utterance": "１日１回でもいいから手になじませていきたいって感じですか？",
+            "utterance_request": {
+                "utterance_request": "１日１回でもいいから{commitment_positive_summary}って感じですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_frequency",
+                "utterance": "１日１回でもいいから手になじませていきたいって感じですか？"
+            }
+        },
+        {
+            "id": 230,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 231,
+            "speaker": "B",
+            "utterance": "もうそうやってやれば、だんだん弾けるようになるというのは、僕ギターで経験したことありますので。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "だんだん弾けるようになるというのは、僕ギターで経験したことあります"
+                }
+            }
+        },
+        {
+            "id": 232,
+            "speaker": "A",
+            "utterance": "すみません。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_frequency",
+                "utterance": "すみません。"
+            }
+        },
+        {
+            "id": 233,
+            "speaker": "A",
+            "utterance": "私、１日１回って言っちゃったんですけど、すみません。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_frequency",
+                "utterance": "私、１日１回って言っちゃったんですけど、すみません。"
+            }
+        },
+        {
+            "id": 234,
+            "speaker": "A",
+            "utterance": "１日とか、２～３日とか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_frequency",
+                "utterance": "１日とか、２～３日とか。"
+            }
+        },
+        {
+            "id": 235,
+            "speaker": "B",
+            "utterance": "そうですね、最低１回って別に回数を決めてるわけじゃないですから、もう何回でも。",
+            "understand": {
+                "MI": {
+                    "commitment_frequency_1": "もう何回でも"
+                }
+            }
+        },
+        {
+            "id": 236,
+            "speaker": "A",
+            "utterance": "手になじませるっていう感じですね。",
+            "utterance_request": {
+                "utterance_request": "{commitment_positive_summary}っていう感じですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "手になじませるっていう感じですね。"
+            }
+        },
+        {
+            "id": 237,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 238,
+            "speaker": "B",
+            "utterance": "やって、時間に余裕があるときはぱっとやったりとか。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "時間に余裕があるときはぱっとやったり"
+                }
+            }
+        },
+        {
+            "id": 239,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 240,
+            "speaker": "A",
+            "utterance": "じゃあ、時間にもし余裕がないときでも、ちょっと触るぐらいなら大丈夫そうなんでしょうかね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "じゃあ、時間にもし余裕がないときでも、ちょっと触るぐらいなら大丈夫そうなんでしょうかね。"
+            }
+        },
+        {
+            "id": 241,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 242,
+            "speaker": "B",
+            "utterance": "僕、今、すっかりずっと忘れてたんですけど、中学校の頃、ギターの練習してた頃、例えばすごい試験勉強とかあるときでも、ギターを持ちながら勉強とかっていう、そういうこともしてましたね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "試験勉強とかあるときでも、ギターを持ちながら勉強とかっていう、そういうこともしてました"
+                }
+            }
+        },
+        {
+            "id": 243,
+            "speaker": "A",
+            "utterance": "あっ、すごいいいことを思い出されましたよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "あっ、すごいいいことを思い出されましたよね。"
+            }
+        },
+        {
+            "id": 244,
+            "speaker": "A",
+            "utterance": "そういうことがおできになる方なんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そういうことがおできになる方なんですね。"
+            }
+        },
+        {
+            "id": 245,
+            "speaker": "B",
+            "utterance": "そんなのすっかり忘れてたんですけど、やっぱりそういうふうに、楽器が、常に身近にあるというのが、いうふうになれば、たぶん上達も早いんじゃないかなと思います。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "楽器が、常に身近にあるというのが、いうふうになれば、たぶん上達も早いんじゃないかなと思います"
+                }
+            }
+        },
+        {
+            "id": 246,
+            "speaker": "A",
+            "utterance": "上達も早いし、もしかしたらお仕事の効率も、さっきちらっとおっしゃってましたけど、上がるかも。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "上達も早いし、もしかしたらお仕事の効率も、さっきちらっとおっしゃってましたけど、上がるかも。"
+            }
+        },
+        {
+            "id": 247,
+            "speaker": "B",
+            "utterance": "うん、そうですね。"
+        },
+        {
+            "id": 248,
+            "speaker": "B",
+            "utterance": "やっぱりそういう息抜きがあるといいと思います。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "そういう息抜きがあるといい"
+                }
+            }
+        },
+        {
+            "id": 249,
+            "speaker": "A",
+            "utterance": "たくさんいろいろメリット出てきましたね、今回もね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "importance",
+                "utterance": "たくさんいろいろメリット出てきましたね、今回もね。"
+            }
+        },
+        {
+            "id": 250,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 251,
+            "speaker": "A",
+            "utterance": "じゃあ、ぜひ、楽しみにしてます。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "じゃあ、ぜひ、楽しみにしてます。"
+            }
+        },
+        {
+            "id": 252,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 253,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 254,
+            "speaker": "A",
+            "utterance": "表舞台に出てきてくれることを。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "commitment",
+                "utterance": "表舞台に出てきてくれることを。"
+            }
+        },
+        {
+            "id": 255,
+            "speaker": "B",
+            "utterance": "いやいや、そんなじゃないですけれども。"
+        },
+        {
+            "id": 256,
+            "speaker": "A",
+            "utterance": "ウクレレが、はい。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "ウクレレが、はい。"
+            }
+        },
+        {
+            "id": 257,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 258,
+            "speaker": "A",
+            "utterance": "どうもありがとうございました。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "どうもありがとうございました。"
+            }
+        },
+        {
+            "id": 259,
+            "speaker": "B",
+            "utterance": "どうもありがとうございます。"
+        }
+    ]
+}

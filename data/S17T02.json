@@ -1,0 +1,1534 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "コバヤシさん、今、何かやりたいこととか、あるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "コバヤシさん、今、何かやりたいこととか、あるんですか？"
+            }
+        },
+        {
+            "id": 1,
+            "speaker": "A",
+            "utterance": "今後やりたいなーとか。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "今後やりたいなーとか。"
+            }
+        },
+        {
+            "id": 2,
+            "speaker": "B",
+            "utterance": "最近は、英語をもうちょっと力を入れようと思ってまして。",
+            "understand": {
+                "MI": {
+                    "theme_positive_1": "英語をもうちょっと力を入れよう"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "speaker": "A",
+            "utterance": "英語、はい。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "英語、はい。"
+            }
+        },
+        {
+            "id": 4,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 5,
+            "speaker": "B",
+            "utterance": "特にリスニングとかリーディングじゃなくて、スピーキングとかライティング、アウトプットのほうをなんとかしていきたいなと思います。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "スピーキングとかライティング、アウトプットのほうをなんとかしていきたい"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "speaker": "A",
+            "utterance": "スピーキングとライティング。",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "スピーキングとライティング。"
+            }
+        },
+        {
+            "id": 7,
+            "speaker": "B",
+            "utterance": "ライティングですね、はい。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "ライティングですね"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "speaker": "A",
+            "utterance": "それはなんでそういうふうに思うんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "それはなんでそういうふうに思うんですか？"
+            }
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "結構、英語というか、将来、海外に進学しようと思ってまして、そのときに一番重要になるのが、スピーキングとライティングだと思ってまして、同時に、今、自分が一番達成できてないものも、その２つだと思ってまして。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "将来、海外に進学しようと思ってまして、そのときに一番重要になるのが、スピーキングとライティング",
+                    "reason_negative_2": "自分が一番達成できてないものも、その２つ"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "speaker": "A",
+            "utterance": "達成できていないのですね。",
+            "utterance_request": {
+                "utterance_request": "{reason_negative_summary}のですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "達成できていないのですね。"
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 12,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "B",
+            "utterance": "まだちょっとレベルが微妙な感じなのでって思ってます。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "まだちょっとレベルが微妙"
+                }
+            }
+        },
+        {
+            "id": 14,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 15,
+            "speaker": "A",
+            "utterance": "今、それに対して何か取り組んでいるようなこととかあるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "今、それに対して何か取り組んでいるようなこととかあるんですか？"
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "B",
+            "utterance": "そうですねー、今というか、実は、ちょっと話がずれちゃうかもしれないんですけど、去年に、なるべく英語話者と話すようにしたいなと思ってまして、去年、実はロシアに２週間留学してたんですけど、なんでロシアって感じなのかもしれないんですけど、それはちょっと置いておいて、そこで英語話者の人と結構仲良くなって、メキシコ人、ネイティブではないんですけど、英語が得意なメキシコ人とか、イタリア人とか、フランス人と仲良くなって、彼らと定期的にチャットをしたりとかしてます。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "なるべく英語話者と話すようにしたい",
+                    "confidence_2": "英語が得意なメキシコ人とか、イタリア人とか、フランス人と仲良くなって、彼らと定期的にチャットをしたり"
+                }
+            }
+        },
+        {
+            "id": 17,
+            "speaker": "B",
+            "utterance": "で、４月にもフランス人の友だちが、日本の某国立大学に来るらしくて、それで、ついでにちょっと、東京観光を案内してあげようかなと思ってて、そのとき、彼は英語しかしゃべれないので、英語で話して、それで練習になるかなと勝手に思ってます。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "４月にもフランス人の友だちが、日本の某国立大学に来るらしくて、それで、ついでにちょっと、東京観光を案内してあげようかな",
+                    "confidence_2": "彼は英語しかしゃべれないので、英語で話して、それで練習になる"
+                }
+            }
+        },
+        {
+            "id": 18,
+            "speaker": "A",
+            "utterance": "そうやって実践されてるんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうやって実践されてるんですね。"
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 20,
+            "speaker": "B",
+            "utterance": "でも、そんなに頻度が多くなくて、たぶんそういうのを毎日とかいう頻度でやんなきゃ、能力として上がっていかないと思うんですけど、そんなの毎日できないので、せいぜい月に１回ぐらいなので、まだちょっと微妙かなと思ってます。",
+            "understand": {
+                "MI": {
+                    "detail_frequency_1": "毎日とか",
+                    "detail_negative_2": "そういうのを毎日とかいう頻度でやんなきゃ、能力として上がっていかない",
+                    "disturbance_frequency_2": "毎日できない",
+                    "disconfidence_frequency_3": "せいぜい月に１回ぐらい",
+                    "thought_negative_4": "まだちょっと微妙かな"
+                }
+            }
+        },
+        {
+            "id": 21,
+            "speaker": "A",
+            "utterance": "何かそれで今まで困ったこととか、そういう場面があったんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "何かそれで今まで困ったこととか、そういう場面があったんですか？"
+            }
+        },
+        {
+            "id": 22,
+            "speaker": "B",
+            "utterance": "そうですねー、ロシア滞在中もなかなか例えば、英語ペラペラな、しかも自己主張の激しいスペイン人とメキシコ人と、あと韓国人、その５人ぐらいとおんなじテーブルで、例えばご飯食べるとしますよね。"
+        },
+        {
+            "id": 23,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 24,
+            "speaker": "B",
+            "utterance": "例えば、朝ご飯を食べるとしますよね。"
+        },
+        {
+            "id": 25,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 26,
+            "speaker": "B",
+            "utterance": "僕まだ、ちょっと眠いし、まだちょっと頭が英語っぽくなってないときに、すごい、アメリカの政策とかについて朝ご飯食いながら話してるんですよ。"
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "彼らってそういう政治的な話とか、めっちゃ好きなんですよ。"
+        },
+        {
+            "id": 28,
+            "speaker": "B",
+            "utterance": "で、日本人あんま、僕もそうなんですけど、そんなの日常的にそんなに活発に議論するわけでもないし、そもそも英語でそんな難しい話題、難しいのでついていけないし、なんか思いついても、入ろうとした頃にはもう次の話題に移ってたりするのでそれで、なんとか後半には、２週間あったので、後半頃にはちょっとずつ食い込めるようになってきたんですけど、そういうちょっとした、しかもブロークンな英語の雑談に入っていくのが本当に難しいって思って、それが、実は仲良くなるためには結構重要だったりするのかもしれないなと思って、それが課題だなと思ってました。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "英語でそんな難しい話題、難しいのでついていけない",
+                    "disturbance_negative_2": "ちょっとした、しかもブロークンな英語の雑談に入っていくのが本当に難しい",
+                    "reason_3": "それが、実は仲良くなるためには結構重要だったりするのかもしれない"
+                }
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 30,
+            "speaker": "A",
+            "utterance": "そこで英語をもうちょっとと？",
+            "utterance_request": {
+                "utterance_request": "そこで{theme_summary}と？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "そこで英語をもうちょっとと？"
+            }
+        },
+        {
+            "id": 31,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 32,
+            "speaker": "B",
+            "utterance": "スピーキングという面で、そういうのが出てくるんですけど、ライティングも同時に必要でして、スピーキングをそもそもうまくなるためにはライティングができないといけないと思ってまして、書きたいな、言いたいな、表現したいなって思ったことが、英単語でちゃんと出てくるようにするには、スピーキングだと反射神経みたいなのが、もう思った３秒後には出てなきゃいけないと思うんですけど、ライティングだと時間をかけてできるので、補助輪付きのスピーキングみたいな感じで、まずライティングができるようになればいいかなと思って、ライティングもしたいなと思ってます。",
+            "understand": {
+                "MI": {
+                    "reason_1": "ライティングも同時に必要でして、スピーキングをそもそもうまくなるためにはライティングができないといけないと思ってまして、書きたいな、言いたいな、表現したいなって思ったことが、英単語でちゃんと出てくるようにするには、スピーキングだと反射神経みたいなのが、もう思った３秒後には出てなきゃいけないと思うんですけど、ライティングだと時間をかけてできる",
+                    "detail_positive_2": "まずライティングができるようになればいいかな",
+                    "detail_positive_3": "ライティングもしたい"
+                }
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 34,
+            "speaker": "A",
+            "utterance": "さっきはチャットとかしてスピーキングに対してやってらっしゃいましたけど、ライティングに対して、何か取り組んでいることはあるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "さっきはチャットとかしてスピーキングに対してやってらっしゃいましたけど、ライティングに対して、何か取り組んでいることはあるんですか？"
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "今、無料の英作文添削してくれるアプリみたいなのがありまして、それ、どれだけ効果があるのかちょっと微妙なんですけど、毎日一応ちょっとずつやってます、今。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "どれだけ効果があるのかちょっと微妙",
+                    "confidence_frequency_2": "毎日一応ちょっとずつやってます"
+                }
+            }
+        },
+        {
+            "id": 36,
+            "speaker": "A",
+            "utterance": "何かしら書く、書いているんですね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "何かしら書く、書いているんですね？"
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 38,
+            "speaker": "B",
+            "utterance": "日本文が出て、それをただ英訳して、で、添削して、「これはちょっと違うね」みたいなのを、ほんとに簡単な問題で、あと無料なので１日にできる問題数もすごい限られているんですけど、やんないよりはましかなと思って毎日ちょっとずつやってます。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "やんないよりはましかな",
+                    "confidence_frequency_2": "毎日",
+                    "confidence_quantity_3": "ちょっとずつ",
+                    "confidence_4": "毎日ちょっとずつやってます"
+                }
+            }
+        },
+        {
+            "id": 39,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 40,
+            "speaker": "B",
+            "utterance": "うん、もうちょっとやりたいんですけどね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "もうちょっとやりたい"
+                }
+            }
+        },
+        {
+            "id": 41,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 42,
+            "speaker": "B",
+            "utterance": "だから、もっと。"
+        },
+        {
+            "id": 43,
+            "speaker": "A",
+            "utterance": "それはアプリなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "それはアプリなんですね。"
+            }
+        },
+        {
+            "id": 44,
+            "speaker": "B",
+            "utterance": "アプリですね。"
+        },
+        {
+            "id": 45,
+            "speaker": "A",
+            "utterance": "アプリ、はい、うん。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "アプリ、はい、うん。"
+            }
+        },
+        {
+            "id": 46,
+            "speaker": "B",
+            "utterance": "なんか。"
+        },
+        {
+            "id": 47,
+            "speaker": "A",
+            "utterance": "スマホで？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "スマホで？"
+            }
+        },
+        {
+            "id": 48,
+            "speaker": "B",
+            "utterance": "スマホ、パソコンでやってるんですけど、パソコンの無料のアプリというか、Ｗｅｂサイトみたいなので登録するとできるみたいなのがいくつかありまして、２つ今やっています。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "パソコンの無料のアプリというか、Ｗｅｂサイトみたいなので登録するとできるみたいなのがいくつかありまして、２つ今やっています"
+                }
+            }
+        },
+        {
+            "id": 49,
+            "speaker": "A",
+            "utterance": "じゃあ、結構取り組んではいらっしゃる？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、結構取り組んではいらっしゃる？"
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "B",
+            "utterance": "取り組んではいるんですけど、うーん必要なレベルまでいけるか、ちょっと微妙ですね。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "必要なレベルまでいけるか、ちょっと微妙です"
+                }
+            }
+        },
+        {
+            "id": 51,
+            "speaker": "B",
+            "utterance": "どうしていけばいいかなみたいな、もっと効果的な方法が他にあるんじゃないかなとか思うんですけど。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "もっと効果的な方法が他にあるんじゃないかな"
+                }
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "A",
+            "utterance": "まだ、ご自身では英作文とかがアップしてるっていう実感は？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "まだ、ご自身では英作文とかがアップしてるっていう実感は？"
+            }
+        },
+        {
+            "id": 53,
+            "speaker": "B",
+            "utterance": "実感はないですし、あんま満足もしてないです。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "実感はないですし、あんま満足もしてない"
+                }
+            }
+        },
+        {
+            "id": 54,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 55,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 56,
+            "speaker": "A",
+            "utterance": "じゃ、それはどういうふうにしていけば上がっていきますかね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "じゃ、それはどういうふうにしていけば上がっていきますかね？"
+            }
+        },
+        {
+            "id": 57,
+            "speaker": "B",
+            "utterance": "どうですかね。"
+        },
+        {
+            "id": 58,
+            "speaker": "B",
+            "utterance": "そうですねー、そもそも日本語で話せることを増やしたいなと思ってます。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "日本語で話せることを増やしたい"
+                }
+            }
+        },
+        {
+            "id": 59,
+            "speaker": "B",
+            "utterance": "というのも、日本語で話せないことは英語でも話せないと思うので。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "日本語で話せないことは英語でも話せない"
+                }
+            }
+        },
+        {
+            "id": 60,
+            "speaker": "B",
+            "utterance": "例えば、先ほどの政治の話だったら、自分がちゃんとそれに対して意見を持ってるかとか考えてみると、そうでもないなって思ってて。"
+        },
+        {
+            "id": 61,
+            "speaker": "B",
+            "utterance": "なので、まず、あらゆることに対して自分の意見をちゃんと持って、それをそんな過激な、絶対イエスだとか絶対ノーだとかそういう極端な思想にふれなくていいと思うんですけど、何かしら自分の意見を持って、時事問題とかちゃんと話せるぐらいにはしておきたいな、みたいなのがありまして、それを次に、英作に生かすのは、それをどう英語に変えればいいかみたいな、そういうことを考えればいいと思うので、まずはアウトプットというかインプットですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "何かしら自分の意見を持って、時事問題とかちゃんと話せるぐらいにはしておきたい"
+                }
+            }
+        },
+        {
+            "id": 62,
+            "speaker": "B",
+            "utterance": "まずはインプットを大きくして、それをどうアウトプットにつなげるかみたいな、そういう部分だと思います。",
+            "understand": {
+                "MI": {
+                    "detail_1": "まずはインプットを大きくして、それをどうアウトプットにつなげるか"
+                }
+            }
+        },
+        {
+            "id": 63,
+            "speaker": "B",
+            "utterance": "思ってます。"
+        },
+        {
+            "id": 64,
+            "speaker": "A",
+            "utterance": "インプットを大きくする",
+            "utterance_request": {
+                "utterance_request": "{detail_summary}"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "インプットを大きくする"
+            }
+        },
+        {
+            "id": 65,
+            "speaker": "B",
+            "utterance": "はい、そうですね。"
+        },
+        {
+            "id": 66,
+            "speaker": "B",
+            "utterance": "今気づいたんですけど、自分で言ってて思ったんですけど、そうですね。"
+        },
+        {
+            "id": 67,
+            "speaker": "B",
+            "utterance": "ちゃんと、まずは新聞を毎日読まないといけないですね。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "新聞を毎日読まないといけない"
+                }
+            }
+        },
+        {
+            "id": 68,
+            "speaker": "A",
+            "utterance": "新聞を毎日読まないといけない。",
+            "utterance_request": {
+                "utterance_request": "{commitment}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "新聞を毎日読まないといけない。"
+            }
+        },
+        {
+            "id": 69,
+            "speaker": "B",
+            "utterance": "新聞読んでないですね、僕。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "新聞読んでないですね、僕"
+                }
+            }
+        },
+        {
+            "id": 70,
+            "speaker": "A",
+            "utterance": "あー、じゃあ、新聞を毎日読みますか？",
+            "utterance_request": {
+                "utterance_request": "あー、じゃあ、{commitment}ますか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "あー、じゃあ、新聞を毎日読みますか？"
+            }
+        },
+        {
+            "id": 71,
+            "speaker": "B",
+            "utterance": "確かに、そうですね。"
+        },
+        {
+            "id": 72,
+            "speaker": "B",
+            "utterance": "自分で言ってますけど、確かにそうですね。"
+        },
+        {
+            "id": 73,
+            "speaker": "B",
+            "utterance": "今、どうなるか分からないんですけど、２年後、もしかしたら就活するかもしれないんですけど、就活のよくすすめで、社会人の方によく言われるのが、「新聞をまず読みなさい」みたいなのを、たぶん社会人の方だと実感されるのかもしれないんですけど、まだできてないので、就活をするかもしれないという側面でも、新聞を読んでおいたほうがいいかなみたいなふうには思ってます。"
+        },
+        {
+            "id": 74,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 75,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 76,
+            "speaker": "B",
+            "utterance": "新聞読みます。",
+            "understand": {
+                "MI": {
+                    "commitment_action_1": "新聞読みます"
+                }
+            }
+        },
+        {
+            "id": 77,
+            "speaker": "A",
+            "utterance": "新聞読むことにしますか。",
+            "utterance_request": {
+                "utterance_request": "{commitment_action}ことにしますか。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_action",
+                "utterance": "新聞読むことにしますか。"
+            }
+        },
+        {
+            "id": 78,
+            "speaker": "B",
+            "utterance": "新聞を読んで英作文をできるようにするという、よく分からない感じですけど。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "新聞を読んで英作文をできるようにするという、よく分からない感じ"
+                }
+            }
+        },
+        {
+            "id": 79,
+            "speaker": "A",
+            "utterance": "そうすると、また会話が弾むようになるんですかね。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "そうすると、また会話が弾むようになるんですかね。"
+            }
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 81,
+            "speaker": "B",
+            "utterance": "会話の幅がたぶん広がるのかなーと思います。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "会話の幅がたぶん広がるのかな"
+                }
+            }
+        },
+        {
+            "id": 82,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 83,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 84,
+            "speaker": "A",
+            "utterance": "じゃ、そのスピーキング、ライティングを伸ばすためにはまず新聞を読むということなんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": [
+                    "commitment_action",
+                    "detail"
+                ],
+                "utterance": "じゃ、そのスピーキング、ライティングを伸ばすためにはまず新聞を読むということなんですか？"
+            }
+        },
+        {
+            "id": 85,
+            "speaker": "B",
+            "utterance": "新聞を読んだりとかですね。",
+            "understand": {
+                "MI": {
+                    "detail_1": "新聞を読んだりとか"
+                }
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "B",
+            "utterance": "あと、で、実は日常だけじゃなくて、資格としても必要で、海外進学するのって、外国人、向こうからした外国人、英語話者じゃない人はＴＯＥＦＬという、ＴＯＥＩＣが日本では一般的だと思うんですけど、ＴＯＥＦＬという専用のそういうのが必要で、ＴＯＥＩＣと桁外れに難しいんですけど、比べものにならないほど難しいんですけど、スピーキングとライティングのテストもあって、それで点数を伸ばしたいので、それの対策を頑張るというのもあります。",
+            "understand": {
+                "MI": {
+                    "reason_1": "海外進学するのって、外国人、向こうからした外国人、英語話者じゃない人はＴＯＥＦＬという、ＴＯＥＩＣが日本では一般的だと思うんですけど、ＴＯＥＦＬという専用のそういうのが必要",
+                    "disturbance_2": "ＴＯＥＩＣと桁外れに難しいんですけど、比べものにならないほど難しい",
+                    "detail_3": "スピーキングとライティングのテストもあって、それで点数を伸ばしたい"
+                }
+            }
+        },
+        {
+            "id": 87,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 88,
+            "speaker": "B",
+            "utterance": "あると思ってます。"
+        },
+        {
+            "id": 89,
+            "speaker": "A",
+            "utterance": "今、実際に、そのＴＯＥＦＬやられてらっしゃいます？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "今、実際に、そのＴＯＥＦＬやられてらっしゃいます？"
+            }
+        },
+        {
+            "id": 90,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 91,
+            "speaker": "B",
+            "utterance": "一応、今年出願したので、それに向けて一応点数は。"
+        },
+        {
+            "id": 92,
+            "speaker": "B",
+            "utterance": "もう５回ぐらい受けて、点数は一応そろいました。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "もう５回ぐらい受けて、点数は一応そろいました"
+                }
+            }
+        },
+        {
+            "id": 93,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 94,
+            "speaker": "B",
+            "utterance": "でも、やっぱスピーキングとライティングが弱かったので、それがやんなきゃなと思ってて。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "スピーキングとライティングが弱かった"
+                }
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 96,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 97,
+            "speaker": "A",
+            "utterance": "それを伸ばすためには、じゃあ。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_action",
+                "utterance": "それを伸ばすためには、じゃあ。"
+            }
+        },
+        {
+            "id": 98,
+            "speaker": "B",
+            "utterance": "で、それも、すごい変な問題が出るんですね。"
+        },
+        {
+            "id": 99,
+            "speaker": "B",
+            "utterance": "例えば、あなたの人生で最も感動したことは何か答えなさいで、準備時間が１０秒で、１５秒間で答えるみたいな、そういう問題とかあったりして、それって英語力というか、そもそもインプットなんですよ。"
+        },
+        {
+            "id": 100,
+            "speaker": "B",
+            "utterance": "日本語でまず言えないとみたいなのがあって、やっぱそれが先ほどの話にもつながると思うんですよ。"
+        },
+        {
+            "id": 101,
+            "speaker": "B",
+            "utterance": "身の回りに、聞かれそうなテーマについて、あらかじめ日本語でリストを作っておいて、これ聞かれたらこう答えるみたいな、こう考えてるみたいな、そういうのを考えておかないとな、みたいな。",
+            "understand": {
+                "MI": {
+                    "detail_1": "身の回りに、聞かれそうなテーマについて、あらかじめ日本語でリストを作っておいて、これ聞かれたらこう答えるみたいな、こう考えてるみたいな、そういうのを考えておかないと"
+                }
+            }
+        },
+        {
+            "id": 102,
+            "speaker": "B",
+            "utterance": "それをちゃんと、自分の言いたいことを言おうとすると、難しいこととか案外あって、どうせテストで、別にうそ言ってもいいので、簡単な英語で、でも説得力のあるようなことを話せるような、そういう技術がまず日本語でほしいです。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "簡単な英語で、でも説得力のあるようなことを話せるような、そういう技術がまず日本語でほしい"
+                }
+            }
+        },
+        {
+            "id": 103,
+            "speaker": "A",
+            "utterance": "日本語で。",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "日本語で。"
+            }
+        },
+        {
+            "id": 104,
+            "speaker": "B",
+            "utterance": "ほしいです。"
+        },
+        {
+            "id": 105,
+            "speaker": "A",
+            "utterance": "日本語ではどうなんですか？",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}はどうなんですか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "日本語ではどうなんですか？"
+            }
+        },
+        {
+            "id": 106,
+            "speaker": "B",
+            "utterance": "日本語、いや、僕はあんまコミュニケーション得意じゃなくて。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "あんまコミュニケーション得意じゃなくて"
+                }
+            }
+        },
+        {
+            "id": 107,
+            "speaker": "A",
+            "utterance": "そうなんですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disconfidence",
+                "utterance": "そうなんですか。"
+            }
+        },
+        {
+            "id": 108,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 109,
+            "speaker": "B",
+            "utterance": "口下手。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "口下手"
+                }
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "A",
+            "utterance": "コミュニケーション得意じゃない。",
+            "utterance_request": {
+                "utterance_request": "{disturbance_negative_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disconfidence",
+                "utterance": "コミュニケーション得意じゃない。"
+            }
+        },
+        {
+            "id": 111,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 112,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 113,
+            "speaker": "B",
+            "utterance": "順序立てて論理的に説明するのが、あんま得意じゃないなと個人的には思ってて、自分では、なので、そういうところを、どうやって鍛えればいいのか分かんないんですけどやっていかないといけないんですね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "順序立てて論理的に説明するのが、あんま得意じゃない",
+                    "detail_2": "そういうところを、どうやって鍛えればいいのか分かんないんですけどやっていかないといけない"
+                }
+            }
+        },
+        {
+            "id": 114,
+            "speaker": "B",
+            "utterance": "今、思いましたけど、やっていかないといけないですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "やっていかないといけない"
+                }
+            }
+        },
+        {
+            "id": 115,
+            "speaker": "A",
+            "utterance": "それはつながるんですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "それはつながるんですかね？"
+            }
+        },
+        {
+            "id": 116,
+            "speaker": "B",
+            "utterance": "つながると思います。"
+        },
+        {
+            "id": 117,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "B",
+            "utterance": "最終的には。"
+        },
+        {
+            "id": 119,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 120,
+            "speaker": "B",
+            "utterance": "なかなか、うーん。"
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "でも、たぶんちゃんと自分に強制していかないと、いつまでたってもやんないんですよね、たぶん。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "自分に強制していかないと、いつまでたってもやんない"
+                }
+            }
+        },
+        {
+            "id": 122,
+            "speaker": "B",
+            "utterance": "なかなか意識してやんないと、毎日続かないですよね。",
+            "understand": {
+                "MI": {
+                    "disturbance_frequency_1": "毎日",
+                    "disturbance_negative_2": "意識してやんないと、毎日続かない"
+                }
+            }
+        },
+        {
+            "id": 123,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 124,
+            "speaker": "B",
+            "utterance": "たぶん、うーん。"
+        },
+        {
+            "id": 125,
+            "speaker": "A",
+            "utterance": "意識はできそうですか？",
+            "utterance_request": {
+                "utterance_request": "{disturbance_negative_summary}はできそうですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "意識はできそうですか？"
+            }
+        },
+        {
+            "id": 126,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 127,
+            "speaker": "B",
+            "utterance": "しないとダメですねー。",
+            "understand": {
+                "MI": {
+                    "importance_negative_1": "しないとダメですねー"
+                }
+            }
+        },
+        {
+            "id": 128,
+            "speaker": "B",
+            "utterance": "できます。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "できます"
+                }
+            }
+        },
+        {
+            "id": 129,
+            "speaker": "B",
+            "utterance": "できると思います。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "できると思います"
+                }
+            }
+        },
+        {
+            "id": 130,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 132,
+            "speaker": "B",
+            "utterance": "なんかないのかな？"
+        },
+        {
+            "id": 133,
+            "speaker": "B",
+            "utterance": "そういう習慣づけてやりたいことをちゃんと管理できるようなものとか、方法ってないんですかね？"
+        },
+        {
+            "id": 134,
+            "speaker": "B",
+            "utterance": "あるんですかね？"
+        },
+        {
+            "id": 135,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 136,
+            "speaker": "B",
+            "utterance": "あるんですかね。"
+        },
+        {
+            "id": 137,
+            "speaker": "B",
+            "utterance": "これは僕が聞いちゃダメなんですかね？"
+        },
+        {
+            "id": 138,
+            "speaker": "B",
+            "utterance": "分かんないですけど。"
+        },
+        {
+            "id": 139,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 140,
+            "speaker": "A",
+            "utterance": "どうなんでしょうねー。",
+            "system_behavior": {
+                "purpose": "返答",
+                "utterance": "どうなんでしょうねー。"
+            }
+        },
+        {
+            "id": 141,
+            "speaker": "B",
+            "utterance": "どうなんでしょうね。"
+        },
+        {
+            "id": 142,
+            "speaker": "B",
+            "utterance": "まあいいか。"
+        },
+        {
+            "id": 143,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 144,
+            "speaker": "A",
+            "utterance": "ご自身ではどういうふうにすれば、日々、持続とか、そういうことができそうな感じがしますか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "ご自身ではどういうふうにすれば、日々、持続とか、そういうことができそうな感じがしますか？"
+            }
+        },
+        {
+            "id": 145,
+            "speaker": "B",
+            "utterance": "そうですね、まず１つの方法としては、やっぱり他者と比較することが近道だと思うんで、似たような目標を持ってる人と知り合いになりたいなと、知り合いになりたい、友だちになりたいと思います。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "他者と比較することが近道だと思うんで、似たような目標を持ってる人と知り合いになりたいなと、知り合いになりたい、友だちになりたいと思います"
+                }
+            }
+        },
+        {
+            "id": 146,
+            "speaker": "B",
+            "utterance": "だから、定期的に会える友だちで、かつ、自分と似たようにスピーキングとかライティングとか英語をやりたいなって思っている人が身近にいれば、定期的に会ったときに、「そういえば、お前ちゃんとやってる？」みたいな、話し合って、「実はちょっとサボってるんだね」って言ったりしたら、「いや、俺はちょっとやってるよ」みたいになって、「じゃ、やんなきゃな」みたいな、そういうモチベーションを、他力本願的な感じかもしれないんですけど、そういうペースメーカー的な存在になるような、そういう人とかがいればいいのかなとは思いますけど。",
+            "understand": {
+                "MI": {
+                    "detail_1": "他力本願的な感じかもしれないんですけど、そういうペースメーカー的な存在になるような、そういう人とかがいればいいのかな"
+                }
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "A",
+            "utterance": "同志のお友だち。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "同志のお友だち。"
+            }
+        },
+        {
+            "id": 148,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 149,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 150,
+            "speaker": "B",
+            "utterance": "なかなかいるのか分からないですけど。"
+        },
+        {
+            "id": 151,
+            "speaker": "B",
+            "utterance": "前、ちょっと話、変わっちゃうんですけど、小学生の頃に、僕、今もあんま得意じゃないんですけど、運動をあんましなくて、体力がほんとなくて、わりと病気がちだったんですけど、ランニングしたほうがいいってお医者さんに勧められて、でも、全然自分じゃ続かなくてっていうのがあったんですけど、父親が「一緒に走るよ」みたいになって、毎朝近所走って、学校まで走ってって、学校でじいちゃんたちがラジオ体操、早朝からやってるんですけど、それを毎回行くみたいな、で、おやじが一緒に走ってくれるから僕も負けじと走るみたいな、そういう習慣がついてて。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "父親が「一緒に走るよ」みたいになって、毎朝近所走って、学校まで走ってって、学校でじいちゃんたちがラジオ体操、早朝からやってるんですけど、それを毎回行くみたいな、で、おやじが一緒に走ってくれるから僕も負けじと走るみたいな、そういう習慣がついてて"
+                }
+            }
+        },
+        {
+            "id": 152,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 153,
+            "speaker": "B",
+            "utterance": "さっきの話につながるんですけど、ある意味、ペースメーカーなのか分からないですけど、ちょっと甘えですけどね、誰かに頼るみたいな感じで、一緒に、同志というか、頑張ってくれる人がいると、自分も励まされてやりたくなるみたいな。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "誰かに頼るみたいな感じで、一緒に、同志というか、頑張ってくれる人がいると、自分も励まされてやりたくなる"
+                }
+            }
+        },
+        {
+            "id": 154,
+            "speaker": "B",
+            "utterance": "結果的に、そのとき、夏休み１カ月まるまる続いて、新学期の身体測定で身長と体重がグッと上がってて毎日走った後、牛乳飲んだりとかして、朝飯もちゃんと食べれるようになってみたいな。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "夏休み１カ月まるまる続いて、新学期の身体測定で身長と体重がグッと上がってて毎日走った後、牛乳飲んだりとかして、朝飯もちゃんと食べれるようになって"
+                }
+            }
+        },
+        {
+            "id": 155,
+            "speaker": "B",
+            "utterance": "あれは本当、三日坊主じゃなかった初めての人生の出来事みたいな感じで、今はやってないんですけど、でも、そういうのがあったんで、なかなかそういう海外進学とかしたいって思っている人が、周りにいないので。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "あれは本当、三日坊主じゃなかった初めての人生の出来事みたいな感じで",
+                    "disturbance_negative_2": "海外進学とかしたいって思っている人が、周りにいない"
+                }
+            }
+        },
+        {
+            "id": 156,
+            "speaker": "A",
+            "utterance": "周りにいないんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "disturbance",
+                "utterance": "周りにいないんですか？"
+            }
+        },
+        {
+            "id": 157,
+            "speaker": "B",
+            "utterance": "いないですねー。"
+        },
+        {
+            "id": 158,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 159,
+            "speaker": "B",
+            "utterance": "いないんですよね。"
+        },
+        {
+            "id": 160,
+            "speaker": "B",
+            "utterance": "いないので、なかなか見つけんの大変なんですけど。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "なかなか見つけんの大変なんです"
+                }
+            }
+        },
+        {
+            "id": 161,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 162,
+            "speaker": "B",
+            "utterance": "今度会うフランス人も、たぶんちょっと近い存在なので、彼は日本に来るんですけど、僕はアメリカに行きたいんですが、ちょっと違うんですが、近い存在ではあるので、できれば定期的に連絡を取り合って、モチベーションを高め合いたいなーと思ってます。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "定期的に連絡を取り合って、モチベーションを高め合いたい"
+                }
+            }
+        },
+        {
+            "id": 163,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 164,
+            "speaker": "B",
+            "utterance": "理想論ですけど。"
+        },
+        {
+            "id": 165,
+            "speaker": "A",
+            "utterance": "じゃ、そういう方は、一応、日本人じゃないですけど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "じゃ、そういう方は、一応、日本人じゃないですけど。"
+            }
+        },
+        {
+            "id": 166,
+            "speaker": "B",
+            "utterance": "いるっちゃいますね。"
+        },
+        {
+            "id": 167,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 168,
+            "speaker": "B",
+            "utterance": "仲良くなんないといけないです。",
+            "understand": {
+                "MI": {
+                    "detail_1": "仲良くなんないといけない"
+                }
+            }
+        },
+        {
+            "id": 169,
+            "speaker": "A",
+            "utterance": "ペース作れそうですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "ペース作れそうですか？"
+            }
+        },
+        {
+            "id": 170,
+            "speaker": "B",
+            "utterance": "どうかな。"
+        },
+        {
+            "id": 171,
+            "speaker": "B",
+            "utterance": "でも、作んないとダメですね。",
+            "understand": {
+                "MI": {
+                    "importance_negative_1": "作んないとダメですね"
+                }
+            }
+        },
+        {
+            "id": 172,
+            "speaker": "B",
+            "utterance": "もう社会人になりますし。"
+        },
+        {
+            "id": 173,
+            "speaker": "B",
+            "utterance": "院生だと、もう学生というよりは、もう独立していかなきゃいけない時期だと思うので。"
+        },
+        {
+            "id": 174,
+            "speaker": "B",
+            "utterance": "同学年の文系の方とかは、結構もう就職してるので、もうそういう年齢なんだなーと、最近しみじみ感じておりまして、もうそろそろちょっとモラトリアムを脱して、ちゃんと自分がやろうと思っていることを、計画を立てて、毎日強制してやれるようになんないとなと思っているので、やんないといけないのでやります。",
+            "understand": {
+                "MI": {
+                    "importance_1": "自分がやろうと思っていることを、計画を立てて、毎日強制してやれるようになんないとな",
+                    "commitment_2": "やんないといけないのでやります"
+                }
+            }
+        },
+        {
+            "id": 175,
+            "speaker": "B",
+            "utterance": "やれると思います、はい。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "やれると思います"
+                }
+            }
+        },
+        {
+            "id": 176,
+            "speaker": "B",
+            "utterance": "思ってます、はい。"
+        },
+        {
+            "id": 177,
+            "speaker": "A",
+            "utterance": "できそうな感じですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "できそうな感じですね。"
+            }
+        },
+        {
+            "id": 178,
+            "speaker": "B",
+            "utterance": "できそう、できそう、できそうです。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "できそう、できそう、できそうです"
+                }
+            }
+        },
+        {
+            "id": 179,
+            "speaker": "A",
+            "utterance": "はい、ありがとうございます。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "はい、ありがとうございます。"
+            }
+        },
+        {
+            "id": 180,
+            "speaker": "B",
+            "utterance": "ありがとうございました。"
+        }
+    ]
+}

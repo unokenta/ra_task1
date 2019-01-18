@@ -1,0 +1,1570 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "B",
+            "utterance": "あー、そっか、同僚かー。"
+        },
+        {
+            "id": 1,
+            "speaker": "A",
+            "utterance": "こんちは。",
+            "system_behavior": {
+                "purpose": "挨拶",
+                "utterance": "こんちは。"
+            }
+        },
+        {
+            "id": 2,
+            "speaker": "B",
+            "utterance": "こんにちは。"
+        },
+        {
+            "id": 3,
+            "speaker": "A",
+            "utterance": "コバヤシさん、今、今後やりたいこととか、興味があるようなことって何かあります？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "コバヤシさん、今、今後やりたいこととか、興味があるようなことって何かあります？"
+            }
+        },
+        {
+            "id": 4,
+            "speaker": "B",
+            "utterance": "実は、最近、海外で研究したいと思ってまして。",
+            "understand": {
+                "MI": {
+                    "theme_place_1": "海外",
+                    "theme_positive_2": "海外で研究したい"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 6,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 7,
+            "speaker": "A",
+            "utterance": "海外で研究？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "海外で研究？"
+            }
+        },
+        {
+            "id": 8,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "なかなか、最近結構グローバル化とかで、そういう風潮がもしかしたらあるかもしれないんですけど、だからってわけじゃなくて、今やっているというか、やりたいと思っている研究がありまして、それをー",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "今やっているというか、やりたいと思っている研究がありまして"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "speaker": "A",
+            "utterance": "やりたい研究。",
+            "utterance_request": {
+                "utterance_request": "{reason_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "やりたい研究。"
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 12,
+            "speaker": "B",
+            "utterance": "達成するのに一番近道なのがアメリカで研究することだと思ってまして。",
+            "understand": {
+                "MI": {
+                    "reason_place_1": "アメリカ",
+                    "reason_2": "達成するのに一番近道なのがアメリカで研究すること"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "A",
+            "utterance": "アメリカで研究。",
+            "utterance_request": {
+                "utterance_request": "{reason_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "アメリカで研究。"
+            }
+        },
+        {
+            "id": 14,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 15,
+            "speaker": "B",
+            "utterance": "それで、今、日本にいますけど、アメリカで将来研究できたらいいなと思ってます。",
+            "understand": {
+                "MI": {
+                    "detail_place_1": "アメリカ",
+                    "detail_positive_2": "アメリカで将来研究できたらいいな"
+                }
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 17,
+            "speaker": "A",
+            "utterance": "今、何か研究してることってあるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "今、何か研究してることってあるんですか？"
+            }
+        },
+        {
+            "id": 18,
+            "speaker": "B",
+            "utterance": "今研究してるのは、宇宙関係の研究でして。"
+        },
+        {
+            "id": 19,
+            "speaker": "A",
+            "utterance": "宇宙関係。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "宇宙関係。"
+            }
+        },
+        {
+            "id": 20,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 21,
+            "speaker": "B",
+            "utterance": "なかなか壮大になっちゃうんですけど、この前まで研究していたのは、宇宙で太陽光発電をするみたいな、そういう構想が実はありまして、宇宙だと、曇りの日とかないので、ずっと太陽光発電ができますよね。"
+        },
+        {
+            "id": 22,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 23,
+            "speaker": "B",
+            "utterance": "それが大きいメリットで、１ｋｍぐらいの大きさのめっちゃでかい太陽光パネルを持ってって発電するみたいなのがあって、それ大きいので、１ｋｍなので、一辺が、ほんとに大きいんですよね。"
+        },
+        {
+            "id": 24,
+            "speaker": "B",
+            "utterance": "地球上では作れないものなんですけど。"
+        },
+        {
+            "id": 25,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 26,
+            "speaker": "B",
+            "utterance": "それが、強い構造じゃないといけないんですけど、変形したりしたらパネルが割れちゃったりするので、それを強くしなきゃいけないんですけど、一方でロケットで打ち上げなきゃいけないんですね。"
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "ロケットって、重いと、重ければ重いほど高くついちゃうので、できれば、もう極力まで軽くしたいんですよね。"
+        },
+        {
+            "id": 28,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "B",
+            "utterance": "でも、軽くなると弱くなるじゃないですか。"
+        },
+        {
+            "id": 30,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 31,
+            "speaker": "B",
+            "utterance": "だから、軽いっていうのと、強い、強度が高いというのを、いかに両立するかっていう、そういう構造を、数値的に計算するような、そういう研究をしてました。"
+        },
+        {
+            "id": 32,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "B",
+            "utterance": "ちょっとなかなか、そうなんですよ。"
+        },
+        {
+            "id": 34,
+            "speaker": "A",
+            "utterance": "なぜ、アメリカで将来研究できたらいいなっていうふうに思うんですか?",
+            "utterance_request": {
+                "utterance_request": "なぜ、{detail_positive}っていうふうに思うんですか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "なぜ、アメリカで将来研究できたらいいなっていうふうに思うんですか?"
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "で、ちょっと話が変わっちゃうんですけど、宇宙関係で、今、僕がやりたいと思っているのが、さっきの研究テーマとはちょっと違うんですけど、またちょっと、すごい変な話なんですけど、今、宇宙の地球の周りって、捨てられたロケットとか衛星とかがブンブンまわっている、いわゆるスベースデブリっていうゴミが、すごいまん延してるんですけど、それを回収することをしたいなって思ってまして。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "今、宇宙の地球の周りって、捨てられたロケットとか衛星とかがブンブンまわっている、いわゆるスベースデブリっていうゴミが、すごいまん延してるんですけど、それを回収することをしたいな"
+                }
+            }
+        },
+        {
+            "id": 36,
+            "speaker": "A",
+            "utterance": "回収することをしたい",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "回収することをしたい"
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 38,
+            "speaker": "B",
+            "utterance": "まだそんなに問題にはなってないんですが、どんどんどんどん新興国、中国とか、インドとかが、バンバンバンバン打ち上げてて、どんどんどんどんゴミが増えてるんですね。"
+        },
+        {
+            "id": 39,
+            "speaker": "B",
+            "utterance": "そうすると、ロケットを打ち上げるときに、それにぶつかっちゃったりとか、そういう問題がもうどんどんどんどん深刻化してて。"
+        },
+        {
+            "id": 40,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 41,
+            "speaker": "A",
+            "utterance": "もうそうなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "もうそうなんですね。"
+            }
+        },
+        {
+            "id": 42,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 43,
+            "speaker": "B",
+            "utterance": "ゴミとゴミがぶつかると、破片が飛び散るじゃないですか。"
+        },
+        {
+            "id": 44,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 45,
+            "speaker": "B",
+            "utterance": "それがまた、弾丸みたいなスピードでバーってずっと。"
+        },
+        {
+            "id": 46,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 47,
+            "speaker": "B",
+            "utterance": "増えれば増えるほどまた増えるみたいな、ケスラーシンドロームって言うんですけど、どんどんどんどん増えていっちゃう状態なので、地球温暖化じゃないですけど、いわゆる、地球環境に対して、宇宙環境みたいのをこれから議論していかなきゃいけない時代になってると、個人的には思っているんですね。"
+        },
+        {
+            "id": 48,
+            "speaker": "B",
+            "utterance": "偉そうなことを言うんですけど。"
+        },
+        {
+            "id": 49,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "B",
+            "utterance": "で、それを研究する上で、日本ももちろん宇宙は頑張ってますけど、やっぱりアメリカが本場なので、アメリカで研究したい、研究するほうが、将来的な僕の人生の目標に到達しやすいかなと思ってまして。",
+            "understand": {
+                "MI": {
+                    "detail_place_1": "アメリカ",
+                    "detail_positive_2": "アメリカが本場なので、アメリカで研究したい",
+                    "reason_positive_3": "将来的な僕の人生の目標に到達しやすい"
+                }
+            }
+        },
+        {
+            "id": 51,
+            "speaker": "A",
+            "utterance": "人生の目標って？",
+            "utterance_request": {
+                "utterance_request": "{reason_positive_summary}って？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "人生の目標って？"
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "A",
+            "utterance": "ざっくり聞いてしまいますが。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "ざっくり聞いてしまいますが。"
+            }
+        },
+        {
+            "id": 53,
+            "speaker": "B",
+            "utterance": "人生の目標が、その技術者、まだ卵ですけど、技術者として、そのスペースデブリを除去するのに必要な技術を、まだちょっとアイデアでしかないので、世界で出てるのも、それを少しでも現実のものに近づけていきたいなと思います。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "技術者として、スペースデブリを除去するのに必要な技術を、まだちょっとアイデアでしかないので、世界で出てるのも、それを少しでも現実のものに近づけていきたい"
+                }
+            }
+        },
+        {
+            "id": 54,
+            "speaker": "B",
+            "utterance": "ちょっと漠然としてるんですけど。"
+        },
+        {
+            "id": 55,
+            "speaker": "A",
+            "utterance": "いや、すごいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "いや、すごいですね。"
+            }
+        },
+        {
+            "id": 56,
+            "speaker": "B",
+            "utterance": "いや、まだ夢が語れるというか、まだ無知だからこそ夢が語れる感じなんですけど。"
+        },
+        {
+            "id": 57,
+            "speaker": "B",
+            "utterance": "まだ現実をわきまえてない感じですけど。"
+        },
+        {
+            "id": 58,
+            "speaker": "A",
+            "utterance": "でも、将来の問題ですよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "でも、将来の問題ですよね。"
+            }
+        },
+        {
+            "id": 59,
+            "speaker": "B",
+            "utterance": "だと、僕は思っています。"
+        },
+        {
+            "id": 60,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 61,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 62,
+            "speaker": "A",
+            "utterance": "実際に、その不法投棄されたロケット同士がもうぶつかったりされてるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "実際に、その不法投棄されたロケット同士がもうぶつかったりされてるんですか？"
+            }
+        },
+        {
+            "id": 63,
+            "speaker": "B",
+            "utterance": "してます。"
+        },
+        {
+            "id": 64,
+            "speaker": "B",
+            "utterance": "数年前に、ロシアの数十年前に打ち上げたロケットと、アメリカのやっぱ、アメリカじゃないな、メキシコだったかな、メキシコの人工衛星がぶつかって、やっぱ使えなくなっちゃったんですね、人工衛星が１個。"
+        },
+        {
+            "id": 65,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 66,
+            "speaker": "B",
+            "utterance": "まだ、新興国は１基だけ自前のを持ってて、それで通信衛星とかまかなっているような状況だったりするので、１個壊れるだけで大損害ですね。"
+        },
+        {
+            "id": 67,
+            "speaker": "B",
+            "utterance": "１個、数十億円とかしますし。"
+        },
+        {
+            "id": 68,
+            "speaker": "B",
+            "utterance": "そういうのが、もう既に問題になっているので、なんとかしないといけないんじゃないかなと思ってます。",
+            "understand": {
+                "MI": {
+                    "importance_1": "既に問題になっているので、なんとかしないといけないんじゃないかなと思ってます"
+                }
+            }
+        },
+        {
+            "id": 69,
+            "speaker": "A",
+            "utterance": "それがぶつかっちゃって、壊れちゃったりすると、突然ＧＰＳが使えなくなったりとか、そういう問題が起きるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "importance",
+                "utterance": "それがぶつかっちゃって、壊れちゃったりすると、突然ＧＰＳが使えなくなったりとか、そういう問題が起きるんですか？"
+            }
+        },
+        {
+            "id": 70,
+            "speaker": "B",
+            "utterance": "はい、問題が起こります。"
+        },
+        {
+            "id": 71,
+            "speaker": "A",
+            "utterance": "ふーん、なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "importance",
+                "utterance": "ふーん、なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 72,
+            "speaker": "A",
+            "utterance": "そういう研究っていうのは、結構進んでるんですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "そういう研究っていうのは、結構進んでるんですかね？"
+            }
+        },
+        {
+            "id": 73,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 74,
+            "speaker": "A",
+            "utterance": "実際やられてるんでしょうけど。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "実際やられてるんでしょうけど。"
+            }
+        },
+        {
+            "id": 75,
+            "speaker": "B",
+            "utterance": "ちょっとまだやってないんですけど、たまたま選んだ研究室、入った研究室がそういうのをまだテーマとしてやってなくて、今年からちょっと僕が先生に進言して、で、今やらせてもらえることになりそうなんですけど。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "たまたま選んだ研究室、入った研究室がそういうのをまだテーマとしてやってなくて",
+                    "confidence_2": "僕が先生に進言して",
+                    "confidence_3": "やらせてもらえることになりそう"
+                }
+            }
+        },
+        {
+            "id": 76,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 77,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 78,
+            "speaker": "B",
+            "utterance": "今の段階だと、てか、すごい現実、その技術的なハードルで一番高いのが、スペースデブリにいかに近づいて、傷つくことなく、把持するか、キャッチするかという部分で、なんでかって言いますと、そもそも弾丸の１０倍のスピードで地球を周回してるんですね。"
+        },
+        {
+            "id": 79,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "しかも、すごいランダムに回転しまくってまして、それを近づいて、回転しているのをまず観測して、「この速度でまわってるんだな」というのを測定してから、それと同じスピードで回転して、相対的な速度がゼロになった状態で、壊れないように近づいてって、把持して、しかも、それを地球に落とさなきゃいけないという、３段階ぐらいステップを全部達成しなきゃいけないんですけど、最初のこの近づく、同じ速度でまわるみたいな、そういう技術がまだ確立されてなくて、いくつも、網で捕まえればいいんじゃないかとか、あと、磁石の力で落とせばいいんじゃないかとか、いろいろ案は出てるんですけど、それは第３段階の話をやってまして、まだそもそも第１段階がうまくいってないんですよ。"
+        },
+        {
+            "id": 81,
+            "speaker": "A",
+            "utterance": "ええ、ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ、ええ。"
+            }
+        },
+        {
+            "id": 82,
+            "speaker": "B",
+            "utterance": "だから、研究は一応あるんですけど、それはあくまで最終段階の話でして、ただ絵空事にまだ過ぎなくて、まずやんなきゃいけないのは、その第１段階のことだっていうのが今の現状です。"
+        },
+        {
+            "id": 83,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 84,
+            "speaker": "B",
+            "utterance": "なので、進んでいるといえば進んでるんですけど、そんなに進んでない状況ってことです。"
+        },
+        {
+            "id": 85,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "A",
+            "utterance": "コバヤシさんはその研究をしてるところに入ったんじゃなくて、自分がやりたいって提案してやられてるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "importance",
+                "utterance": "コバヤシさんはその研究をしてるところに入ったんじゃなくて、自分がやりたいって提案してやられてるんですか？"
+            }
+        },
+        {
+            "id": 87,
+            "speaker": "B",
+            "utterance": "そうですねー、はい。"
+        },
+        {
+            "id": 88,
+            "speaker": "B",
+            "utterance": "もともと宇宙っていうのに漠然とした憧れは高校生の頃からあったんですけど、宇宙って、めっちゃお金がかかるんですよ。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "宇宙っていうのに漠然とした憧れは高校生の頃からあった",
+                    "disturbance_2": "宇宙って、めっちゃお金がかかる"
+                }
+            }
+        },
+        {
+            "id": 89,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 90,
+            "speaker": "B",
+            "utterance": "ロケットだって１台、１個、１ｋｇのものを打ち上げるのに１００万円かかるんですよ。"
+        },
+        {
+            "id": 91,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 92,
+            "speaker": "B",
+            "utterance": "人工衛星って、５０ｋｇとかはするじゃないですか。"
+        },
+        {
+            "id": 93,
+            "speaker": "B",
+            "utterance": "しかも、年に何本も、アメリカとか打ち上げてるので、「そんなことのためになんでそんなお金使うの？」って話がよくありまして、「だったら、地球上の、もっと飢えてる人にお金あげたりとか、不景気だったら失業者を助けるために、そういうお金を使ったほうがいいんじゃないか。なんでわざわざ月とか見に行くためにロケット飛ばすねん」みたいな、そういう話があって、高校の頃、友だちからも「なんでお前、そんな無意味なことをやりたいとか言ってんだ」みたいなことを言われて、言い返せない自分がいたんですけど、その中で知ったのがスペースデブリの問題で、宇宙で、自分の好きなその宇宙で何か人のために役立てるようなことができないかなって考えたときに、選択肢の１つにあがってきたのがスペースデブリで、それでやりたいなと思って。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "宇宙で、自分の好きなその宇宙で何か人のために役立てるようなことができないかなって考えたときに、選択肢の１つにあがってきたのがスペースデブリで、それでやりたいなと思って"
+                }
+            }
+        },
+        {
+            "id": 94,
+            "speaker": "B",
+            "utterance": "本当はちょっと、今の大学と違うところで、そういう研究、特化したやつをやりたかったんですけど、残念ながら、ちょっと大学受験を失敗しちゃったので、今の大学に入って、研究室に入って、最初はちょっと我慢して、ちょっと関係ないんですけど別のテーマでやってたんですけど、今年から、いろいろあって、先生に進言してやらせてもらえることになりそうです。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "先生に進言してやらせてもらえることになりそうです"
+                }
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "A",
+            "utterance": "やらせてもらえることになりそうなんですね。",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}んですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "やらせてもらえることになりそうなんですね。"
+            }
+        },
+        {
+            "id": 96,
+            "speaker": "B",
+            "utterance": "なりそうです。"
+        },
+        {
+            "id": 97,
+            "speaker": "A",
+            "utterance": "なりそう？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なりそう？"
+            }
+        },
+        {
+            "id": 98,
+            "speaker": "B",
+            "utterance": "なりそうです。"
+        },
+        {
+            "id": 99,
+            "speaker": "B",
+            "utterance": "まだちょっと確定ではないんですけど。",
+            "understand": {
+                "MI": {
+                    "disturbance_1": "まだちょっと確定ではない"
+                }
+            }
+        },
+        {
+            "id": 100,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 101,
+            "speaker": "B",
+            "utterance": "そういう状況です。"
+        },
+        {
+            "id": 102,
+            "speaker": "A",
+            "utterance": "じゃ、その海外で研究したいというのは、その４年を経て、大学院を経た、期日はなしにしても、チャンス、機会があれば行きたいなという？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "じゃ、その海外で研究したいというのは、その４年を経て、大学院を経た、期日はなしにしても、チャンス、機会があれば行きたいなという？"
+            }
+        },
+        {
+            "id": 103,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 104,
+            "speaker": "B",
+            "utterance": "実は今年もチャレンジしたんですけど。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "今年もチャレンジした"
+                }
+            }
+        },
+        {
+            "id": 105,
+            "speaker": "A",
+            "utterance": "そうなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうなんですね。"
+            }
+        },
+        {
+            "id": 106,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 107,
+            "speaker": "B",
+            "utterance": "失敗してるというか、今、結果待ちって状況で、普通に海外の、アメリカの大学院を受けて、入試みたいなのを受けて、１校落ちて、今１校は結果待ちって感じで。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "アメリカの大学院を受けて、入試みたいなのを受けて、１校落ちて"
+                }
+            }
+        },
+        {
+            "id": 108,
+            "speaker": "B",
+            "utterance": "今回たぶん失敗するんですけど。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "今回たぶん失敗する"
+                }
+            }
+        },
+        {
+            "id": 109,
+            "speaker": "A",
+            "utterance": "まだ決まってないじゃないですか。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disconfidence",
+                "utterance": "まだ決まってないじゃないですか。"
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "B",
+            "utterance": "まだ決まってないんですけど、でも、失敗したら失敗したで、一応今の大学の院も行けるので、そこで修行して、みんなが就活とか始めて就職するタイミングで、僕は就職しないで進学、海外に進学にまたチャレンジしようかなって思ってます。",
+            "understand": {
+                "MI": {
+                    "commitment_place_positive_1": "就職しないで進学、海外に進学にまたチャレンジしようかなって思ってます"
+                }
+            }
+        },
+        {
+            "id": 111,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "B",
+            "utterance": "はい、リスクは大きいですけど。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "リスクは大きい"
+                }
+            }
+        },
+        {
+            "id": 113,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 114,
+            "speaker": "B",
+            "utterance": "そうなんですよね。"
+        },
+        {
+            "id": 115,
+            "speaker": "A",
+            "utterance": "仮に、今待ってる返事が来たら、もうすぐに。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "仮に、今待ってる返事が来たら、もうすぐに。"
+            }
+        },
+        {
+            "id": 116,
+            "speaker": "B",
+            "utterance": "もうすぐに行きます。"
+        },
+        {
+            "id": 117,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 119,
+            "speaker": "A",
+            "utterance": "そうすると、もう実現？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "そうすると、もう実現？"
+            }
+        },
+        {
+            "id": 120,
+            "speaker": "B",
+            "utterance": "実現は、でも、行ってからが長いんですよね。"
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "日本の大学とかと違って、入るよりも卒業するほうがはるかに大変で、僕、普通に学びたいわけじゃなくて博士課程までいきたいと思っているので、ドクターを取りたいと思っているので、すごい壁ですね。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "入るよりも卒業するほうがはるかに大変で",
+                    "detail_positive_2": "ドクターを取りたい"
+                }
+            }
+        },
+        {
+            "id": 122,
+            "speaker": "B",
+            "utterance": "だから、入ってから、競争にどうやって打ち勝っていくかっていうのが、一番の課題なんですけど。",
+            "understand": {
+                "MI": {
+                    "disturbance_1": "入ってから、競争にどうやって打ち勝っていくかっていうのが、一番の課題なんです"
+                }
+            }
+        },
+        {
+            "id": 123,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 124,
+            "speaker": "B",
+            "utterance": "だから、夢はまだまだ、そんなすぐ達成されるものじゃなくて、そうですね、海外で研究したいことが目標というよりは、最終的にそういうデブリ除去を、スペースデブリ除去に関わるような会社に入りたいとか、そういう研究を、研究者として、学生じゃなくて研究者としてやっていきたいというのが目標かもしれないですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "スペースデブリ除去に関わるような会社に入りたいとか、そういう研究を、研究者として、学生じゃなくて研究者としてやっていきたい"
+                }
+            }
+        },
+        {
+            "id": 125,
+            "speaker": "B",
+            "utterance": "だから、そうそう、あと数年で解決できるようなものじゃないと思います。"
+        },
+        {
+            "id": 126,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 127,
+            "speaker": "A",
+            "utterance": "素晴らしいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "素晴らしいですね。"
+            }
+        },
+        {
+            "id": 128,
+            "speaker": "A",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 129,
+            "speaker": "B",
+            "utterance": "まだ、あれなんですけど。"
+        },
+        {
+            "id": 130,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 131,
+            "speaker": "A",
+            "utterance": "夢が大きくて。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "夢が大きくて。"
+            }
+        },
+        {
+            "id": 132,
+            "speaker": "B",
+            "utterance": "いやー、ちょっとそれが大きいので、親からは「就職したほうがいいんじゃないか」という意見をとてももらってるので。",
+            "understand": {
+                "MI": {
+                    "disturbance_1": "親からは「就職したほうがいいんじゃないか」という意見をとてももらってる"
+                }
+            }
+        },
+        {
+            "id": 133,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 134,
+            "speaker": "B",
+            "utterance": "そうですね、みんなが周り就活してる中で、自分は保険なしですよね。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "みんなが周り就活してる中で、自分は保険なし"
+                }
+            }
+        },
+        {
+            "id": 135,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 136,
+            "speaker": "B",
+            "utterance": "保険なしで、海外。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "保険なしで、海外"
+                }
+            }
+        },
+        {
+            "id": 137,
+            "speaker": "B",
+            "utterance": "落ちたときはどうなるかも分かんないのに、海外をまたチャレンジするのかどうか、ちょっと、そのメンタルが強いメンタルを持てるかどうかがちょっと。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "落ちたときはどうなるかも分かんないのに、海外をまたチャレンジするのかどうか、ちょっと、そのメンタルが強いメンタルを持てるかどうかがちょっと"
+                }
+            }
+        },
+        {
+            "id": 138,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 139,
+            "speaker": "A",
+            "utterance": "挑戦ですね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "挑戦ですね。"
+            }
+        },
+        {
+            "id": 140,
+            "speaker": "B",
+            "utterance": "挑戦ですね、リスクが大きいので。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "リスクが大きい"
+                }
+            }
+        },
+        {
+            "id": 141,
+            "speaker": "B",
+            "utterance": "お金もかかりますし。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "お金もかかります"
+                }
+            }
+        },
+        {
+            "id": 142,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 143,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 144,
+            "speaker": "B",
+            "utterance": "向こうの大学は、学費が１年間４００万円ぐらいが相場なので。",
+            "understand": {
+                "MI": {
+                    "disreason_quantity_1": "向こうの大学は、学費が１年間４００万円ぐらいが相場"
+                }
+            }
+        },
+        {
+            "id": 145,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 146,
+            "speaker": "B",
+            "utterance": "今年は奨学金をいただけたので、学費払わなくて良かったんですけど、受かってないのでどうなるか分からないんですけど。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "今年は奨学金をいただけた",
+                    "disturbance_negative_2": "受かってないのでどうなるか分からない"
+                }
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 148,
+            "speaker": "B",
+            "utterance": "そういう、入る前にまた奨学金獲得とかそういうハードルもあったりとか、そういうのもあるので。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "奨学金獲得とかそういうハードルもあったり"
+                }
+            }
+        },
+        {
+            "id": 149,
+            "speaker": "A",
+            "utterance": "それはどうなんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "それはどうなんですか？"
+            }
+        },
+        {
+            "id": 150,
+            "speaker": "A",
+            "utterance": "いけそうな感じなんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "いけそうな感じなんですか？"
+            }
+        },
+        {
+            "id": 151,
+            "speaker": "B",
+            "utterance": "今年いけたので、偶然、４、５個応募して、国内で留学に特化した民間の奨学金みたいな団体が結構ありまして、当然、すごい優秀な日本中の大学の学生と競争しなきゃいけないんですけど、月２０万円の生活費とか、あと、場合によっては学費全額出してくれるような奨学金の団体の方もいらっしゃるので。",
+            "understand": {
+                "MI": {
+                    "confidence_time_1": "今年",
+                    "confidence_positive_2": "今年いけた",
+                    "disturbance_negative_2": "すごい優秀な日本中の大学の学生と競争しなきゃいけない"
+                }
+            }
+        },
+        {
+            "id": 152,
+            "speaker": "B",
+            "utterance": "どうですかね。"
+        },
+        {
+            "id": 153,
+            "speaker": "B",
+            "utterance": "今年はたまたまうまくいった感じだったんですけど、まだ研究実績も学部生でなかったので、あんまり、学会発表も全然してなかったので、温情で入れてもらったようなものなんですけど、院で２年間ちゃんと研究実績を積んで、「僕はこういうことができました」というのを、ちゃんと証拠として示せればまたチャンスはあるかなと、奨学金とかももらえるようになるかなと、もらえたんですけど、またもらえるかなと思います＠。",
+            "understand": {
+                "MI": {
+                    "confidence_time_1": "今年",
+                    "confidence_2": "今年はたまたまうまくいった",
+                    "reason_negative_2": "温情で入れてもらったようなもの",
+                    "confidence_positive_3": "院で２年間ちゃんと研究実績を積んで、「僕はこういうことができました」というのを、ちゃんと証拠として示せればまたチャンスはあるかな"
+                }
+            }
+        },
+        {
+            "id": 154,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 155,
+            "speaker": "A",
+            "utterance": "その奨学金がもらえたら、またどうされるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment",
+                "utterance": "その奨学金がもらえたら、またどうされるんですか？"
+            }
+        },
+        {
+            "id": 156,
+            "speaker": "B",
+            "utterance": "奨学金をもらったら、まず、ある種の保険みたいなのができるので、また海外にチャレンジっていう感じですね。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "また海外にチャレンジ"
+                }
+            }
+        },
+        {
+            "id": 157,
+            "speaker": "A",
+            "utterance": "１回休学してっていうことですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "１回休学してっていうことですか？"
+            }
+        },
+        {
+            "id": 158,
+            "speaker": "B",
+            "utterance": "いや、休学というか。"
+        },
+        {
+            "id": 159,
+            "speaker": "A",
+            "utterance": "もう最初から向こうの？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "もう最初から向こうの？"
+            }
+        },
+        {
+            "id": 160,
+            "speaker": "B",
+            "utterance": "はい、そうですね。"
+        },
+        {
+            "id": 161,
+            "speaker": "B",
+            "utterance": "はい、もう進学って感じなので。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "もう進学って感じなので"
+                }
+            }
+        },
+        {
+            "id": 162,
+            "speaker": "A",
+            "utterance": "アメリカに進学で？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "アメリカに進学で？"
+            }
+        },
+        {
+            "id": 163,
+            "speaker": "B",
+            "utterance": "アメリカに進学です。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "アメリカに進学"
+                }
+            }
+        },
+        {
+            "id": 164,
+            "speaker": "A",
+            "utterance": "で、２年生のときに２年間で実績を出して奨学金っていうお話？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "で、２年生のときに２年間で実績を出して奨学金っていうお話？"
+            }
+        },
+        {
+            "id": 165,
+            "speaker": "B",
+            "utterance": "ああ、そういうことか。"
+        },
+        {
+            "id": 166,
+            "speaker": "B",
+            "utterance": "いや、奨学金応募するとしたら、みんなが就活するようなタイミングなので、ほんと海外に進学する、つまり、院を卒業する前の年ですね。",
+            "understand": {
+                "MI": {
+                    "commitment_time_1": "奨学金応募するとしたら、みんなが就活するようなタイミングなので、ほんと海外に進学する、つまり、院を卒業する前の年"
+                }
+            }
+        },
+        {
+            "id": 167,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 168,
+            "speaker": "B",
+            "utterance": "なので、休学というか、もう卒業と同時に行く感じです。"
+        },
+        {
+            "id": 169,
+            "speaker": "A",
+            "utterance": "それは３年、４年後？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "それは３年、４年後？"
+            }
+        },
+        {
+            "id": 170,
+            "speaker": "A",
+            "utterance": "ん？",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ん？"
+            }
+        },
+        {
+            "id": 171,
+            "speaker": "B",
+            "utterance": "院は２年間なので。"
+        },
+        {
+            "id": 172,
+            "speaker": "A",
+            "utterance": "２年間なんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "２年間なんですね。"
+            }
+        },
+        {
+            "id": 173,
+            "speaker": "B",
+            "utterance": "２年間です、すみません。"
+        },
+        {
+            "id": 174,
+            "speaker": "B",
+            "utterance": "で、２年間なので、２年後ですね。",
+            "understand": {
+                "MI": {
+                    "commitment_starttime_1": "２年後"
+                }
+            }
+        },
+        {
+            "id": 175,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 176,
+            "speaker": "A",
+            "utterance": "で、奨学金を、結果を出して奨学金を取ったら、またそこで進学を？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "で、奨学金を、結果を出して奨学金を取ったら、またそこで進学を？"
+            }
+        },
+        {
+            "id": 177,
+            "speaker": "A",
+            "utterance": "アメリカに進学にチャレンジ？",
+            "utterance_request": {
+                "utterance_request": "{commitment_positive_summary}にチャレンジ？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "アメリカに進学にチャレンジ？"
+            }
+        },
+        {
+            "id": 178,
+            "speaker": "B",
+            "utterance": "にチャレンジですね。"
+        },
+        {
+            "id": 179,
+            "speaker": "A",
+            "utterance": "あー、なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "あー、なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 180,
+            "speaker": "A",
+            "utterance": "そこで、また勉強されて、その目標である。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "そこで、また勉強されて、その目標である。"
+            }
+        },
+        {
+            "id": 181,
+            "speaker": "B",
+            "utterance": "とりあえず博士を取れればなという感じで、博士取ってから、たぶんアメリカの企業に就職してみたいな、そこで、また研究職で研究する感じですね。",
+            "understand": {
+                "MI": {
+                    "detail_1": "とりあえず博士を取れればなという感じで、博士取ってから、たぶんアメリカの企業に就職してみたいな、そこで、また研究職で研究する"
+                }
+            }
+        },
+        {
+            "id": 182,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 183,
+            "speaker": "B",
+            "utterance": "そのときのアメリカがどうなってるか、僕は知らないですけど。"
+        },
+        {
+            "id": 184,
+            "speaker": "B",
+            "utterance": "トランプさんなのかどうか、分からないですけど。"
+        },
+        {
+            "id": 185,
+            "speaker": "A",
+            "utterance": "それをやっていこうと。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "それをやっていこうと。"
+            }
+        },
+        {
+            "id": 186,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 187,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 188,
+            "speaker": "B",
+            "utterance": "という感じです。"
+        },
+        {
+            "id": 189,
+            "speaker": "A",
+            "utterance": "ありがとうございます。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "ありがとうございます。"
+            }
+        },
+        {
+            "id": 190,
+            "speaker": "B",
+            "utterance": "ありがとうございます。"
+        }
+    ]
+}

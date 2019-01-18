@@ -1,0 +1,1702 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "はい。"
+        },
+        {
+            "id": 1,
+            "speaker": "A",
+            "utterance": "よろしくお願いします。",
+            "system_behavior": {
+                "purpose": "挨拶",
+                "utterance": "よろしくお願いします。"
+            }
+        },
+        {
+            "id": 2,
+            "speaker": "B",
+            "utterance": "よろしくお願いします。"
+        },
+        {
+            "id": 3,
+            "speaker": "A",
+            "utterance": "何か気になってることありますか、今？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "何か気になってることありますか、今？"
+            }
+        },
+        {
+            "id": 4,
+            "speaker": "B",
+            "utterance": "もう字が汚いのをなんとかしたいと思ってて。",
+            "understand": {
+                "MI": {
+                    "theme_1": "字が汚いのをなんとかしたい"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "speaker": "A",
+            "utterance": "字が汚い？",
+            "utterance_request": {
+                "utterance_request": "{theme_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "字が汚い？"
+            }
+        },
+        {
+            "id": 6,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 7,
+            "speaker": "B",
+            "utterance": "ほんとに書類とかを書いたりとかするのも、提出するのが恥ずかしいぐらいに汚くて、メモとか書いて、机に残したりとかするときも、書くのをためらうぐらい汚い。",
+            "understand": {
+                "MI": {
+                    "detail_negative_1": "書類とかを書いたりとかするのも、提出するのが恥ずかしいぐらいに汚くて、メモとか書いて、机に残したりとかするときも、書くのをためらうぐらい汚い"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "speaker": "A",
+            "utterance": "書くのをためらうぐらい？",
+            "utterance_request": {
+                "utterance_request": "{detail_negative_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "書くのをためらうぐらい？"
+            }
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "きれいに、もうちょっときれいだったら、こういうときにすっと置けるのになとか。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "もうちょっときれいだったら、こういうときにすっと置けるのに"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "speaker": "A",
+            "utterance": "なるほど、出すの恥ずかしいっていう感じになっちゃうんですね。",
+            "utterance_request": {
+                "utterance_request": "なるほど、{detail_negative_summary}っていう感じになっちゃうんですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なるほど、出すの恥ずかしいっていう感じになっちゃうんですね。"
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 12,
+            "speaker": "B",
+            "utterance": "また、最近スマホとかもよく使うようになってきてから、ここ数年でより一層字が汚くなってきて、収拾がつかなくなってきてるので、なんとかしたいなって思ってます。",
+            "understand": {
+                "MI": {
+                    "detail_time_negative_1": "最近スマホとかもよく使うようになってきてから、ここ数年でより一層字が汚くなってきて、収拾がつかなくなってきてるので、なんとかしたい"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "A",
+            "utterance": "字を書く機会って減りますもんね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "字を書く機会って減りますもんね。"
+            }
+        },
+        {
+            "id": 14,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 15,
+            "speaker": "A",
+            "utterance": "漢字も忘れちゃったりなんかして。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "漢字も忘れちゃったりなんかして。"
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "B",
+            "utterance": "そうなんですよね。"
+        },
+        {
+            "id": 17,
+            "speaker": "B",
+            "utterance": "変換頼りになっちゃうから字も汚くなるし、字も思い出せなくなるしっていう。",
+            "understand": {
+                "MI": {
+                    "reason_1": "変換頼りになっちゃう"
+                }
+            }
+        },
+        {
+            "id": 18,
+            "speaker": "A",
+            "utterance": "汚くなるし、思い出せなくなるし。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "汚くなるし、思い出せなくなるし。"
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 20,
+            "speaker": "A",
+            "utterance": "字を書く機会って、今言ってくれたメモを書くとか、書類書くとか、結構多いですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail_frequency",
+                "utterance": "字を書く機会って、今言ってくれたメモを書くとか、書類書くとか、結構多いですか？"
+            }
+        },
+        {
+            "id": 21,
+            "speaker": "B",
+            "utterance": "少ないけど、メモは時々ありますね。"
+        },
+        {
+            "id": 22,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 23,
+            "speaker": "B",
+            "utterance": "今、言伝書いておきたいけども本人がいないとか、書くっていうか、言いたいけどいないっていうときは、何がしか書かないとなとは思うんだけども、それをすると、メモを書くのに時間がかかるっていう。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "メモを書くのに時間がかかる"
+                }
+            }
+        },
+        {
+            "id": 24,
+            "speaker": "A",
+            "utterance": "時間がかかる？",
+            "utterance_request": {
+                "utterance_request": "{reason_negative_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "時間がかかる？"
+            }
+        },
+        {
+            "id": 25,
+            "speaker": "B",
+            "utterance": "書き直しちゃうんですよ、あまりにひどいときとかは。"
+        },
+        {
+            "id": 26,
+            "speaker": "A",
+            "utterance": "あまりにひどい。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "あまりにひどい。"
+            }
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "そう、もう。"
+        },
+        {
+            "id": 28,
+            "speaker": "A",
+            "utterance": "ちょっと聞いちゃいます。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "ちょっと聞いちゃいます。"
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "A",
+            "utterance": "どんな感じにひどいですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "どんな感じにひどいですか？"
+            }
+        },
+        {
+            "id": 30,
+            "speaker": "B",
+            "utterance": "象形文字です。"
+        },
+        {
+            "id": 31,
+            "speaker": "A",
+            "utterance": "象形文字。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "象形文字。"
+            }
+        },
+        {
+            "id": 32,
+            "speaker": "A",
+            "utterance": "私、象形文字のふせんもらったら、ちょっとクスッと笑っちゃうかも。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "私、象形文字のふせんもらったら、ちょっとクスッと笑っちゃうかも。"
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "B",
+            "utterance": "もうほんとに、これは日本語なんだろうかみたいな感じで。"
+        },
+        {
+            "id": 34,
+            "speaker": "A",
+            "utterance": "字のことでちょっと困ったことってありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "thought",
+                "utterance": "字のことでちょっと困ったことってありますか？"
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "困るのは、やっぱり、人に出さなきゃいけないものを書くときがすごく困りますね。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "人に出さなきゃいけないものを書くときがすごく困ります"
+                }
+            }
+        },
+        {
+            "id": 36,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "B",
+            "utterance": "メモだったりとか、あと、手続きとかしたときに、その書類を出すときに、なるべく係の人見ないように出すとか。"
+        },
+        {
+            "id": 38,
+            "speaker": "A",
+            "utterance": "見ないように、目を合わせないように。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "見ないように、目を合わせないように。"
+            }
+        },
+        {
+            "id": 39,
+            "speaker": "B",
+            "utterance": "実際そのときに、「これはなんて読むんですか？」って若干聞き返されちゃったりとかすると、「すいません」って、それがやっぱり困りますね。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "「これはなんて読むんですか？」って若干聞き返されちゃったりとかすると、「すいません」って、それがやっぱり困ります"
+                }
+            }
+        },
+        {
+            "id": 40,
+            "speaker": "A",
+            "utterance": "聞き返されちゃったりとかすると困りますね",
+            "utterance_request": {
+                "utterance_request": "{thought_negative_summary}ね"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "聞き返されちゃったりとかすると困りますね"
+            }
+        },
+        {
+            "id": 41,
+            "speaker": "A",
+            "utterance": "書き直しになっちゃうし。"
+        },
+        {
+            "id": 42,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 43,
+            "speaker": "B",
+            "utterance": "なんかもう恥ずかしくて、出すときがすごく。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "なんかもう恥ずかしくて、出すときがすごく"
+                }
+            }
+        },
+        {
+            "id": 44,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 45,
+            "speaker": "B",
+            "utterance": "どうやったらいいのかなと思って。"
+        },
+        {
+            "id": 46,
+            "speaker": "A",
+            "utterance": "今、何か、たくさん書き直すのもそうですけど、工夫されてることってありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "今、何か、たくさん書き直すのもそうですけど、工夫されてることってありますか？"
+            }
+        },
+        {
+            "id": 47,
+            "speaker": "B",
+            "utterance": "できる限り、ゆっくり書こうとはしてますね。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "できる限り、ゆっくり書こうとはしてます"
+                }
+            }
+        },
+        {
+            "id": 48,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 49,
+            "speaker": "B",
+            "utterance": "それもあんまりうまくいってないですけど。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "それもあんまりうまくいってないです"
+                }
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "A",
+            "utterance": "ゆっくり書くと、やっぱり少し上手に？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "ゆっくり書くと、やっぱり少し上手に？"
+            }
+        },
+        {
+            "id": 51,
+            "speaker": "B",
+            "utterance": "多少ましになるかな。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "多少ましになる"
+                }
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "A",
+            "utterance": "多少ましになる。",
+            "utterance_request": {
+                "utterance_request": "{confidence}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "多少ましになる。"
+            }
+        },
+        {
+            "id": 53,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 54,
+            "speaker": "B",
+            "utterance": "やっぱ焦っちゃうと、汚い草書体になるっていうか。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "焦っちゃうと、汚い草書体になる"
+                }
+            }
+        },
+        {
+            "id": 55,
+            "speaker": "A",
+            "utterance": "焦っちゃうっていうのもあるんですか？",
+            "utterance_request": {
+                "utterance_request": "{disconfidence_summary}っていうのもあるんですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "disconfidence",
+                "utterance": "焦っちゃうっていうのもあるんですか？"
+            }
+        },
+        {
+            "id": 56,
+            "speaker": "B",
+            "utterance": "なんだろう。"
+        },
+        {
+            "id": 57,
+            "speaker": "B",
+            "utterance": "やっぱり速く、さっと書きたいなっていうふうに思うと。"
+        },
+        {
+            "id": 58,
+            "speaker": "A",
+            "utterance": "速くさっと、ゆっくり丁寧に。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "速くさっと、ゆっくり丁寧に。"
+            }
+        },
+        {
+            "id": 59,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 60,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 61,
+            "speaker": "B",
+            "utterance": "葛藤しますね、そこで。"
+        },
+        {
+            "id": 62,
+            "speaker": "B",
+            "utterance": "また、私、手汗も、緊張すると手汗がひどくなるから、そこで字をきれいにしようと迷えば迷うほど、ビチャってなっちゃうって。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "緊張すると手汗がひどくなるから、そこで字をきれいにしようと迷えば迷うほど、ビチャってなっちゃうって"
+                }
+            }
+        },
+        {
+            "id": 63,
+            "speaker": "A",
+            "utterance": "きれいにしなきゃって焦ると、手汗が。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "きれいにしなきゃって焦ると、手汗が。"
+            }
+        },
+        {
+            "id": 64,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 65,
+            "speaker": "B",
+            "utterance": "そうなるし、字も汚いしみたいな。"
+        },
+        {
+            "id": 66,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 67,
+            "speaker": "B",
+            "utterance": "人によっては、同じ速さで書いてるはずなのに、すごいきれいな人とかもいるから、なんであんなきれいに書けんだろうとか＠。",
+            "understand": {
+                "MI": {
+                    "thought_1": "人によっては、同じ速さで書いてるはずなのに、すごいきれいな人とかもいるから、なんであんなきれいに書けんだろう"
+                }
+            }
+        },
+        {
+            "id": 68,
+            "speaker": "A",
+            "utterance": "なんであんなきれいに書けんだろうって",
+            "utterance_request": {
+                "utterance_request": "{thought_summary}って。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なんであんなきれいに書けんだろうって"
+            }
+        },
+        {
+            "id": 69,
+            "speaker": "B",
+            "utterance": "そうなんですよ。"
+        },
+        {
+            "id": 70,
+            "speaker": "B",
+            "utterance": "見てると、ほんとにすごくきれいな字書いてるから、この人、よっぽどきれいに正確に書いてんだろうなと思ってふと横で見ると、なんの気なしにいつもと同じペースで書いてたりするから。"
+        },
+        {
+            "id": 71,
+            "speaker": "A",
+            "utterance": "さらさらさらって。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "さらさらさらって。"
+            }
+        },
+        {
+            "id": 72,
+            "speaker": "B",
+            "utterance": "そうなんですよ。"
+        },
+        {
+            "id": 73,
+            "speaker": "B",
+            "utterance": "すごい不思議なんですよね。"
+        },
+        {
+            "id": 74,
+            "speaker": "B",
+            "utterance": "あんなふうに書けるようになれればいいんですけどね。",
+            "understand": {
+                "MI": {
+                    "thought_1": "あんなふうに書けるようになれればいいんですけどね"
+                }
+            }
+        },
+        {
+            "id": 75,
+            "speaker": "A",
+            "utterance": "うらやましくなっちゃいますね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "うらやましくなっちゃいますね。"
+            }
+        },
+        {
+            "id": 76,
+            "speaker": "B",
+            "utterance": "すごいうらやましいです。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "すごいうらやましい"
+                }
+            }
+        },
+        {
+            "id": 77,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 78,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 79,
+            "speaker": "A",
+            "utterance": "速く書いちゃうのと、焦っちゃうのと、いろいろありそうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disconfidence",
+                "utterance": "速く書いちゃうのと、焦っちゃうのと、いろいろありそうですね。"
+            }
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 81,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 82,
+            "speaker": "B",
+            "utterance": "そう。"
+        },
+        {
+            "id": 83,
+            "speaker": "B",
+            "utterance": "何を、ペン習字でもやればいいのかなーって。",
+            "understand": {
+                "MI": {
+                    "commitment_action_1": "ペン習字でもやればいいのかな"
+                }
+            }
+        },
+        {
+            "id": 84,
+            "speaker": "A",
+            "utterance": "ペン習字。",
+            "utterance_request": {
+                "utterance_request": "{commitment_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_action",
+                "utterance": "ペン習字。"
+            }
+        },
+        {
+            "id": 85,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 86,
+            "speaker": "B",
+            "utterance": "一時期試みはしたんです。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "一時期試みはした"
+                }
+            }
+        },
+        {
+            "id": 87,
+            "speaker": "A",
+            "utterance": "試みはしたんですね",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}んですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "試みはしたんですね"
+            }
+        },
+        {
+            "id": 88,
+            "speaker": "A",
+            "utterance": "すごい。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "すごい。"
+            }
+        },
+        {
+            "id": 89,
+            "speaker": "B",
+            "utterance": "やってはみたんです。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "やってはみた"
+                }
+            }
+        },
+        {
+            "id": 90,
+            "speaker": "B",
+            "utterance": "本でドリル式になってて、最初はまず字をなぞるとこからやって、字を書くポイント、ひらがなはちょっと小さめに書いて、漢字は少し大きめに書いてとか。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "最初はまず字をなぞるとこからやって、字を書くポイント、ひらがなはちょっと小さめに書いて、漢字は少し大きめに書いてとか"
+                }
+            }
+        },
+        {
+            "id": 91,
+            "speaker": "A",
+            "utterance": "ちょっとバランス良く見えるコツみたいな。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "ちょっとバランス良く見えるコツみたいな。"
+            }
+        },
+        {
+            "id": 92,
+            "speaker": "B",
+            "utterance": "そう。"
+        },
+        {
+            "id": 93,
+            "speaker": "B",
+            "utterance": "書いてて、この１冊をやれば、あなたも字がきれいになりますよっていうのやってみたけど、焼け石に水でしたね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "この１冊をやれば、あなたも字がきれいになりますよっていうのやってみた",
+                    "disconfidence_negative_2": "焼け石に水でした"
+                }
+            }
+        },
+        {
+            "id": 94,
+            "speaker": "A",
+            "utterance": "焼け石に水。",
+            "utterance_request": {
+                "utterance_request": "{disconfidence_negative_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disconfidence",
+                "utterance": "焼け石に水。"
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "A",
+            "utterance": "焼け石に水。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disconfidence",
+                "utterance": "焼け石に水。"
+            }
+        },
+        {
+            "id": 96,
+            "speaker": "B",
+            "utterance": "もうきれいになるどころか、元がひど過ぎて、どうにも。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "きれいになるどころか、元がひど過ぎて、どうにも"
+                }
+            }
+        },
+        {
+            "id": 97,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 98,
+            "speaker": "A",
+            "utterance": "象形文字にペン習字って、新たなことわざに。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disconfidence",
+                "utterance": "象形文字にペン習字って、新たなことわざに。"
+            }
+        },
+        {
+            "id": 99,
+            "speaker": "B",
+            "utterance": "もうほんとに。"
+        },
+        {
+            "id": 100,
+            "speaker": "A",
+            "utterance": "通信講座とかではなく、本屋さんで１冊自宅でできるものがあるんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "通信講座とかではなく、本屋さんで１冊自宅でできるものがあるんですね。"
+            }
+        },
+        {
+            "id": 101,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 102,
+            "speaker": "A",
+            "utterance": "ほー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ほー。"
+            }
+        },
+        {
+            "id": 103,
+            "speaker": "B",
+            "utterance": "付け焼き刃も付け焼き刃ですよね。"
+        },
+        {
+            "id": 104,
+            "speaker": "A",
+            "utterance": "でも、それ１冊やられたんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、それ１冊やられたんですか？"
+            }
+        },
+        {
+            "id": 105,
+            "speaker": "B",
+            "utterance": "１冊やれたかな、どうだったかな。"
+        },
+        {
+            "id": 106,
+            "speaker": "B",
+            "utterance": "やりはしたんです、やりは。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "やりはしたんです、やりは"
+                }
+            }
+        },
+        {
+            "id": 107,
+            "speaker": "B",
+            "utterance": "終わったかどうかはちょっと覚えてないですけど。"
+        },
+        {
+            "id": 108,
+            "speaker": "A",
+            "utterance": "どうでした、やってみて？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "どうでした、やってみて？"
+            }
+        },
+        {
+            "id": 109,
+            "speaker": "B",
+            "utterance": "そのお手本を見てやってるときは確かにきれいになるんですけども、いざ自分で実践でやろうとすると、うまくやりにくい。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "そのお手本を見てやってるときは確かにきれいになる",
+                    "disconfidence_2": "いざ自分で実践でやろうとすると、うまくやりにくい"
+                }
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "B",
+            "utterance": "コツは、なんとなく頭に残ってるうちはいいんですけど、日々の生活でやってるうちにどんどん忘れ去られちゃっていくっていうか。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "日々の生活でやってるうちにどんどん忘れ去られちゃっていく"
+                }
+            }
+        },
+        {
+            "id": 111,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "A",
+            "utterance": "お手本が隣にあったりとか、コツを覚えてるときは、実践できるんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "お手本が隣にあったりとか、コツを覚えてるときは、実践できるんですね。"
+            }
+        },
+        {
+            "id": 113,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 114,
+            "speaker": "A",
+            "utterance": "ほー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ほー。"
+            }
+        },
+        {
+            "id": 115,
+            "speaker": "B",
+            "utterance": "そうなんですよ。"
+        },
+        {
+            "id": 116,
+            "speaker": "B",
+            "utterance": "ほんとに見たままだったらいいんだけれども、実生活でやろうとすると、やっぱり忘れてっちゃうし、急いでたりとかすると、違うしみたいな。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "実生活でやろうとすると、やっぱり忘れてっちゃうし、急いでたりとかすると、違うし"
+                }
+            }
+        },
+        {
+            "id": 117,
+            "speaker": "A",
+            "utterance": "そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disconfidence",
+                "utterance": "そうですよね。"
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "A",
+            "utterance": "ずっとボールペン習字みたいにできないですもんね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disconfidence",
+                "utterance": "ずっとボールペン習字みたいにできないですもんね。"
+            }
+        },
+        {
+            "id": 119,
+            "speaker": "B",
+            "utterance": "ほんとにそれやったのが１冊だけだったから、あれを習慣化すればまだましだったのかなって気は。",
+            "understand": {
+                "MI": {
+                    "thought_quantity_1": "ほんとにそれやったのが１冊だけだったから、あれを習慣化すればまだましだったのかなって気は"
+                }
+            }
+        },
+        {
+            "id": 120,
+            "speaker": "A",
+            "utterance": "出ましたね、習慣化。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "出ましたね、習慣化。"
+            }
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "習慣化。"
+        },
+        {
+            "id": 122,
+            "speaker": "B",
+            "utterance": "運動もだけど、習慣化。"
+        },
+        {
+            "id": 123,
+            "speaker": "B",
+            "utterance": "それができれば、難しいんだけど、習慣できればいいのかなー。",
+            "understand": {
+                "MI": {
+                    "thought_1": "習慣できればいいのかな"
+                }
+            }
+        },
+        {
+            "id": 124,
+            "speaker": "A",
+            "utterance": "でも、字のことでも、ちょっときれいにって思って本屋さんに行って、買って、それを１冊じゃないけどやってっていうとこまでされたのはすごい。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、字のことでも、ちょっときれいにって思って本屋さんに行って、買って、それを１冊じゃないけどやってっていうとこまでされたのはすごい。"
+            }
+        },
+        {
+            "id": 125,
+            "speaker": "B",
+            "utterance": "いやいやいや。"
+        },
+        {
+            "id": 126,
+            "speaker": "A",
+            "utterance": "どうしてできたんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "どうしてできたんですか？"
+            }
+        },
+        {
+            "id": 127,
+            "speaker": "B",
+            "utterance": "何かしないと変わらないかなとは思って、でも、自分で気を付けてもできないんだったら、そういうのに借りるしかないかなって。",
+            "understand": {
+                "MI": {
+                    "thought_1": "何かしないと変わらないかなとは思って、でも、自分で気を付けてもできないんだったら、そういうのに借りるしかないかなって"
+                }
+            }
+        },
+        {
+            "id": 128,
+            "speaker": "A",
+            "utterance": "何かしなきゃ変わらないっていうのがあったんですね。",
+            "utterance_request": {
+                "utterance_request": "{thought_summary}っていうのがあったんですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "何かしなきゃ変わらないっていうのがあったんですね。"
+            }
+        },
+        {
+            "id": 129,
+            "speaker": "B",
+            "utterance": "一応は。"
+        },
+        {
+            "id": 130,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "だけど、通信講座とかで毎回やると結構お金かかっちゃうからって思って、本でやればいいかなとか。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "通信講座とかで毎回やると結構お金かかっちゃう"
+                }
+            }
+        },
+        {
+            "id": 132,
+            "speaker": "A",
+            "utterance": "それで、まずはこの１冊やってみようかなって。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "それで、まずはこの１冊やってみようかなって。"
+            }
+        },
+        {
+            "id": 133,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 134,
+            "speaker": "A",
+            "utterance": "いつごろですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "いつごろですか？"
+            }
+        },
+        {
+            "id": 135,
+            "speaker": "B",
+            "utterance": "もうそれ、すごい前なんですよね。"
+        },
+        {
+            "id": 136,
+            "speaker": "A",
+            "utterance": "はるか前？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "はるか前？"
+            }
+        },
+        {
+            "id": 137,
+            "speaker": "B",
+            "utterance": "はるか前。"
+        },
+        {
+            "id": 138,
+            "speaker": "B",
+            "utterance": "でも、５～６年前とかでしょうかね。"
+        },
+        {
+            "id": 139,
+            "speaker": "A",
+            "utterance": "ほー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ほー。"
+            }
+        },
+        {
+            "id": 140,
+            "speaker": "B",
+            "utterance": "もうそこから何もやってないのもあれですけどね。"
+        },
+        {
+            "id": 141,
+            "speaker": "A",
+            "utterance": "いえいえいえ。",
+            "system_behavior": {
+                "purpose": "返答",
+                "utterance": "いえいえいえ。"
+            }
+        },
+        {
+            "id": 142,
+            "speaker": "A",
+            "utterance": "５～６年前から、ちょっと変えたいなって思われてたんですね。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail_time",
+                "utterance": "５～６年前から、ちょっと変えたいなって思われてたんですね。"
+            }
+        },
+        {
+            "id": 143,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 144,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 145,
+            "speaker": "B",
+            "utterance": "字が汚いこと自体は、５～６年前以上から、生まれたときからですけどね。"
+        },
+        {
+            "id": 146,
+            "speaker": "A",
+            "utterance": "生まれたときから。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail_time",
+                "utterance": "生まれたときから。"
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 148,
+            "speaker": "B",
+            "utterance": "もう、生まれてこの方、象形文字ですから。"
+        },
+        {
+            "id": 149,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 150,
+            "speaker": "B",
+            "utterance": "でも、さっきの運動もだし、習慣化はしたほうがいいですかね、やっぱり。",
+            "understand": {
+                "MI": {
+                    "thought_1": "習慣化はしたほうがいい"
+                }
+            }
+        },
+        {
+            "id": 151,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 152,
+            "speaker": "B",
+            "utterance": "話してて。"
+        },
+        {
+            "id": 153,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 154,
+            "speaker": "B",
+            "utterance": "それやってたときはまだましだったから。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "それやってたときはまだましだった"
+                }
+            }
+        },
+        {
+            "id": 155,
+            "speaker": "A",
+            "utterance": "そうなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうなんですね。"
+            }
+        },
+        {
+            "id": 156,
+            "speaker": "B",
+            "utterance": "まだ、うん。"
+        },
+        {
+            "id": 157,
+            "speaker": "A",
+            "utterance": "まだ。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "まだ。"
+            }
+        },
+        {
+            "id": 158,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 159,
+            "speaker": "B",
+            "utterance": "もう忘れちゃったから、あれでしたけど、もうちょっとやっていけば忘れなくもなるのかなーって気は。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "もうちょっとやっていけば忘れなくもなるのかな"
+                }
+            }
+        },
+        {
+            "id": 160,
+            "speaker": "A",
+            "utterance": "さっきも、コツとか覚えてるときはましっておっしゃってましたもんね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "さっきも、コツとか覚えてるときはましっておっしゃってましたもんね。"
+            }
+        },
+        {
+            "id": 161,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 162,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 163,
+            "speaker": "B",
+            "utterance": "ポイントが、たぶん、あれを日常にやってればいけるのかなって。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "あれを日常にやってればいけるのかな"
+                }
+            }
+        },
+        {
+            "id": 164,
+            "speaker": "B",
+            "utterance": "周りで字がきれいだった子とかは、習い事で習字とかやってたりとかして、それはほんとに、小学校のころからずっと続けてるっていう。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "周りで字がきれいだった子とかは、習い事で習字とかやってたりとかして、それはほんとに、小学校のころからずっと続けてる"
+                }
+            }
+        },
+        {
+            "id": 165,
+            "speaker": "A",
+            "utterance": "習い事で。",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}で。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "習い事で。"
+            }
+        },
+        {
+            "id": 166,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 167,
+            "speaker": "B",
+            "utterance": "やっぱ、その子はすごく字がきれいでしたし。"
+        },
+        {
+            "id": 168,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 169,
+            "speaker": "A",
+            "utterance": "じゃあ、ずっと続けるっていうのは良さそうですよね。",
+            "utterance_request": {
+                "utterance_request": "じゃあ、{confidence_summary}っていうのは良さそうですよね。"
+            },
+            "system_behavior": {
+                "purpose": "suggestion",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、ずっと続けるっていうのは良さそうですよね。"
+            }
+        },
+        {
+            "id": 170,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 171,
+            "speaker": "A",
+            "utterance": "でも、それが難しいんですよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disconfidence",
+                "utterance": "でも、それが難しいんですよね。"
+            }
+        },
+        {
+            "id": 172,
+            "speaker": "B",
+            "utterance": "難しいですね。"
+        },
+        {
+            "id": 173,
+            "speaker": "B",
+            "utterance": "サボっちゃダメかな。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "サボっちゃダメ"
+                }
+            }
+        },
+        {
+            "id": 174,
+            "speaker": "A",
+            "utterance": "何があると、コツを覚えておくっていうのに役立ちそうですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "何があると、コツを覚えておくっていうのに役立ちそうですか？"
+            }
+        },
+        {
+            "id": 175,
+            "speaker": "B",
+            "utterance": "なるべく、毎日とはいかなくても、週に何回かでもやってれば、やっぱり記憶としては残るかなーって。",
+            "understand": {
+                "MI": {
+                    "confidence_frequency_1": "毎日とはいかなくても、週に何回かでもやってれば、やっぱり記憶としては残るかな"
+                }
+            }
+        },
+        {
+            "id": 176,
+            "speaker": "B",
+            "utterance": "毎日はやっぱり、それで毎日やろうってやると、そのハードルが高過ぎてダメだと思うので。",
+            "understand": {
+                "MI": {
+                    "disfrequency_1": "毎日やろうってやると、そのハードルが高過ぎてダメだと思う"
+                }
+            }
+        },
+        {
+            "id": 177,
+            "speaker": "A",
+            "utterance": "そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうですよね。"
+            }
+        },
+        {
+            "id": 178,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 179,
+            "speaker": "A",
+            "utterance": "毎日ガリガリやるっていうよりかは、コツを忘れないように数日に１回？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_frequency",
+                "utterance": "毎日ガリガリやるっていうよりかは、コツを忘れないように数日に１回？"
+            }
+        },
+        {
+            "id": 180,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 181,
+            "speaker": "B",
+            "utterance": "ちょっとでもハードル低くすれば、「そのぐらいは」って自分も思ってくれるかな。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "ハードル低くすれば、「そのぐらいは」って自分も思ってくれるかな"
+                }
+            }
+        },
+        {
+            "id": 182,
+            "speaker": "A",
+            "utterance": "どのくらいだと、「そのくらいは」って思えそうですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_frequency",
+                "utterance": "どのくらいだと、「そのくらいは」って思えそうですか？"
+            }
+        },
+        {
+            "id": 183,
+            "speaker": "B",
+            "utterance": "週に１回。",
+            "understand": {
+                "MI": {
+                    "commitment_frequency_1": "週に１回"
+                }
+            }
+        },
+        {
+            "id": 184,
+            "speaker": "A",
+            "utterance": "週に１回、何しましょう？",
+            "utterance_request": {
+                "utterance_request": "{commitment_frequency}、何しましょう？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_action",
+                "utterance": "週に１回、何しましょう？"
+            }
+        },
+        {
+            "id": 185,
+            "speaker": "B",
+            "utterance": "やっぱり、ドリル形式のやつとかを見たりとか、書いたりとかですかねー。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "ドリル形式のやつとかを見たりとか、書いたりとか"
+                }
+            }
+        },
+        {
+            "id": 186,
+            "speaker": "A",
+            "utterance": "ドリル形式がよさそうですかね",
+            "utterance_request": {
+                "utterance_request": "{commitment_frequency}が良さそうですかね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": [
+                    "commitment_frequency",
+                    "commitment_action"
+                ],
+                "utterance": "ドリル形式がよさそうですかね"
+            }
+        },
+        {
+            "id": 187,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 188,
+            "speaker": "B",
+            "utterance": "ちょっと逃げ場を作ろうとすると、週１でできなければ、２週間に１回でもいいからって。",
+            "understand": {
+                "MI": {
+                    "commitment_frequency_1": "週１でできなければ、２週間に１回でもいいから"
+                }
+            }
+        },
+        {
+            "id": 189,
+            "speaker": "A",
+            "utterance": "いいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "いいですね。"
+            }
+        },
+        {
+            "id": 190,
+            "speaker": "A",
+            "utterance": "週１でできなければ、２週間に１回でやってみようと。",
+            "utterance_request": {
+                "utterance_request": "{commitment_frequency}やってみようと。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_frequency",
+                "utterance": "週１でできなければ、２週間に１回でやってみようと。"
+            }
+        },
+        {
+            "id": 191,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 192,
+            "speaker": "B",
+            "utterance": "やっぱり、ちょっとでも自分をやる気にさせるのは、ハードルなるべく低くすることかな。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "ハードルなるべく低くすること"
+                }
+            }
+        },
+        {
+            "id": 193,
+            "speaker": "A",
+            "utterance": "すごくよく自己分析されてるんですね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "utterance": "すごくよく自己分析されてるんですね。"
+            }
+        },
+        {
+            "id": 194,
+            "speaker": "B",
+            "utterance": "（笑）"
+        },
+        {
+            "id": 195,
+            "speaker": "A",
+            "utterance": "ハードルなるべく低くすると、やる気が出そうな感じ？",
+            "utterance_request": {
+                "utterance_request": "{confidence}と、やる気が出そうな感じ？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "ハードルなるべく低くすると、やる気が出そうな感じ？"
+            }
+        },
+        {
+            "id": 196,
+            "speaker": "B",
+            "utterance": "気がします。"
+        },
+        {
+            "id": 197,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 198,
+            "speaker": "A",
+            "utterance": "ありがとうございます。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "ありがとうございます。"
+            }
+        },
+        {
+            "id": 199,
+            "speaker": "B",
+            "utterance": "ありがとうございます。"
+        },
+        {
+            "id": 200,
+            "speaker": "B",
+            "utterance": "＠ません。"
+        },
+        {
+            "id": 201,
+            "speaker": "B",
+            "utterance": "すいません。"
+        }
+    ]
+}

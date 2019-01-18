@@ -1,0 +1,1981 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "最近気になってることとか、これやりたいなーとか思ってることとかってありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "最近気になってることとか、これやりたいなーとか思ってることとかってありますか？"
+            }
+        },
+        {
+            "id": 1,
+            "speaker": "B",
+            "utterance": "最近気になってるのは、私、今、手話をやってるんですね。",
+            "understand": {
+                "MI": {
+                    "theme_positive_1": "手話をやってる"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "speaker": "B",
+            "utterance": "で、始めて１年ぐらいずっとやってるので。",
+            "understand": {
+                "MI": {
+                    "detail_quantity_1": "始めて１年ぐらいずっとやってる"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "speaker": "A",
+            "utterance": "１年、はい。",
+            "utterance_request": {
+                "utterance_request": "{detail_quantity_summary}、はい。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail_quantity",
+                "utterance": "１年、はい。"
+            }
+        },
+        {
+            "id": 4,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 5,
+            "speaker": "B",
+            "utterance": "それ関係のニュースとか、聾の人のこととか、いろいろ気になっています。",
+            "understand": {
+                "MI": {
+                    "thought_1": "それ関係のニュースとか、聾の人のこととか、いろいろ気になっています"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 7,
+            "speaker": "B",
+            "utterance": "うん、うん。"
+        },
+        {
+            "id": 8,
+            "speaker": "A",
+            "utterance": "手話をやってるのはなぜなんですか？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive}のはなぜなんですか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "手話をやってるのはなぜなんですか？"
+            }
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "私、手話って全然知らなくって、電車の中で手話で話ししてる人を見掛けるぐらいしか、耳の聞こえない人との関わりって全然なかったんですね。"
+        },
+        {
+            "id": 10,
+            "speaker": "A",
+            "utterance": "はい、はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい、はい。"
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "B",
+            "utterance": "ちょっと、例えばテレビで手話を使ったドラマがあるなーぐらいな、「ああ、手話って面白そう」とか「かっこいいな」とかっていうふうに思うだけで、自分でやろうっていう気持ちって全然なかったんですね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "「ああ、手話って面白そう」とか「かっこいいな」",
+                    "disnegative_2": "自分でやろうっていう気持ちって全然なかった"
+                }
+            }
+        },
+        {
+            "id": 12,
+            "speaker": "B",
+            "utterance": "昔ちょっとやってみたくって、テレビを見たのかな。",
+            "understand": {
+                "MI": {
+                    "reason_1": "昔ちょっとやってみたくって、テレビを見た"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "B",
+            "utterance": "手話の講座のテレビを見たら、すごく日本語だったんですよ、変な言い方なんですけど。"
+        },
+        {
+            "id": 14,
+            "speaker": "B",
+            "utterance": "手話って日本語がベースになっていて、手話って世界共通じゃないんですね。"
+        },
+        {
+            "id": 15,
+            "speaker": "A",
+            "utterance": "あ、そうか、そうなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "あ、そうか、そうなんですね。"
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 17,
+            "speaker": "B",
+            "utterance": "日本語がベースになってるので、日本人は日本の手話を使い、アメリカ人はアメリカの手話を使うから、みんなが「手話って世界共通だから、手話ができると世界中の人と話ができていいね」とかって言われるんですけど、全然そんなことはなくって。"
+        },
+        {
+            "id": 18,
+            "speaker": "A",
+            "utterance": "あー、違うんですね。",
+            "system_behavior": {
+                "purpose": "interpretaiton",
+                "purpose_attribute": "detail",
+                "utterance": "あー、違うんですね。"
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "B",
+            "utterance": "違うんですよ。"
+        },
+        {
+            "id": 20,
+            "speaker": "B",
+            "utterance": "私も誤解してて、ササキさんという名前の手話があって、それは佐々木小次郎から来たというのを初めて知ったときに、なんて日本語なんだと思って、ちょっと取っ付きにくいって思っちゃったんです。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "ちょっと取っ付きにくいって思っちゃったんです"
+                }
+            }
+        },
+        {
+            "id": 21,
+            "speaker": "B",
+            "utterance": "で、それも手話の講座って、わりと年配の人が来てるという感じが多くて、申し込んでみたいけど、そのとき私は２０代だったのかな。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "わりと年配の人が来てるという感じが多くて"
+                }
+            }
+        },
+        {
+            "id": 22,
+            "speaker": "B",
+            "utterance": "それで、仕事もあるし、毎週同じ日に通えないし、それからすごくおじさん、おばさんが多いと思って、「ちょっとこれ通えないな」と思ってあきらめちゃってたんですよ。",
+            "understand": {
+                "MI": {
+                    "disreason_frequency_1": "仕事もあるし、毎週同じ日に通えないし、それからすごくおじさん、おばさんが多い"
+                }
+            }
+        },
+        {
+            "id": 23,
+            "speaker": "B",
+            "utterance": "それが、ずーっと時間がたってから、職場で耳の聞こえない人がいらっしゃったことがあって、で、それまで例えばアメリカ人の人が来たり、例えば中国の人が来たりとか、いろいろ外国人が来ることはあっても、聾の人が来ることってなかったんですね。",
+            "understand": {
+                "MI": {
+                    "reason_1": "職場で耳の聞こえない人がいらっしゃったことがあって"
+                }
+            }
+        },
+        {
+            "id": 24,
+            "speaker": "B",
+            "utterance": "で、聾者が来て、言葉が、発声ができないので、身ぶり手ぶりというか、そういう感じで聞かれて、それで、ありがとうという手話をされたんです。"
+        },
+        {
+            "id": 25,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 26,
+            "speaker": "B",
+            "utterance": "「ありがとうございます」って言われて、「ありがとう」って言いながらのジェスチャーだったので、「きっとこれはありがとうなんだ」っていうふうに自分が理解したぐらい何も知らなくて、「でも、この人と、今、私がちゃんと手話で会話ができたらよかったのになー」って、ふと思ったんです。",
+            "understand": {
+                "MI": {
+                    "reason_1": "「でも、この人と、今、私がちゃんと手話で会話ができたらよかったのになー」って、ふと思ったんです"
+                }
+            }
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "そのときは人気のある美術展をやっていて、そのチラシを、無料でお配りしてるチラシがあるんですけど、それがもうなくなっちゃったんですね。"
+        },
+        {
+            "id": 28,
+            "speaker": "B",
+            "utterance": "で、その聾の方いらっしゃったら、「チラシないのか？」というようなことを聞かれたんですよ。"
+        },
+        {
+            "id": 29,
+            "speaker": "B",
+            "utterance": "それは今ちょっと記憶になくって、筆談だったか、口、声だけは出されてたのか忘れちゃったんですけど、「ないです」って言ったらすぐ分かって、「ああ、残念」みたいな顔されて、でも、「ありがとう」っていう、その「ありがとう」は手話だったんですよ。"
+        },
+        {
+            "id": 30,
+            "speaker": "B",
+            "utterance": "で、「自分はもっとちゃんと、ほかのお客さまにするように、同じように手話でちゃんとサービスできればよかった」とか、「説明ができればよかったのにできなかった」っていう気持ちがすごく強くて、いつかやろうって＠そのときに思ったんですよ。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "「自分はもっとちゃんと、ほかのお客さまにするように、同じように手話でちゃんとサービスできればよかった」とか、「説明ができればよかったのにできなかった」っていう気持ちがすごく強くて、いつかやろうって＠そのときに思った"
+                }
+            }
+        },
+        {
+            "id": 31,
+            "speaker": "B",
+            "utterance": "で、そのときに帰り道、仕事終わっての帰り道、職場の同僚と一緒に帰ったんですけど、「私、手話やってみようかなと思う」というふうに突然私が言ったんですね。"
+        },
+        {
+            "id": 32,
+            "speaker": "A",
+            "utterance": "はい、はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい、はい。"
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "B",
+            "utterance": "なんか分からないけど言ったんですね。"
+        },
+        {
+            "id": 34,
+            "speaker": "B",
+            "utterance": "したら、同僚が「いいんじゃない」って、「うん、やってみたらいいと思う」って言われて、じゃあ、これはいつかやる夢の中に入れようと思っていたんです。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "同僚が「いいんじゃない」って、「うん、やってみたらいいと思う」って言われて、じゃあ、これはいつかやる夢の中に入れようと思っていた"
+                }
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "そしたら、あるとき、町の広報を見たら、月曜日から手話の入門講座を、４月から手話の入門講座が始まりますというのを見て、それが月曜日だったんです。",
+            "understand": {
+                "MI": {
+                    "reason_time_positive_1": "月曜日から手話の入門講座を、４月から手話の入門講座が始まりますというのを見て、それが月曜日だった"
+                }
+            }
+        },
+        {
+            "id": 36,
+            "speaker": "B",
+            "utterance": "で、毎週月曜日は私はお休みというふうに決まっているので、美術館が月曜日お休みだから、その日だけは絶対にお休みなんですね。",
+            "understand": {
+                "MI": {
+                    "reason_time_positive_1": "毎週月曜日は私はお休みというふうに決まっている"
+                }
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "B",
+            "utterance": "ほかの日はお休みを申請しないといけないので、何曜日に何かお稽古事ってちょっと難しい職場なんですよ。"
+        },
+        {
+            "id": 38,
+            "speaker": "B",
+            "utterance": "だけど、月曜なら通えると思って、「これはいい。ちょっと申し込んでみよう」と思って、で、申し込んだら、ちょうど空きがあって、ぎりぎりだったんですけど入れたんですね。",
+            "understand": {
+                "MI": {
+                    "reason_time_positive_1": "月曜なら通える",
+                    "confidence_2": "申し込んだら、ちょうど空きがあって、ぎりぎりだったんですけど入れた"
+                }
+            }
+        },
+        {
+            "id": 39,
+            "speaker": "B",
+            "utterance": "それが去年の４月で、そのときに「よし、やろう」という気持ちがすごく強かったので、「ああ、やりたい」というふうに気持ちが高まって、その勢いで講座に毎週通い、地元の手話サークルに入り、それで毎週、最低２回は手話に触れるということをしながら、いろいろ自分でも工夫して手話をできる場所を探しながら、少しでもうまくなりたいなっていうふうに。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "「よし、やろう」という気持ちがすごく強かったので、「ああ、やりたい」というふうに気持ちが高まって",
+                    "confidence_frequency_2": "講座に毎週通い、地元の手話サークルに入り、それで毎週、最低２回は手話に触れるということをしながら、いろいろ自分でも工夫して手話をできる場所を探しながら",
+                    "thought_positive_3": "少しでもうまくなりたい"
+                }
+            }
+        },
+        {
+            "id": 40,
+            "speaker": "A",
+            "utterance": "ああ、少しでもうまくなりたい。",
+            "utterance_request": {
+                "utterance_request": "{thought_positive}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "ああ、少しでもうまくなりたい。"
+            }
+        },
+        {
+            "id": 41,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 42,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 43,
+            "speaker": "B",
+            "utterance": "そういうふうに思っているんですよ。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "そういうふうに思っている"
+                }
+            }
+        },
+        {
+            "id": 44,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 45,
+            "speaker": "A",
+            "utterance": "どうですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "どうですか？"
+            }
+        },
+        {
+            "id": 46,
+            "speaker": "A",
+            "utterance": "今、ちょうど１年ぐらい？",
+            "utterance_request": {
+                "utterance_request": "今、ちょうど{detail_quantity_summary}ぐらい？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "今、ちょうど１年ぐらい？"
+            }
+        },
+        {
+            "id": 47,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 48,
+            "speaker": "A",
+            "utterance": "どんな感じですか？"
+        },
+        {
+            "id": 49,
+            "speaker": "A",
+            "utterance": "１年前と比べ。",
+            "utterance_request": {
+                "utterance_request": "{detail_quantity_summary}前と比べどんな感じですか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "１年前と比べ。"
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "B",
+            "utterance": "ああ。"
+        },
+        {
+            "id": 51,
+            "speaker": "B",
+            "utterance": "びっくりしたのが、当たり前なんですけど、ながら勉強ができないということがびっくりしたことで、例えば英語だったら、耳で聞きながら勉強ってできるんですよね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "ながら勉強ができない"
+                }
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "B",
+            "utterance": "だから、例えば洗濯機を回しながら、いろんな家事をしながら、ずっと聞いてリスニングの勉強とかできるはずなんですよね。"
+        },
+        {
+            "id": 53,
+            "speaker": "B",
+            "utterance": "できるんだけど、だけど、手話ってできなくて、じーっと見てないと。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "手話ってできなくて、じーっと見てないと"
+                }
+            }
+        },
+        {
+            "id": 54,
+            "speaker": "A",
+            "utterance": "そうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "そうですね。"
+            }
+        },
+        {
+            "id": 55,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 56,
+            "speaker": "B",
+            "utterance": "その時間、そこに集中しないと、なんにもならない。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "その時間、そこに集中しないと、なんにもならない"
+                }
+            }
+        },
+        {
+            "id": 57,
+            "speaker": "A",
+            "utterance": "そうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "そうですね。"
+            }
+        },
+        {
+            "id": 58,
+            "speaker": "A",
+            "utterance": "入ってこないですもんね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disreason",
+                "utterance": "入ってこないですもんね。"
+            }
+        },
+        {
+            "id": 59,
+            "speaker": "B",
+            "utterance": "何も入ってこないです。"
+        },
+        {
+            "id": 60,
+            "speaker": "B",
+            "utterance": "耳からの情報ってゼロなので、とにかく目だけは追わなくちゃいけないし、目でこうやって見ていると、全てのものが止まるんですね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "耳からの情報ってゼロなので、とにかく目だけは追わなくちゃいけないし、目でこうやって見ていると、全てのものが止まる"
+                }
+            }
+        },
+        {
+            "id": 61,
+            "speaker": "A",
+            "utterance": "そうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "そうですね。"
+            }
+        },
+        {
+            "id": 62,
+            "speaker": "B",
+            "utterance": "何かをしながらとかできない。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "何かをしながらとかできない"
+                }
+            }
+        },
+        {
+            "id": 63,
+            "speaker": "B",
+            "utterance": "できない、できない。"
+        },
+        {
+            "id": 64,
+            "speaker": "B",
+            "utterance": "もう運動もできないし、何か物を、それこそ洗濯物も畳めないんですよ。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "運動もできないし、何か物を、それこそ洗濯物も畳めないんですよ"
+                }
+            }
+        },
+        {
+            "id": 65,
+            "speaker": "B",
+            "utterance": "こうね。"
+        },
+        {
+            "id": 66,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 67,
+            "speaker": "B",
+            "utterance": "目がこういっちゃってますからね。"
+        },
+        {
+            "id": 68,
+            "speaker": "B",
+            "utterance": "それが一番自分としては困ったところで、あれ、もっと時間っていろいろに使えたはずなのに、これじゃ時間のやりくりができない。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "それが一番自分としては困った",
+                    "disreason_negative_2": "もっと時間っていろいろに使えたはずなのに、これじゃ時間のやりくりができない"
+                }
+            }
+        },
+        {
+            "id": 69,
+            "speaker": "A",
+            "utterance": "あー、あー、あー、あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー、あー、あー、あー。"
+            }
+        },
+        {
+            "id": 70,
+            "speaker": "B",
+            "utterance": "何かをしながらするというふうにずーっと思ってやってきたから、これはちゃんと時間をつくらないと、この勉強進まないというふうに思って、なかなか思ったよりは進んでません。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "ちゃんと時間をつくらないと、この勉強進まないというふうに思って"
+                }
+            }
+        },
+        {
+            "id": 71,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 72,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 73,
+            "speaker": "A",
+            "utterance": "手話をやりたいけれども",
+            "utterance_request": {
+                "utterance_request": "{theme_summary}をやりたいけれども。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "手話をやりたいけれども"
+            }
+        },
+        {
+            "id": 74,
+            "speaker": "B",
+            "utterance": "難しいです。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "難しい"
+                }
+            }
+        },
+        {
+            "id": 75,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 76,
+            "speaker": "A",
+            "utterance": "難しいというのは、なぜですか?",
+            "utterance_request": {
+                "utterance_request": "{thought_negative}というのは、なぜですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "disreason_time",
+                "utterance": "難しいというのは、なぜですか?"
+            }
+        },
+        {
+            "id": 77,
+            "speaker": "B",
+            "utterance": "時間。"
+        },
+        {
+            "id": 78,
+            "speaker": "A",
+            "utterance": "時間ですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "disreason_time",
+                "utterance": "時間ですか？"
+            }
+        },
+        {
+            "id": 79,
+            "speaker": "B",
+            "utterance": "時間の捻出が難しいっていうことと、例えば英語を勉強したかったら、手話も英語も１つの言語なんだけれども、全然違うのが、それを話してる国がないんですね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "時間の捻出が難しい",
+                    "disreason_negative_2": "それを話してる国がないんです"
+                }
+            }
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "そうなんですよ。"
+        },
+        {
+            "id": 81,
+            "speaker": "B",
+            "utterance": "アメリカに行ったらとか、イギリスに行ったら、英語の勉強になるじゃないですか。"
+        },
+        {
+            "id": 82,
+            "speaker": "A",
+            "utterance": "違うんですね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disreason",
+                "utterance": "違うんですね。"
+            }
+        },
+        {
+            "id": 83,
+            "speaker": "B",
+            "utterance": "違うんですよね。"
+        },
+        {
+            "id": 84,
+            "speaker": "B",
+            "utterance": "だって、ないじゃないですか。"
+        },
+        {
+            "id": 85,
+            "speaker": "B",
+            "utterance": "そこの国ってないので、日本手話を話してる国というのがないから、日本手話を話してる人たちのところに行くしかないんですよね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "日本手話を話してる国というのがないから、日本手話を話してる人たちのところに行くしかないんです"
+                }
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "A",
+            "utterance": "うんうん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うんうん。"
+            }
+        },
+        {
+            "id": 87,
+            "speaker": "B",
+            "utterance": "でも、そういう国はないから、海外旅行みたいに行けないし、いきおいそのコミュニティの中に飛び込んでいくしかないんですよ。"
+        },
+        {
+            "id": 88,
+            "speaker": "B",
+            "utterance": "そうすると、気軽に海外旅行楽しみながら英語も勉強みたいな感じには全然ならなくって、その人たちの持ってる問題点まで抱えながら、感じながら、飛び込んでいくしかないんですね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "その人たちの持ってる問題点まで抱えながら、感じながら、飛び込んでいくしかないんです"
+                }
+            }
+        },
+        {
+            "id": 89,
+            "speaker": "A",
+            "utterance": "はい、はい、はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい、はい、はい。"
+            }
+        },
+        {
+            "id": 90,
+            "speaker": "B",
+            "utterance": "なので、すごく負担が大きいというか、楽しく勉強と思っていた気持ちと、いや、要求されてることというのが全然違ってて、いきなり言葉を勉強したかったはずなのが、「福祉ですよ」というふうに言われたっていう、突き付けられたというのが、自分にとってもカルチャーショックです。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "すごく負担が大きいというか、楽しく勉強と思っていた気持ちと、いや、要求されてることというのが全然違ってて、いきなり言葉を勉強したかったはずなのが、「福祉ですよ」というふうに言われたっていう、突き付けられた",
+                    "disthought_negative_2": "自分にとってもカルチャーショックです"
+                }
+            }
+        },
+        {
+            "id": 91,
+            "speaker": "A",
+            "utterance": "あー、なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disthought",
+                "utterance": "あー、なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 92,
+            "speaker": "A",
+            "utterance": "うん、うん、うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん、うん、うん。"
+            }
+        },
+        {
+            "id": 93,
+            "speaker": "B",
+            "utterance": "それでやめていく人もかなりいます。"
+        },
+        {
+            "id": 94,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "B",
+            "utterance": "「楽しそうと思ってやったんだけど、なんだ、福祉なんだ」とか、「自分はそんなボランティア精神ないからやめます」とか、それでやめちゃう人もすごいいます。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "「楽しそうと思ってやったんだけど、なんだ、福祉なんだ」とか、「自分はそんなボランティア精神ないからやめます」とか"
+                }
+            }
+        },
+        {
+            "id": 96,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 97,
+            "speaker": "A",
+            "utterance": "でも、ご自分ではやっぱりうまくなりたいという。",
+            "utterance_request": {
+                "utterance_request": "でも、ご自分ではやっぱり{thought_positive_summary}という。"
+            }
+        },
+        {
+            "id": 98,
+            "speaker": "B",
+            "utterance": "うーん、すごい思います。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "すごい思います"
+                }
+            }
+        },
+        {
+            "id": 99,
+            "speaker": "B",
+            "utterance": "なんだろう。"
+        },
+        {
+            "id": 100,
+            "speaker": "A",
+            "utterance": "うまくなれると、どんなことができたり、どんな気持ちになったりするんでしょう？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "うまくなれると、どんなことができたり、どんな気持ちになったりするんでしょう？"
+            }
+        },
+        {
+            "id": 101,
+            "speaker": "B",
+            "utterance": "手話ってすごい便利なんですね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "手話ってすごい便利なんです"
+                }
+            }
+        },
+        {
+            "id": 102,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 103,
+            "speaker": "B",
+            "utterance": "遠くにいる人と会話ができたり、電車の窓越しでもできますし、あと、話の割り込みも簡単なんですね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "遠くにいる人と会話ができたり、電車の窓越しでもできますし、あと、話の割り込みも簡単なんです"
+                }
+            }
+        },
+        {
+            "id": 104,
+            "speaker": "B",
+            "utterance": "ちょうど私、今ここに来る前にお昼ご飯を食べてきたんですけど、手話の聾者の方が働いているカフェがあるんですよ。"
+        },
+        {
+            "id": 105,
+            "speaker": "B",
+            "utterance": "そこは注文が指さしか手話かどっちかなんですね。"
+        },
+        {
+            "id": 106,
+            "speaker": "B",
+            "utterance": "それが東京に２軒あって、そこがちょっと珍しいんですけど、そこはおいしいので、おいしくて、まあまあリーズナブルなので、地元のＯＬさんたちもちょうど来るんですね。"
+        },
+        {
+            "id": 107,
+            "speaker": "B",
+            "utterance": "来て、指さしで注文して、「ここ静かだからいい」とか、「おいしいからいい」とかといって結構ごった返すんですけど、そこは手話で注文できるし、ごった返してても、脇からこうやってやると見てもらえるので、こうやって帰れるんですけど、しゃべってると、この人割り込んできたって感じになっちゃうじゃないですか。"
+        },
+        {
+            "id": 108,
+            "speaker": "B",
+            "utterance": "でも、手話だと普通なんですね。"
+        },
+        {
+            "id": 109,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "B",
+            "utterance": "特に。"
+        },
+        {
+            "id": 111,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "B",
+            "utterance": "そうなんですよ。"
+        },
+        {
+            "id": 113,
+            "speaker": "A",
+            "utterance": "すっと。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "すっと。"
+            }
+        },
+        {
+            "id": 114,
+            "speaker": "B",
+            "utterance": "あっちもこっち見ればいいだけなので。"
+        },
+        {
+            "id": 115,
+            "speaker": "A",
+            "utterance": "視界に入れば。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "視界に入れば。"
+            }
+        },
+        {
+            "id": 116,
+            "speaker": "B",
+            "utterance": "そうそう、そうそう。"
+        },
+        {
+            "id": 117,
+            "speaker": "B",
+            "utterance": "バイバイ、なんとかってしながら身ぶりでできるから、こっちで会話をしながら、こっちでも会話ができたり、遠くでもオッケーとか、あと、一言だけでも済んじゃう。"
+        },
+        {
+            "id": 118,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 119,
+            "speaker": "B",
+            "utterance": "ちょうど私は、私が席を空ければ、次のお客さまが入れるというタイミングだったんですよ。"
+        },
+        {
+            "id": 120,
+            "speaker": "B",
+            "utterance": "で、「私、ご飯食べ終わったから、どうぞ次のお客さまを通してください」って言いたいのを「終わった」っていう、この手話だけですぐ分かってもらえて、店員さんに「終わったよー」って言ったら、「ありがとうございます」という手話をされて、全部それで通じたんですね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "「私、ご飯食べ終わったから、どうぞ次のお客さまを通してください」って言いたいのを「終わった」っていう、この手話だけですぐ分かってもらえて、店員さんに「終わったよー」って言ったら、「ありがとうございます」という手話をされて、全部それで通じたんですね"
+                }
+            }
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "だから、席が空いたからとか永遠しゃべらなくてよくて、これだけで済んじゃったので簡単ってあらためて思いました。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "これだけで済んじゃったので簡単ってあらためて思いました"
+                }
+            }
+        },
+        {
+            "id": 122,
+            "speaker": "A",
+            "utterance": "ほー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ほー。"
+            }
+        },
+        {
+            "id": 123,
+            "speaker": "B",
+            "utterance": "そういう利点も。"
+        },
+        {
+            "id": 124,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 125,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 126,
+            "speaker": "B",
+            "utterance": "あるし、手話を知ってる人だったら、バスの窓越しでも「またね」とかってやると、「バイバイ」とかっていうふうになるし、「来週サークルあったっけ」とかっていうのも、窓越しにできたりとかできるので、それを普通に私たちは聞こえるけれども、別にほかの人が見てようが見てまいが、気にさえしなければ普通にできますし。"
+        },
+        {
+            "id": 127,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 128,
+            "speaker": "B",
+            "utterance": "あとは、静かにしていなきゃいけないところでも大騒ぎできる。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "静かにしていなきゃいけないところでも大騒ぎできる"
+                }
+            }
+        },
+        {
+            "id": 129,
+            "speaker": "B",
+            "utterance": "＠それこそ美術館みたいなところとか、映画とか見ながらも、「この映画、最低」とかってやったりしながら、大騒ぎしながら見られるので気楽ですよね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "美術館みたいなところとか、映画とか見ながらも、「この映画、最低」とかってやったりしながら、大騒ぎしながら見られるので気楽です"
+                }
+            }
+        },
+        {
+            "id": 130,
+            "speaker": "A",
+            "utterance": "気楽?",
+            "utterance_request": {
+                "utterance_request": "{thought_summary}?"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "気楽?"
+            }
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 132,
+            "speaker": "B",
+            "utterance": "コミュニケーションが、音を使わないコミュニケーションと音を使うコミュニケーションと両方できるというのは、自分にとっても世界が広がった感じがあって、「なんだ、これ楽しい」という。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "コミュニケーションが、音を使わないコミュニケーションと音を使うコミュニケーションと両方できるというのは、自分にとっても世界が広がった感じがあって、「なんだ、これ楽しい」という"
+                }
+            }
+        },
+        {
+            "id": 133,
+            "speaker": "A",
+            "utterance": "おー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "おー。"
+            }
+        },
+        {
+            "id": 134,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 135,
+            "speaker": "B",
+            "utterance": "ちょっと暗号っぽくもあり。"
+        },
+        {
+            "id": 136,
+            "speaker": "A",
+            "utterance": "うん、そうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "うん、そうですね。"
+            }
+        },
+        {
+            "id": 137,
+            "speaker": "B",
+            "utterance": "うん、楽しさが。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "楽しさが"
+                }
+            }
+        },
+        {
+            "id": 138,
+            "speaker": "A",
+            "utterance": "楽しさがある。",
+            "utterance_request": {
+                "utterance_request": "{thought_positive}ある。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "楽しさがある。"
+            }
+        },
+        {
+            "id": 139,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 140,
+            "speaker": "B",
+            "utterance": "ありますね。"
+        },
+        {
+            "id": 141,
+            "speaker": "B",
+            "utterance": "あと、伝わりやすさとか、気持ちが今伝わったという瞬間が、こたえられない良さというか。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "伝わりやすさとか、気持ちが今伝わったという瞬間が、こたえられない良さというか"
+                }
+            }
+        },
+        {
+            "id": 142,
+            "speaker": "A",
+            "utterance": "こたえられない良さ？",
+            "utterance_request": {
+                "utterance_request": "{thought_positive_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "こたえられない良さ？"
+            }
+        },
+        {
+            "id": 143,
+            "speaker": "B",
+            "utterance": "あー、たまらないという、たまらないという良さがありますね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "たまらないという、たまらないという良さがあります"
+                }
+            }
+        },
+        {
+            "id": 144,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 145,
+            "speaker": "A",
+            "utterance": "そうか。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "そうか。"
+            }
+        },
+        {
+            "id": 146,
+            "speaker": "A",
+            "utterance": "じゃあ、そのたまらないという良さとかも感じられるし、すごくいいコミュニケーションだけれども、その時間の捻出と、ちょっと、なんていうか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": [
+                    "positive",
+                    "negative"
+                ],
+                "utterance": "じゃあ、そのたまらないという良さとかも感じられるし、すごくいいコミュニケーションだけれども、その時間の捻出と、ちょっと、なんていうか。"
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "B",
+            "utterance": "福祉関係の重い話みたいなのも、やっぱり一緒に、どうしても差別されている人たちなので、学校も別々だし、社会も、雇用とかもなかなか難しいしって、いろいろそういう問題がある。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "福祉関係の重い話みたいなのも、やっぱり一緒に"
+                }
+            }
+        },
+        {
+            "id": 148,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 149,
+            "speaker": "B",
+            "utterance": "まだまだ問題が改善されていない社会なので、なかなか、ただ言葉を学んで通じて楽しいというだけでは済まないものがあるんですよね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "言葉を学んで通じて楽しいというだけでは済まないものがある"
+                }
+            }
+        },
+        {
+            "id": 150,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 151,
+            "speaker": "B",
+            "utterance": "いろんな複雑な、ちょっとネガティブな感情だったり、いろいろなことがあるので、それが重荷とか、あとは、行政で講座をやってくれるので、それが全て私の自治体では全部無料なんですね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "いろんな複雑な、ちょっとネガティブな感情だったり、いろいろなことがあるので、それが重荷"
+                }
+            }
+        },
+        {
+            "id": 152,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 153,
+            "speaker": "B",
+            "utterance": "そうなると、なんで無料かというと、そういう聴覚障害者の人の助けになるように通訳をやってほしいから、通訳を育てたいから無料にしてるだけであって、学ばせて、それで終わっちゃったら行政としては損になっちゃうんですね。"
+        },
+        {
+            "id": 154,
+            "speaker": "A",
+            "utterance": "あー、あー、あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー、あー、あー。"
+            }
+        },
+        {
+            "id": 155,
+            "speaker": "B",
+            "utterance": "で、聴覚障害の人たちも、それは薄謝をもらいつつ教えてるので、自分たちが一生懸命教えてたり、サークルに通って一生懸命聞こえる人たちに教えるのは、なるべく手話を使える人たちを増やしたいから。"
+        },
+        {
+            "id": 156,
+            "speaker": "B",
+            "utterance": "自分たちにとって助けになる人、病院とか、公の施設とか、いろいろなことでさっとやってくれる人たちを育てたいのでやってるんであって、楽しくて終わっちゃうと、それこそ損という感じ、残念ってなっちゃうから。"
+        },
+        {
+            "id": 157,
+            "speaker": "B",
+            "utterance": "そういう面もありながら、でも、習うほうとしては楽しいからって入ってきたので、そういう負担ばかり、次は次はどんどん勉強してとかというふうになってくると、つらくなってきちゃって、「ああ、もうやめたい」とか。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "習うほうとしては楽しいからって入ってきたので、そういう負担ばかり、次は次はどんどん勉強してとかというふうになってくると、つらくなってきちゃって、「ああ、もうやめたい」とか"
+                }
+            }
+        },
+        {
+            "id": 158,
+            "speaker": "A",
+            "utterance": "あー、そこ、そこまで？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "あー、そこ、そこまで？"
+            }
+        },
+        {
+            "id": 159,
+            "speaker": "B",
+            "utterance": "そうそう、そうそう。"
+        },
+        {
+            "id": 160,
+            "speaker": "A",
+            "utterance": "お気持ちとして。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "お気持ちとして。"
+            }
+        },
+        {
+            "id": 161,
+            "speaker": "B",
+            "utterance": "やめたいと思ってる人は、やっぱりすごく多いと思います。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "やめたいと思ってる人は、やっぱりすごく多いと思います"
+                }
+            }
+        },
+        {
+            "id": 162,
+            "speaker": "A",
+            "utterance": "ご自分としてはどうですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "disthought",
+                "utterance": "ご自分としてはどうですか？"
+            }
+        },
+        {
+            "id": 163,
+            "speaker": "B",
+            "utterance": "私は、すごく挫折をしかけて、特に通じないとか、あなたの手話よく分からないとか、結構はっきり言うんですね、聾の方って。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "通じないとか、あなたの手話よく分からないとか"
+                }
+            }
+        },
+        {
+            "id": 164,
+            "speaker": "B",
+            "utterance": "それでやっぱりショックとかなったり、あと、周りがみんな上手で、自分だけが取り残されてしまう感じ。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "ショックとかなったり、あと、周りがみんな上手で、自分だけが取り残されてしまう感じ"
+                }
+            }
+        },
+        {
+            "id": 165,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 166,
+            "speaker": "B",
+            "utterance": "そういうのがあると、「ああ、もうやめようかな」とか。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "ああ、もうやめようかな"
+                }
+            }
+        },
+        {
+            "id": 167,
+            "speaker": "A",
+            "utterance": "やめようかなー。",
+            "utterance_request": {
+                "utterance_request": "{disthought_negative_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disthought",
+                "utterance": "やめようかなー。"
+            }
+        },
+        {
+            "id": 168,
+            "speaker": "A",
+            "utterance": "でも、という。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disthought",
+                "utterance": "でも、という。"
+            }
+        },
+        {
+            "id": 169,
+            "speaker": "B",
+            "utterance": "思う気持ちもあります。"
+        },
+        {
+            "id": 170,
+            "speaker": "A",
+            "utterance": "けど、でも、",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disthought",
+                "utterance": "けど、でも、"
+            }
+        },
+        {
+            "id": 171,
+            "speaker": "B",
+            "utterance": "でも、"
+        },
+        {
+            "id": 172,
+            "speaker": "A",
+            "utterance": "うまくなる。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disthought",
+                "utterance": "うまくなる。"
+            }
+        },
+        {
+            "id": 173,
+            "speaker": "B",
+            "utterance": "次の日に例えば通じたりすると、それだけで「ああ、よかった」とかっていう、浮き沈みですけど、ちょっといいことがあると、「頑張ろう」とか思うし。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "次の日に例えば通じたりすると、それだけで「ああ、よかった」とかっていう、浮き沈みですけど、ちょっといいことがあると、「頑張ろう」とか思う"
+                }
+            }
+        },
+        {
+            "id": 174,
+            "speaker": "A",
+            "utterance": "あー、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "あー、なるほど。"
+            }
+        },
+        {
+            "id": 175,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 176,
+            "speaker": "B",
+            "utterance": "この間、講座は終わったんですが、ずっと１年間続けて講座を受けてて、うまくいくときもあれば、うまく自分で表現できてうまく通じるときもあれば、全然ダメな日もあったり、全然読み取れない日とかもあって、それは英語とかでもおんなじだと思うんですけど、自分のコンディションとか問題の難しさとかもあったりして。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "うまくいくときもあれば、うまく自分で表現できてうまく通じるときもあれば",
+                    "disconfidence_2": "全然ダメな日もあったり、全然読み取れない日とかもあって"
+                }
+            }
+        },
+        {
+            "id": 177,
+            "speaker": "B",
+            "utterance": "そうすると、できないと、「ああ、もうできないから、もうあきらめようかな」とか、この辺が限界かなと思ったりしちゃうので、できればうれしいし、できなければつまらないしという単純な感じで。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "「ああ、もうできないから、もうあきらめようかな」とか、この辺が限界かなと思ったりしちゃう",
+                    "thought_positive_2": "できればうれしいし",
+                    "disthought_negative_3": "できなければつまらないしという単純な感じで"
+                }
+            }
+        },
+        {
+            "id": 178,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 179,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 180,
+            "speaker": "A",
+            "utterance": "いろいろありますけれども、うれしいという気持ちのほうが強いですか？",
+            "utterance_request": {
+                "utterance_request": "いろいろありますけれども、{thought_positive_summary}という気持ちのほうが強いですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "thought",
+                "utterance": "いろいろありますけれども、うれしいという気持ちのほうが強いですか？"
+            }
+        },
+        {
+            "id": 181,
+            "speaker": "A",
+            "utterance": "それとも。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "thought",
+                "utterance": "それとも。"
+            }
+        },
+        {
+            "id": 182,
+            "speaker": "B",
+            "utterance": "今のところ強いです。",
+            "understand": {
+                "MI": {
+                    "thought_1": "今のところ強いです"
+                }
+            }
+        },
+        {
+            "id": 183,
+            "speaker": "A",
+            "utterance": "そちらが強いんですね",
+            "utterance_request": {
+                "utterance_request": "そちらが{thought_summary}んですね"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "そちらが強いんですね"
+            }
+        },
+        {
+            "id": 184,
+            "speaker": "B",
+            "utterance": "今のところ強いし、ここでやめるともったいないとか、やめたら忘れるとか、まだまだ入り口にしかいないとか。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "ここでやめるともったいないとか、やめたら忘れるとか、まだまだ入り口にしかいないとか"
+                }
+            }
+        },
+        {
+            "id": 185,
+            "speaker": "A",
+            "utterance": "では、今ちょっとお話で出てきたことに対して、ちょっと気分がダウンだったり、ちょっと重い話になってきたりという、そういったことに対して、自分がどんなふうにそれを捉えたらというのかしら。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "では、今ちょっとお話で出てきたことに対して、ちょっと気分がダウンだったり、ちょっと重い話になってきたりという、そういったことに対して、自分がどんなふうにそれを捉えたらというのかしら。"
+            }
+        },
+        {
+            "id": 186,
+            "speaker": "A",
+            "utterance": "それか、もしくは、どんな感じだと、もうちょっと自分がより続けて、行動に移しながら。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "それか、もしくは、どんな感じだと、もうちょっと自分がより続けて、行動に移しながら。"
+            }
+        },
+        {
+            "id": 187,
+            "speaker": "B",
+            "utterance": "どうなんでしょうねー。"
+        },
+        {
+            "id": 188,
+            "speaker": "A",
+            "utterance": "なんかそういうのってあります？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "なんかそういうのってあります？"
+            }
+        },
+        {
+            "id": 189,
+            "speaker": "B",
+            "utterance": "今はまだ本当に１年間勉強して、多少コミュニケーションが取れるようになったというところなので、なんか分からないことのほうが多いんですよね。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "１年間勉強して、多少コミュニケーションが取れるようになった",
+                    "disconfidence_2": "分からないことのほうが多い"
+                }
+            }
+        },
+        {
+            "id": 190,
+            "speaker": "B",
+            "utterance": "伝わらないことのほうが多くて、本当に日常的に「あした行く？」とか、「今日どうする？」とか、「ご飯食べる？」とか簡単なことは、例えば耳の聞こえない人と会話ができても、もっと深い話ができてないから、もっと通じるというか、心が近くなるというような会話はまだ全然できてないので、そうなってくると、共感できることとかも増えてくだろうし、もっともっと彼らの言ってることが読み取れるようになってくると、その距離感が近くなってくるといいのかなって。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "もっと深い話ができてないから、もっと通じるというか、心が近くなるというような会話はまだ全然できてない",
+                    "confidence_positive_2": "彼らの言ってることが読み取れるようになってくると、その距離感が近くなってくるといいのかな"
+                }
+            }
+        },
+        {
+            "id": 191,
+            "speaker": "B",
+            "utterance": "そうすると、そうそう、そうそうそう、他人ごとではなくなってくるというか、自分のこととしても捉えられたりとか、本当の姿が見えてくるのかなって。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "他人ごとではなくなってくるというか、自分のこととしても捉えられたりとか、本当の姿が見えてくるのかな"
+                }
+            }
+        },
+        {
+            "id": 192,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 193,
+            "speaker": "B",
+            "utterance": "メディアに出てくるものじゃなくって、ほんとの姿とか、現実の問題とか、いろんな面から見るとか、いろんな人がいるということを、もっと分かるようになったら。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "ほんとの姿とか、現実の問題とか、いろんな面から見るとか、いろんな人がいるということを、もっと分かるようになったら"
+                }
+            }
+        },
+        {
+            "id": 194,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 195,
+            "speaker": "B",
+            "utterance": "たぶんそのためにも、ここでやめちゃうと、ほんとに入り口で「はい、さようなら」みたいな感じがしているので、ちゃんともうドアを開けたんだったら中に入っていこうみたいな感じではありますね。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "ここでやめちゃうと、ほんとに入り口で「はい、さようなら」みたいな感じがしているので、ちゃんともうドアを開けたんだったら中に入っていこうみたいな感じではあります"
+                }
+            }
+        },
+        {
+            "id": 196,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 197,
+            "speaker": "A",
+            "utterance": "そこは負担とかではなくて、入っていきたい？",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "commitment_action",
+                "utterance": "そこは負担とかではなくて、入っていきたい？"
+            }
+        },
+        {
+            "id": 198,
+            "speaker": "B",
+            "utterance": "いきたいと思います。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "いきたいと思います。"
+                }
+            }
+        },
+        {
+            "id": 199,
+            "speaker": "B",
+            "utterance": "いきたいって、そういうふうに思います。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "いきたいって、そういうふうに思います。"
+                }
+            }
+        },
+        {
+            "id": 200,
+            "speaker": "A",
+            "utterance": "あー、そうなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "あー、そうなんですね。"
+            }
+        },
+        {
+            "id": 201,
+            "speaker": "B",
+            "utterance": "でも、それにはすごく勇気が必要というか、へこたれない気持ち、強い気持ち。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "それにはすごく勇気が必要というか、へこたれない気持ち、強い気持ち"
+                }
+            }
+        },
+        {
+            "id": 202,
+            "speaker": "A",
+            "utterance": "うん、うん、へこたれない。",
+            "utterance_request": {
+                "utterance_request": "うん、うん、{thought_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "うん、うん、へこたれない。"
+            }
+        },
+        {
+            "id": 203,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 204,
+            "speaker": "B",
+            "utterance": "気持ち。"
+        },
+        {
+            "id": 205,
+            "speaker": "A",
+            "utterance": "強い気持ち。",
+            "utterance_request": {
+                "utterance_request": "{thought_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "強い気持ち。"
+            }
+        },
+        {
+            "id": 206,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 207,
+            "speaker": "B",
+            "utterance": "英語を学んだりするのと違って、お金が発生してないこともあるんだと思うんですけど、すごくストレートに言われるんですよね。"
+        },
+        {
+            "id": 208,
+            "speaker": "B",
+            "utterance": "ダメとか、いいとか。"
+        },
+        {
+            "id": 209,
+            "speaker": "A",
+            "utterance": "うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん。"
+            }
+        },
+        {
+            "id": 210,
+            "speaker": "B",
+            "utterance": "あんまり、「英語上手になりましたねー」とかそういうんじゃなくって、お客さんじゃないので、もうどんどんストレートに言われたりするので、ダメはダメなんですよね。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "どんどんストレートに言われたりする"
+                }
+            }
+        },
+        {
+            "id": 211,
+            "speaker": "A",
+            "utterance": "うん、うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん、うん。"
+            }
+        },
+        {
+            "id": 212,
+            "speaker": "B",
+            "utterance": "でも、それがはっきりしてていいということもあるし、お客さま扱いされてないから、楽しみというだけでは終われないという感じがあって。",
+            "understand": {
+                "MI": {
+                    "thought_1": "それがはっきりしてていいということもあるし、お客さま扱いされてないから、楽しみというだけでは終われないという感じがあって"
+                }
+            }
+        },
+        {
+            "id": 213,
+            "speaker": "B",
+            "utterance": "自分が最初に始めるときにはこういう気持ちというのは全然なかったし、ただ楽しいだろうなーと思って、覚えられたら面白いだろうなと思って入ってみたら、意外にすごく社会構造まで、深い話が待ってたんだというのを知らないで来たので、知ってみると、重荷ではあるけれど、知ったほうが世界が広がるのかなっていう。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "自分が最初に始めるときにはこういう気持ちというのは全然なかったし、ただ楽しいだろうなーと思って、覚えられたら面白いだろうなと思って入ってみたら、意外にすごく社会構造まで、深い話が待ってたんだというのを知らないで来たので、知ってみると、重荷ではあるけれど、知ったほうが世界が広がるのかなっていう"
+                }
+            }
+        },
+        {
+            "id": 214,
+            "speaker": "B",
+            "utterance": "うーん、表面だけじゃなくって。"
+        },
+        {
+            "id": 215,
+            "speaker": "A",
+            "utterance": "世界が広がる。",
+            "utterance_request": {
+                "utterance_request": "{thought_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "世界が広がる。"
+            }
+        },
+        {
+            "id": 216,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 217,
+            "speaker": "B",
+            "utterance": "そこまで踏み込まないと、面白みはないのかなって。",
+            "understand": {
+                "MI": {
+                    "thought_1": "そこまで踏み込まないと、面白みはないのかな"
+                }
+            }
+        },
+        {
+            "id": 218,
+            "speaker": "A",
+            "utterance": "なるほど、そこの世界まで知っていくと。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なるほど、そこの世界まで知っていくと。"
+            }
+        },
+        {
+            "id": 219,
+            "speaker": "B",
+            "utterance": "深く入らないと、表面だけなでて終わったという感じ。",
+            "understand": {
+                "MI": {
+                    "thought_1": "深く入らないと、表面だけなでて終わったという感じ"
+                }
+            }
+        },
+        {
+            "id": 220,
+            "speaker": "A",
+            "utterance": "その面白いものが、見えてくるという気持ちがおありなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "その面白いものが、見えてくるという気持ちがおありなんですね。"
+            }
+        },
+        {
+            "id": 221,
+            "speaker": "B",
+            "utterance": "やっぱり共感するまでにまだ至らないけど、そういう実力がついてきたら、もっと共感して、もっと伝えたいということがあって、そうやって例えば１時間も２時間も手話でお話ししたり、飲んだり食べたりとかして、おんなじ時間を共有できるようになりたいなと思うし。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "やっぱり共感するまでにまだ至らない",
+                    "reason_positive_2": "そういう実力がついてきたら、もっと共感して、もっと伝えたいということがあって、そうやって例えば１時間も２時間も手話でお話ししたり、飲んだり食べたりとかして、おんなじ時間を共有できるようになりたいな"
+                }
+            }
+        },
+        {
+            "id": 222,
+            "speaker": "B",
+            "utterance": "すごくやっぱり孤立してしまいがちな人たちだったり、狭い世界でかたまっちゃう人たちなので、そういう孤立してる人が少なくなったらいいなーという希望も。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "孤立してしまいがちな人たちだったり、狭い世界でかたまっちゃう人たちなので、そういう孤立してる人が少なくなったらいいなーという希望"
+                }
+            }
+        },
+        {
+            "id": 223,
+            "speaker": "A",
+            "utterance": "希望も",
+            "utterance_request": {
+                "utterance_request": "{reason_positive_summary}も。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "希望も"
+            }
+        },
+        {
+            "id": 224,
+            "speaker": "B",
+            "utterance": "そこにちょっと役に立てればいいなという。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "ちょっと役に立てればいいな"
+                }
+            }
+        },
+        {
+            "id": 225,
+            "speaker": "A",
+            "utterance": "あー、そうなんですね、お役に立てればいいなというふうに思ってらっしゃる。",
+            "utterance_request": {
+                "utterance_request": "そうなんですね、{thought_positive_summary}というふうに思ってらっしゃる。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "あー、そうなんですね、お役に立てればいいなというふうに思ってらっしゃる。"
+            }
+        },
+        {
+            "id": 226,
+            "speaker": "B",
+            "utterance": "そういう気持ちもあります。"
+        },
+        {
+            "id": 227,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 228,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 229,
+            "speaker": "A",
+            "utterance": "ありがとうございました。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "ありがとうございました。"
+            }
+        },
+        {
+            "id": 230,
+            "speaker": "B",
+            "utterance": "ありがとうございました。"
+        }
+    ]
+}

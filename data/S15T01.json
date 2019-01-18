@@ -1,0 +1,1149 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "こんちは。",
+            "system_behavior": {
+                "purpose": "挨拶",
+                "utterance": "こんちは。"
+            }
+        },
+        {
+            "id": 1,
+            "speaker": "B",
+            "utterance": "こんにちは。"
+        },
+        {
+            "id": 2,
+            "speaker": "A",
+            "utterance": "ホリコシさんにちょっとお伺いしたいんですけど、最近何かやりたいなーと思ってることとかってあるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "ホリコシさんにちょっとお伺いしたいんですけど、最近何かやりたいなーと思ってることとかってあるんですか？"
+            }
+        },
+        {
+            "id": 3,
+            "speaker": "B",
+            "utterance": "そうですね、最近は、一番はやっぱり大学での研究に力を入れていまして。",
+            "understand": {
+                "MI": {
+                    "theme_1": "大学での研究"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "speaker": "A",
+            "utterance": "大学の研究？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "大学の研究？"
+            }
+        },
+        {
+            "id": 5,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 6,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 7,
+            "speaker": "B",
+            "utterance": "今度４月から大学４年生になるんですけれど、そこで研究室に配属されるということで、今は私、理学部の生物科学科というところにいて、主に生物の勉強をしているんですね。",
+            "understand": {
+                "MI": {
+                    "detail_1": "理学部の生物科学科というところにいて、主に生物の勉強をしている"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "speaker": "A",
+            "utterance": "生物の勉強、はい。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "生物の勉強、はい。"
+            }
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 10,
+            "speaker": "B",
+            "utterance": "なので、そこでの、いわゆる卒論を書けるような結果を残したいっていうのが、今一番やりたいことですね。",
+            "understand": {
+                "MI": {
+                    "theme_positive_1": "卒論を書けるような結果を残したい"
+                }
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 12,
+            "speaker": "A",
+            "utterance": "それすごいですねー。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "それすごいですねー。"
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "A",
+            "utterance": "なんか難しそうですけどね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "theme",
+                "utterance": "なんか難しそうですけどね。"
+            }
+        },
+        {
+            "id": 14,
+            "speaker": "B",
+            "utterance": "いえいえ。"
+        },
+        {
+            "id": 15,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "A",
+            "utterance": "それで、結果を残したい？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "それで、結果を残したい？"
+            }
+        },
+        {
+            "id": 17,
+            "speaker": "B",
+            "utterance": "そうですね、はい。"
+        },
+        {
+            "id": 18,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "B",
+            "utterance": "まだテーマも決まっていない段階なんですけれど、ＲＮＡってご存じですか？"
+        },
+        {
+            "id": 20,
+            "speaker": "A",
+            "utterance": "具体的に。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "具体的に。"
+            }
+        },
+        {
+            "id": 21,
+            "speaker": "B",
+            "utterance": "具体的に。"
+        },
+        {
+            "id": 22,
+            "speaker": "B",
+            "utterance": "よく遺伝情報とかでＤＮＡってあるじゃないですか。"
+        },
+        {
+            "id": 23,
+            "speaker": "B",
+            "utterance": "それの仲間みたいなもので、ＤＮＡではなく、ＲＮＡというものがあるんですけれど、ＲＮＡというものを使って、遺伝子の発現を抑制したり、また、遺伝子が本来あるべきところではなく別の場所に移転してしまう、トランスポゾンというものがあるんですけれど、それを抑制することで、体内での突然変異の発生を抑制したりっていう機構が生物の中にはあって、それを主に研究する研究室なんですね。"
+        },
+        {
+            "id": 24,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 25,
+            "speaker": "B",
+            "utterance": "そのメカニズム自体があることっていうのも、ここ１０年以内ぐらいに分かったもので、教授は４０代の方なんですけれど、その方が学生時代にはもちろん全然その存在すら分かっていなかったようなものなので、これからどんどん新しいことが分かってくる分野なんですね。"
+        },
+        {
+            "id": 26,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "ただ、まだやっぱり最初はモデル生物といわれている、人間よりもう少し下等な、例えばショウジョウバエだったりっていう、そういう動物から見ていくことから始まるんで、まだまだそれが人間に応用されるには、もっともっと何十年も先になってしまうかもしれないんですけれど、とりあえず卒業論文を書く段階では、もう全然ほんとに１年しかないので、そこでできる限りで、まだまだ分かっていない機構を解明していきたいなというのが、今の課題ですね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "卒業論文を書く段階では、もう全然ほんとに１年しかない",
+                    "detail_positive_2": "まだまだ分かっていない機構を解明していきたい"
+                }
+            }
+        },
+        {
+            "id": 28,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "A",
+            "utterance": "卒論を書けるような結果を残したいっていう点において、今まで何かしてきたことっていうのはあるんですか？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive}っていう点において、今まで何かしてきたことっていうのはあるんですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "卒論を書けるような結果を残したいっていう点において、今まで何かしてきたことっていうのはあるんですか？"
+            }
+        },
+        {
+            "id": 30,
+            "speaker": "B",
+            "utterance": "そうですね、うちの大学ではあまりちょっと、一般教養を勉強する期間が長くて、専門課程に入るまでが長いので、ただ、３年生になってからは、広く生物学をというか、遺伝に関してもそうですし、そういう、そこの解明に至るまでの背景とか、何が分かっていて何が分かっていないのかという段階までは勉強しているんですけれど、じゃあ、これから具体的に何を探していけばいいのかっていうのは、まだそれもこれからという段階ですね。",
+            "understand": {
+                "MI": {
+                    "confidence_action_1": "何が分かっていて何が分かっていないのかという段階までは勉強している",
+                    "disconfidence_2": "これから具体的に何を探していけばいいのかっていうのは、まだそれもこれからという段階です"
+                }
+            }
+        },
+        {
+            "id": 31,
+            "speaker": "A",
+            "utterance": "ふーん、今まではそういう感じなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "ふーん、今まではそういう感じなんですね。"
+            }
+        },
+        {
+            "id": 32,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 33,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 34,
+            "speaker": "A",
+            "utterance": "今現在としては、でも、研究するっていうことは、もう決まってらっしゃるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "今現在としては、でも、研究するっていうことは、もう決まってらっしゃるんですか？"
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 36,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 38,
+            "speaker": "B",
+            "utterance": "大学、一応入るときに、もう生物系を専攻するというのは決めて入ったんですけれど、１～２年生のうちはほとんど一般教養で、あまり、もちろん生物学もやったんですけれど、他の関係ない、関係ないというか、英語だったり、数学だったりというのもやっていたので、３年生になってからは、もちろんＲＮＡの研究以外にもいくつか、生物学といっても広いので、他の進化系統だったりとか、たんぱく質、体内のたんぱく質の構造を解析する研究室だったりとかもあるので、それを広く、生物学ってどういうのがあるかなというのを勉強して、その中で私はＲＮＡに少し興味があるかなと思ってっていう、まだそこのスタートラインの段階ですね。",
+            "understand": {
+                "MI": {
+                    "reason_1": "生物学ってどういうのがあるかなというのを勉強して、その中で私はＲＮＡに少し興味がある"
+                }
+            }
+        },
+        {
+            "id": 39,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 40,
+            "speaker": "A",
+            "utterance": "ホリコシさんからして、その研究の成果、ＲＮＡの研究の成果を出したいっていうふうに思ったのは、なんでなんでしょうか？"
+        },
+        {
+            "id": 41,
+            "speaker": "B",
+            "utterance": "やっぱり生物系、生物系じゃなくてもそうだと思うんですけれど、研究していく上で、研究で大事なことって、やはり成果を出すことなので、研究だけ進めて「何も分かりませんでした」というのは、成果を出せないと何も社会的に前進しないですし、私たちの研究室だけではなくて、世界中で似たようなことをやってる研究室というのはいくつかあるので、でも、そこに、それより先に、自分たちが先に、世の中に広めるっていうのももちろん大事なことですし、あと、学生の身分ではあまりまだまだというところなんですけれど、もっと大学院生になったり、大学院を出て社会人として大学で研究を進めていく中では、成果を出すことで研究室の予算が取れるんですね。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "成果を出せないと何も社会的に前進しない",
+                    "reason_positive_2": "自分たちが先に、世の中に広めるっていうのももちろん大事なことですし、あと、学生の身分ではあまりまだまだというところなんですけれど、もっと大学院生になったり、大学院を出て社会人として大学で研究を進めていく中では、成果を出すことで研究室の予算が取れる"
+                }
+            }
+        },
+        {
+            "id": 42,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 43,
+            "speaker": "B",
+            "utterance": "国からの予算もそうですし、国以外の似たような研究機関からの予算というのもそうなので、やはりほんとに卒業論文程度ではなんにもならないんですけれど、将来的にはやっぱりそういうふうに研究費を取って、研究室に貢献したり、世の中に貢献するという形で成果も残せたらいいなとは思っています。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "研究費を取って、研究室に貢献したり、世の中に貢献するという形で成果も残せたらいいな"
+                }
+            }
+        },
+        {
+            "id": 44,
+            "speaker": "A",
+            "utterance": "なるほど、ふーん。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なるほど、ふーん。"
+            }
+        },
+        {
+            "id": 45,
+            "speaker": "A",
+            "utterance": "じゃあ、そういう予算とか、より良くしていくために、研究での成果を出したいっていうことをお考えなんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "じゃあ、そういう予算とか、より良くしていくために、研究での成果を出したいっていうことをお考えなんですか？"
+            }
+        },
+        {
+            "id": 46,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 47,
+            "speaker": "B",
+            "utterance": "研究、ほんとにまだまだ人に応用できる段階ではないので、なんとも言えないんですけれど、やっぱりゆくゆくは、世間的な関心というのは、人の病気が治るとか、薬ができるとか、そういうことにつながると思うので、世の中のニーズに応えるという点では、やっぱり機構を解明することで病気にどうしたらなりにくくなるかとか、そこに、あわよくば、つなげられればいいかなと思いますね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "世の中のニーズに応えるという点では、やっぱり機構を解明することで病気にどうしたらなりにくくなるかとか、そこに、あわよくば、つなげられればいいかな"
+                }
+            }
+        },
+        {
+            "id": 48,
+            "speaker": "A",
+            "utterance": "うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん。"
+            }
+        },
+        {
+            "id": 49,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "A",
+            "utterance": "あわよくばといいますと？",
+            "utterance_request": {
+                "utterance_request": "{reason_positive_summary}といいますと？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "あわよくばといいますと？"
+            }
+        },
+        {
+            "id": 51,
+            "speaker": "B",
+            "utterance": "あわよくば。"
+        },
+        {
+            "id": 52,
+            "speaker": "B",
+            "utterance": "もともと、やっぱり医学系とはちょっと違うので、医学系・薬学系だともうそこに、ダイレクトに治療や創薬につながると思うんですけれど、生物学の基礎研究って、例えば遺伝情報の本質がＤＮＡだということが分かったところで、「分かって何がうれしいの？」っていうことってきっとあると思っていて、それは数学も同じですし、その定理を見つけた、けど、それは本当に実際に生活に役に立つかっていうところだと、なかなか一般的に、どういうふうに役に立っているかっていうのを実感できない部分も多いので、やっぱりどうしても医療に応用するというふうになってしまうと、あわよくばという、ほんとに、そこだけがゴールではないというか。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "本当に実際に生活に役に立つかっていうところだと、なかなか一般的に、どういうふうに役に立っているかっていうのを実感できない部分も多い"
+                }
+            }
+        },
+        {
+            "id": 53,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 54,
+            "speaker": "A",
+            "utterance": "じゃあ、研究の成果を出したいって最初におっしゃってたんですけど、そのためにはどうしたらいいかなというふうにお考えなんですか？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive}って最初におっしゃってたんですけど、そのためにはどうしたらいいかなというふうにお考えなんですか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "じゃあ、研究の成果を出したいって最初におっしゃってたんですけど、そのためにはどうしたらいいかなというふうにお考えなんですか？"
+            }
+        },
+        {
+            "id": 55,
+            "speaker": "B",
+            "utterance": "そうですね、やっぱり大事なのは、例えばなんですけれど、ここの反応で関わっているたんぱく質が何かというのを同定するときに、「これかな」という当たりを付けて調べてみるのもいいんですけれど、やっぱり「これは違うかな」っていうものをやって、どんどんつぶしていく、「これは違ったね、違ったね、違ったね」というふうにやっていくことで、選択肢を絞っていく。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "「これかな」という当たりを付けて調べてみるのもいいんですけれど、やっぱり「これは違うかな」っていうものをやって、どんどんつぶしていく、「これは違ったね、違ったね、違ったね」というふうにやっていくことで、選択肢を絞っていく"
+                }
+            }
+        },
+        {
+            "id": 56,
+            "speaker": "B",
+            "utterance": "当たりを付けて当たりを探すより、まず外れをつぶしていくっていうのも大事なんじゃないかなと私は思っています。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "当たりを付けて当たりを探すより、まず外れをつぶしていく"
+                }
+            }
+        },
+        {
+            "id": 57,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 58,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 59,
+            "speaker": "A",
+            "utterance": "卒論を書けるような結果を残すというのは、実際にはどういうことなんですかね？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive}というのは、実際にはどういうことなんですかね？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "卒論を書けるような結果を残すというのは、実際にはどういうことなんですかね？"
+            }
+        },
+        {
+            "id": 60,
+            "speaker": "B",
+            "utterance": "そうですね、ほんとにまだまだ解明がこれからという分野なので、いくらでも、全然構造に何が関わってるか分からない部分っていうのがたくさんあるので、それを１つでも見つけられれば、一応論文を出せるような成果にはなるんですけれど。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "全然構造に何が関わってるか分からない部分っていうのがたくさんあるので、それを１つでも見つけられれば、一応論文を出せるような成果にはなる"
+                }
+            }
+        },
+        {
+            "id": 61,
+            "speaker": "A",
+            "utterance": "論文を出せるような成果ですか？",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}ですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "論文を出せるような成果ですか？"
+            }
+        },
+        {
+            "id": 62,
+            "speaker": "B",
+            "utterance": "一概に、難しいですね、それは。"
+        },
+        {
+            "id": 63,
+            "speaker": "B",
+            "utterance": "とりあえず私は卒業しなければいけないので、卒業論文をとりあえず最低出さなければいけないんですけれど。",
+            "understand": {
+                "MI": {
+                    "reason_1": "私は卒業しなければいけないので、卒業論文をとりあえず最低出さなければいけない"
+                }
+            }
+        },
+        {
+            "id": 64,
+            "speaker": "A",
+            "utterance": "まずは、はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "まずは、はい。"
+            }
+        },
+        {
+            "id": 65,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 66,
+            "speaker": "B",
+            "utterance": "やっぱりその研究の分野というか、業界においてだったり、社会的にそれが価値の成果と言われるかと言われれば、自分にとってはあっても、あまり他の人からはそんなに大事じゃないと思われてしまうかもしれませんし、一概に成果が何かというのは難しいんですけれど、とりあえず今の私が目指すところとしては、卒業論文を書くに値するようなものを。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "その研究の分野というか、業界においてだったり、社会的にそれが価値の成果と言われるかと言われれば、自分にとってはあっても、あまり他の人からはそんなに大事じゃないと思われてしまうかもしれませんし、一概に成果が何かというのは難しい",
+                    "detail_positive_2": "私が目指すところとしては、卒業論文を書くに値するようなものを"
+                }
+            }
+        },
+        {
+            "id": 67,
+            "speaker": "A",
+            "utterance": "卒業論文なんですね。",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}なんですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "卒業論文なんですね。"
+            }
+        },
+        {
+            "id": 68,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 69,
+            "speaker": "B",
+            "utterance": "発見することですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "発見することです"
+                }
+            }
+        },
+        {
+            "id": 70,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 71,
+            "speaker": "A",
+            "utterance": "その何か成果っていうか、ダメを減らしていくとか、そういう何かが分からないと、論文自体も書けないんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "その何か成果っていうか、ダメを減らしていくとか、そういう何かが分からないと、論文自体も書けないんですか？"
+            }
+        },
+        {
+            "id": 72,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 73,
+            "speaker": "B",
+            "utterance": "新しいことが分からないと、基本的には私たちの分野では論文は書けないので。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "新しいことが分からないと、基本的には私たちの分野では論文は書けない"
+                }
+            }
+        },
+        {
+            "id": 74,
+            "speaker": "B",
+            "utterance": "ただ、卒業論文程度であれば、「このたんぱく質は違いました」という、それだけでも１つの論文にはなるので、実際簡単なように見えて、１年かけてその程度の、「外れが１個見つかった」というぐらいの論文しか書けないというのは、ほんとによくあることなので、それだけでも見つかれば、とりあえずこの１年間はいいのかなと思っていますね。",
+            "understand": {
+                "MI": {
+                    "detail_1": "卒業論文程度であれば、「このたんぱく質は違いました」という、それだけでも１つの論文にはなる"
+                }
+            }
+        },
+        {
+            "id": 75,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 76,
+            "speaker": "A",
+            "utterance": "「ただ何かしてきました」は論文にはならないわけですね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "「ただ何かしてきました」は論文にはならないわけですね？"
+            }
+        },
+        {
+            "id": 77,
+            "speaker": "B",
+            "utterance": "そうですね、結局、「失敗してしまった」ばっかりだと、その失敗も何が原因で、これがダメだったっていう新しいことが分かればいいんですけれど、新しいことが分からないと、ちょっと論文にはできないですね。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "新しいことが分からないと、ちょっと論文にはできない"
+                }
+            }
+        },
+        {
+            "id": 78,
+            "speaker": "A",
+            "utterance": "「これはやったけど、ダメだった」では論文にはならないんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disturbance",
+                "utterance": "「これはやったけど、ダメだった」では論文にはならないんですね。"
+            }
+        },
+        {
+            "id": 79,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "「それは他の人もやって同じようにダメだったよね」って言われてしまったら終わりなので。"
+        },
+        {
+            "id": 81,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 82,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disturbance",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 83,
+            "speaker": "A",
+            "utterance": "じゃあ、今は論文、研究の成果を出すというのは、論文のためっていうところなんですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "じゃあ、今は論文、研究の成果を出すというのは、論文のためっていうところなんですかね？"
+            }
+        },
+        {
+            "id": 84,
+            "speaker": "B",
+            "utterance": "論文の。"
+        },
+        {
+            "id": 85,
+            "speaker": "A",
+            "utterance": "ためっていうわけじゃ？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "ためっていうわけじゃ？"
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "B",
+            "utterance": "ためというよりは、研究をする過程で論文は出すものではないですけれど、論文のためと言うとちょっと、大学を卒業するためだけに研究してるっていうことになってしまうので、卒業しても一応同じ大学院に入って、そのまま同じ研究は続けるつもりなので、長い目で見ていきたいなと思うんですけれど、まずは見えるところでっていうと、卒業論文になりますね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "まずは見えるところでっていうと、卒業論文になります"
+                }
+            }
+        },
+        {
+            "id": 87,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 88,
+            "speaker": "A",
+            "utterance": "じゃあ、それが終わってから、また次への目標みたいな感じにつながっていくわけですね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "じゃあ、それが終わってから、また次への目標みたいな感じにつながっていくわけですね？"
+            }
+        },
+        {
+            "id": 89,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 90,
+            "speaker": "B",
+            "utterance": "とりあえず卒論の段階では、「ここまではダメだったけれど、じゃあ、次、何かに挑戦してみよう」って、またもう少し掘り下げたり、別のところだったりっていうのを、今度は大学院に行くと修士課程で修士論文があるので、また論文っていうふうになってしまうんですけれど。"
+        },
+        {
+            "id": 91,
+            "speaker": "A",
+            "utterance": "もう大学院に行くことは決まってらっしゃるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "もう大学院に行くことは決まってらっしゃるんですか？"
+            }
+        },
+        {
+            "id": 92,
+            "speaker": "B",
+            "utterance": "一応まだ大学院の入試は受けていないので、今年なので、受からない限り行けないんですけれど、基本的には、周りの同級生もそうなんですけれど、基本的には普通にそのまま自分の上の大学院に行くので、その予定ですね。"
+        },
+        {
+            "id": 93,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 94,
+            "speaker": "B",
+            "utterance": "続けられればいいなと思っています。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "続けられればいいな"
+                }
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 96,
+            "speaker": "A",
+            "utterance": "続けられればいい",
+            "utterance_request": {
+                "utterance_request": "{thought_positive_summary}"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "続けられればいい"
+            }
+        },
+        {
+            "id": 97,
+            "speaker": "B",
+            "utterance": "将来、もうほんとに先々の将来ということですか？"
+        },
+        {
+            "id": 98,
+            "speaker": "A",
+            "utterance": "そうですね。",
+            "system_behavior": {
+                "purpose": "返答",
+                "utterance": "そうですね。"
+            }
+        },
+        {
+            "id": 99,
+            "speaker": "B",
+            "utterance": "研究、そうですね。"
+        },
+        {
+            "id": 100,
+            "speaker": "A",
+            "utterance": "結果を残したいっておっしゃってたんですけど、今後のビジョンというかですね。",
+            "utterance_request": {
+                "utterance_request": "{theme_positive}っておっしゃってたんですけど、今後のビジョンというかですね。"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "結果を残したいっておっしゃってたんですけど、今後のビジョンというかですね。"
+            }
+        },
+        {
+            "id": 101,
+            "speaker": "B",
+            "utterance": "ビジョン、そうですね、修士課程、博士課程、どこまで行くかは全然決めていないんですけれど、選択肢としては、私は自分の研究を生かした職業に就きたいと思っているので、中には理系で大学院進んでも、全然関係ない、いわゆる文系就職をして、もうほんとに研究には触れないっていう人もいるので、私はそれはちょっと今まで勉強してきたこともったいないなと思ってるので、自分の大学じゃなくても、別の大学の研究室で研究を続けるとか、あるいは普通の一般企業に入って、そういう遺伝系だったり、あとはもう少し食品系とかでもちょっと遺伝を使ったり、遺伝子発現の抑制というのをターゲットにした開発を進めているところもあるので、そういうところに雇っていただければいいかなと思いますね、将来のためには。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "自分の研究を生かした職業に就きたい"
+                }
+            }
+        },
+        {
+            "id": 102,
+            "speaker": "A",
+            "utterance": "すごいですねー。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "すごいですねー。"
+            }
+        },
+        {
+            "id": 103,
+            "speaker": "B",
+            "utterance": "いえいえ。"
+        },
+        {
+            "id": 104,
+            "speaker": "B",
+            "utterance": "やっぱりそのためにもなんらかの成果が必要ですね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "なんらかの成果が必要"
+                }
+            }
+        },
+        {
+            "id": 105,
+            "speaker": "B",
+            "utterance": "就職活動のためだけではないですけれど、「私は学生時代にこんなことを研究しました、こういう成果を上げられました」っていうのは、自分のアピールポイントにもなるので。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "「私は学生時代にこんなことを研究しました、こういう成果を上げられました」っていうのは、自分のアピールポイントにもなる"
+                }
+            }
+        },
+        {
+            "id": 106,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 107,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 108,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 109,
+            "speaker": "A",
+            "utterance": "それに基づいて、それを評価してもらえるところで何かされたいっていうことなんですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "それに基づいて、それを評価してもらえるところで何かされたいっていうことなんですかね？"
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 111,
+            "speaker": "B",
+            "utterance": "自分の研究に興味を持ってもらえるところで働きたいですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "自分の研究に興味を持ってもらえるところで働きたい"
+                }
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 113,
+            "speaker": "A",
+            "utterance": "それはもう漠然としてるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "それはもう漠然としてるんですか？"
+            }
+        },
+        {
+            "id": 114,
+            "speaker": "A",
+            "utterance": "結構、研究だけをしてたいとか。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "結構、研究だけをしてたいとか。"
+            }
+        },
+        {
+            "id": 115,
+            "speaker": "B",
+            "utterance": "いやー、まだまだ漠然としてますね。"
+        },
+        {
+            "id": 116,
+            "speaker": "B",
+            "utterance": "やっぱり研究だけじゃなくて、待遇がいいかとか、お給料もらえるかとかも、将来生活していく上では考えなければいけないので、それと条件をちょっと比較してってなってしまうんですけれど。"
+        },
+        {
+            "id": 117,
+            "speaker": "A",
+            "utterance": "そのために今の研究っていうのがテーマにあるんですかね？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "そのために今の研究っていうのがテーマにあるんですかね？"
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 119,
+            "speaker": "B",
+            "utterance": "いい研究をしていれば、売り手市場じゃないですけど、こちらがいい研究を持っていれば、向こうからオファーがいくつか来て、その中からこっちが選ぶっていうふうにできればベストだと思ってるので、逆に何の成果も上げられないと、誰からも興味を持ってもらえなくて、どこにも行けないというふうになってしまうので、やっぱりそれなりの成果を収めていれば、はい。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "何の成果も上げられないと、誰からも興味を持ってもらえなくて、どこにも行けないというふうになってしまう"
+                }
+            }
+        },
+        {
+            "id": 120,
+            "speaker": "A",
+            "utterance": "実際それは売り手市場みたいな感じの研究なんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "実際それは売り手市場みたいな感じの研究なんですか？"
+            }
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "どうですかね。"
+        },
+        {
+            "id": 122,
+            "speaker": "B",
+            "utterance": "どこまでこだわるかっていうところにもよりますし、ほんとに人によってはずっと自分の研究を続けられるところじゃないと、少しでも分野が変わってしまったらやだっていう人もいるんで、そうなると、なかなか難しいかもしれないんですけれど、もう少し柔軟に、自分のやってきた研究を生かしつつ、新しいことにもっていうふうに視野を広げれば、雇ってくれるところはあると思いますね。"
+        },
+        {
+            "id": 123,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 124,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 125,
+            "speaker": "A",
+            "utterance": "じゃあ、そのための研究という感じなんですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "じゃあ、そのための研究という感じなんですかね？"
+            }
+        },
+        {
+            "id": 126,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 127,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 128,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 129,
+            "speaker": "A",
+            "utterance": "じゃあ、その研究は、ざっくりしちゃうと自分のためでもあるんですけど、世の中のためと、就職のためとか、そういう感じなんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "じゃあ、その研究は、ざっくりしちゃうと自分のためでもあるんですけど、世の中のためと、就職のためとか、そういう感じなんですか？"
+            }
+        },
+        {
+            "id": 130,
+            "speaker": "B",
+            "utterance": "そうですねー。"
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "ざっくりした言い方ですけど、世の中にとって価値のある研究というか、自分が何か新しいことを発見したことによって、それがさらに他の人の研究の発展にもつながるようなことを見つけたいなと思っていますね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "世の中にとって価値のある研究というか、自分が何か新しいことを発見したことによって、それがさらに他の人の研究の発展にもつながるようなことを見つけたい"
+                }
+            }
+        },
+        {
+            "id": 132,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 133,
+            "speaker": "A",
+            "utterance": "はい、ありがとうございました。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "はい、ありがとうございました。"
+            }
+        },
+        {
+            "id": 134,
+            "speaker": "B",
+            "utterance": "はい、ありがとうございました。"
+        }
+    ]
+}

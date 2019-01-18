@@ -1,0 +1,2700 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "最近、ちゃんと勉強してる？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "最近、ちゃんと勉強してる？"
+            }
+        },
+        {
+            "id": 1,
+            "speaker": "B",
+            "utterance": "あー、勉強ですね",
+            "understand": {
+                "MI": {
+                    "theme_1": "勉強"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "speaker": "B",
+            "utterance": "最近、ようやく、少しずつ始めるようになったんですよ。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "最近、ようやく、少しずつ始めるようになった"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 4,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 5,
+            "speaker": "A",
+            "utterance": "少しずつっていうのは？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "少しずつっていうのは？"
+            }
+        },
+        {
+            "id": 6,
+            "speaker": "B",
+            "utterance": "いや、ほんとに、最初は１日１分から始めてみようと思って、そういうブログを紹介してもらって、「これ、ちょっと読んでみて」みたいな。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "１日１分"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "speaker": "A",
+            "utterance": "それは、１日１回っていうのは、どんな勉強になるのかしら？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "それは、１日１回っていうのは、どんな勉強になるのかしら？"
+            }
+        },
+        {
+            "id": 8,
+            "speaker": "B",
+            "utterance": "もう１日１分、自分が続けたいと思う習慣を始めてみましょうって。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "１日１分",
+                    "confidence_action_2": "自分が続けたいと思う習慣を始めてみましょう"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "１分だったら、どんなに疲れてても、できるでしょっていう。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "１分だったら、どんなに疲れてても、できる"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "speaker": "A",
+            "utterance": "うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん。"
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 12,
+            "speaker": "B",
+            "utterance": "で、１分ができたら、その次に目標を立てればいいよっていう。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "１分ができたら、その次に目標を立てればいい"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 14,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 15,
+            "speaker": "A",
+            "utterance": "１分でどんな勉強をするのかしら？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "１分でどんな勉強をするのかしら？"
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "B",
+            "utterance": "最初何やってたんですかね。"
+        },
+        {
+            "id": 17,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 18,
+            "speaker": "B",
+            "utterance": "始めて１カ月くらい経ったんですよ。",
+            "understand": {
+                "MI": {
+                    "confidence_time_1": "始めて１カ月くらい経った"
+                }
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 20,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 21,
+            "speaker": "A",
+            "utterance": "あ、もう始めてるんですか？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_time",
+                "utterance": "あ、もう始めてるんですか？"
+            }
+        },
+        {
+            "id": 22,
+            "speaker": "B",
+            "utterance": "そうですね、はい。"
+        },
+        {
+            "id": 23,
+            "speaker": "B",
+            "utterance": "んで、最初はちょっと何やってたか思い出せないんですけど、今は解剖学っていう、体の筋の名前を、基本的なところなんですけど、覚えるところから始めようと思って。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "今は解剖学っていう、体の筋の名前を、基本的なところなんですけど、覚えるところから始めよう"
+                }
+            }
+        },
+        {
+            "id": 24,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 25,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 26,
+            "speaker": "A",
+            "utterance": "１日１分ですか？",
+            "utterance_request": {
+                "utterance_request": "{confidence_quantity_summary}ですか？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "１日１分ですか？"
+            }
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "今は、それが時間が伸びてきて、今、１日８０分できるといいなーと思って。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "今は、それが時間が伸びてきて",
+                    "commitment_quantity_2": "１日８０分"
+                }
+            }
+        },
+        {
+            "id": 28,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "A",
+            "utterance": "１日１分から１日８０分、すごいですね",
+            "utterance_request": {
+                "utterance_request": "{confidence_quantity}から{commitment_quantity}、すごいですね"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "１日１分から１日８０分、すごいですね"
+            }
+        },
+        {
+            "id": 30,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 31,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 32,
+            "speaker": "B",
+            "utterance": "１分で１週間やって、次に、もっとできるなと思って、１日２０分でできるかなー、２０分もできたな、今度、４０分、６０分、８０分って、で、できなかったら、それを８０ができなかったら、６０に戻すんです、目標を。",
+            "understand": {
+                "MI": {
+                    "confidence_time_1": "１分で１週間やって",
+                    "confidence_quantity_2": "２０分もできた",
+                    "confidence_3": "今度、４０分、６０分、８０分って、で、できなかったら、それを８０ができなかったら、６０に戻すんです、目標を"
+                }
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 34,
+            "speaker": "B",
+            "utterance": "で、それも書いてあったことなんですけど、そこで、達成できなかったら落ち込むっていうのはもったいない、もったいないというか、特に落ち込んでも得られるものはないので、そこはオートマチックに、８０ができなかったら６０に戻す、６０ができなかったら４０に戻す、４０ができたらまた６０になるっていう、それをやっていくと、自分の最適な時間が見つかるんじゃないのっていう、そういうので。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "８０ができなかったら６０に戻す、６０ができなかったら４０に戻す、４０ができたらまた６０になるっていう、それをやっていくと、自分の最適な時間が見つかるんじゃないの"
+                }
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "A",
+            "utterance": "あー、じゃあ、今現在は最適な時間を探しつつということなんですかね？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、じゃあ、今現在は最適な時間を探しつつということなんですかね？"
+            }
+        },
+        {
+            "id": 36,
+            "speaker": "B",
+            "utterance": "今は時間があるので、ある程度長い時間できてる。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "今は時間があるので、ある程度長い時間できてる"
+                }
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "A",
+            "utterance": "うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん。"
+            }
+        },
+        {
+            "id": 38,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 39,
+            "speaker": "B",
+            "utterance": "だから、そうですね。"
+        },
+        {
+            "id": 40,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 41,
+            "speaker": "B",
+            "utterance": "喫茶店に行くようにしたんですよ。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "喫茶店に行く"
+                }
+            }
+        },
+        {
+            "id": 42,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 43,
+            "speaker": "B",
+            "utterance": "自宅で勉強するよりも、集中できるだろうなーと思って。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "自宅で勉強するよりも、集中できる"
+                }
+            }
+        },
+        {
+            "id": 44,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 45,
+            "speaker": "B",
+            "utterance": "で、喫茶店行って、とりあえず、じゃあ、１分から始めようか、１分。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "とりあえず、じゃあ、１分から始めようか、１分"
+                }
+            }
+        },
+        {
+            "id": 46,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 47,
+            "speaker": "B",
+            "utterance": "１分じゃなんもできないですよね、準備してるだけで終わっちゃって。",
+            "understand": {
+                "MI": {
+                    "disreason_quantity_negative_1": "１分じゃなんもできない"
+                }
+            }
+        },
+        {
+            "id": 48,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 49,
+            "speaker": "B",
+            "utterance": "あと１５分やってみようかなとか思って、１５分、１５分、１５分って伸ばしていってって感じですね。",
+            "understand": {
+                "MI": {
+                    "thought_quantity_positive_1": "あと１５分やってみようかな",
+                    "confidence_2": "１５分、１５分、１５分って伸ばしていって"
+                }
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 51,
+            "speaker": "A",
+            "utterance": "これからは１日８０分やってみる",
+            "utterance_request": {
+                "utterance_request": "これからは{commitment_quantity}やってみる"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "これからは１日８０分やってみる"
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 53,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 54,
+            "speaker": "A",
+            "utterance": "どうですか、その８０分やってるときって、勉強している、続けてやってきたなっていう充実感とかがあるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "thought",
+                "utterance": "どうですか、その８０分やってるときって、勉強している、続けてやってきたなっていう充実感とかがあるんですか？"
+            }
+        },
+        {
+            "id": 55,
+            "speaker": "B",
+            "utterance": "あー、だんだんだんだん分かってくるので、それが充実感というか。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "だんだんだんだん分かってくる"
+                }
+            }
+        },
+        {
+            "id": 56,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 57,
+            "speaker": "B",
+            "utterance": "前は勉強する習慣がないけど、でも、テストがあるから、テスト直前にあわてて何時間もやるっていう、それだと結構しんどいんですよね。"
+        },
+        {
+            "id": 58,
+            "speaker": "B",
+            "utterance": "無理やり頭に詰め込まなくちゃいけないし、テストが終わったらすぐ忘れちゃうしっていう。"
+        },
+        {
+            "id": 59,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 60,
+            "speaker": "B",
+            "utterance": "だから、それよりも自分で、今日はこれやろうって決めて、それが分かるようになったっていうのが楽しいですね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "自分で、今日はこれやろうって決めて、それが分かるようになったっていうのが楽しい"
+                }
+            }
+        },
+        {
+            "id": 61,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 62,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 63,
+            "speaker": "A",
+            "utterance": "これやろうと思った内容が分かるようになった？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "これやろうと思った内容が分かるようになった？"
+            }
+        },
+        {
+            "id": 64,
+            "speaker": "B",
+            "utterance": "そうです、そうです、そうです。"
+        },
+        {
+            "id": 65,
+            "speaker": "A",
+            "utterance": "あー、そうすると、なんか深いですよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "あー、そうすると、なんか深いですよね。"
+            }
+        },
+        {
+            "id": 66,
+            "speaker": "A",
+            "utterance": "勉強やることに慣れるというよりも、勉強した内容まで分かるようになってきたっていうことですもんね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "勉強やることに慣れるというよりも、勉強した内容まで分かるようになってきたっていうことですもんね。"
+            }
+        },
+        {
+            "id": 67,
+            "speaker": "B",
+            "utterance": "あー、そうですね。"
+        },
+        {
+            "id": 68,
+            "speaker": "B",
+            "utterance": "でも、まずは、やっぱり勉強する習慣を付けないと、どうしても、気持ちが向いたときだけ勉強するけど、気持ちが下がったときは、なんもやんないで、なんもやんないと「やんなくちゃいけないのになー」つって落ち込んでいたので、それが１日１分だったら、自分にもできるかなとか思ってたんですよね。",
+            "understand": {
+                "MI": {
+                    "detail_1": "勉強する習慣を付けないと",
+                    "disconfidence_negative_2": "気持ちが向いたときだけ勉強するけど、気持ちが下がったときは、なんもやんないで、なんもやんないと「やんなくちゃいけないのになー」つって落ち込んでいた",
+                    "confidence_quantity_positive_3": "１日１分だったら、自分にもできるかなとか思ってた"
+                }
+            }
+        },
+        {
+            "id": 69,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 70,
+            "speaker": "A",
+            "utterance": "それがきっかけで１分から始めて、今は、そうすると、もう習慣付いてきているっていうことですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "それがきっかけで１分から始めて、今は、そうすると、もう習慣付いてきているっていうことですか？"
+            }
+        },
+        {
+            "id": 71,
+            "speaker": "B",
+            "utterance": "どうなんでしょうかね。"
+        },
+        {
+            "id": 72,
+            "speaker": "B",
+            "utterance": "習慣が身に付くまでに１００日かかるっていう話聞いたことあるので、とりあえず、そこを目標にやっていこうかなとか思って。",
+            "understand": {
+                "MI": {
+                    "commitment_time_1": "１００日",
+                    "commitment_2": "そこを目標にやっていこうかな"
+                }
+            }
+        },
+        {
+            "id": 73,
+            "speaker": "A",
+            "utterance": "１００日続ける。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "１００日続ける。"
+            }
+        },
+        {
+            "id": 74,
+            "speaker": "A",
+            "utterance": "今はどれぐらい来たんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_quantity",
+                "utterance": "今はどれぐらい来たんですか？"
+            }
+        },
+        {
+            "id": 75,
+            "speaker": "B",
+            "utterance": "今、だから、３５日くらいかな。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "３５日くらい"
+                }
+            }
+        },
+        {
+            "id": 76,
+            "speaker": "A",
+            "utterance": "では、もう３分の１はできて、で、８０分できて。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_quantity",
+                "utterance": "では、もう３分の１はできて、で、８０分できて。"
+            }
+        },
+        {
+            "id": 77,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 78,
+            "speaker": "A",
+            "utterance": "でも、勉強することはいっぱいあるんじゃないですか？"
+        },
+        {
+            "id": 79,
+            "speaker": "B",
+            "utterance": "膨大にあるんですよね。"
+        },
+        {
+            "id": 80,
+            "speaker": "A",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 81,
+            "speaker": "A",
+            "utterance": "何からやろうかなーとか、考えてるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_action",
+                "utterance": "何からやろうかなーとか、考えてるんですか？"
+            }
+        },
+        {
+            "id": 82,
+            "speaker": "A",
+            "utterance": "勉強の内容としては。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_action",
+                "utterance": "勉強の内容としては。"
+            }
+        },
+        {
+            "id": 83,
+            "speaker": "B",
+            "utterance": "内容として、やっぱりすぐ結果が出るっていうのは、覚える科目。"
+        },
+        {
+            "id": 84,
+            "speaker": "B",
+            "utterance": "で、覚えることが結構多いんですよね。"
+        },
+        {
+            "id": 85,
+            "speaker": "B",
+            "utterance": "解剖学、生理学っていう部分で、で、そこが基礎になるので、そこが、また自分が、今まで一夜漬けでなんとかしてきた部分だったので、そっからやってこうかなって思ってます。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "解剖学、生理学っていう部分で、で、そこが基礎になる",
+                    "confidence_positive_2": "今まで一夜漬けでなんとかしてきた",
+                    "commitment_3": "そっからやってこうかな"
+                }
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "A",
+            "utterance": "でも、一夜漬けでやってたことをちゃんと習慣付けて勉強できるって、すごいことですよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、一夜漬けでやってたことをちゃんと習慣付けて勉強できるって、すごいことですよね。"
+            }
+        },
+        {
+            "id": 87,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 88,
+            "speaker": "B",
+            "utterance": "意外とできるんだなって思いましたね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "意外とできるんだなって思いましたね。"
+                }
+            }
+        },
+        {
+            "id": 89,
+            "speaker": "B",
+            "utterance": "今まではもう、結局やる気が本当はないんだろうなとか、自分を疑っちゃうっていう、できなくなったときに、そういうのがあったんですけど。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "結局やる気が本当はないんだろうなとか、自分を疑っちゃうっていう、できなくなったときに、そういうのがあった"
+                }
+            }
+        },
+        {
+            "id": 90,
+            "speaker": "A",
+            "utterance": "今はもう３５日経ってきたら、そういうのもなくなってきました？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "今はもう３５日経ってきたら、そういうのもなくなってきました？"
+            }
+        },
+        {
+            "id": 91,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 92,
+            "speaker": "B",
+            "utterance": "うーん、そこを考えなくなりましたね。"
+        },
+        {
+            "id": 93,
+            "speaker": "B",
+            "utterance": "やる気とかなんとかっていうよりも、とりあえずやろうかっていう。",
+            "understand": {
+                "MI": {
+                    "thought_1": "やる気とかなんとかっていうよりも、とりあえずやろうか"
+                }
+            }
+        },
+        {
+            "id": 94,
+            "speaker": "A",
+            "utterance": "とりあえずやろうかって。",
+            "utterance_request": {
+                "utterance_request": "{thought_summary}って。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "とりあえずやろうかって。"
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 96,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 97,
+            "speaker": "B",
+            "utterance": "それは、だから、目標ハードルが低かったから、とりあえず１分やろうかだったら、できるんですよね、不思議と。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "目標ハードルが低かったから、とりあえず１分やろうかだったら、できるんですよね、不思議と"
+                }
+            }
+        },
+        {
+            "id": 98,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 99,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 100,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 101,
+            "speaker": "A",
+            "utterance": "これから、そうすると、勉強してどういう方向に行きたいとかっていうのもあるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "これから、そうすると、勉強してどういう方向に行きたいとかっていうのもあるんですか？"
+            }
+        },
+        {
+            "id": 102,
+            "speaker": "B",
+            "utterance": "今考えてる部分でもあるんですけれどね、作業療法士っていうリハビリの資格を取るための専門学校に通っていて、今３年目で、分野が４つあるんですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "作業療法士っていうリハビリの資格を取る"
+                }
+            }
+        },
+        {
+            "id": 103,
+            "speaker": "B",
+            "utterance": "老年期、身体分野、精神分野、発達分野。"
+        },
+        {
+            "id": 104,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 105,
+            "speaker": "B",
+            "utterance": "その中で、身体か精神に行きたいなと思ってるんですけれど、どこに行くにしても、やっぱり解剖学、生理学っていうのは、みんな同じ人間だから。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "身体か精神に行きたい",
+                    "reason_positive_2": "解剖学、生理学っていうのは、みんな同じ人間だから"
+                }
+            }
+        },
+        {
+            "id": 106,
+            "speaker": "A",
+            "utterance": "覚えないといけない。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "reason",
+                "utterance": "覚えないといけない。"
+            }
+        },
+        {
+            "id": 107,
+            "speaker": "B",
+            "utterance": "基本になるんですね。"
+        },
+        {
+            "id": 108,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 109,
+            "speaker": "B",
+            "utterance": "それが国家試験で出て、それが一定の点数が取れないと、学校を出ても、その資格って取れないんですよ。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "それが国家試験で出て、それが一定の点数が取れないと、学校を出ても、その資格って取れない"
+                }
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 111,
+            "speaker": "B",
+            "utterance": "だから、まずは国家試験を取ること。",
+            "understand": {
+                "MI": {
+                    "detail_1": "国家試験を取る"
+                }
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 113,
+            "speaker": "B",
+            "utterance": "で、作業療法士になったら、自分が結構できないことが多いので、誰かのできないことをできることにする手助けができれば、すごくいいなと思うんですよね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "誰かのできないことをできることにする手助けができれば、すごくいいなと思う"
+                }
+            }
+        },
+        {
+            "id": 114,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 115,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 116,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 117,
+            "speaker": "B",
+            "utterance": "そのためにも、まずは、自分自身の問題をちょっとずつ解決していきたいなーとは思ってんですけど。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "自分自身の問題をちょっとずつ解決していきたい"
+                }
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 119,
+            "speaker": "A",
+            "utterance": "その中の第一歩が１分間勉強することで。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "その中の第一歩が１分間勉強することで。"
+            }
+        },
+        {
+            "id": 120,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 121,
+            "speaker": "A",
+            "utterance": "あー、でも、だんだんとそのお勉強内容も、今、解剖学とかから、もっとどんどん進みそうですね、そうすると。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、でも、だんだんとそのお勉強内容も、今、解剖学とかから、もっとどんどん進みそうですね、そうすると。"
+            }
+        },
+        {
+            "id": 122,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 123,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 124,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 125,
+            "speaker": "A",
+            "utterance": "他にもあるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "他にもあるんですか？"
+            }
+        },
+        {
+            "id": 126,
+            "speaker": "A",
+            "utterance": "そういう、家で自分１人で勉強できそうな内容とかっていうのは。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "そういう、家で自分１人で勉強できそうな内容とかっていうのは。"
+            }
+        },
+        {
+            "id": 127,
+            "speaker": "B",
+            "utterance": "解剖学、生理学以外にいうと、福祉用具とか、教科書はあるんですよ。"
+        },
+        {
+            "id": 128,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 129,
+            "speaker": "B",
+            "utterance": "それこそ精神医学であったり、老年期であったり、発達であったり。"
+        },
+        {
+            "id": 130,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 132,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 133,
+            "speaker": "B",
+            "utterance": "ただ、そこはちょっと応用的な話もあるので。"
+        },
+        {
+            "id": 134,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 135,
+            "speaker": "A",
+            "utterance": "まずは基本的なことから。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "まずは基本的なことから。"
+            }
+        },
+        {
+            "id": 136,
+            "speaker": "B",
+            "utterance": "基本からやってこうかなって。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "基本からやってこう"
+                }
+            }
+        },
+        {
+            "id": 137,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 138,
+            "speaker": "A",
+            "utterance": "でも、将来そういった目標を持っているじゃないですか。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "でも、将来そういった目標を持っているじゃないですか。"
+            }
+        },
+        {
+            "id": 139,
+            "speaker": "A",
+            "utterance": "そういったお仕事に就きたいなーなんて。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "そういったお仕事に就きたいなーなんて。"
+            }
+        },
+        {
+            "id": 140,
+            "speaker": "A",
+            "utterance": "そう思うきっかけとかもちょっと伺っても大丈夫ですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "そう思うきっかけとかもちょっと伺っても大丈夫ですか？"
+            }
+        },
+        {
+            "id": 141,
+            "speaker": "B",
+            "utterance": "きっかけですか？"
+        },
+        {
+            "id": 142,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 143,
+            "speaker": "B",
+            "utterance": "きっかけは、もともと病院で医療事務のアルバイトをしていたんですけれど、それはカルテを運ぶ仕事で、でも、患者さんもいるし、カルテもあるけど、自分はその中身を見てもなんも分かんないし、患者さんがどういうふうに困っているのかっていうのは、分かんなくて、で、たまたまリハビリの理学療法士っていう人が友達にできて、「リハビリの仕事、結構やりがいがあるよ」みたいな、「仕事は大変だけどね」みたいなことを言ってて、「やりがいがあるよ」ってこんな堂々と言えるんだと思って。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "患者さんがどういうふうに困っているのかっていうのは、分かんなくて",
+                    "reason_positive_2": "リハビリの理学療法士っていう人が友達にできて、「リハビリの仕事、結構やりがいがあるよ」みたいな、「仕事は大変だけどね」みたいなことを言ってて"
+                }
+            }
+        },
+        {
+            "id": 144,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 145,
+            "speaker": "B",
+            "utterance": "で、自分自身、医療事務の仕事がちょっと難しいなって思ってて、できることが欲しいなーって、で、リハビリの仕事があるんだと思って、で、じゃあ、ちょっと自分も学校行って勉強してみようかなと思ったのがきっかけですね。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "医療事務の仕事がちょっと難しいなって思ってて",
+                    "reason_positive_2": "できることが欲しいなーって、で、リハビリの仕事があるんだと思って"
+                }
+            }
+        },
+        {
+            "id": 146,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 148,
+            "speaker": "A",
+            "utterance": "そして、もう一歩一歩近づいてますもんね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "そして、もう一歩一歩近づいてますもんね。"
+            }
+        },
+        {
+            "id": 149,
+            "speaker": "B",
+            "utterance": "一歩一歩３歩進んで、２歩下がる。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "一歩一歩３歩進んで、２歩下がる。"
+                }
+            }
+        },
+        {
+            "id": 150,
+            "speaker": "A",
+            "utterance": "さっきのお話、お勉強を８０分できなかったら６０分に戻ってっていう繰り返しの中でも、行ったり来たりしてもいいんだよっていうことなんですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "さっきのお話、お勉強を８０分できなかったら６０分に戻ってっていう繰り返しの中でも、行ったり来たりしてもいいんだよっていうことなんですよね。"
+            }
+        },
+        {
+            "id": 151,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 152,
+            "speaker": "B",
+            "utterance": "今、学校３年目で、勉強してるところが１年生のところから始めてるので。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "勉強してるところが１年生のところから始めてる"
+                }
+            }
+        },
+        {
+            "id": 153,
+            "speaker": "A",
+            "utterance": "今現在？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "今現在？"
+            }
+        },
+        {
+            "id": 154,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 155,
+            "speaker": "A",
+            "utterance": "あー、あー、あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー、あー、あー。"
+            }
+        },
+        {
+            "id": 156,
+            "speaker": "B",
+            "utterance": "ほんとに一歩ずつなんですけどね。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "一歩ずつ"
+                }
+            }
+        },
+        {
+            "id": 157,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 158,
+            "speaker": "A",
+            "utterance": "一歩づつ",
+            "utterance_request": {
+                "utterance_request": "{confidence_quantity}"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_quantity",
+                "utterance": "一歩づつ"
+            }
+        },
+        {
+            "id": 159,
+            "speaker": "B",
+            "utterance": "まだ１年生の前期の部分ですよね。"
+        },
+        {
+            "id": 160,
+            "speaker": "A",
+            "utterance": "でも。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "でも。"
+            }
+        },
+        {
+            "id": 161,
+            "speaker": "B",
+            "utterance": "４月から始まって、６月まで来たくらいではないですかね。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "４月から始まって、６月まで来た"
+                }
+            }
+        },
+        {
+            "id": 162,
+            "speaker": "A",
+            "utterance": "でも、１カ月でそれくらい来て、お時間も増えてるわけじゃないですか。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence_quantity",
+                "utterance": "でも、１カ月でそれくらい来て、お時間も増えてるわけじゃないですか。"
+            }
+        },
+        {
+            "id": 163,
+            "speaker": "A",
+            "utterance": "そうすると、どれくらいで３年生まで行きそうですかね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "そうすると、どれくらいで３年生まで行きそうですかね？"
+            }
+        },
+        {
+            "id": 164,
+            "speaker": "B",
+            "utterance": "追いつくのは、どうですかね。"
+        },
+        {
+            "id": 165,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 166,
+            "speaker": "B",
+            "utterance": "うーん、夏休みに追いつきたいですね。",
+            "understand": {
+                "MI": {
+                    "commitment_time_1": "夏休みに追いつきたい"
+                }
+            }
+        },
+        {
+            "id": 167,
+            "speaker": "A",
+            "utterance": "あー、今年の？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "あー、今年の？"
+            }
+        },
+        {
+            "id": 168,
+            "speaker": "B",
+            "utterance": "なんとか。"
+        },
+        {
+            "id": 169,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 170,
+            "speaker": "B",
+            "utterance": "ちょっとそこは、ショートカットしながら。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "ショートカットしながら"
+                }
+            }
+        },
+        {
+            "id": 171,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 172,
+            "speaker": "A",
+            "utterance": "ええ、重要なところを。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "commitment",
+                "utterance": "ええ、重要なところを。"
+            }
+        },
+        {
+            "id": 173,
+            "speaker": "B",
+            "utterance": "重要なところを拾って、拾って。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "重要なところを拾って"
+                }
+            }
+        },
+        {
+            "id": 174,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 175,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 176,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 177,
+            "speaker": "A",
+            "utterance": "そうすると、この先、さっきお話があったように、国家試験がいつあるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "そうすると、この先、さっきお話があったように、国家試験がいつあるんですか？"
+            }
+        },
+        {
+            "id": 178,
+            "speaker": "B",
+            "utterance": "国家試験は４年生の２月ですかね。"
+        },
+        {
+            "id": 179,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 180,
+            "speaker": "A",
+            "utterance": "来年の２月、再来年の２月？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "来年の２月、再来年の２月？"
+            }
+        },
+        {
+            "id": 181,
+            "speaker": "B",
+            "utterance": "再来年の２月。"
+        },
+        {
+            "id": 182,
+            "speaker": "A",
+            "utterance": "２月。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_time",
+                "utterance": "２月。"
+            }
+        },
+        {
+            "id": 183,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 184,
+            "speaker": "A",
+            "utterance": "あー、夏までに内容、基礎をやって、そうすると、計画どおりに行きそうですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、夏までに内容、基礎をやって、そうすると、計画どおりに行きそうですか？"
+            }
+        },
+        {
+            "id": 185,
+            "speaker": "B",
+            "utterance": "うーん、続けていくことですよね。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "続けていくことです"
+                }
+            }
+        },
+        {
+            "id": 186,
+            "speaker": "A",
+            "utterance": "うーん、うーん、うーん、うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん、うーん、うーん、うーん。"
+            }
+        },
+        {
+            "id": 187,
+            "speaker": "B",
+            "utterance": "まずは、１００日。",
+            "understand": {
+                "MI": {
+                    "commitment_quantity_1": "まずは、１００日"
+                }
+            }
+        },
+        {
+            "id": 188,
+            "speaker": "A",
+            "utterance": "１００日、そうか、そうか。",
+            "utterance_request": {
+                "utterance_request": "{commitment_quantity_summary}"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "１００日、そうか、そうか。"
+            }
+        },
+        {
+            "id": 189,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 190,
+            "speaker": "A",
+            "utterance": "ね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "ね。"
+            }
+        },
+        {
+            "id": 191,
+            "speaker": "A",
+            "utterance": "最初にお話ししてたのが１００日続けば。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "最初にお話ししてたのが１００日続けば。"
+            }
+        },
+        {
+            "id": 192,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 193,
+            "speaker": "B",
+            "utterance": "で、今はなんもやってない状態なんですけれど、これがアルバイト始めて、学校の授業が始まって、それでもちゃんと毎日６０分っていう、それが４０分の日もあるし、２０分の日もあるかもしんないですけど、毎日続けていくっていうのができれば、行けるかな。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "アルバイト始めて",
+                    "disreason_2": "学校の授業が始まって",
+                    "confidence_3": "毎日続けていくっていうのができれば、行けるかな。"
+                }
+            }
+        },
+        {
+            "id": 194,
+            "speaker": "A",
+            "utterance": "行けそうですね。",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}そうですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "行けそうですね。"
+            }
+        },
+        {
+            "id": 195,
+            "speaker": "B",
+            "utterance": "行けるかな。"
+        },
+        {
+            "id": 196,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 197,
+            "speaker": "B",
+            "utterance": "どうかな。"
+        },
+        {
+            "id": 198,
+            "speaker": "A",
+            "utterance": "いやいや、行けそうですよ。",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}そうですよ。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "いやいや、行けそうですよ。"
+            }
+        },
+        {
+            "id": 199,
+            "speaker": "B",
+            "utterance": "どうかなっていう。"
+        },
+        {
+            "id": 200,
+            "speaker": "A",
+            "utterance": "４月から始まって、６月までできたんですから",
+            "utterance_request": {
+                "utterance_request": "{confidence_quantity_summary}できたんですから"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "４月から始まって、６月までできたんですから"
+            }
+        },
+        {
+            "id": 201,
+            "speaker": "A",
+            "utterance": "１００日は３分の１でしょう。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "１００日は３分の１でしょう。"
+            }
+        },
+        {
+            "id": 202,
+            "speaker": "A",
+            "utterance": "１００日できると１年の３分の１でしょう。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "１００日できると１年の３分の１でしょう。"
+            }
+        },
+        {
+            "id": 203,
+            "speaker": "B",
+            "utterance": "そうですね、そうですね。"
+        },
+        {
+            "id": 204,
+            "speaker": "A",
+            "utterance": "ねー。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "ねー。"
+            }
+        },
+        {
+            "id": 205,
+            "speaker": "A",
+            "utterance": "そうすると、結構、もう基本的な毎日続けるっていう行為も近づいてますもんね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "そうすると、結構、もう基本的な毎日続けるっていう行為も近づいてますもんね。"
+            }
+        },
+        {
+            "id": 206,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 207,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 208,
+            "speaker": "A",
+            "utterance": "これからそういったことを一生やれるでしょうかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "これからそういったことを一生やれるでしょうかね？"
+            }
+        },
+        {
+            "id": 209,
+            "speaker": "B",
+            "utterance": "あー、一生勉強というか、「学校出てからも勉強することは多いよ」っていうふうに言われていて。",
+            "understand": {
+                "MI": {
+                    "reason_1": "一生勉強というか、「学校出てからも勉強することは多いよ」っていうふうに言われていて"
+                }
+            }
+        },
+        {
+            "id": 210,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 211,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 212,
+            "speaker": "A",
+            "utterance": "その職種としてですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "その職種としてですか？"
+            }
+        },
+        {
+            "id": 213,
+            "speaker": "B",
+            "utterance": "そうです、そうです。"
+        },
+        {
+            "id": 214,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 215,
+            "speaker": "B",
+            "utterance": "やっぱり新しい知識をどんどん入れていかないといけないし、学校で習うのは、それこそ基礎であって、今度その現場に出たら、どんどんどんどん見たことないパターンが出てくるから、それは勉強していかないといけないよってなるので、やっぱ勉強習慣を、今、身に付けられるんであれば、これは自分の武器にもなるよなっていうふうには思いますけど。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "新しい知識をどんどん入れていかないといけない",
+                    "reason_positive_2": "現場に出たら、どんどんどんどん見たことないパターンが出てくる",
+                    "thought_positive_3": "勉強習慣を、今、身に付けられるんであれば",
+                    "reason_positive_4": "これは自分の武器にもなる"
+                }
+            }
+        },
+        {
+            "id": 216,
+            "speaker": "A",
+            "utterance": "自分の武器にもなりますよね。",
+            "utterance_request": {
+                "utterance_request": "{reason_positive_summary}ますよね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "自分の武器にもなりますよね。"
+            }
+        },
+        {
+            "id": 217,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 218,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 219,
+            "speaker": "A",
+            "utterance": "１分から始めたことが、一生涯の強みに変わっていきますもんね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "１分から始めたことが、一生涯の強みに変わっていきますもんね。"
+            }
+        },
+        {
+            "id": 220,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 221,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 222,
+            "speaker": "A",
+            "utterance": "それ、具体的にノートにつけたりとかしてるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "それ、具体的にノートにつけたりとかしてるんですか？"
+            }
+        },
+        {
+            "id": 223,
+            "speaker": "B",
+            "utterance": "つけてます、つけてます。",
+            "understand": {
+                "MI": {
+                    "confidence_action_1": "つけてます"
+                }
+            }
+        },
+        {
+            "id": 224,
+            "speaker": "A",
+            "utterance": "つけてる。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "つけてる。"
+            }
+        },
+        {
+            "id": 225,
+            "speaker": "A",
+            "utterance": "どんなふうにつけてるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "どんなふうにつけてるんですか？"
+            }
+        },
+        {
+            "id": 226,
+            "speaker": "B",
+            "utterance": "日付と勉強時間、で、１週間の目標を書いて、で、それができなかったら、その課題ですかね。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "日付と勉強時間、で、１週間の目標を書いて、で、それができなかったら、その課題です"
+                }
+            }
+        },
+        {
+            "id": 227,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 228,
+            "speaker": "B",
+            "utterance": "何々だったのでできなかった、次はこうしてみようかな、みたいなくらい。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "何々だったのでできなかった、次はこうしてみようかな、みたいな"
+                }
+            }
+        },
+        {
+            "id": 229,
+            "speaker": "A",
+            "utterance": "あー、目に見えるものがちゃんと残ってくっていうことですね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、目に見えるものがちゃんと残ってくっていうことですね。"
+            }
+        },
+        {
+            "id": 230,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 231,
+            "speaker": "B",
+            "utterance": "それが大事かなと思って。"
+        },
+        {
+            "id": 232,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 233,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 234,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 235,
+            "speaker": "A",
+            "utterance": "見返すこともあるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "見返すこともあるんですか？"
+            }
+        },
+        {
+            "id": 236,
+            "speaker": "B",
+            "utterance": "うーん、ちらっちらっちらっちらっ見て。"
+        },
+        {
+            "id": 237,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 238,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 239,
+            "speaker": "A",
+            "utterance": "ええ、見ながら、今日よくやったなーとか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "ええ、見ながら、今日よくやったなーとか？"
+            }
+        },
+        {
+            "id": 240,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 241,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 242,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 243,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 244,
+            "speaker": "A",
+            "utterance": "でも、それがね、これからも続けていったら、かなり厚くなりますね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、それがね、これからも続けていったら、かなり厚くなりますね。"
+            }
+        },
+        {
+            "id": 245,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 246,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 247,
+            "speaker": "B",
+            "utterance": "どうしようかな、どっかで、今１枚の日記帳みたいなのにまとめてるんですけど、それはそれで個別で保管したいですね、ファイルかなんか作って。",
+            "understand": {
+                "MI": {
+                    "commitment_quantity_1": "今１枚の日記帳みたいなのにまとめてるんですけど、それはそれで個別で保管したいですね、ファイルかなんか作って"
+                }
+            }
+        },
+        {
+            "id": 248,
+            "speaker": "A",
+            "utterance": "ねー。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "ねー。"
+            }
+        },
+        {
+            "id": 249,
+            "speaker": "A",
+            "utterance": "その生活の歩みが紙に残るっていうのもいいですよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "その生活の歩みが紙に残るっていうのもいいですよね。"
+            }
+        },
+        {
+            "id": 250,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 251,
+            "speaker": "A",
+            "utterance": "あー、そしたら、それにまたなんか増やすものも出てきますかね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、そしたら、それにまたなんか増やすものも出てきますかね。"
+            }
+        },
+        {
+            "id": 252,
+            "speaker": "A",
+            "utterance": "何か記録の中に、これから。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "何か記録の中に、これから。"
+            }
+        },
+        {
+            "id": 253,
+            "speaker": "B",
+            "utterance": "これから。"
+        },
+        {
+            "id": 254,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 255,
+            "speaker": "B",
+            "utterance": "増やすと言いますと？"
+        },
+        {
+            "id": 256,
+            "speaker": "A",
+            "utterance": "増やすというと、何かあるかな。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "増やすというと、何かあるかな。"
+            }
+        },
+        {
+            "id": 257,
+            "speaker": "A",
+            "utterance": "どんなことがあるかな。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "どんなことがあるかな。"
+            }
+        },
+        {
+            "id": 258,
+            "speaker": "A",
+            "utterance": "目標達成した何か。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "目標達成した何か。"
+            }
+        },
+        {
+            "id": 259,
+            "speaker": "A",
+            "utterance": "さっきの１００日目までみたいなのがあって。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "さっきの１００日目までみたいなのがあって。"
+            }
+        },
+        {
+            "id": 260,
+            "speaker": "B",
+            "utterance": "あー、あー、そうですね、はい。"
+        },
+        {
+            "id": 261,
+            "speaker": "B",
+            "utterance": "ちょっとカウントダウンみたいにしていきたいんですよね。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "カウントダウンみたいにしていきたい"
+                }
+            }
+        },
+        {
+            "id": 262,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 263,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 264,
+            "speaker": "A",
+            "utterance": "どんな{commitment_summary}?",
+            "utterance_request": {
+                "utterance_request": "どんな{commitment_summary}?"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "どんな{commitment_summary}?"
+            }
+        },
+        {
+            "id": 265,
+            "speaker": "B",
+            "utterance": "とりあえず１００日とか。",
+            "understand": {
+                "MI": {
+                    "commitment_quantity_1": "とりあえず１００日"
+                }
+            }
+        },
+        {
+            "id": 266,
+            "speaker": "A",
+            "utterance": "１００日。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "１００日。"
+            }
+        },
+        {
+            "id": 267,
+            "speaker": "A",
+            "utterance": "そう、とりあえず100日、カウントダウン",
+            "utterance_request": {
+                "utterance_request": "そう、{commitment_quantity_summary}、{commitment_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "そう、とりあえず100日、カウントダウン"
+            }
+        },
+        {
+            "id": 268,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 269,
+            "speaker": "A",
+            "utterance": "次は、どうなんでしょうね。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "次は、どうなんでしょうね。"
+            }
+        },
+        {
+            "id": 270,
+            "speaker": "A",
+            "utterance": "国家試験のカウントダウンになるのかな？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "国家試験のカウントダウンになるのかな？"
+            }
+        },
+        {
+            "id": 271,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 272,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 273,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 274,
+            "speaker": "A",
+            "utterance": "そうすると、これから先の人生の中でいっぱいカウントダウンが出てきそうですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "そうすると、これから先の人生の中でいっぱいカウントダウンが出てきそうですかね？"
+            }
+        },
+        {
+            "id": 275,
+            "speaker": "B",
+            "utterance": "あー、そうなりますかね。"
+        },
+        {
+            "id": 276,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 277,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 278,
+            "speaker": "A",
+            "utterance": "でも、まずは続けることって、１分から続けて、今もお勉強して、他に勉強したいこととかっていうのはあるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "でも、まずは続けることって、１分から続けて、今もお勉強して、他に勉強したいこととかっていうのはあるんですか？"
+            }
+        },
+        {
+            "id": 279,
+            "speaker": "B",
+            "utterance": "あー。"
+        },
+        {
+            "id": 280,
+            "speaker": "A",
+            "utterance": "今はほんとに、そういった授業のこととか、仕事のこと、他にもあったりするのかなーと思って。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "今はほんとに、そういった授業のこととか、仕事のこと、他にもあったりするのかなーと思って。"
+            }
+        },
+        {
+            "id": 281,
+            "speaker": "B",
+            "utterance": "あー、なんでしょうね。"
+        },
+        {
+            "id": 282,
+            "speaker": "B",
+            "utterance": "ちょっと関わるっちゃ関わるんですけど、ストレスっていうものに勉強したいなっていうのと、あと、福祉用具ですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "ストレスっていうものに勉強したい",
+                    "detail_positive_2": "福祉用具"
+                }
+            }
+        },
+        {
+            "id": 283,
+            "speaker": "B",
+            "utterance": "たまたま、うちの近くに福祉用具のお店があって、で、そこで質問させてもら、「どんなものがあるんですか？」くらいで聞いたら、いろいろ説明してくれて、こういうの分かってたほうが、これから先すごく便利だなと思って。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "こういうの分かってたほうが、これから先すごく便利だ"
+                }
+            }
+        },
+        {
+            "id": 284,
+            "speaker": "B",
+            "utterance": "で、お店の人は「こういう福祉用具がエンドユーザーまで伝わってないことが、売る側としては困ってるし、課題なんですよ」って言って。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "こういう福祉用具がエンドユーザーまで伝わってないことが、売る側としては困ってるし、課題"
+                }
+            }
+        },
+        {
+            "id": 285,
+            "speaker": "B",
+            "utterance": "で、自分が作業療法士になったときに、そこの間に入って紹介できるようなことができたら、すごくいいよなーとか思うんですけどね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "自分が作業療法士になったときに、そこの間に入って紹介できるようなことができたら、すごくいい"
+                }
+            }
+        },
+        {
+            "id": 286,
+            "speaker": "A",
+            "utterance": "そうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "そうですね。"
+            }
+        },
+        {
+            "id": 287,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 288,
+            "speaker": "A",
+            "utterance": "そうすると、時間の使い方もまた変わってきますかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そうすると、時間の使い方もまた変わってきますかね？"
+            }
+        },
+        {
+            "id": 289,
+            "speaker": "A",
+            "utterance": "これも、それも勉強となると。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "これも、それも勉強となると。"
+            }
+        },
+        {
+            "id": 290,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 291,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 292,
+            "speaker": "B",
+            "utterance": "それは、でも授業で、恐らく福祉用具、日常生活活動っていう授業があって、で、福祉用具機器展っていう大きな展示イベントに行って、自分が選んだものをクラスのみんなに紹介するっていう授業があるので、その授業始まったら、ちょっとしっかり勉強しようかなと思ってますね。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "福祉用具機器展っていう大きな展示イベントに行って、自分が選んだものをクラスのみんなに紹介するっていう授業があるので、その授業始まったら、ちょっとしっかり勉強しようかな"
+                }
+            }
+        },
+        {
+            "id": 293,
+            "speaker": "A",
+            "utterance": "あー、そうすると、その日々の勉強の中の１つにもそれが加わることになるんでしょうかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "あー、そうすると、その日々の勉強の中の１つにもそれが加わることになるんでしょうかね？"
+            }
+        },
+        {
+            "id": 294,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 295,
+            "speaker": "B",
+            "utterance": "ちょっとでも興味を持って、勉強するっていうよりも、ちょっと観察するっていう感じですかね。"
+        },
+        {
+            "id": 296,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 297,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 298,
+            "speaker": "A",
+            "utterance": "その面も、観察するということが続きますかね？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "その面も、観察するということが続きますかね？"
+            }
+        },
+        {
+            "id": 299,
+            "speaker": "B",
+            "utterance": "どうなんでしょうね。"
+        },
+        {
+            "id": 300,
+            "speaker": "A",
+            "utterance": "どんなんでしょうね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "どんなんでしょうね。"
+            }
+        },
+        {
+            "id": 301,
+            "speaker": "B",
+            "utterance": "実際に使ってる場面に関われるのが一番いいので、施設見学とか、ボランティア募集だとか、そういうところにちょっと行ってみたりするのが、一番そのモチベーションのきっかけとして、いいかもしんないっすね。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "施設見学とか、ボランティア募集だとか、そういうところにちょっと行ってみたりする",
+                    "thought_positive_2": "モチベーションのきっかけとして、いいかもしんない"
+                }
+            }
+        },
+        {
+            "id": 302,
+            "speaker": "A",
+            "utterance": "そうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "そうですね。"
+            }
+        },
+        {
+            "id": 303,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 304,
+            "speaker": "A",
+            "utterance": "ほんとに勉強っていろいろあるんだなって、今お話伺ってて思ったんですけど、もともと最初の予定として１分から始めたお勉強が続いていって、そして、他にもつながっていけたらいいなーとは思いますよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "ほんとに勉強っていろいろあるんだなって、今お話伺ってて思ったんですけど、もともと最初の予定として１分から始めたお勉強が続いていって、そして、他にもつながっていけたらいいなーとは思いますよね。"
+            }
+        },
+        {
+            "id": 305,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 306,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 307,
+            "speaker": "A",
+            "utterance": "じゃあ、もう毎日毎日、今もお勉強してる？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": [
+                    "commitment_action",
+                    "commitment_frequency"
+                ],
+                "utterance": "じゃあ、もう毎日毎日、今もお勉強してる？"
+            }
+        },
+        {
+            "id": 308,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 309,
+            "speaker": "A",
+            "utterance": "はい",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい"
+            }
+        },
+        {
+            "id": 310,
+            "speaker": "B",
+            "utterance": "今日はこの後。",
+            "understand": {
+                "MI": {
+                    "commitment_time_1": "今日はこの後"
+                }
+            }
+        },
+        {
+            "id": 311,
+            "speaker": "A",
+            "utterance": "今日はこの後。",
+            "utterance_request": {
+                "utterance_request": "{commitment}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_time",
+                "utterance": "今日はこの後。"
+            }
+        },
+        {
+            "id": 312,
+            "speaker": "A",
+            "utterance": "今日はこの後お勉強する？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "今日はこの後お勉強する？"
+            }
+        },
+        {
+            "id": 313,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 314,
+            "speaker": "A",
+            "utterance": "あー、そっか、そっか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_time",
+                "utterance": "あー、そっか、そっか。"
+            }
+        },
+        {
+            "id": 315,
+            "speaker": "A",
+            "utterance": "ますます頑張ってくださいね。",
+            "system_behavior": {
+                "purpose": "対話終了",
+                "utterance": "ますます頑張ってくださいね。"
+            }
+        },
+        {
+            "id": 316,
+            "speaker": "A",
+            "utterance": "ありがとうございました。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "ありがとうございました。"
+            }
+        },
+        {
+            "id": 317,
+            "speaker": "B",
+            "utterance": "ありがとうございます。"
+        }
+    ]
+}

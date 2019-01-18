@@ -1,0 +1,4102 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "今、何かしたいことありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "今、何かしたいことありますか？"
+            }
+        },
+        {
+            "id": 1,
+            "speaker": "B",
+            "utterance": "そうですね、この年になってあれなんですけど、ちょっと勉強したいなと思って。",
+            "understand": {
+                "MI": {
+                    "theme_positive_1": "勉強したい"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "speaker": "A",
+            "utterance": "あー、勉強したいと思ってるんですか？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive}と思ってるんですか？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "あー、勉強したいと思ってるんですか？"
+            }
+        },
+        {
+            "id": 3,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 4,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 5,
+            "speaker": "A",
+            "utterance": "例えばどんなことを？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "例えばどんなことを？"
+            }
+        },
+        {
+            "id": 6,
+            "speaker": "B",
+            "utterance": "語学とかじゃないんですけど、例えばパソコンとか、あんまり僕、ほとんど初心者なんで、いろいろ、ぱって動かせて、さっとできるような、そういうのを何か身につけたいなと。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "例えばパソコンとか、あんまり僕、ほとんど初心者なんで、いろいろ、ぱって動かせて、さっとできるような、そういうのを何か身につけたい"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "speaker": "A",
+            "utterance": "パソコン？",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "パソコン？"
+            }
+        },
+        {
+            "id": 8,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 9,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 10,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 11,
+            "speaker": "A",
+            "utterance": "それは理由としてはどうしてですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "それは理由としてはどうしてですか？"
+            }
+        },
+        {
+            "id": 12,
+            "speaker": "B",
+            "utterance": "やっぱりパソコン、みんなできるの、今、当たり前みたいな感じになってるじゃないですか。",
+            "understand": {
+                "MI": {
+                    "reason_1": "パソコン、みんなできるの、今、当たり前みたいな感じになってる"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "B",
+            "utterance": "みんな、結構ブラインドタッチとか。"
+        },
+        {
+            "id": 14,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 15,
+            "speaker": "B",
+            "utterance": "僕、全然できないんですけど、本当に、軽い、軽い文字入力ぐらいしかできないんで。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "全然できないんです",
+                    "reason_negative_2": "軽い文字入力ぐらいしかできない"
+                }
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 17,
+            "speaker": "B",
+            "utterance": "だから、あと、エクセルとか、ワードとかも全然やり方が分かんないし、ちょっと最低限でも、そういうのはやっぱり身につけるっていうか、やって、いろいろね、便利じゃないですか。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "エクセルとか、ワードとかも全然やり方が分かんない",
+                    "reason_positive_2": "便利"
+                }
+            }
+        },
+        {
+            "id": 18,
+            "speaker": "B",
+            "utterance": "今、例えば、パソコンで年賀状とか作れるじゃないですか。",
+            "understand": {
+                "MI": {
+                    "reason_1": "パソコンで年賀状とか作れる"
+                }
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 20,
+            "speaker": "B",
+            "utterance": "僕、やり方、全然よく分かんないんで。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "やり方、全然よく分かんない"
+                }
+            }
+        },
+        {
+            "id": 21,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 22,
+            "speaker": "B",
+            "utterance": "あと、なんだっけ、あれ。"
+        },
+        {
+            "id": 23,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 24,
+            "speaker": "B",
+            "utterance": "ど忘れしちゃった。"
+        },
+        {
+            "id": 25,
+            "speaker": "B",
+            "utterance": "パソコンからいろいろやって、いや、いろんな、何かあるじゃないですか。"
+        },
+        {
+            "id": 26,
+            "speaker": "B",
+            "utterance": "全然よく分かんないんで、そういうのも聞かないと分かんないんで、やっぱり、できればいいんじゃないかなという。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "全然よく分かんないんで、そういうのも聞かないと分かんないんで、",
+                    "thought_positive_2": "できればいいんじゃないかな"
+                }
+            }
+        },
+        {
+            "id": 27,
+            "speaker": "A",
+            "utterance": "聞かないと分かんないんじゃなく、聞かないと分かんないから。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "聞かないと分かんないんじゃなく、聞かないと分かんないから。"
+            }
+        },
+        {
+            "id": 28,
+            "speaker": "A",
+            "utterance": "何か必要な場面とかあったんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "何か必要な場面とかあったんですか？"
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "B",
+            "utterance": "必要な場面っていうかー、なんだっけな。"
+        },
+        {
+            "id": 30,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 31,
+            "speaker": "B",
+            "utterance": "必要な場面っていうか、そんなすごい必要じゃないんですけど、確定申告とかに持っていくのに、なんか作ったりするじゃないですか。"
+        },
+        {
+            "id": 32,
+            "speaker": "A",
+            "utterance": "ええ、ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ、ええ。"
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "B",
+            "utterance": "そういうの全然、その用紙を、要するに、コピーっていうのかな、なんて言やいいのかな。"
+        },
+        {
+            "id": 34,
+            "speaker": "B",
+            "utterance": "あれ、なんていうんだっけ？"
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "ちょっと用語が分かんない。"
+        },
+        {
+            "id": 36,
+            "speaker": "B",
+            "utterance": "用語はど忘れしちゃったんですけど、パソコンから印字っていうの？"
+        },
+        {
+            "id": 37,
+            "speaker": "B",
+            "utterance": "プリンターとかあればいいんですけど、うち。"
+        },
+        {
+            "id": 38,
+            "speaker": "A",
+            "utterance": "印刷する？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "印刷する？"
+            }
+        },
+        {
+            "id": 39,
+            "speaker": "B",
+            "utterance": "あー、印刷する？"
+        },
+        {
+            "id": 40,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 41,
+            "speaker": "B",
+            "utterance": "プリンターとかも、うちなくて、プリンターなくて、要するに、パソコンのところを、要するに、印字するっていうのかな。"
+        },
+        {
+            "id": 42,
+            "speaker": "B",
+            "utterance": "それを税務署とか出すのに、どうやってやったらいいのとかいって、分かんなくて。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "それを税務署とか出すのに、どうやってやったらいいのとかいって、分かんなくて"
+                }
+            }
+        },
+        {
+            "id": 43,
+            "speaker": "B",
+            "utterance": "で、結局、パソコン屋に、パソコン屋っていうか買ったところに、「これ、どうやってやるんすか？」とか言って、で、教えてもらったんですけど。"
+        },
+        {
+            "id": 44,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 45,
+            "speaker": "B",
+            "utterance": "で、教えてもらっても１回じゃ分かんないんでここをこうやってクリックしてとかなんとか、いろいろやって、やっとできたんですけど。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "教えてもらっても１回じゃ分かんないんで"
+                }
+            }
+        },
+        {
+            "id": 46,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 47,
+            "speaker": "B",
+            "utterance": "そういうのをぱーっとできるように、いちいち聞かなくても。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "そういうのをぱーっとできるように、いちいち聞かなくても"
+                }
+            }
+        },
+        {
+            "id": 48,
+            "speaker": "A",
+            "utterance": "できるようになりたい？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "できるようになりたい？"
+            }
+        },
+        {
+            "id": 49,
+            "speaker": "B",
+            "utterance": "できるようになりたいというか。"
+        },
+        {
+            "id": 50,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 51,
+            "speaker": "B",
+            "utterance": "あと、もうちょっと打つのが早くなりたいですね、もう全然遅いんで。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "もうちょっと打つのが早くなりたい"
+                }
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 53,
+            "speaker": "A",
+            "utterance": "じゃあ、そうするにはどうしたらいいでしょうね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "じゃあ、そうするにはどうしたらいいでしょうね？"
+            }
+        },
+        {
+            "id": 54,
+            "speaker": "B",
+            "utterance": "どうすりゃいいんでしょうね。"
+        },
+        {
+            "id": 55,
+            "speaker": "B",
+            "utterance": "ただ、パソコン教室へ行こうとも思えないんですよね。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "パソコン教室へ行こうとも思えない"
+                }
+            }
+        },
+        {
+            "id": 56,
+            "speaker": "A",
+            "utterance": "えー、どうしてですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "えー、どうしてですか？"
+            }
+        },
+        {
+            "id": 57,
+            "speaker": "B",
+            "utterance": "え？"
+        },
+        {
+            "id": 58,
+            "speaker": "B",
+            "utterance": "いや、お金かかりそうで、時間かかりそうじゃないですか。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "お金かかりそうで、時間かかりそう"
+                }
+            }
+        },
+        {
+            "id": 59,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 60,
+            "speaker": "A",
+            "utterance": "お金かかりそうで、時間かかりそう",
+            "utterance_request": {
+                "utterance_request": "{disreason}"
+            },
+            "system_behavior": {
+                "purpose": "feedback_disreason",
+                "utterance": "お金かかりそうで、時間かかりそう"
+            }
+        },
+        {
+            "id": 61,
+            "speaker": "B",
+            "utterance": "ええ、そう。"
+        },
+        {
+            "id": 62,
+            "speaker": "B",
+            "utterance": "だから、パソコンの文字入力とか、ちょっと遅いんですよね。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "パソコンの文字入力とか、ちょっと遅い"
+                }
+            }
+        },
+        {
+            "id": 63,
+            "speaker": "B",
+            "utterance": "だから、そこが問題ですよね。",
+            "understand": {
+                "MI": {
+                    "thought_1": "そこが問題です"
+                }
+            }
+        },
+        {
+            "id": 64,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 65,
+            "speaker": "B",
+            "utterance": "あとはね、日々勉強って、人生、この間、なんだっけ？"
+        },
+        {
+            "id": 66,
+            "speaker": "B",
+            "utterance": "うちの妹が韓国へ行ったらしいんですけど、何しに行ったかというと、勉強しに行ったとか言って、「えーっ」と思って、びっくりしちゃって、びっくりっていうわけじゃないんですけど。"
+        },
+        {
+            "id": 67,
+            "speaker": "B",
+            "utterance": "わざわざ。"
+        },
+        {
+            "id": 68,
+            "speaker": "B",
+            "utterance": "いや、たぶん韓国語の勉強なんですけど、よく行くなとか思って、でも。"
+        },
+        {
+            "id": 69,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 70,
+            "speaker": "B",
+            "utterance": "でも、人生日々勉強とかいうじゃないですか。",
+            "understand": {
+                "MI": {
+                    "reason_1": "人生日々勉強とかいう"
+                }
+            }
+        },
+        {
+            "id": 71,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 72,
+            "speaker": "B",
+            "utterance": "すげえんじゃねえか。"
+        },
+        {
+            "id": 73,
+            "speaker": "B",
+            "utterance": "＠、意外とでも、よく韓国語なんか、別に覚えなくてもいまさらいいのにとか思えてたんですけど、でも、すげえなと思って、よく考えれば。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "韓国語なんか、別に覚えなくてもいまさらいいのに",
+                    "thought_positive_2": "でも、すげえな"
+                }
+            }
+        },
+        {
+            "id": 74,
+            "speaker": "A",
+            "utterance": "初めは、覚えなくてもいまさらいいのにと思ったけど、やっぱりすごいなって思うようになってきた？",
+            "utterance_request": {
+                "utterance_request": "初めは、{disthought_negative_summary}と思ったけど、やっぱり{thought_positive_summary}って思うようになってきた？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "初めは、覚えなくてもいまさらいいのにと思ったけど、やっぱりすごいなって思うようになってきた？"
+            }
+        },
+        {
+            "id": 75,
+            "speaker": "B",
+            "utterance": "あー、あー、だから。"
+        },
+        {
+            "id": 76,
+            "speaker": "A",
+            "utterance": "それは、じゃあ、刺激になったっていうことですか？",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "それは、じゃあ、刺激になったっていうことですか？"
+            }
+        },
+        {
+            "id": 77,
+            "speaker": "B",
+            "utterance": "刺激っていうか、なんかしらやりたいなって。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "なんかしらやりたいな"
+                }
+            }
+        },
+        {
+            "id": 78,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 79,
+            "speaker": "B",
+            "utterance": "そう。"
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "でも、僕は韓国、語学はあんま興味ないし、英語とか、特に今必要じゃねえかなとも思って。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "僕は韓国、語学はあんま興味ないし、英語とか、特に今必要じゃねえかなとも思って"
+                }
+            }
+        },
+        {
+            "id": 81,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 82,
+            "speaker": "B",
+            "utterance": "だから、そう。"
+        },
+        {
+            "id": 83,
+            "speaker": "B",
+            "utterance": "だから、とりあえず目先、何か必要なことってあったかなと思うと、それぐらいしかないんですよね。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "目先、何か必要なことってあったかなと思うと、それぐらいしかない"
+                }
+            }
+        },
+        {
+            "id": 84,
+            "speaker": "A",
+            "utterance": "それでパソコン。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "それでパソコン。"
+            }
+        },
+        {
+            "id": 85,
+            "speaker": "B",
+            "utterance": "パソコンか、パソコン関係で、そう。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "パソコンか、パソコン関係で、"
+                }
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "B",
+            "utterance": "操作ができる。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "操作ができる。"
+                }
+            }
+        },
+        {
+            "id": 87,
+            "speaker": "A",
+            "utterance": "今まではどうなんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "今まではどうなんですか？"
+            }
+        },
+        {
+            "id": 88,
+            "speaker": "A",
+            "utterance": "どんなお勉強とかされた、過去、あるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "どんなお勉強とかされた、過去、あるんですか？"
+            }
+        },
+        {
+            "id": 89,
+            "speaker": "B",
+            "utterance": "過去、あー、今までの過去。"
+        },
+        {
+            "id": 90,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 91,
+            "speaker": "B",
+            "utterance": "あれやりましたけどね、なんだっけな。"
+        },
+        {
+            "id": 92,
+            "speaker": "B",
+            "utterance": "ファイナンシャルプランナーとかいって、経済とかなんかいろいろ、なんかあるじゃないですか、数字出すの。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "ファイナンシャルプランナーとかいって、経済とかなんかいろいろ"
+                }
+            }
+        },
+        {
+            "id": 93,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 94,
+            "speaker": "B",
+            "utterance": "それのお勉強はちょっとしましたけど、もうずいぶん前だし。",
+            "understand": {
+                "MI": {
+                    "confidence_time_1": "それのお勉強はちょっとしましたけど、もうずいぶん前だし"
+                }
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 96,
+            "speaker": "B",
+            "utterance": "あと、学生時代ですよね。"
+        },
+        {
+            "id": 97,
+            "speaker": "B",
+            "utterance": "要するに、勉強したっていうか、ただ試験のために、数学とか英語とか国語とか。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "ただ試験のために、数学とか英語とか国語とか"
+                }
+            }
+        },
+        {
+            "id": 98,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 99,
+            "speaker": "B",
+            "utterance": "全然、でも、身についてないですね。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "身についてない"
+                }
+            }
+        },
+        {
+            "id": 100,
+            "speaker": "B",
+            "utterance": "古文とか勉強したんだけど、全然、今、今の現代に生活していく上で、そんなの関係ないんじゃないかなと思う。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "古文とか勉強したんだけど、全然、今、今の現代に生活していく上で、そんなの関係ない"
+                }
+            }
+        },
+        {
+            "id": 101,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 102,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 103,
+            "speaker": "A",
+            "utterance": "過去、学生のころ勉強したことがあって、で、ファイナンシャルプランナーってすごいじゃないですか、でも。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "過去、学生のころ勉強したことがあって、で、ファイナンシャルプランナーってすごいじゃないですか、でも。"
+            }
+        },
+        {
+            "id": 104,
+            "speaker": "B",
+            "utterance": "あー、それですか。"
+        },
+        {
+            "id": 105,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 106,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 107,
+            "speaker": "B",
+            "utterance": "でも、すごい、なんだろう。"
+        },
+        {
+            "id": 108,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 109,
+            "speaker": "B",
+            "utterance": "月１回、確か提出とかして、提出して、ちょっと最後に試験受かりゃ、試験を受けて、それなりの点数取れば受かるような感じだったんですけどね。",
+            "understand": {
+                "MI": {
+                    "confidence_frequency_1": "月１回、確か提出とかして、提出して、ちょっと最後に試験受かりゃ、試験を受けて、それなりの点数取れば受かるような感じだった"
+                }
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "B",
+            "utterance": "でも、それは勉強というか、会社から言われて、「取れ」って言われて、しょうがねえからやったっていうか、そういう部分もあるんで、なんか、うん。",
+            "understand": {
+                "MI": {
+                    "confidence_negative_1": "会社から言われて、「取れ」って言われて、しょうがねえからやった"
+                }
+            }
+        },
+        {
+            "id": 111,
+            "speaker": "A",
+            "utterance": "でも、言われてやったけど、結果は出たわけじゃないですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、言われてやったけど、結果は出たわけじゃないですか？"
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "B",
+            "utterance": "結果は出ましたね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "結果は出ました"
+                }
+            }
+        },
+        {
+            "id": 113,
+            "speaker": "A",
+            "utterance": "ね、それはすごいんじゃないですか？",
+            "system_behavior": {
+                "purpose": "colsed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "ね、それはすごいんじゃないですか？"
+            }
+        },
+        {
+            "id": 114,
+            "speaker": "B",
+            "utterance": "あー、そうですね、今考えればね、よくやったなと思いますね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "今考えればね、よくやったなと思います"
+                }
+            }
+        },
+        {
+            "id": 115,
+            "speaker": "A",
+            "utterance": "よくやったなと思います",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "よくやったなと思います"
+            }
+        },
+        {
+            "id": 116,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 117,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 119,
+            "speaker": "A",
+            "utterance": "で、今現在、また勉強しようという気持ちになってきたわけじゃないですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "で、今現在、また勉強しようという気持ちになってきたわけじゃないですか。"
+            }
+        },
+        {
+            "id": 120,
+            "speaker": "A",
+            "utterance": "そうすると、何をしたらいいか、パソコンの勉強。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "そうすると、何をしたらいいか、パソコンの勉強。"
+            }
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 122,
+            "speaker": "B",
+            "utterance": "ぱっと、だから、もっと早くっていうのは、ちょっとこれは慣れが必要かもしれないですけど。"
+        },
+        {
+            "id": 123,
+            "speaker": "A",
+            "utterance": "うん、うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん、うん。"
+            }
+        },
+        {
+            "id": 124,
+            "speaker": "B",
+            "utterance": "最低限、印刷とか、エクセルとかワードとか、全然入ってるんですけど、機械の中に、全然、宝っていうか、なんとかの持ち腐れみたいな。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "印刷とか、エクセルとかワードとか、全然入ってるんですけど、機械の中に、全然、宝っていうか、なんとかの持ち腐れみたいな"
+                }
+            }
+        },
+        {
+            "id": 125,
+            "speaker": "A",
+            "utterance": "うん、うん、うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん、うん、うん。"
+            }
+        },
+        {
+            "id": 126,
+            "speaker": "A",
+            "utterance": "今まで使ったことはないんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "今まで使ったことはないんですか？"
+            }
+        },
+        {
+            "id": 127,
+            "speaker": "A",
+            "utterance": "そういったエクセルとか、ワードとか。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "そういったエクセルとか、ワードとか。"
+            }
+        },
+        {
+            "id": 128,
+            "speaker": "B",
+            "utterance": "あー、ワードとか、いや、会社であるんですけど、やり方教えてもらって、「じゃあ、こうやって、こうやって、こうやってやって」とかやるんですけど、自分ちにあんのない、自分ちにはあるんですけど、いまいち使いこなせてないというか。",
+            "understand": {
+                "MI": {
+                    "confidence_place_1": "会社",
+                    "confidence_2": "ワードとか、いや、会社であるんですけど、やり方教えてもらって、「じゃあ、こうやって、こうやって、こうやってやって」とかやるんです",
+                    "disconfidence_place_negative_3": "自分ち",
+                    "disconfidence_negative_4": "自分ちにはあるんですけど、いまいち使いこなせてない"
+                }
+            }
+        },
+        {
+            "id": 129,
+            "speaker": "A",
+            "utterance": "会社ではできたけど、家ではできない？",
+            "utterance_request": {
+                "utterance_request": "{confidence_place}ではできたけど、{disconfidence_place}ではできない？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": [
+                    "confidence",
+                    "disconfidence"
+                ],
+                "utterance": "会社ではできたけど、家ではできない？"
+            }
+        },
+        {
+            "id": 130,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "教えてもらえるから、会社だと。"
+        },
+        {
+            "id": 132,
+            "speaker": "B",
+            "utterance": "＠パソコン詳しい人がいるんですよ。"
+        },
+        {
+            "id": 133,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 134,
+            "speaker": "B",
+            "utterance": "こうやって、こうやって、そこのエクセルのまずページまでいくのが結構大変だったりして。"
+        },
+        {
+            "id": 135,
+            "speaker": "A",
+            "utterance": "ええ、ええ、あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ、あー。"
+            }
+        },
+        {
+            "id": 136,
+            "speaker": "B",
+            "utterance": "で、「ここ数字入れて」みたいな感じで。"
+        },
+        {
+            "id": 137,
+            "speaker": "A",
+            "utterance": "ええ、ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ、ええ。"
+            }
+        },
+        {
+            "id": 138,
+            "speaker": "A",
+            "utterance": "段取ってくれて。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disconfidence",
+                "utterance": "段取ってくれて。"
+            }
+        },
+        {
+            "id": 139,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 140,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 141,
+            "speaker": "A",
+            "utterance": "そっか。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "そっか。"
+            }
+        },
+        {
+            "id": 142,
+            "speaker": "B",
+            "utterance": "そうなんですよね。"
+        },
+        {
+            "id": 143,
+            "speaker": "B",
+            "utterance": "あと、印字、印刷、印刷の＠、ここクリックしてとかあるじゃないですか。"
+        },
+        {
+            "id": 144,
+            "speaker": "A",
+            "utterance": "うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん。"
+            }
+        },
+        {
+            "id": 145,
+            "speaker": "B",
+            "utterance": "ここクリックして、ここクリックして、こうやって、こうやっていくと、それでなんだっけ、最後、なんだっけ、パソコンのサイドに差し込むやつ、あれ、なんていったっけ、ど忘れしちゃったんですけど。"
+        },
+        {
+            "id": 146,
+            "speaker": "A",
+            "utterance": "ＵＳＢとか。",
+            "system_behavior": {
+                "purpose": "返答",
+                "utterance": "ＵＳＢとか。"
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "B",
+            "utterance": "あー、ＵＳＢです。"
+        },
+        {
+            "id": 148,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 149,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 150,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 151,
+            "speaker": "B",
+            "utterance": "そうそう、なんとかメモリーとかやって、それで、コンビニとか持っていって、印刷できるとか、「プリンターないときはそうやってやるんですよ」、「あー、そうやってやるんだ」と思って。"
+        },
+        {
+            "id": 152,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 153,
+            "speaker": "A",
+            "utterance": "でも、その教えてもらったときは、できたわけですよね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、その教えてもらったときは、できたわけですよね？"
+            }
+        },
+        {
+            "id": 154,
+            "speaker": "B",
+            "utterance": "そうですね、教えてもらって。"
+        },
+        {
+            "id": 155,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 156,
+            "speaker": "B",
+            "utterance": "そうなんですけど、全然記憶にちょっとしか残ってなくて、どっかでつっかえちゃうんですよ、あれ、ここどうやったかなとか。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "全然記憶にちょっとしか残ってなくて、どっかでつっかえちゃう"
+                }
+            }
+        },
+        {
+            "id": 157,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 158,
+            "speaker": "B",
+            "utterance": "で、家でやるときは、家で、要するに、教えてもらった、パソコン屋さんに教えてもらったんですけど、１回教えてもらったんじゃちょっと分かんなくて、途中まではいけるんですけど、途中で分かんなくなっちゃったりして、また電話しちゃうんですよ。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "１回教えてもらったんじゃちょっと分かんなくて、途中まではいけるんですけど、途中で分かんなくなっちゃったりして"
+                }
+            }
+        },
+        {
+            "id": 159,
+            "speaker": "A",
+            "utterance": "１回教えてもらったんじゃわからない？",
+            "utterance_request": {
+                "utterance_request": "{disconfidence_summary}？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disconfidence",
+                "utterance": "１回教えてもらったんじゃわからない？"
+            }
+        },
+        {
+            "id": 160,
+            "speaker": "B",
+            "utterance": "ダメです。"
+        },
+        {
+            "id": 161,
+            "speaker": "B",
+            "utterance": "頭もう、頭悪くて、本当。"
+        },
+        {
+            "id": 162,
+            "speaker": "A",
+            "utterance": "いやー、じゃあ、１回じゃなく？",
+            "system_behavior": {
+                "purpose": "suggest",
+                "purpose_attribute": "confidence",
+                "utterance": "いやー、じゃあ、１回じゃなく？"
+            }
+        },
+        {
+            "id": 163,
+            "speaker": "B",
+            "utterance": "もう１回聞かなきゃダメ。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "もう１回聞かなきゃダメ"
+                }
+            }
+        },
+        {
+            "id": 164,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 165,
+            "speaker": "B",
+            "utterance": "そう。"
+        },
+        {
+            "id": 166,
+            "speaker": "B",
+            "utterance": "で、そう、そう、そう、そう。"
+        },
+        {
+            "id": 167,
+            "speaker": "B",
+            "utterance": "１回、２、３回聞いて、要するにね。"
+        },
+        {
+            "id": 168,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 169,
+            "speaker": "A",
+            "utterance": "そうすると、勉強するにはどういうふうな方法があるでしょうね。",
+            "utterance_request": {
+                "utterance_request": "そうすると、{detail_positive_summary}にはどういうふうな方法があるでしょうね。"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そうすると、勉強するにはどういうふうな方法があるでしょうね。"
+            }
+        },
+        {
+            "id": 170,
+            "speaker": "B",
+            "utterance": "一番いいのは、でも、本屋とか行って、本でも買いに行きますか。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "本でも買いに行きますか"
+                }
+            }
+        },
+        {
+            "id": 171,
+            "speaker": "B",
+            "utterance": "パソコン教室は金かかるんで。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "パソコン教室は金かかるんで"
+                }
+            }
+        },
+        {
+            "id": 172,
+            "speaker": "A",
+            "utterance": "お金がかかっちゃう",
+            "utterance_request": {
+                "utterance_request": "{disreason_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "お金がかかっちゃう"
+            }
+        },
+        {
+            "id": 173,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 174,
+            "speaker": "B",
+            "utterance": "本屋がいいかな。"
+        },
+        {
+            "id": 175,
+            "speaker": "B",
+            "utterance": "本屋って、そんなのありましたっけ？"
+        },
+        {
+            "id": 176,
+            "speaker": "B",
+            "utterance": "でも、売ってます？そういうの。"
+        },
+        {
+            "id": 177,
+            "speaker": "B",
+            "utterance": "どうですかね？"
+        },
+        {
+            "id": 178,
+            "speaker": "A",
+            "utterance": "売ってるんじゃないですか。",
+            "system_behavior": {
+                "purpose": "返答",
+                "utterance": "売ってるんじゃないですか。"
+            }
+        },
+        {
+            "id": 179,
+            "speaker": "B",
+            "utterance": "売ってますかね？"
+        },
+        {
+            "id": 180,
+            "speaker": "A",
+            "utterance": "どうですかね。",
+            "system_behavior": {
+                "purpose": "返答",
+                "utterance": "どうですかね。"
+            }
+        },
+        {
+            "id": 181,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 182,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 183,
+            "speaker": "A",
+            "utterance": "でも、本買うにもお金はかかりますよね。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "disreason",
+                "utterance": "でも、本買うにもお金はかかりますよね。"
+            }
+        },
+        {
+            "id": 184,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 185,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 186,
+            "speaker": "B",
+            "utterance": "でも、本屋ならそんなにかかんないじゃない、本なら。",
+            "understand": {
+                "MI": {
+                    "reason_1": "本屋ならそんなにかかんないじゃない"
+                }
+            }
+        },
+        {
+            "id": 187,
+            "speaker": "A",
+            "utterance": "本屋なら大丈夫？",
+            "utterance_request": {
+                "utterance_request": "{reason_summary}なら大丈夫？"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "本屋なら大丈夫？"
+            }
+        },
+        {
+            "id": 188,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 189,
+            "speaker": "B",
+            "utterance": "でも、どうやって、ぱっとすぐできますか？ぱっと。"
+        },
+        {
+            "id": 190,
+            "speaker": "A",
+            "utterance": "本を見てできますかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "本を見てできますかね？"
+            }
+        },
+        {
+            "id": 191,
+            "speaker": "B",
+            "utterance": "あー、そこも問題ですよね。"
+        },
+        {
+            "id": 192,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 193,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 194,
+            "speaker": "A",
+            "utterance": "本でも買いに行くのはいいと思うんですけど、ほかの方法ないですか？",
+            "utterance_request": {
+                "utterance_request": "{commitment_summary}のはいいと思うんですけど、ほかの方法ないですか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "本でも買いに行くのはいいと思うんですけど、ほかの方法ないですか？"
+            }
+        },
+        {
+            "id": 195,
+            "speaker": "B",
+            "utterance": "ほかの方法、なんか分かんないですね。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "ほかの方法、なんか分かんないですね"
+                }
+            }
+        },
+        {
+            "id": 196,
+            "speaker": "B",
+            "utterance": "何がありますかね。"
+        },
+        {
+            "id": 197,
+            "speaker": "A",
+            "utterance": "うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん。"
+            }
+        },
+        {
+            "id": 198,
+            "speaker": "A",
+            "utterance": "漠然とお勉強したいけど、どうしたらいいかなっていう感じですか、今？",
+            "utterance_request": {
+                "utterance_request": "漠然と{theme_positive}けど、どうしたらいいかなっていう感じですか、今？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "漠然とお勉強したいけど、どうしたらいいかなっていう感じですか、今？"
+            }
+        },
+        {
+            "id": 199,
+            "speaker": "B",
+            "utterance": "あー、そうですね。"
+        },
+        {
+            "id": 200,
+            "speaker": "B",
+            "utterance": "全然ね。"
+        },
+        {
+            "id": 201,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 202,
+            "speaker": "A",
+            "utterance": "でも、過去にできたわけだし。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、過去にできたわけだし。"
+            }
+        },
+        {
+            "id": 203,
+            "speaker": "B",
+            "utterance": "そうなんですよね。"
+        },
+        {
+            "id": 204,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 205,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 206,
+            "speaker": "A",
+            "utterance": "触ったりしてますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "触ったりしてますか？"
+            }
+        },
+        {
+            "id": 207,
+            "speaker": "B",
+            "utterance": "触ったりって？"
+        },
+        {
+            "id": 208,
+            "speaker": "A",
+            "utterance": "パソコンを。",
+            "system_behavior": {
+                "purpose": "返答",
+                "utterance": "パソコンを。"
+            }
+        },
+        {
+            "id": 209,
+            "speaker": "B",
+            "utterance": "パソコンは触ってますよ、結構。"
+        },
+        {
+            "id": 210,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 211,
+            "speaker": "B",
+            "utterance": "触ってるんですけどね。"
+        },
+        {
+            "id": 212,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 213,
+            "speaker": "B",
+            "utterance": "困っちゃうんですよ。"
+        },
+        {
+            "id": 214,
+            "speaker": "B",
+            "utterance": "たまになんかパソコンが切れたり、切れたりっていうか、「あれ、画面真っ暗になったけどどうしよう」とか、全然対処できなくて。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "パソコンが切れたり、切れたりっていうか、「あれ、画面真っ暗になったけどどうしよう」とか、全然対処できなくて"
+                }
+            }
+        },
+        {
+            "id": 215,
+            "speaker": "A",
+            "utterance": "そういうときは、いつもどうしてるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そういうときは、いつもどうしてるんですか？"
+            }
+        },
+        {
+            "id": 216,
+            "speaker": "B",
+            "utterance": "もう、だから電話して聞きます。",
+            "understand": {
+                "MI": {
+                    "reason_1": "電話して聞きます"
+                }
+            }
+        },
+        {
+            "id": 217,
+            "speaker": "B",
+            "utterance": "「どうするんですか、これから」とかいって、なんだっけ？"
+        },
+        {
+            "id": 218,
+            "speaker": "B",
+            "utterance": "こことこことここ、３カ所ぐらい押して、こうやってやってとかいって、それで、シャットダウンしてとかなんとかいろいろやって、教えてもらわなければ分かんないですね。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "教えてもらわなければ分かんない"
+                }
+            }
+        },
+        {
+            "id": 219,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 220,
+            "speaker": "A",
+            "utterance": "教えてもらって今やってて。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "教えてもらって今やってて。"
+            }
+        },
+        {
+            "id": 221,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 222,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 223,
+            "speaker": "B",
+            "utterance": "困るんですよね。",
+            "understand": {
+                "MI": {
+                    "thought_negative_1": "困るんです"
+                }
+            }
+        },
+        {
+            "id": 224,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 225,
+            "speaker": "B",
+            "utterance": "どうも機械が弱いんですかね。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "どうも機械が弱いんですかね"
+                }
+            }
+        },
+        {
+            "id": 226,
+            "speaker": "A",
+            "utterance": "いやー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "いやー。"
+            }
+        },
+        {
+            "id": 227,
+            "speaker": "B",
+            "utterance": "機械関係が弱いっていうのはありますね。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "機械関係が弱い"
+                }
+            }
+        },
+        {
+            "id": 228,
+            "speaker": "B",
+            "utterance": "全般になっちゃうと。"
+        },
+        {
+            "id": 229,
+            "speaker": "A",
+            "utterance": "いやー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "いやー。"
+            }
+        },
+        {
+            "id": 230,
+            "speaker": "B",
+            "utterance": "機械が弱いっていうのはありますね。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "機械が弱い"
+                }
+            }
+        },
+        {
+            "id": 231,
+            "speaker": "B",
+            "utterance": "そういうのもあるんですよね。"
+        },
+        {
+            "id": 232,
+            "speaker": "A",
+            "utterance": "でも、もしも、機械が弱い、だったら、なんで弱いんでしょうね。",
+            "utterance_request": {
+                "utterance_request": "でも、もしも、{disconfidence}のなら、なんで{disconfidence}のでしょうね。"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "でも、もしも、機械が弱い、だったら、なんで弱いんでしょうね。"
+            }
+        },
+        {
+            "id": 233,
+            "speaker": "A",
+            "utterance": "機械。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "機械。"
+            }
+        },
+        {
+            "id": 234,
+            "speaker": "B",
+            "utterance": "メカに弱いっていうのは、もうこれしょうがない、生まれつきですかね、メカに弱いっていうのは。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "生まれつきですかね、メカに弱いっていうのは"
+                }
+            }
+        },
+        {
+            "id": 235,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 236,
+            "speaker": "A",
+            "utterance": "でも、使えないことはないじゃないですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、使えないことはないじゃないですか。"
+            }
+        },
+        {
+            "id": 237,
+            "speaker": "A",
+            "utterance": "使えてたじゃないですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "使えてたじゃないですか。"
+            }
+        },
+        {
+            "id": 238,
+            "speaker": "A",
+            "utterance": "今まで使えてて、１人じゃできないとはいえ、そうやってお電話して確認したらできましたもんね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "今まで使えてて、１人じゃできないとはいえ、そうやってお電話して確認したらできましたもんね。"
+            }
+        },
+        {
+            "id": 239,
+            "speaker": "B",
+            "utterance": "そうなんですよね、ええ。"
+        },
+        {
+            "id": 240,
+            "speaker": "A",
+            "utterance": "それができたときっていうのはどうですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "それができたときっていうのはどうですか？"
+            }
+        },
+        {
+            "id": 241,
+            "speaker": "B",
+            "utterance": "よかったなっていうか。"
+        },
+        {
+            "id": 242,
+            "speaker": "A",
+            "utterance": "よかったな。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "よかったな。"
+            }
+        },
+        {
+            "id": 243,
+            "speaker": "B",
+            "utterance": "あー、よかった、結構簡単なんだねとかね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "結構簡単なんだ"
+                }
+            }
+        },
+        {
+            "id": 244,
+            "speaker": "A",
+            "utterance": "結構簡単なんだって思ったんですね",
+            "utterance_request": {
+                "utterance_request": "{confidence}って思ったんですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "結構簡単なんだって思ったんですね"
+            }
+        },
+        {
+            "id": 245,
+            "speaker": "B",
+            "utterance": "ええ、意外と簡単＠「こんなの悩んでたの？」とか思いましたけどね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "意外と簡単＠「こんなの悩んでたの？」とか思いました"
+                }
+            }
+        },
+        {
+            "id": 246,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 247,
+            "speaker": "A",
+            "utterance": "じゃあ、そうなんじゃないんですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、そうなんじゃないんですか。"
+            }
+        },
+        {
+            "id": 248,
+            "speaker": "A",
+            "utterance": "簡単なんじゃないんですか。",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}なんじゃないんですか。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "簡単なんじゃないんですか。"
+            }
+        },
+        {
+            "id": 249,
+            "speaker": "B",
+            "utterance": "意外と簡単かもしれないですね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "意外と簡単かもしれない"
+                }
+            }
+        },
+        {
+            "id": 250,
+            "speaker": "A",
+            "utterance": "うん、やってみれば。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "うん、やってみれば。"
+            }
+        },
+        {
+            "id": 251,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 252,
+            "speaker": "A",
+            "utterance": "で、その方法として、本を買えばできるのか、どうしたらいいかですよね。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "で、その方法として、本を買えばできるのか、どうしたらいいかですよね。"
+            }
+        },
+        {
+            "id": 253,
+            "speaker": "B",
+            "utterance": "そうなんですよね。"
+        },
+        {
+            "id": 254,
+            "speaker": "B",
+            "utterance": "そこがね。"
+        },
+        {
+            "id": 255,
+            "speaker": "B",
+            "utterance": "だから、トラブったときに、分かんなくなったときだから、そこがあれなんですけど、そこがまた難しいところで。"
+        },
+        {
+            "id": 256,
+            "speaker": "A",
+            "utterance": "そうすると、どうしましょうね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そうすると、どうしましょうね？"
+            }
+        },
+        {
+            "id": 257,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 258,
+            "speaker": "B",
+            "utterance": "だから、やっぱり、分かんなくなったときに何かメモしておくとか、たぶん２、３度同じようなあれが、間違いがあると思うんですよね、なんでもそうなんですけど。",
+            "understand": {
+                "MI": {
+                    "confidence_action_1": "分かんなくなったときに何かメモしておくとか"
+                }
+            }
+        },
+        {
+            "id": 259,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 260,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 261,
+            "speaker": "B",
+            "utterance": "また同じ場面が、おそらく出てくると思うんですよね。"
+        },
+        {
+            "id": 262,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 263,
+            "speaker": "B",
+            "utterance": "そのときにやっぱね、何かあったときにメモしておかないとダメですね、やっぱり。",
+            "understand": {
+                "MI": {
+                    "confidence_action_negative_1": "何かあったときにメモしておかないとダメですね"
+                }
+            }
+        },
+        {
+            "id": 264,
+            "speaker": "A",
+            "utterance": "メモしておかないとね。",
+            "utterance_request": {
+                "utterance_request": "{commitment_summary}ね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "メモしておかないとね。"
+            }
+        },
+        {
+            "id": 265,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 266,
+            "speaker": "A",
+            "utterance": "そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そうですよね。"
+            }
+        },
+        {
+            "id": 267,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 268,
+            "speaker": "A",
+            "utterance": "すぐ忘れちゃいますよね、もう私もそうなんですけど。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence_action",
+                "utterance": "すぐ忘れちゃいますよね、もう私もそうなんですけど。"
+            }
+        },
+        {
+            "id": 269,
+            "speaker": "B",
+            "utterance": "あー、そうですか。"
+        },
+        {
+            "id": 270,
+            "speaker": "B",
+            "utterance": "やっぱりそうですよね。"
+        },
+        {
+            "id": 271,
+            "speaker": "A",
+            "utterance": "やっぱりメモしておくって大事ですよね。",
+            "utterance_request": {
+                "utterance_request": "やっぱり{confidence_summary}って大事ですよね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "やっぱりメモしておくって大事ですよね。"
+            }
+        },
+        {
+            "id": 272,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 273,
+            "speaker": "A",
+            "utterance": "メモしておいて、その先、どうしましょうか？",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}て、その先、どうしましょうか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "メモしておいて、その先、どうしましょうか？"
+            }
+        },
+        {
+            "id": 274,
+            "speaker": "B",
+            "utterance": "その先、メモして、やっぱりずっと触ってないとダメですよね、やっぱね。"
+        },
+        {
+            "id": 275,
+            "speaker": "B",
+            "utterance": "埃かぶっちゃうと、あれなんで。"
+        },
+        {
+            "id": 276,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 277,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 278,
+            "speaker": "A",
+            "utterance": "パソコンの勉強をする。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "パソコンの勉強をする。"
+            }
+        },
+        {
+            "id": 279,
+            "speaker": "B",
+            "utterance": "あと、何、そうですね。"
+        },
+        {
+            "id": 280,
+            "speaker": "B",
+            "utterance": "あと、何の勉強をしましょうかね。"
+        },
+        {
+            "id": 281,
+            "speaker": "B",
+            "utterance": "何か１個ぐらい勉強したいですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "何か１個ぐらい勉強したい"
+                }
+            }
+        },
+        {
+            "id": 282,
+            "speaker": "A",
+            "utterance": "うん。"
+        },
+        {
+            "id": 283,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 284,
+            "speaker": "A",
+            "utterance": "パソコン以外にも、何か勉強したいものってあるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "パソコン以外にも、何か勉強したいものってあるんですか？"
+            }
+        },
+        {
+            "id": 285,
+            "speaker": "B",
+            "utterance": "パソコン以外にでも。"
+        },
+        {
+            "id": 286,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 287,
+            "speaker": "B",
+            "utterance": "ちょっと、でも、話す、英語を話せるといいですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "英語を話せるといい"
+                }
+            }
+        },
+        {
+            "id": 288,
+            "speaker": "A",
+            "utterance": "あー、いいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "あー、いいですね。"
+            }
+        },
+        {
+            "id": 289,
+            "speaker": "B",
+            "utterance": "たまに外人さんから話しかけられんですよね。",
+            "understand": {
+                "MI": {
+                    "reason_1": "たまに外人さんから話しかけられんです"
+                }
+            }
+        },
+        {
+            "id": 290,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 291,
+            "speaker": "B",
+            "utterance": "ね。"
+        },
+        {
+            "id": 292,
+            "speaker": "B",
+            "utterance": "例えばどこで。"
+        },
+        {
+            "id": 293,
+            "speaker": "A",
+            "utterance": "外国の方に？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "外国の方に？"
+            }
+        },
+        {
+            "id": 294,
+            "speaker": "B",
+            "utterance": "そうなんですよ。"
+        },
+        {
+            "id": 295,
+            "speaker": "B",
+            "utterance": "どこかで、駅とかで待ってたりすると、例えば「新宿駅、どうやったらいいですか？」とか「新宿ステーション？」とか言われちゃったりして。"
+        },
+        {
+            "id": 296,
+            "speaker": "A",
+            "utterance": "そういうときは、いつもどうすんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "そういうときは、いつもどうすんですか？"
+            }
+        },
+        {
+            "id": 297,
+            "speaker": "B",
+            "utterance": "いつも、とりあえず日本語と英語をちゃんぽんにして「ネクストステーション、新宿」とか、「ワン、ツー、スリー、フォー」とかなんか言ってね。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "日本語と英語をちゃんぽんにして「ネクストステーション、新宿」とか、「ワン、ツー、スリー、フォー」とかなんか言って"
+                }
+            }
+        },
+        {
+            "id": 298,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 299,
+            "speaker": "B",
+            "utterance": "あと、料金いくらとか、そういうのを聞かれますよね。"
+        },
+        {
+            "id": 300,
+            "speaker": "A",
+            "utterance": "そのときに話せたらいいですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "そのときに話せたらいいですよね。"
+            }
+        },
+        {
+            "id": 301,
+            "speaker": "B",
+            "utterance": "やっぱ話せたらいいですよね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "話せたらいい"
+                }
+            }
+        },
+        {
+            "id": 302,
+            "speaker": "B",
+            "utterance": "あんまり勉強してこなかったんで。"
+        },
+        {
+            "id": 303,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 304,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 305,
+            "speaker": "B",
+            "utterance": "そのときに。"
+        },
+        {
+            "id": 306,
+            "speaker": "A",
+            "utterance": "話せたらいいですよね",
+            "utterance_request": {
+                "utterance_request": "{detail_positive}ですよね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "話せたらいいですよね"
+            }
+        },
+        {
+            "id": 307,
+            "speaker": "B",
+            "utterance": "ね。"
+        },
+        {
+            "id": 308,
+            "speaker": "A",
+            "utterance": "私もそう思います。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail",
+                "utterance": "私もそう思います。"
+            }
+        },
+        {
+            "id": 309,
+            "speaker": "B",
+            "utterance": "やっぱそう思いますか？"
+        },
+        {
+            "id": 310,
+            "speaker": "A",
+            "utterance": "うん、どうやって勉強したらいいんだろうっていつも思います。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence_action",
+                "utterance": "うん、どうやって勉強したらいいんだろうっていつも思います。"
+            }
+        },
+        {
+            "id": 311,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 312,
+            "speaker": "A",
+            "utterance": "どうやって勉強したらいいでしょうね。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "どうやって勉強したらいいでしょうね。"
+            }
+        },
+        {
+            "id": 313,
+            "speaker": "B",
+            "utterance": "勉強は、でも、学校の授業だと、あれ話せる英語じゃないですよね。"
+        },
+        {
+            "id": 314,
+            "speaker": "B",
+            "utterance": "受験英語だから、話せる＠、これもどうなんですかね。"
+        },
+        {
+            "id": 315,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 316,
+            "speaker": "B",
+            "utterance": "これも本なのかな。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "これも本なのかな"
+                }
+            }
+        },
+        {
+            "id": 317,
+            "speaker": "B",
+            "utterance": "本とかでも基本的な、でも、会話ぐらいは覚えられるかもしれないですけどね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "会話ぐらいは覚えられるかもしれないです"
+                }
+            }
+        },
+        {
+            "id": 318,
+            "speaker": "A",
+            "utterance": "うんうん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うんうん。"
+            }
+        },
+        {
+            "id": 319,
+            "speaker": "A",
+            "utterance": "やっぱり会話ってね、やっぱり難しいですよね。",
+            "utterance_request": {
+                "utterance_request": "難しい"
+            },
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "やっぱり会話ってね、やっぱり難しいですよね。"
+            }
+        },
+        {
+            "id": 320,
+            "speaker": "A",
+            "utterance": "どうやったら。",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "どうやったら。"
+            }
+        },
+        {
+            "id": 321,
+            "speaker": "A",
+            "utterance": "難しいけど、話せたらいいですよね",
+            "utterance_request": {
+                "utterance_request": "{disthought_negative}けど、{thought_positive}ですよね。"
+            },
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "難しいけど、話せたらいいですよね"
+            }
+        },
+        {
+            "id": 322,
+            "speaker": "B",
+            "utterance": "あー、しゃべれたらうれしいですよね、やっぱりね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "しゃべれたらうれしい"
+                }
+            }
+        },
+        {
+            "id": 323,
+            "speaker": "A",
+            "utterance": "その電車の中で話しかけられたとき、見ててかっこいいじゃないですか。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "その電車の中で話しかけられたとき、見ててかっこいいじゃないですか。"
+            }
+        },
+        {
+            "id": 324,
+            "speaker": "A",
+            "utterance": "ペラペラって話す姿とか。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "thought",
+                "utterance": "ペラペラって話す姿とか。"
+            }
+        },
+        {
+            "id": 325,
+            "speaker": "B",
+            "utterance": "そうですよね。"
+        },
+        {
+            "id": 326,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 327,
+            "speaker": "A",
+            "utterance": "どうですかね？"
+        },
+        {
+            "id": 328,
+            "speaker": "B",
+            "utterance": "あれ、かっこいいですよね。"
+        },
+        {
+            "id": 329,
+            "speaker": "B",
+            "utterance": "結構ぱっと見てて、ほかの人が対応してるのを見て、ぱっと、ペラペラってやると、おー、すげえなとか思っちゃったりしますよね。",
+            "understand": {
+                "MI": {
+                    "thought_1": "ほかの人が対応してるのを見て、ぱっと、ペラペラってやると、おー、すげえなとか思っちゃったりします"
+                }
+            }
+        },
+        {
+            "id": 330,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 331,
+            "speaker": "A",
+            "utterance": "ご自分でそうなったらどうですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "ご自分でそうなったらどうですか？"
+            }
+        },
+        {
+            "id": 332,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 333,
+            "speaker": "B",
+            "utterance": "だから、やってみたいですよね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "やってみたい"
+                }
+            }
+        },
+        {
+            "id": 334,
+            "speaker": "A",
+            "utterance": "やってみたいよね。",
+            "utterance_request": {
+                "utterance_request": "{thought_positive}よね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "やってみたいよね。"
+            }
+        },
+        {
+            "id": 335,
+            "speaker": "B",
+            "utterance": "でも、英語教室通うまではいかないんですよね。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "英語教室通うまではいかない"
+                }
+            }
+        },
+        {
+            "id": 336,
+            "speaker": "B",
+            "utterance": "そこまでの意欲はないんですよね。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "そこまでの意欲はない"
+                }
+            }
+        },
+        {
+            "id": 337,
+            "speaker": "B",
+            "utterance": "教室に通おうとか、そこまではないんだけど。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "教室に通おうとか、そこまではない"
+                }
+            }
+        },
+        {
+            "id": 338,
+            "speaker": "A",
+            "utterance": "方法としては通う方法がありますもんね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disthought",
+                "utterance": "方法としては通う方法がありますもんね。"
+            }
+        },
+        {
+            "id": 339,
+            "speaker": "B",
+            "utterance": "それが一番手っ取り早いんですけどね。"
+        },
+        {
+            "id": 340,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 341,
+            "speaker": "B",
+            "utterance": "で、通うのは。"
+        },
+        {
+            "id": 342,
+            "speaker": "A",
+            "utterance": "何を、なんで躊躇するんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "disthought",
+                "utterance": "何を、なんで躊躇するんですか？"
+            }
+        },
+        {
+            "id": 343,
+            "speaker": "B",
+            "utterance": "やっぱり時間とかじゃないですか。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "時間とかじゃないですか。"
+                }
+            }
+        },
+        {
+            "id": 344,
+            "speaker": "A",
+            "utterance": "時間。",
+            "utterance_request": {
+                "utterance_request": "{disreason_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "時間。"
+            }
+        },
+        {
+            "id": 345,
+            "speaker": "B",
+            "utterance": "通うのにやっぱり。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "通うのにやっぱり。"
+                }
+            }
+        },
+        {
+            "id": 346,
+            "speaker": "A",
+            "utterance": "通うのに",
+            "utterance_request": {
+                "utterance_request": "{disreason_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "通うのに"
+            }
+        },
+        {
+            "id": 347,
+            "speaker": "B",
+            "utterance": "通う時間とか、手間ひまとか、そういうのがやっぱあるんじゃないですかね。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "通う時間とか、手間ひまとか、そういうのがやっぱあるんじゃないですかね"
+                }
+            }
+        },
+        {
+            "id": 348,
+            "speaker": "A",
+            "utterance": "手間ひまが。",
+            "utterance_request": {
+                "utterance_request": "{disreason_summary}が。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "手間ひまが。"
+            }
+        },
+        {
+            "id": 349,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 350,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 351,
+            "speaker": "B",
+            "utterance": "あと、そこまですごい覚えたいかっていうのも微妙なんですよね。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "そこまですごい覚えたいかっていうのも微妙なんです"
+                }
+            }
+        },
+        {
+            "id": 352,
+            "speaker": "B",
+            "utterance": "そこまで覚えたい。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "そこまで覚えたい。"
+                }
+            }
+        },
+        {
+            "id": 353,
+            "speaker": "B",
+            "utterance": "そこがまた微妙なところで。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "そこがまた微妙なところで。"
+                }
+            }
+        },
+        {
+            "id": 354,
+            "speaker": "A",
+            "utterance": "いや、でも、時間をクリアしたらいけるんじゃないですか？",
+            "utterance_request": {
+                "utterance_request": "でも、{disreason_summary}をクリアしたらいけるんじゃないですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "いや、でも、時間をクリアしたらいけるんじゃないですか？"
+            }
+        },
+        {
+            "id": 355,
+            "speaker": "B",
+            "utterance": "時間をクリアしたら、そうですね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "時間をクリアしたら、"
+                }
+            }
+        },
+        {
+            "id": 356,
+            "speaker": "B",
+            "utterance": "行けそうな感じもするね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "行けそうな感じもする"
+                }
+            }
+        },
+        {
+            "id": 357,
+            "speaker": "A",
+            "utterance": "どうして時間つくれないですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "どうして時間つくれないですか？"
+            }
+        },
+        {
+            "id": 358,
+            "speaker": "B",
+            "utterance": "どうしてっていうか、ほかに結構やったりすることもあるんで、なんかもう、そこまでそこに、例えば、英語を覚えたいとか、そこまで時間っていうか、それに費やしたいっていう、そこまではいかないんだけど、でも、覚えといたほうがいいかなっていうのもあるし、そこがまた微妙なところで。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "ほかに結構やったりすることもあるんで、",
+                    "disthought_2": "英語を覚えたいとか、そこまで時間っていうか、それに費やしたいっていう、そこまではいかない",
+                    "thought_positive_3": "覚えといたほうがいいかなっていうのもある"
+                }
+            }
+        },
+        {
+            "id": 359,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 360,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 361,
+            "speaker": "A",
+            "utterance": "覚えといた方がいいかなっていう気持ちがあるけど、ほかに結構やったりすることもある",
+            "utterance_request": {
+                "utterance_request": "{thought_positive_summary}っていう気持ちがあるけど、{disreason_summary}"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "覚えといた方がいいかなっていう気持ちがあるけど、ほかに結構やったりすることもある"
+            }
+        },
+        {
+            "id": 362,
+            "speaker": "B",
+            "utterance": "時間ね。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "時間"
+                }
+            }
+        },
+        {
+            "id": 363,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 364,
+            "speaker": "B",
+            "utterance": "だから、そこがね。"
+        },
+        {
+            "id": 365,
+            "speaker": "A",
+            "utterance": "どうですか、時間、具体的にちょっと挙げてみます？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "どうですか、時間、具体的にちょっと挙げてみます？"
+            }
+        },
+        {
+            "id": 366,
+            "speaker": "B",
+            "utterance": "あー、じゃあね。"
+        },
+        {
+            "id": 367,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 368,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 369,
+            "speaker": "A",
+            "utterance": "いつ、だいたい英語の、英会話ってどれぐらいの時間使うんでしょうね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_time",
+                "utterance": "いつ、だいたい英語の、英会話ってどれぐらいの時間使うんでしょうね？"
+            }
+        },
+        {
+            "id": 370,
+            "speaker": "B",
+            "utterance": "どれぐらい使うんでしょうね。"
+        },
+        {
+            "id": 371,
+            "speaker": "B",
+            "utterance": "教室とかね。"
+        },
+        {
+            "id": 372,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 373,
+            "speaker": "B",
+            "utterance": "どれぐらいと、あと、月、時間もそうだし、いろいろね、ありますよね。"
+        },
+        {
+            "id": 374,
+            "speaker": "A",
+            "utterance": "例えば、時間がないけど月に１回とか、さっき、本使うのお好きだと、本買おうかなとかって。",
+            "system_behavior": {
+                "purpose": "suggest",
+                "purpose_attribute": [
+                    "confidence_time",
+                    "confidence_action"
+                ],
+                "utterance": "例えば、時間がないけど月に１回とか、さっき、本使うのお好きだと、本買おうかなとかって。"
+            }
+        },
+        {
+            "id": 375,
+            "speaker": "B",
+            "utterance": "本はいいんじゃないですかね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "本はいいんじゃないですかね"
+                }
+            }
+        },
+        {
+            "id": 376,
+            "speaker": "A",
+            "utterance": "でも、本プラス、そういうものもできたら、もっといいんじゃないですか。",
+            "system_behavior": {
+                "purpose": "suggest",
+                "purpose_attribute": "confidence_action",
+                "utterance": "でも、本プラス、そういうものもできたら、もっといいんじゃないですか。"
+            }
+        },
+        {
+            "id": 377,
+            "speaker": "B",
+            "utterance": "うん、もっといいでしょうね。"
+        },
+        {
+            "id": 378,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 379,
+            "speaker": "B",
+            "utterance": "ね。"
+        },
+        {
+            "id": 380,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 381,
+            "speaker": "B",
+            "utterance": "いいと思います。"
+        },
+        {
+            "id": 382,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 383,
+            "speaker": "B",
+            "utterance": "特に、より。"
+        },
+        {
+            "id": 384,
+            "speaker": "A",
+            "utterance": "英会話だとね。",
+            "system_behavior": {
+                "purpose": "feedbck",
+                "purpose_attribute": "detail",
+                "utterance": "英会話だとね。"
+            }
+        },
+        {
+            "id": 385,
+            "speaker": "B",
+            "utterance": "よりよくなると思いますけどね。"
+        },
+        {
+            "id": 386,
+            "speaker": "A",
+            "utterance": "よりよくなると思いますよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "よりよくなると思いますよね。"
+            }
+        },
+        {
+            "id": 387,
+            "speaker": "B",
+            "utterance": "ね。"
+        },
+        {
+            "id": 388,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 389,
+            "speaker": "B",
+            "utterance": "ただ、あれなんですよね。"
+        },
+        {
+            "id": 390,
+            "speaker": "B",
+            "utterance": "身近に、例えば、外国の友達がいたりするといいんですけど、たまに話しかけられるぐらいで、外国の友達がいたら、たぶん行くでしょうけど、いないし、外国の知り合いいない、外人の知り合いいないんで。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "外国の友達がいたら、たぶん行くでしょうけど、いないし、外国の知り合いいない、外人の知り合いいないんで"
+                }
+            }
+        },
+        {
+            "id": 391,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 392,
+            "speaker": "B",
+            "utterance": "え、います？"
+        },
+        {
+            "id": 393,
+            "speaker": "A",
+            "utterance": "探してみたらどうですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "探してみたらどうですか？"
+            }
+        },
+        {
+            "id": 394,
+            "speaker": "B",
+            "utterance": "探すんですか。"
+        },
+        {
+            "id": 395,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 396,
+            "speaker": "A",
+            "utterance": "先ほどの妹さんとかはどうなんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "先ほどの妹さんとかはどうなんですか？"
+            }
+        },
+        {
+            "id": 397,
+            "speaker": "B",
+            "utterance": "あー、あー、あー。"
+        },
+        {
+            "id": 398,
+            "speaker": "B",
+            "utterance": "妹は、だから、英語は話さないと思いますよ。"
+        },
+        {
+            "id": 399,
+            "speaker": "B",
+            "utterance": "韓国語だけだと思います。"
+        },
+        {
+            "id": 400,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 401,
+            "speaker": "A",
+            "utterance": "韓国語はダメですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "韓国語はダメですか？"
+            }
+        },
+        {
+            "id": 402,
+            "speaker": "B",
+            "utterance": "韓国語はあんま興味ないですね、まったく。"
+        },
+        {
+            "id": 403,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 404,
+            "speaker": "B",
+            "utterance": "全然興味ないですね。"
+        },
+        {
+            "id": 405,
+            "speaker": "A",
+            "utterance": "興味ない。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disdetail",
+                "utterance": "興味ない。"
+            }
+        },
+        {
+            "id": 406,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 407,
+            "speaker": "A",
+            "utterance": "でも、楽しいと思いませんか、話せたら？",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detial",
+                "utterance": "でも、楽しいと思いませんか、話せたら？"
+            }
+        },
+        {
+            "id": 408,
+            "speaker": "B",
+            "utterance": "うーん、そうですね。"
+        },
+        {
+            "id": 409,
+            "speaker": "B",
+            "utterance": "でも、５カ国語とか話せたらすごいですよね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "５カ国語とか話せたらすごいですよね"
+                }
+            }
+        },
+        {
+            "id": 410,
+            "speaker": "B",
+            "utterance": "よくいますけどね、そういう人ね。"
+        },
+        {
+            "id": 411,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 412,
+            "speaker": "B",
+            "utterance": "でも。"
+        },
+        {
+            "id": 413,
+            "speaker": "A",
+            "utterance": "でも、そういう人になれたらすごいんじゃないですか？",
+            "system_behavior": {
+                "purpose": "suggest",
+                "purpose_attribute": "reason",
+                "utterance": "でも、そういう人になれたらすごいんじゃないですか？"
+            }
+        },
+        {
+            "id": 414,
+            "speaker": "B",
+            "utterance": "うん、それはそれですごい人だなと思うけど、うん。",
+            "understand": {
+                "MI": {
+                    "thought_1": "それはそれですごい人だなと思うけど"
+                }
+            }
+        },
+        {
+            "id": 415,
+            "speaker": "B",
+            "utterance": "そこまで、でも、大変そうだな。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "大変そうだな"
+                }
+            }
+        },
+        {
+            "id": 416,
+            "speaker": "B",
+            "utterance": "大変じゃないですか。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "大変じゃないですか"
+                }
+            }
+        },
+        {
+            "id": 417,
+            "speaker": "B",
+            "utterance": "労力要りそうじゃないですか、そんなに話したら。",
+            "understand": {
+                "MI": {
+                    "disthought_1": "労力要りそうじゃないですか、そんなに話したら"
+                }
+            }
+        },
+        {
+            "id": 418,
+            "speaker": "A",
+            "utterance": "でも、結果がありますよ。",
+            "system_behavior": {
+                "purpose": "suggest",
+                "purpose_attribute": "reason",
+                "utterance": "でも、結果がありますよ。"
+            }
+        },
+        {
+            "id": 419,
+            "speaker": "B",
+            "utterance": "うん、うん。"
+        },
+        {
+            "id": 420,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 421,
+            "speaker": "A",
+            "utterance": "まずは何かやってみませんか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "まずは何かやってみませんか？"
+            }
+        },
+        {
+            "id": 422,
+            "speaker": "B",
+            "utterance": "うーん、そうですね。"
+        },
+        {
+            "id": 423,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 424,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 425,
+            "speaker": "A",
+            "utterance": "どうでしょうね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "どうでしょうね？"
+            }
+        },
+        {
+            "id": 426,
+            "speaker": "B",
+            "utterance": "どうかな？"
+        },
+        {
+            "id": 427,
+            "speaker": "B",
+            "utterance": "あと、なんだろうな？"
+        },
+        {
+            "id": 428,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 429,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 430,
+            "speaker": "B",
+            "utterance": "その辺ね。"
+        },
+        {
+            "id": 431,
+            "speaker": "B",
+            "utterance": "あと、なんだろう？"
+        },
+        {
+            "id": 432,
+            "speaker": "B",
+            "utterance": "勉強と、あと、どんな勉強がありますかね、あとね。"
+        },
+        {
+            "id": 433,
+            "speaker": "A",
+            "utterance": "本はいいっていうのは、具体的にはどうですか？",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}っていうのは、具体的にはどうですか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "本はいいっていうのは、具体的にはどうですか？"
+            }
+        },
+        {
+            "id": 434,
+            "speaker": "B",
+            "utterance": "本ですか？"
+        },
+        {
+            "id": 435,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 436,
+            "speaker": "B",
+            "utterance": "本。"
+        },
+        {
+            "id": 437,
+            "speaker": "B",
+            "utterance": "あー、あー、本ねー。"
+        },
+        {
+            "id": 438,
+            "speaker": "B",
+            "utterance": "そうなんですよね。"
+        },
+        {
+            "id": 439,
+            "speaker": "B",
+            "utterance": "本っていうか、どんな本買えばいいんだろう。"
+        },
+        {
+            "id": 440,
+            "speaker": "A",
+            "utterance": "例えば、もう今日帰りに買いに行こうかななんて。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_starttime",
+                "utterance": "例えば、もう今日帰りに買いに行こうかななんて。"
+            }
+        },
+        {
+            "id": 441,
+            "speaker": "B",
+            "utterance": "あー、そうですね。"
+        },
+        {
+            "id": 442,
+            "speaker": "B",
+            "utterance": "それはちょっと考えますね。"
+        },
+        {
+            "id": 443,
+            "speaker": "B",
+            "utterance": "あー、本、本、うん。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "本、本、うん"
+                }
+            }
+        },
+        {
+            "id": 444,
+            "speaker": "B",
+            "utterance": "買いに行くのいいんじゃないですかね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "買いに行くのいいんじゃないですかね"
+                }
+            }
+        },
+        {
+            "id": 445,
+            "speaker": "B",
+            "utterance": "買いに行ったり。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "買いに行ったり"
+                }
+            }
+        },
+        {
+            "id": 446,
+            "speaker": "A",
+            "utterance": "ほかになんか、さっきはパソコンについては、すごく、やれたらいいなっておっしゃってたじゃないですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "ほかになんか、さっきはパソコンについては、すごく、やれたらいいなっておっしゃってたじゃないですか。"
+            }
+        },
+        {
+            "id": 447,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 448,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 449,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 450,
+            "speaker": "B",
+            "utterance": "あと、ほかに、これ、勉強か、勉強といえるかどうか分からない、読書。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "読書"
+                }
+            }
+        },
+        {
+            "id": 451,
+            "speaker": "A",
+            "utterance": "あー、読書。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "あー、読書。"
+            }
+        },
+        {
+            "id": 452,
+            "speaker": "B",
+            "utterance": "うんうん、うんうん。"
+        },
+        {
+            "id": 453,
+            "speaker": "B",
+            "utterance": "読書ってしてみたいですよね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "読書ってしてみたい"
+                }
+            }
+        },
+        {
+            "id": 454,
+            "speaker": "B",
+            "utterance": "結構偉い人のなんとか、なんだっけな？"
+        },
+        {
+            "id": 455,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 456,
+            "speaker": "B",
+            "utterance": "いろんな人生の教訓っていうか、いろんな形で表現してんのあるじゃないですか。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "いろんな人生の教訓っていうか、いろんな形で表現してんの"
+                }
+            }
+        },
+        {
+            "id": 457,
+            "speaker": "B",
+            "utterance": "なんていうのかな、あれ。"
+        },
+        {
+            "id": 458,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 459,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 460,
+            "speaker": "A",
+            "utterance": "人生の教訓っていうのは、なんでですか？",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}っていうのは、なんでですか？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "人生の教訓っていうのは、なんでですか？"
+            }
+        },
+        {
+            "id": 461,
+            "speaker": "B",
+            "utterance": "ありますね。"
+        },
+        {
+            "id": 462,
+            "speaker": "B",
+            "utterance": "この間、国民栄誉賞をとった羽生先生の本。"
+        },
+        {
+            "id": 463,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 464,
+            "speaker": "B",
+            "utterance": "あれ、前買ってあるんですけど、結構すごいこと書いてあるんですよね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "前買ってあるんですけど、結構すごいこと書いてある"
+                }
+            }
+        },
+        {
+            "id": 465,
+            "speaker": "B",
+            "utterance": "なんか、「あー、これ、なるほどな」とか思ったりして、これ、自分でも＠、将棋、羽生先生はもう将棋の頂点なんだけど、これ、自分でもなんか、ちょっと若干当てはまるっていうか、これ、うまく自分にも、うまくできないかなとか。"
+        },
+        {
+            "id": 466,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 467,
+            "speaker": "B",
+            "utterance": "こう苦難に陥ったときに、なんかできるみたいな、こうしたらいいんじゃないかとか、そういう、いいんじゃないかなとかいうのをね、これいいんじゃない、すごいいろんな人のあるんですけど。"
+        },
+        {
+            "id": 468,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 469,
+            "speaker": "A",
+            "utterance": "本を読むことで。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "importance",
+                "utterance": "本を読むことで。"
+            }
+        },
+        {
+            "id": 470,
+            "speaker": "B",
+            "utterance": "ええ、読書で、読書っていうか、そういう関係の。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "読書で、読書っていうか、そういう関係の"
+                }
+            }
+        },
+        {
+            "id": 471,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 472,
+            "speaker": "B",
+            "utterance": "本っていっても、いや、なんでもいいっていうわけじゃないんですけど、自分の興味ある人の成功体験とか、あるいは失敗談とか、ここは失敗したとか、成功したとか、ここを切り捨てるとか、そういうのっていいんじゃないかなと思いますけどね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "自分の興味ある人の成功体験とか、あるいは失敗談とか、ここは失敗したとか、成功したとか、ここを切り捨てるとか、そういうのっていいんじゃないかな"
+                }
+            }
+        },
+        {
+            "id": 473,
+            "speaker": "A",
+            "utterance": "いいと思いますよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "いいと思いますよね。"
+            }
+        },
+        {
+            "id": 474,
+            "speaker": "A",
+            "utterance": "でも、さっきもパソコンの本っておっしゃったし、英語のときも英語の本っておっしゃったし、今も本っておっしゃって、やっぱり本に対する、身近な存在ですか、本は？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "でも、さっきもパソコンの本っておっしゃったし、英語のときも英語の本っておっしゃったし、今も本っておっしゃって、やっぱり本に対する、身近な存在ですか、本は？"
+            }
+        },
+        {
+            "id": 475,
+            "speaker": "B",
+            "utterance": "本、いいですよね。"
+        },
+        {
+            "id": 476,
+            "speaker": "B",
+            "utterance": "本、そんなすごい買ってるってわけじゃないんですけど、手っ取り早くそれがいいんじゃないかなっていうか。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "手っ取り早くそれがいいんじゃないかな"
+                }
+            }
+        },
+        {
+            "id": 477,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 478,
+            "speaker": "B",
+            "utterance": "そう。"
+        },
+        {
+            "id": 479,
+            "speaker": "A",
+            "utterance": "本を読んでるときにいろいろ、さっきもね、困ったときとかありましたけど、読んだあととか、感じることとか、どうなんですか、読むことで？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "thought",
+                "utterance": "本を読んでるときにいろいろ、さっきもね、困ったときとかありましたけど、読んだあととか、感じることとか、どうなんですか、読むことで？"
+            }
+        },
+        {
+            "id": 480,
+            "speaker": "B",
+            "utterance": "あー、やっぱこういう考えもあるんだなとか、全ては肯定するわけじゃないですけど、こう面白い、こういう考えもあるんだとか、へーとか思ったりして面白いから、面白い着眼点っていうか、そういうのがあるんだなとかいうのは。"
+        },
+        {
+            "id": 481,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 482,
+            "speaker": "A",
+            "utterance": "今までも結構本は買ったりしてるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "今までも結構本は買ったりしてるんですか？"
+            }
+        },
+        {
+            "id": 483,
+            "speaker": "B",
+            "utterance": "本は、いろんな本。"
+        },
+        {
+            "id": 484,
+            "speaker": "B",
+            "utterance": "だから、すごいかたい本はそうでもないんですけど、そうですね。"
+        },
+        {
+            "id": 485,
+            "speaker": "B",
+            "utterance": "結構買ったり。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "結構買ったり"
+                }
+            }
+        },
+        {
+            "id": 486,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 487,
+            "speaker": "B",
+            "utterance": "うん。"
+        },
+        {
+            "id": 488,
+            "speaker": "B",
+            "utterance": "買うときは、ぱぱって買うんですけど、買わないとき買わなくなっちゃったりですが、そうですね、そこそこ買ってますかね。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_1": "そこそこ買ってます"
+                }
+            }
+        },
+        {
+            "id": 489,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 490,
+            "speaker": "A",
+            "utterance": "じゃあ、これからも読書は続けていきたいなと思ってますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_action",
+                "utterance": "じゃあ、これからも読書は続けていきたいなと思ってますか？"
+            }
+        },
+        {
+            "id": 491,
+            "speaker": "B",
+            "utterance": "読書、そうですね。"
+        },
+        {
+            "id": 492,
+            "speaker": "B",
+            "utterance": "結構、やりたいですね、読書とかね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "結構、やりたいですね、読書とかね"
+                }
+            }
+        },
+        {
+            "id": 493,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 494,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 495,
+            "speaker": "A",
+            "utterance": "はー、はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー、はい。"
+            }
+        },
+        {
+            "id": 496,
+            "speaker": "A",
+            "utterance": "例えば、日にちとか決めたり、今月は何冊読もうとか、そういうのはいかがですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "例えば、日にちとか決めたり、今月は何冊読もうとか、そういうのはいかがですか？"
+            }
+        },
+        {
+            "id": 497,
+            "speaker": "B",
+            "utterance": "あー、そういうのはあんまないんですよね。"
+        },
+        {
+            "id": 498,
+            "speaker": "A",
+            "utterance": "そうですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_quantity",
+                "utterance": "そうですか。"
+            }
+        },
+        {
+            "id": 499,
+            "speaker": "B",
+            "utterance": "気まぐれっていうか、自分のなんか、決めごとはあんまないんですけど、なんとなく自分の気分に合わせてっていうか、やりたいときにやるっていうか。",
+            "understand": {
+                "MI": {
+                    "commitment_1": "なんとなく自分の気分に合わせてっていうか、やりたいときにやる"
+                }
+            }
+        },
+        {
+            "id": 500,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 501,
+            "speaker": "B",
+            "utterance": "ええ。"
+        },
+        {
+            "id": 502,
+            "speaker": "A",
+            "utterance": "これからもたくさん読書してください",
+            "utterance_request": {
+                "utterance_request": "これからもたくさん{detail_positive}してください。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "これからもたくさん読書してください"
+            }
+        },
+        {
+            "id": 503,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 504,
+            "speaker": "A",
+            "utterance": "ありがとうございました。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "ありがとうございました。"
+            }
+        },
+        {
+            "id": 505,
+            "speaker": "B",
+            "utterance": "はい、ありがとうございます。"
+        }
+    ]
+}

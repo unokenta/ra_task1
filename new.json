@@ -1,0 +1,2319 @@
+{
+   "info": "info",
+   "utterances": [
+      {
+         "id": 0,
+         "speaker": "A",
+         "utterance": "オオノさん、最近困っていることありますか？",
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "theme",
+            "utterance": "オオノさん、最近困っていることありますか？"
+         },
+         "subject": null,
+         "dialog_act": [
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 1,
+         "speaker": "B",
+         "utterance": "最近、ほんとに初めて会った人とうまく話せないのがすごい悩んでますね。",
+         "understand": {
+            "MI": {
+               "theme_negative_1": "初めて会った人とうまく話せない"
+            }
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 2,
+         "speaker": "B",
+         "utterance": "仕事のときとかって、休憩時間とかも、一緒になったりとかするじゃないですか。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 3,
+         "speaker": "A",
+         "utterance": "あー、ありますね。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "utterance": "あー、ありますね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 4,
+         "speaker": "B",
+         "utterance": "そういうときに、黙ってるのも気まずいけれども、こっちから話しかけるとか、何を話せばいいのかとか迷っちゃって、それが今困ってます。",
+         "understand": {
+            "MI": {
+               "thought_negative_1": "黙ってるのも気まずい",
+               "detail_negative_2": "何を話せばいいのか迷っちゃって",
+               "thought_negative_3": "困ってます"
+            }
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 5,
+         "speaker": "A",
+         "utterance": "あー、黙ってるのも気まずいし、何話せばっていうところ。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "utterance": "あー、黙ってるのも気まずいし、何話せばっていうところ。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "働きかけ-間接",
+            "叙述"
+         ],
+         "tense": "future",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 6,
+         "speaker": "B",
+         "utterance": "そうなんです。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "positive"
+      },
+      {
+         "id": 7,
+         "speaker": "A",
+         "utterance": "あー。",
+         "system_behavior": {
+            "purpose": "相槌",
+            "utterance": "あー。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 8,
+         "speaker": "B",
+         "utterance": "仕事とか＠もう目的が決まっているじゃないですか。",
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 9,
+         "speaker": "B",
+         "utterance": "これやるとかってなって。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 10,
+         "speaker": "B",
+         "utterance": "その仕事の話とか、それに関しての相談とかはできるんですけど、もっとフラットな、何もないときの話がしにくいっていうか。",
+         "understand": {
+            "MI": {
+               "confidence_positive_1": "仕事の話とか、それに関しての相談とかはできる",
+               "detail_negative_2": "フラットな、何もないときの話がしにくい"
+            }
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 11,
+         "speaker": "A",
+         "utterance": "仕事の話とか、それに関しての相談とかはできるけど、フラットな、何もないときの話がしにくい",
+         "utterance_request": {
+            "utterance_request": "{confidence_positive}けど{detail_negative}"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": [
+               "confidence",
+               "detail"
+            ],
+            "utterance": "仕事の話とか、それに関しての相談とかはできるけど、フラットな、何もないときの話がしにくい"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "future",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 12,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 13,
+         "speaker": "A",
+         "utterance": "ふーん。",
+         "system_behavior": {
+            "purpose": "相槌",
+            "utterance": "ふーん。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 14,
+         "speaker": "A",
+         "utterance": "どんなふうに気まずいですか？",
+         "utterance_request": {
+            "utterance_request": "どんなふうに{thought_negative_summary}ですか？"
+         },
+         "system_behavior": {
+            "purpose": "open質問",
+            "purpose_attribute": "detail",
+            "utterance": "どんなふうに気まずいですか？"
+         },
+         "subject": null,
+         "dialog_act": [
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 15,
+         "speaker": "B",
+         "utterance": "なんだろう、他の島とかの人とかはわりと普通にしゃべってるのに、気のせいかもしれないけど、自分のとこにいる人たちと、そこだけ黙っちゃってるような気がするっていうか。",
+         "understand": {
+            "MI": {
+               "confidence_1": "他の島とかの人とかはわりと普通にしゃべってる",
+               "thought_negative_2": "自分のとこにいる人たちと、そこだけ黙っちゃってるような気がする"
+            }
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 16,
+         "speaker": "A",
+         "utterance": "島ごとに雰囲気が違ってきていて、オオノさんのとこだけなんか。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "thought",
+            "utterance": "島ごとに雰囲気が違ってきていて、オオノさんのとこだけなんか。"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 17,
+         "speaker": "B",
+         "utterance": "静かになっちゃうかなみたいな。",
+         "understand": {
+            "MI": {
+               "thought_1": "静かになっちゃう"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 18,
+         "speaker": "A",
+         "utterance": "静かになっちゃう感じ、ほー。",
+         "utterance_request": {
+            "utterance_request": "{thought}感じ、ほー。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "thought",
+            "utterance": "静かになっちゃう感じ、ほー。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 19,
+         "speaker": "B",
+         "utterance": "別に自分だけのせいじゃないよなとは思うんですけども、やっぱり一緒に仕事するならもうちょっと、普段もうちょっと気楽に接せたほうがやりやすいし、気も楽なんだよなーとか思って。",
+         "understand": {
+            "MI": {
+               "thought_1": "自分だけのせいじゃないよなとは思う",
+               "reason_positive_2": "普段もうちょっと気楽に接せたほうがやりやすい",
+               "thought_positive_3": "気も楽なんだよなーとか思って"
+            }
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 20,
+         "speaker": "A",
+         "utterance": "普段もうちょっと気楽に接せたほうがやりやすいっていう感じなんですね。",
+         "utterance_request": {
+            "utterance_request": "{reason_positive}っていう感じなんですね。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "thought",
+            "utterance": "普段もうちょっと気楽に接せたほうがやりやすいっていう感じなんですね。"
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 21,
+         "speaker": "B",
+         "utterance": "そうなんです、はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "positive"
+      },
+      {
+         "id": 22,
+         "speaker": "A",
+         "utterance": "あー。",
+         "system_behavior": {
+            "purpose": "相槌",
+            "utterance": "あー。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 23,
+         "speaker": "B",
+         "utterance": "やっぱりなんでもコミュニケーションって大事だから、もっと変なとこで壁がないほうがお互いいいよなと思うんですけど。",
+         "understand": {
+            "MI": {
+               "reason_1": "コミュニケーションって大事だから、もっと変なとこで壁がないほうがお互いいい"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 24,
+         "speaker": "A",
+         "utterance": "そのコミュニケーションが大事って思われたのって何かきっかけとかありました？",
+         "utterance_request": {
+            "utterance_request": "その{reason_summary}って思われたのって何かきっかけとかありました？"
+         },
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "reason",
+            "utterance": "そのコミュニケーションが大事って思われたのって何かきっかけとかありました？"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "past",
+         "emotion": [
+            "sad",
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 25,
+         "speaker": "B",
+         "utterance": "きっかけ。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 26,
+         "speaker": "B",
+         "utterance": "きっかけねー。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 27,
+         "speaker": "B",
+         "utterance": "そうだな。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 28,
+         "speaker": "B",
+         "utterance": "やっぱり仕事上で他の人とか見てると、やっぱりスムーズに仕事だけに限らないんですけど、あえて仕事で言うなら、なんか質問したりとか、あと、一緒に目的とかすり合わせたりとかうまくできてるところって、休み時間とか見てても、ごく自然としゃべれるような気がするんですね、横で見てて。",
+         "understand": {
+            "MI": {
+               "reason_positive_1": "質問したりとか、あと、一緒に目的とかすり合わせたりとかうまくできてるところって、休み時間とか見てても、ごく自然としゃべれる"
+            }
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述",
+            "働きかけ-直接"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 29,
+         "speaker": "A",
+         "utterance": "＠連携がスムーズなチームは、休み時間もちょっと和気あいあいと過ごしている感じ。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "reason",
+            "utterance": "＠連携がスムーズなチームは、休み時間もちょっと和気あいあいと過ごしている感じ。"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 30,
+         "speaker": "B",
+         "utterance": "そんな感じですね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 31,
+         "speaker": "B",
+         "utterance": "やっぱなんか違うなっていうのをよく見てて思うんで。",
+         "understand": {
+            "MI": {
+               "thought_1": "なんか違うなっていうのをよく見てて思う"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 32,
+         "speaker": "B",
+         "utterance": "だけど、やっぱり止まっちゃうところってのは、これは別の仕事で実際にあったんですけども、ちょっとした話とかも全部メモとか紙で残すだけで、「おはようございます」とか、「お疲れさまでした」すらないところとか。",
+         "understand": {
+            "MI": {
+               "disdetail_negative_1": "ちょっとした話とかも全部メモとか紙で残すだけで、「おはようございます」とか、「お疲れさまでした」すらない"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 33,
+         "speaker": "A",
+         "utterance": "そうなんですね。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "utterance": "そうなんですね。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 34,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 35,
+         "speaker": "B",
+         "utterance": "これは全く別の現場であったんですけど、そこではほんとに、みんなもう抱え込んじゃって、お互いがお互いどんな気持ちで仕事してんのかも分かんないから、最終的に、みんな思い思いにやってるから、最初のすり合わせとかもできてないから、じゃあ、いざこれで納品しましょうっていったときに、すごい困っちゃうっていうか。",
+         "understand": {
+            "MI": {
+               "reason_negative_1": "お互いがお互いどんな気持ちで仕事してんのかも分かんないから、最終的に、みんな思い思いにやってる",
+               "detail_negative_2": "最初のすり合わせとかもできてない",
+               "thought_negative_3": "これで納品しましょうっていったときに、すごい困っちゃう"
+            }
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 36,
+         "speaker": "A",
+         "utterance": "お互いがお互いどんな気持ちで仕事してんのかも分かんないし、みんな思い思いにやってるというか。",
+         "utterance_request": {
+            "utterance_request": "{reason_negative}というか。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "thought",
+            "utterance": "お互いがお互いどんな気持ちで仕事してんのかも分かんないし、みんな思い思いにやってるというか。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 37,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 38,
+         "speaker": "B",
+         "utterance": "みんな前提がもう違うという。",
+         "understand": {
+            "MI": {
+               "reason_negative_1": "みんな前提がもう違う"
+            }
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 39,
+         "speaker": "A",
+         "utterance": "前提が違う。",
+         "utterance_request": {
+            "utterance_request": "{reason_negative_summary}。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "reason",
+            "utterance": "前提が違う。"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 40,
+         "speaker": "A",
+         "utterance": "最初のすり合わせとかもできていないから。",
+         "utterance_request": {
+            "utterance_request": "{detail_negative}から。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "detail",
+            "utterance": "最初のすり合わせとかもできていないから。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 41,
+         "speaker": "B",
+         "utterance": "そうだし。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "positive"
+      },
+      {
+         "id": 42,
+         "speaker": "A",
+         "utterance": "それは困ってしまいますね。",
+         "utterance_request": {
+            "utterance_request": "それは{thought_negative_summary}しまいますね。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "thought",
+            "utterance": "それは困ってしまいますね。"
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 43,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 44,
+         "speaker": "B",
+         "utterance": "だし、ほんとにただそこにいるだけでいづらくなっちゃう。",
+         "understand": {
+            "MI": {
+               "thought_negative_1": "ただそこにいるだけでいづらくなっちゃう"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 45,
+         "speaker": "B",
+         "utterance": "居心地悪くて。",
+         "understand": {
+            "MI": {
+               "thought_negative_1": "居心地悪く"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "hate"
+         ],
+         "response": null
+      },
+      {
+         "id": 46,
+         "speaker": "A",
+         "utterance": "あー。",
+         "system_behavior": {
+            "purpose": "相槌",
+            "utterance": "あー。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 47,
+         "speaker": "B",
+         "utterance": "うん。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "neutral"
+      },
+      {
+         "id": 48,
+         "speaker": "B",
+         "utterance": "てふうになってたから、別に仕事一本に絞った話じゃないけれど、もっと気楽に話せるようになりたいなとは思ってますね。",
+         "understand": {
+            "MI": {
+               "detail_1": "もっと気楽に話せるようになりたい"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "欲求",
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 49,
+         "speaker": "A",
+         "utterance": "気楽に、どんなことがあると気楽に話せたって思えそうですか？",
+         "utterance_request": {
+            "utterance_request": "どんなことがあると{detail_summary}たって思えそうですか？"
+         },
+         "system_behavior": {
+            "purpose": "open質問",
+            "purpose_attribute": "detail",
+            "utterance": "気楽に、どんなことがあると気楽に話せたって思えそうですか？"
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 50,
+         "speaker": "B",
+         "utterance": "そうだな。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 51,
+         "speaker": "B",
+         "utterance": "何だろうな。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 52,
+         "speaker": "B",
+         "utterance": "自然と笑えたときでしょうか。",
+         "understand": {
+            "MI": {
+               "detail_positive_1": "自然と笑えた"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 53,
+         "speaker": "B",
+         "utterance": "ぼんやりとしてすいません。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 54,
+         "speaker": "A",
+         "utterance": "いえいえいえ、自然と笑えたとき。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "detail",
+            "utterance": "いえいえいえ、自然と笑えたとき。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 55,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 56,
+         "speaker": "A",
+         "utterance": "そういうことって今までありました？",
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "confidence",
+            "utterance": "そういうことって今までありました？"
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "past",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 57,
+         "speaker": "A",
+         "utterance": "今の現場で。",
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "confidence",
+            "utterance": "今の現場で。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 58,
+         "speaker": "B",
+         "utterance": "今の、何度かあったりは。",
+         "understand": {
+            "MI": {
+               "confidence_1": "何度かあった"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 59,
+         "speaker": "A",
+         "utterance": "何度か、１００回に１回ぐらいは？。",
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "confidence",
+            "utterance": "何度か、１００回に１回ぐらいは？。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 60,
+         "speaker": "B",
+         "utterance": "どうかな。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "neutral"
+      },
+      {
+         "id": 61,
+         "speaker": "B",
+         "utterance": "でも、周りの人が結構話すのが、話し上手というかっていう人が一緒にいたときとかは、自然と溶け込めた感じがしますね。",
+         "understand": {
+            "MI": {
+               "confidence_1": "話し上手というかっていう人が一緒にいたときとかは、自然と溶け込めた感じがします"
+            }
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 62,
+         "speaker": "A",
+         "utterance": "あー、じゃあ、誰か話し上手な人がいると、オオノさんも溶け込み上手に、溶け込めるんですね。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "confidence",
+            "utterance": "あー、じゃあ、誰か話し上手な人がいると、オオノさんも溶け込み上手に、溶け込めるんですね。"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 63,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 64,
+         "speaker": "B",
+         "utterance": "あと、周りの人に気遣ってもらってたかなっていうのはある。",
+         "understand": {
+            "MI": {
+               "thought_1": "周りの人に気遣ってもらってた"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 65,
+         "speaker": "A",
+         "utterance": "周りの人に？",
+         "utterance_request": {
+            "utterance_request": "{thought_summary}？"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "thought",
+            "utterance": "周りの人に？"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 66,
+         "speaker": "B",
+         "utterance": "ほんと休みの、休みっていうか仕事の合間とかに、ほんとにちょっとしたことで話し掛けてもらえたりとかして。",
+         "understand": {
+            "MI": {
+               "confidence_1": "ちょっとしたことで話し掛けてもらえた"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述",
+            "働きかけ-直接"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 67,
+         "speaker": "B",
+         "utterance": "そうすると、変な話、ここにいていいんだみたいな、別にそう重い気持ちじゃないんですけども、良かった、気まずく思われてないのかもしれないっていうふうに、ちょっと安心できるっていうか。",
+         "understand": {
+            "MI": {
+               "thought_positive_1": "ここにいていいんだみたいな、別にそう重い気持ちじゃないんですけども、良かった、気まずく思われてないのかもしれないっていうふうに、ちょっと安心できる"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 68,
+         "speaker": "A",
+         "utterance": "＠気軽に話題を振ってもらえると、良かったなと、ほっとするような感じですよね。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "thought",
+            "utterance": "＠気軽に話題を振ってもらえると、良かったなと、ほっとするような感じですよね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 69,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 70,
+         "speaker": "A",
+         "utterance": "あー。",
+         "system_behavior": {
+            "purpose": "相槌",
+            "utterance": "あー。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 71,
+         "speaker": "B",
+         "utterance": "ほんと、ちょっとした「きょうも寒いですね」とか、そんな話でも全然いいんですけど。",
+         "understand": {
+            "MI": {
+               "thought_1": "ちょっとした「きょうも寒いですね」とか、そんな話でも全然いい"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 72,
+         "speaker": "A",
+         "utterance": "あー、そうか。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "utterance": "あー、そうか。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 73,
+         "speaker": "A",
+         "utterance": "何か話し掛けられるとほっとするっていうところから、ご自分でも話し掛けたいなと思われたんですか？",
+         "subject": null,
+         "dialog_act": [
+            "欲求",
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 74,
+         "speaker": "B",
+         "utterance": "そうですね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 75,
+         "speaker": "A",
+         "utterance": "ほー。",
+         "system_behavior": {
+            "purpose": "相槌",
+            "utterance": "ほー。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "働きかけ-直接"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 76,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 77,
+         "speaker": "A",
+         "utterance": "今まで気楽に話せたことってありますか?",
+         "utterance_request": {
+            "utterance_request": "今まで{detail_summary}ことってありますか？"
+         },
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "confidence",
+            "utterance": "今まで気楽に話せたことってありますか?"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 78,
+         "speaker": "B",
+         "utterance": "ちょっとずつ。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "neutral"
+      },
+      {
+         "id": 79,
+         "speaker": "A",
+         "utterance": "ちょっとずつ？",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "confidence",
+            "utterance": "ちょっとずつ？"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 80,
+         "speaker": "B",
+         "utterance": "ちょっとずつ。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "neutral"
+      },
+      {
+         "id": 81,
+         "speaker": "A",
+         "utterance": "あ、素晴らしい、もうやってらっしゃるんですね。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "confidence",
+            "utterance": "あ、素晴らしい、もうやってらっしゃるんですね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 82,
+         "speaker": "B",
+         "utterance": "でも、ほんと毎回勇気いりますし、なかなかそれもうまくいったりいかなかったりですけど。",
+         "understand": {
+            "MI": {
+               "disconfidence_negative_1": "毎回勇気いりますし、なかなかそれもうまくいったりいかなかったり"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 83,
+         "speaker": "A",
+         "utterance": "ふーん、うまくいったときってどんな感じですか？",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "detail",
+            "utterance": "ふーん、うまくいったときってどんな感じですか？"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 84,
+         "speaker": "B",
+         "utterance": "えー、なんだろうな。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 85,
+         "speaker": "B",
+         "utterance": "どんな感じ？",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 86,
+         "speaker": "A",
+         "utterance": "例えばいつ話したとか、何を話したとか。",
+         "system_behavior": {
+            "purpose": "open質問",
+            "purpose_attribute": "detail",
+            "utterance": "例えばいつ話したとか、何を話したとか。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 87,
+         "speaker": "B",
+         "utterance": "えー、なんだろうな。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 88,
+         "speaker": "B",
+         "utterance": "この間、１月の辺りに大雪が降ったときに。",
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad",
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 89,
+         "speaker": "A",
+         "utterance": "ありましたね。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "utterance": "ありましたね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "past",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 90,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 91,
+         "speaker": "B",
+         "utterance": "あのときも、午前中はここで仕事してたんですね。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 92,
+         "speaker": "B",
+         "utterance": "だけど、やっぱり午後はもう電車が止まってきちゃうから、帰れる人はもう早めに帰ったほうがいいっていうふうに言われたときに、「雪降ってますけど、家大丈夫ですか？どこですか？」みたいな話をして、そしたら、１人、つくばのほうって言ったかな、結構遠いとこから来てる子がいて、「東京よりも雪が積もるのが早いから、帰るタイミングとか考えなきゃ」とか、「大江戸線はまず止まらないけれど、山手が止まったらもう自分は帰れなくなっちゃうよ」とかっていう、そんなような話をしたりとかして。",
+         "understand": {
+            "MI": {
+               "confidence_1": "「雪降ってますけど、家大丈夫ですか？どこですか？」みたいな話をして、そしたら、１人、つくばのほうって言ったかな、結構遠いとこから来てる子がいて、「東京よりも雪が積もるのが早いから、帰るタイミングとか考えなきゃ」とか、「大江戸線はまず止まらないけれど、山手が止まったらもう自分は帰れなくなっちゃうよ」とかっていう、そんなような話をしたり"
+            }
+         },
+         "subject": "other",
+         "dialog_act": [
+            "働きかけ-間接",
+            "叙述",
+            "働きかけ-直接",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 93,
+         "speaker": "A",
+         "utterance": "雪の話から、「どこから通っているの？」とか「帰れなくなっちゃいますね」ってどんどん膨らんでいったんですね。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "confidence",
+            "utterance": "雪の話から、「どこから通っているの？」とか「帰れなくなっちゃいますね」ってどんどん膨らんでいったんですね。"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 94,
+         "speaker": "B",
+         "utterance": "そうですね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 95,
+         "speaker": "B",
+         "utterance": "周りのとこから「電車、どこそこが止まったよ」なんていう話を聞いたときに、「徐々に徐々に帰るのがなくなってきていますけど、不安ですね」みたいな、そんな話をしたりとか。",
+         "understand": {
+            "MI": {
+               "confidence_1": "「徐々に徐々に帰るのがなくなってきていますけど、不安ですね」みたいな、そんな話をしたり"
+            }
+         },
+         "subject": "B",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 96,
+         "speaker": "A",
+         "utterance": "「不安ですね」みたいなのもまたオオノさんから声掛けされて。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "confidence",
+            "utterance": "「不安ですね」みたいなのもまたオオノさんから声掛けされて。"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 97,
+         "speaker": "B",
+         "utterance": "もうあんまり細かいことは覚えてないですけど。",
+         "subject": "B",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad",
+            "joy"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 98,
+         "speaker": "A",
+         "utterance": "覚えてないってことは自然にやられたんですね。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 99,
+         "speaker": "B",
+         "utterance": "あ、そういうことなんですかね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 100,
+         "speaker": "B",
+         "utterance": "ですかね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 101,
+         "speaker": "B",
+         "utterance": "そういうトピックがあると、話せたりするんですかね。",
+         "understand": {
+            "MI": {
+               "confidence_1": "トピックがあると、話せたりする"
+            }
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 102,
+         "speaker": "A",
+         "utterance": "トピックですか？",
+         "utterance_request": {
+            "utterance_request": "{confidence_summary}ですか？"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "confidence",
+            "utterance": "トピックですか？"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 103,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 104,
+         "speaker": "A",
+         "utterance": "そのときは大雪がトピックですかね。",
+         "system_behavior": {
+            "purpose": "interpretation",
+            "purpose_attribute": "confidence",
+            "utterance": "そのときは大雪がトピックですかね。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 105,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 106,
+         "speaker": "A",
+         "utterance": "ほー。",
+         "system_behavior": {
+            "purpose": "相槌",
+            "utterance": "ほー。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "働きかけ-直接"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 107,
+         "speaker": "B",
+         "utterance": "みんな置かれてる状況は同じだし、共通で話はできるみたいな。",
+         "understand": {
+            "MI": {
+               "confidence_1": "みんな置かれてる状況は同じだし、共通で話はできる"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 108,
+         "speaker": "A",
+         "utterance": "みんな置かれてる状況は同じ。",
+         "utterance_request": {
+            "utterance_request": "{confidence_summary}。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "confidence",
+            "utterance": "みんな置かれてる状況は同じ。"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 109,
+         "speaker": "B",
+         "utterance": "ですかね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 110,
+         "speaker": "A",
+         "utterance": "そんなトピックがあると話しやすそう？",
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "confidence",
+            "utterance": "そんなトピックがあると話しやすそう？"
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述",
+            "問いかけ"
+         ],
+         "tense": "future",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 111,
+         "speaker": "B",
+         "utterance": "そうですね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 112,
+         "speaker": "A",
+         "utterance": "はー。",
+         "system_behavior": {
+            "purpose": "相槌",
+            "utterance": "はー。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 113,
+         "speaker": "A",
+         "utterance": "話してみてどうでした？",
+         "system_behavior": {
+            "purpose": "open質問",
+            "purpose_attribute": "thought",
+            "utterance": "話してみてどうでした？"
+         },
+         "subject": null,
+         "dialog_act": [
+            "働きかけ-間接"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 114,
+         "speaker": "A",
+         "utterance": "そのときは。",
+         "system_behavior": {
+            "purpose": "open質問",
+            "purpose_attribute": "thought",
+            "utterance": "そのときは。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 115,
+         "speaker": "B",
+         "utterance": "なんだろうな、やっぱり話のうまい下手にかかわらず、なんかしゃべれて良かったなっていう気はしますね。",
+         "understand": {
+            "MI": {
+               "thought_positive_1": "しゃべれて良かった"
+            }
+         },
+         "subject": "other",
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 116,
+         "speaker": "A",
+         "utterance": "じゃあ、しゃべれて良かったんですね。",
+         "utterance_request": {
+            "utterance_request": "じゃあ、{thought_positive}んですね。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "thought",
+            "utterance": "じゃあ、しゃべれて良かったんですね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 117,
+         "speaker": "B",
+         "utterance": "黙っちゃうよりは、ちょっとでも、なんでもいいから話せるような、かなみたいな。",
+         "understand": {
+            "MI": {
+               "thought_positive_1": "なんでもいいから話せる"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 118,
+         "speaker": "A",
+         "utterance": "なるほど。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "utterance": "なるほど。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 119,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 120,
+         "speaker": "A",
+         "utterance": "他にもありました？",
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "confidence",
+            "utterance": "他にもありました？"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "past",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 121,
+         "speaker": "A",
+         "utterance": "今思えばあのときはっていうのは。",
+         "system_behavior": {
+            "purpose": "closed質問",
+            "purpose_attribute": "confidence",
+            "utterance": "今思えばあのときはっていうのは。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 122,
+         "speaker": "B",
+         "utterance": "えー、なんだろうな。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "neutral"
+      },
+      {
+         "id": 123,
+         "speaker": "B",
+         "utterance": "うーん、なんだろうな。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 124,
+         "speaker": "B",
+         "utterance": "１個１個があんまり覚えられて、すいません。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 125,
+         "speaker": "A",
+         "utterance": "いえいえいえ。",
+         "system_behavior": {
+            "purpose": "返答",
+            "utterance": "いえいえいえ。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 126,
+         "speaker": "B",
+         "utterance": "そうだなー。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 127,
+         "speaker": "A",
+         "utterance": "じゃあ、もう自然にやってらっしゃったこともあったんですね。",
+         "system_behavior": {
+            "purpose": "interpretation",
+            "purpose_attribute": "confidence",
+            "utterance": "じゃあ、もう自然にやってらっしゃったこともあったんですね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 128,
+         "speaker": "B",
+         "utterance": "そうなのかもしれないですね。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": "positive"
+      },
+      {
+         "id": 129,
+         "speaker": "B",
+         "utterance": "今言われてみて、意外と細かいとこってのは覚えてないんだなって。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 130,
+         "speaker": "B",
+         "utterance": "だけど、ここにいてずっと気まずい思いしてたっていうと、そんなことはないわけだから、たぶんやれてたのかもしれない。",
+         "understand": {
+            "MI": {
+               "confidence_positive_1": "ここにいてずっと気まずい思いしてたっていうと、そんなことはないわけだから、たぶんやれてた"
+            }
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 131,
+         "speaker": "A",
+         "utterance": "ずっと気まずい思いしてたっていうと、そんなことはないんですね。",
+         "utterance_request": {
+            "utterance_request": "{confidence_positive}んですね。"
+         },
+         "system_behavior": {
+            "purpose": "feedback",
+            "purpose_attribute": "confidence",
+            "utterance": "ずっと気まずい思いしてたっていうと、そんなことはないんですね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 132,
+         "speaker": "B",
+         "utterance": "そうですね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 133,
+         "speaker": "B",
+         "utterance": "そうですね、うん。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 134,
+         "speaker": "B",
+         "utterance": "今言われて初めて気が付きました、それに。",
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "past",
+         "emotion": [
+            "joy",
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 135,
+         "speaker": "B",
+         "utterance": "はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 136,
+         "speaker": "B",
+         "utterance": "そうですね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 137,
+         "speaker": "A",
+         "utterance": "じゃあ、それだけほんとに自然にされてたんですね。",
+         "system_behavior": {
+            "purpose": "interpretation",
+            "purpose_attribute": "confidence",
+            "utterance": "じゃあ、それだけほんとに自然にされてたんですね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "joy"
+         ],
+         "response": null
+      },
+      {
+         "id": 138,
+         "speaker": "B",
+         "utterance": "ですかね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 139,
+         "speaker": "B",
+         "utterance": "いやー、はい。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 140,
+         "speaker": "B",
+         "utterance": "ですかね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      },
+      {
+         "id": 141,
+         "speaker": "A",
+         "utterance": "たぶんひと段落かもしれないですね。",
+         "system_behavior": {
+            "purpose": "対話終了",
+            "utterance": "たぶんひと段落かもしれないですね。"
+         },
+         "subject": null,
+         "dialog_act": [
+            "叙述"
+         ],
+         "tense": "present",
+         "emotion": [
+            "sad"
+         ],
+         "response": null
+      },
+      {
+         "id": 142,
+         "speaker": "B",
+         "utterance": "ですね。",
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": "positive"
+      },
+      {
+         "id": 143,
+         "speaker": "A",
+         "utterance": "はい。",
+         "system_behavior": {
+            "purpose": "feedback",
+            "utterance": "はい。"
+         },
+         "subject": null,
+         "dialog_act": null,
+         "tense": "present",
+         "emotion": null,
+         "response": null
+      }
+   ]
+}

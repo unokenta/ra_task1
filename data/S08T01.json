@@ -1,0 +1,1657 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "今、何かしたいことありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "今、何かしたいことありますか？"
+            }
+        },
+        {
+            "id": 1,
+            "speaker": "B",
+            "utterance": "今、仕事に関係する勉強をしたいなーと思ってます。",
+            "understand": {
+                "MI": {
+                    "theme_positive_1": "仕事に関係する勉強をしたい"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "speaker": "A",
+            "utterance": "仕事に関係する勉強。",
+            "utterance_request": {
+                "utterance_request": "{theme_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "仕事に関係する勉強。"
+            }
+        },
+        {
+            "id": 3,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 4,
+            "speaker": "A",
+            "utterance": "仕事に関係する勉強っていうと、もう具体的に何かあるんですか？",
+            "utterance_request": {
+                "utterance_request": "{theme_positive_summary}っていうと、もう具体的に何かあるんですか？"
+            },
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "仕事に関係する勉強っていうと、もう具体的に何かあるんですか？"
+            }
+        },
+        {
+            "id": 5,
+            "speaker": "B",
+            "utterance": "一応、仕事で人事労務をやっているので、それに関係する資格、それか、仕事全般でビジネス的な知識につながるような勉強と資格、そういうものを勉強しようかなーと思ってます。",
+            "understand": {
+                "MI": {
+                    "detail_1": "仕事で人事労務をやっているので、それに関係する資格、それか、仕事全般でビジネス的な知識につながるような勉強と資格、そういうものを勉強しようかな"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "speaker": "A",
+            "utterance": "関係する資格っていうと、何があるでしょうね？",
+            "utterance_request": {
+                "utterance_request": "{detail_summary}っていうと、何があるでしょうね？"
+            },
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "関係する資格っていうと、何があるでしょうね？"
+            }
+        },
+        {
+            "id": 7,
+            "speaker": "B",
+            "utterance": "社会保険労務士っていう国家試験があって、それを持ってると、会社でも「この人に聞けばなんでも分かる」ってことで頼りにされたり、手続き関係とかでも、その資格持ってると、独占して行える業務があったりして、会社でいただける報酬も少し上がるかなと。"
+        },
+        {
+            "id": 8,
+            "speaker": "A",
+            "utterance": "やっぱりそれも大事ですよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "reason",
+                "utterance": "やっぱりそれも大事ですよね。"
+            }
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "それも大事ですね。"
+        },
+        {
+            "id": 10,
+            "speaker": "A",
+            "utterance": "そうすると、その資格を取るために、何か今現在やってるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そうすると、その資格を取るために、何か今現在やってるんですか？"
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "B",
+            "utterance": "今、もう、ほんとに今は、ちょっと勉強はお休みしていたんですけど、過去、一応受験２回していて、なので、約３年間ぐらいは、その勉強をしてたことがあります。",
+            "understand": {
+                "MI": {
+                    "confidence_quantity_positive_1": "過去、一応受験２回していて、なので、約３年間ぐらいは、その勉強をしてたことがあります"
+                }
+            }
+        },
+        {
+            "id": 12,
+            "speaker": "A",
+            "utterance": "あー、そう。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、そう。"
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "B",
+            "utterance": "で、再びやろうかなと。"
+        },
+        {
+            "id": 14,
+            "speaker": "A",
+            "utterance": "でも、過去にね、経験して勉強してると、取り組みはしやすいですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、過去にね、経験して勉強してると、取り組みはしやすいですか？"
+            }
+        },
+        {
+            "id": 15,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 16,
+            "speaker": "B",
+            "utterance": "１からの勉強よりは、復習の部分が結構多くなってきて、出てくる単語とかも、見たことのあるものだったり、少し取り組みやすいかなとは思います。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "復習の部分が結構多くなってきて、出てくる単語とかも、見たことのあるものだったり、少し取り組みやすいかなとは思います"
+                }
+            }
+        },
+        {
+            "id": 17,
+            "speaker": "A",
+            "utterance": "その今のお話からすると、もう既に少しページは開いている感じですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "その今のお話からすると、もう既に少しページは開いている感じですか？"
+            }
+        },
+        {
+            "id": 18,
+            "speaker": "B",
+            "utterance": "一応、その過去に受験したときのテキストは取っておいてあって、仕事で分からないことがあったときに、家に帰って復習がてら、そのテキストの該当ページを見たり、他の人が何か話してる内容で、前、試験に出てきたかもって思ったら、一応、そのページを読み返したりはしてます。",
+            "understand": {
+                "MI": {
+                    "confidence_action_1": "仕事で分からないことがあったときに、家に帰って復習がてら、そのテキストの該当ページを見たり、他の人が何か話してる内容で、前、試験に出てきたかもって思ったら、一応、そのページを読み返したりはしてます"
+                }
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "A",
+            "utterance": "してるんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence_action",
+                "utterance": "してるんですね。"
+            }
+        },
+        {
+            "id": 20,
+            "speaker": "A",
+            "utterance": "でも、それだけでもね、もう、ちょっと試験に向かってるかなっていう感じはするんですけど。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence_action",
+                "utterance": "でも、それだけでもね、もう、ちょっと試験に向かってるかなっていう感じはするんですけど。"
+            }
+        },
+        {
+            "id": 21,
+            "speaker": "B",
+            "utterance": "あー、うれしいです。"
+        },
+        {
+            "id": 22,
+            "speaker": "A",
+            "utterance": "いつその試験があるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "いつその試験があるんですか？"
+            }
+        },
+        {
+            "id": 23,
+            "speaker": "B",
+            "utterance": "毎年、大体８月の下旬の日曜日ですね。"
+        },
+        {
+            "id": 24,
+            "speaker": "A",
+            "utterance": "あー、じゃあ、その日に向かって今現在勉強している、しようかな？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_action",
+                "utterance": "あー、じゃあ、その日に向かって今現在勉強している、しようかな？"
+            }
+        },
+        {
+            "id": 25,
+            "speaker": "B",
+            "utterance": "もう８月に向けてとなると、今の時期、追い込みが始まる時期なので、ゆっくり、再来年以降かなと。",
+            "understand": {
+                "MI": {
+                    "commitment_time_1": "再来年以降"
+                }
+            }
+        },
+        {
+            "id": 26,
+            "speaker": "A",
+            "utterance": "来年でもなく、再来年？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "来年でもなく、再来年？"
+            }
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 28,
+            "speaker": "B",
+            "utterance": "結構、資格としては難しいので。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "資格としては難しい"
+                }
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "A",
+            "utterance": "難しいですもんね。",
+            "utterance_request": {
+                "utterance_request": "難しいんですね"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "難しいですもんね。"
+            }
+        },
+        {
+            "id": 30,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 31,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 32,
+            "speaker": "A",
+            "utterance": "そうすると、その再来年に向けて、具体的に計画立ててたりするんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_action",
+                "utterance": "そうすると、その再来年に向けて、具体的に計画立ててたりするんですか？"
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "B",
+            "utterance": "まだ再受験するかどうかを悩んでいるところで、その受験を具体的に考える段階ではなくても、仕事で役に立つから少しずつ始めようかなぐらいの感じです。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "再受験するかどうかを悩んでいる",
+                    "thought_positive_2": "受験を具体的に考える段階ではなくても、仕事で役に立つから少しずつ始めようかなぐらいの感じです"
+                }
+            }
+        },
+        {
+            "id": 34,
+            "speaker": "A",
+            "utterance": "なんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なんですね。"
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 36,
+            "speaker": "A",
+            "utterance": "さっきもお話あったように、仕事では、もうその知識、過去に勉強したものが役立っているんですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "さっきもお話あったように、仕事では、もうその知識、過去に勉強したものが役立っているんですよね。"
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 38,
+            "speaker": "B",
+            "utterance": "健康保険とか、社員が入ったり辞めたりするときの手続きとかで、どうなるのかなって、分からなくなるときに、受験したときの知識がそのまま、これは適用外、これは適用範囲内とか、そういうのを判断できるときはあります。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "健康保険とか、社員が入ったり辞めたりするときの手続きとかで、どうなるのかなって、分からなくなるときに、受験したときの知識がそのまま、これは適用外、これは適用範囲内とか、そういうのを判断できる"
+                }
+            }
+        },
+        {
+            "id": 39,
+            "speaker": "A",
+            "utterance": "あー、それはもうすごい、いいですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、それはもうすごい、いいですよね。"
+            }
+        },
+        {
+            "id": 40,
+            "speaker": "A",
+            "utterance": "実践を積んでいると、経験値が上がって、普通よりは早いんじゃないですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "実践を積んでいると、経験値が上がって、普通よりは早いんじゃないですか？"
+            }
+        },
+        {
+            "id": 41,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 42,
+            "speaker": "B",
+            "utterance": "やっぱり、よりどんなときにその知識が使えるのかとか、ここで役に立ったっていう記憶が鮮明に残るので、やっぱり同じ物事でも、覚えたときの強さが違いますね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "どんなときにその知識が使えるのかとか、ここで役に立ったっていう記憶が鮮明に残るので、やっぱり同じ物事でも、覚えたときの強さが違います"
+                }
+            }
+        },
+        {
+            "id": 43,
+            "speaker": "A",
+            "utterance": "そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうですよね。"
+            }
+        },
+        {
+            "id": 44,
+            "speaker": "A",
+            "utterance": "であればもうね、時期をきちんと考えるのもいいかなーなんて思ったりしますけど、どうなんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "であればもうね、時期をきちんと考えるのもいいかなーなんて思ったりしますけど、どうなんですか？"
+            }
+        },
+        {
+            "id": 45,
+            "speaker": "B",
+            "utterance": "そうですよねー。"
+        },
+        {
+            "id": 46,
+            "speaker": "B",
+            "utterance": "結構、過去の、２年間の勉強していたときが、本当に勉強のために生活の全てを、仕事以外の時間をかけていたので、なかなか大変だったので、またその生活が始まるのかという怖さがちょっとあって、躊躇しているようなところなんですよねー。",
+            "understand": {
+                "MI": {
+                    "disconfidence_quantity_negative_1": "過去の、２年間の勉強していたときが、本当に勉強のために生活の全てを、仕事以外の時間をかけていたので、なかなか大変だった",
+                    "disthought_negative_2": "またその生活が始まるのかという怖さがちょっとあって"
+                }
+            }
+        },
+        {
+            "id": 47,
+            "speaker": "A",
+            "utterance": "ええ、過去のね、そのころの、でも、そういう体験をしてきたから、今度こうできるなんていうことがあるんじゃないですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "ええ、過去のね、そのころの、でも、そういう体験をしてきたから、今度こうできるなんていうことがあるんじゃないですか？"
+            }
+        },
+        {
+            "id": 48,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 49,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "B",
+            "utterance": "前は生活を犠牲にし過ぎたところがあるので、今度は生活とバランスを取りながら、自分が追い込まれないようにしつつ、勉強していけたら、もう少し気持ちも違うのかな。",
+            "understand": {
+                "MI": {
+                    "disconfidence_negative_1": "前は生活を犠牲にし過ぎた",
+                    "confidence_positive_2": "今度は生活とバランスを取りながら、自分が追い込まれないようにしつつ、勉強していけたら、もう少し気持ちも違うのかな"
+                }
+            }
+        },
+        {
+            "id": 51,
+            "speaker": "A",
+            "utterance": "ええ、ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ、ええ。"
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "B",
+            "utterance": "前向きに、いつも前向きに勉強できるかもしれないですね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "前向きに、いつも前向きに勉強できるかもしれない"
+                }
+            }
+        },
+        {
+            "id": 53,
+            "speaker": "B",
+            "utterance": "うーん。"
+        },
+        {
+            "id": 54,
+            "speaker": "A",
+            "utterance": "今ね、「自分を追い込み過ぎた」なんていう言葉もあったけれども、そういうところをクリアしていけば、今ね、お話しいただいたみたいに、楽しくポジティブにできたらいいですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "今ね、「自分を追い込み過ぎた」なんていう言葉もあったけれども、そういうところをクリアしていけば、今ね、お話しいただいたみたいに、楽しくポジティブにできたらいいですよね。"
+            }
+        },
+        {
+            "id": 55,
+            "speaker": "B",
+            "utterance": "そうですよねー。"
+        },
+        {
+            "id": 56,
+            "speaker": "A",
+            "utterance": "そうするためには、日頃の生活、どうしたらいいでしょうね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そうするためには、日頃の生活、どうしたらいいでしょうね？"
+            }
+        },
+        {
+            "id": 57,
+            "speaker": "B",
+            "utterance": "うーん、前は、本当に休みの日、特に夏に試験だったので、みんなが夏に海に行ったり、キャンプに行ったりしているときに、もう自分はずーっと資格の予備校の自習室にこもっていたので、遊ぶ日をあらかじめ決めて、もう休む日と勉強する日をきちんと分けて、そういうふうにしていれば、少し試験前でも楽しみができて、周りをうらやんで暗くなるような時期を、越えられるんではないかと思います。",
+            "understand": {
+                "MI": {
+                    "disthought_negative_1": "周りをうらやんで暗くなる",
+                    "confidence_positive_2": "遊ぶ日をあらかじめ決めて、もう休む日と勉強する日をきちんと分けて、試験前でも楽しみができて、周りをうらやんで暗くなるような時期を、越えられるんではないかと思います"
+                }
+            }
+        },
+        {
+            "id": 58,
+            "speaker": "A",
+            "utterance": "そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disthought",
+                "utterance": "そうですよね。"
+            }
+        },
+        {
+            "id": 59,
+            "speaker": "A",
+            "utterance": "やっぱり周り、うらやましく思っちゃいますもんね。",
+            "utterance_request": {
+                "utterance_request": "周りをうらやんで暗くなりますよね"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disthought",
+                "utterance": "やっぱり周り、うらやましく思っちゃいますもんね。"
+            }
+        },
+        {
+            "id": 60,
+            "speaker": "B",
+            "utterance": "夏は特に、楽しそうな楽しそうな話を聞くので、そう思います。"
+        },
+        {
+            "id": 61,
+            "speaker": "A",
+            "utterance": "でもね、今のメリハリを付けるっていうんでしょうかね、そういうのをね、遊ぶときは遊ぶ、勉強するときは勉強する。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "でもね、今のメリハリを付けるっていうんでしょうかね、そういうのをね、遊ぶときは遊ぶ、勉強するときは勉強する。"
+            }
+        },
+        {
+            "id": 62,
+            "speaker": "A",
+            "utterance": "そうすると、そのときにね、うらやむ気持ちが収まりますかね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "そうすると、そのときにね、うらやむ気持ちが収まりますかね？"
+            }
+        },
+        {
+            "id": 63,
+            "speaker": "B",
+            "utterance": "たぶん、少し自分でも、遊ぶ日をつくることで、自分でもしっかり遊んだっていう自覚が持てれば、たぶん自分も満足できるんじゃないかなって思いますね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "遊ぶ日をつくることで、自分でもしっかり遊んだっていう自覚が持てれば、たぶん自分も満足できるんじゃないかなって思います"
+                }
+            }
+        },
+        {
+            "id": 64,
+            "speaker": "A",
+            "utterance": "そうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そうですね。"
+            }
+        },
+        {
+            "id": 65,
+            "speaker": "A",
+            "utterance": "いいですね、遊ぶ日をつくる",
+            "utterance_request": {
+                "utterance_request": "いいですね、{confidence_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "いいですね、遊ぶ日をつくる"
+            }
+        },
+        {
+            "id": 66,
+            "speaker": "A",
+            "utterance": "そうすると、その勉強するときの方法とか、過去はどうだったんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そうすると、その勉強するときの方法とか、過去はどうだったんですか？"
+            }
+        },
+        {
+            "id": 67,
+            "speaker": "B",
+            "utterance": "過去は、ちょっとそういうスケジュール管理をせず、ただひたすら、がむしゃらに問題を解いていたなという感じがするので、いつまでに何を仕上げるとか、何を終わらせるっていうスケジュールを、あらかじめちゃんと決めようかなと思いました。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "そういうスケジュール管理をせず、ただひたすら、がむしゃらに問題を解いていた",
+                    "commitment_2": "いつまでに何を仕上げるとか、何を終わらせるっていうスケジュールを、あらかじめちゃんと決めようかな"
+                }
+            }
+        },
+        {
+            "id": 68,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 69,
+            "speaker": "A",
+            "utterance": "そうすると、来年、再来年に向けての計画ができそうですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence_action",
+                "utterance": "そうすると、来年、再来年に向けての計画ができそうですかね？"
+            }
+        },
+        {
+            "id": 70,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 71,
+            "speaker": "B",
+            "utterance": "科目が８科目ぐらいあるので、科目ごとに区切っていく期間を決めたり、問題演習の時間を設定したりすれば、大まかなスケジュールは立てられそうな気はします。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "科目ごとに区切っていく期間を決めたり、問題演習の時間を設定したりすれば、大まかなスケジュールは立てられそう"
+                }
+            }
+        },
+        {
+            "id": 72,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 73,
+            "speaker": "A",
+            "utterance": "スケジュールは立てられそう",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}"
+            },
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "スケジュールは立てられそう"
+            }
+        },
+        {
+            "id": 74,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 75,
+            "speaker": "A",
+            "utterance": "それはちょっとあれですかね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "それはちょっとあれですかね。"
+            }
+        },
+        {
+            "id": 76,
+            "speaker": "B",
+            "utterance": "でも、スケジュールが決まれば、そのほうが、何か終わりが見える分、楽に感じますね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "スケジュールが決まれば、そのほうが、何か終わりが見える分、楽に感じます"
+                }
+            }
+        },
+        {
+            "id": 77,
+            "speaker": "A",
+            "utterance": "そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "そうですよね。"
+            }
+        },
+        {
+            "id": 78,
+            "speaker": "A",
+            "utterance": "その終わりが見えるっていうのは、いいですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "その終わりが見えるっていうのは、いいですよね。"
+            }
+        },
+        {
+            "id": 79,
+            "speaker": "A",
+            "utterance": "そうすると、そのスケジューリングをいつからやりましょうか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "そうすると、そのスケジューリングをいつからやりましょうか？"
+            }
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 81,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 82,
+            "speaker": "B",
+            "utterance": "もう、今やりなさいというところ。"
+        },
+        {
+            "id": 83,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 84,
+            "speaker": "B",
+            "utterance": "ですが、ちょうど大手の予備校が、たぶん４月から授業をスタートさせたりするので、大手のカリキュラムの真似をして、ちょっと大手と同じようなスケジュール組みで、自分も独学を進めていくと、ちょうど良さそうかなという気がしますね、４月から。",
+            "understand": {
+                "MI": {
+                    "commitment_action_1": "大手のカリキュラムの真似をして、ちょっと大手と同じようなスケジュール組みで、自分も独学を進めていく",
+                    "commitment_starttime_2": "４月から"
+                }
+            }
+        },
+        {
+            "id": 85,
+            "speaker": "A",
+            "utterance": "いいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "いいですね。"
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "A",
+            "utterance": "お手本が大手のその予備校のを見つつ、でも、独自でやってみようとする。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment_action",
+                "utterance": "お手本が大手のその予備校のを見つつ、でも、独自でやってみようとする。"
+            }
+        },
+        {
+            "id": 87,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 88,
+            "speaker": "A",
+            "utterance": "ええ、あー、それすごいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "ええ、あー、それすごいですね。"
+            }
+        },
+        {
+            "id": 89,
+            "speaker": "B",
+            "utterance": "（笑）"
+        },
+        {
+            "id": 90,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 91,
+            "speaker": "B",
+            "utterance": "予備校に通うと、もうスケジュールも決められて、楽なんですけど、何しろ授業料は高いですからね。",
+            "understand": {
+                "MI": {
+                    "disreason_negative_1": "授業料は高い"
+                }
+            }
+        },
+        {
+            "id": 92,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 93,
+            "speaker": "B",
+            "utterance": "（笑）"
+        },
+        {
+            "id": 94,
+            "speaker": "A",
+            "utterance": "そうですよね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "そうですよね。"
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "A",
+            "utterance": "授業料がね。",
+            "utterance_request": {
+                "utterance_request": "{disreason_negative_summary}がね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disreason",
+                "utterance": "授業料がね。"
+            }
+        },
+        {
+            "id": 96,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 97,
+            "speaker": "A",
+            "utterance": "でも、その授業料を貯めて、そっち行くのではなく、自分で独学で勉強していこうと？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_action",
+                "utterance": "でも、その授業料を貯めて、そっち行くのではなく、自分で独学で勉強していこうと？"
+            }
+        },
+        {
+            "id": 98,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 99,
+            "speaker": "B",
+            "utterance": "例えばですが、よく資格で聞く公認会計士とか、税理士だと、実際取得した後に会社から出る資格手当とかの額も大きいんですけど、社労士は、あんまり金額も大きくない、残念ながら。",
+            "understand": {
+                "MI": {
+                    "disreason_1": "社労士は、あんまり金額も大きくない"
+                }
+            }
+        },
+        {
+            "id": 100,
+            "speaker": "A",
+            "utterance": "報奨金制度があまりないんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "disreason",
+                "utterance": "報奨金制度があまりないんですか？"
+            }
+        },
+        {
+            "id": 101,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 102,
+            "speaker": "B",
+            "utterance": "なので、資格の学校でうん十万かけるほどではないかなという、そこが切実なところですね。"
+        },
+        {
+            "id": 103,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 104,
+            "speaker": "A",
+            "utterance": "でも、かけなくても、勉強していければ、目的までは行けそうですもんね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、かけなくても、勉強していければ、目的までは行けそうですもんね。"
+            }
+        },
+        {
+            "id": 105,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 106,
+            "speaker": "A",
+            "utterance": "でも、その４月にスタートするのを待ちますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_starttime",
+                "utterance": "でも、その４月にスタートするのを待ちますか？"
+            }
+        },
+        {
+            "id": 107,
+            "speaker": "B",
+            "utterance": "今、３月。"
+        },
+        {
+            "id": 108,
+            "speaker": "B",
+            "utterance": "もうすぐ。"
+        },
+        {
+            "id": 109,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 110,
+            "speaker": "B",
+            "utterance": "ね、もうすぐなので、今すぐか。"
+        },
+        {
+            "id": 111,
+            "speaker": "B",
+            "utterance": "３月から４月までは、むしろ、今まで溜めてきたテキストの総復習だったり、あとは、法律が古くなっていらないテキストとかの分別とか、そういったことを中心にして、４月から真っさらな状態でスタートするというのは、ありかなという気が今しました。",
+            "understand": {
+                "MI": {
+                    "commitment_quantity_positive_1": "３月から４月までは、むしろ、今まで溜めてきたテキストの総復習だったり、あとは、法律が古くなっていらないテキストとかの分別とか、そういったことを中心にして、４月から真っさらな状態でスタートする"
+                }
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 113,
+            "speaker": "B",
+            "utterance": "（笑）"
+        },
+        {
+            "id": 114,
+            "speaker": "A",
+            "utterance": "すごくいいですよー。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "すごくいいですよー。"
+            }
+        },
+        {
+            "id": 115,
+            "speaker": "A",
+            "utterance": "４月から真っさらな状態でスタートするっていいですね。",
+            "utterance_request": {
+                "utterance_request": "{commitment_quantity_positive_summary}っていいですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "４月から真っさらな状態でスタートするっていいですね。"
+            }
+        },
+        {
+            "id": 116,
+            "speaker": "B",
+            "utterance": "そう、それがいい気がしてきました。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "それがいい気がしてきました"
+                }
+            }
+        },
+        {
+            "id": 117,
+            "speaker": "A",
+            "utterance": "してきました？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "thought",
+                "utterance": "してきました？"
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 119,
+            "speaker": "A",
+            "utterance": "あー、でも、１つずつそうやって積み重ねていくことで、もしかしたら、再来年じゃなくて、来年になる可能性もありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "あー、でも、１つずつそうやって積み重ねていくことで、もしかしたら、再来年じゃなくて、来年になる可能性もありますか？"
+            }
+        },
+        {
+            "id": 120,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "勉強していて、手応え、本当に自分で問題解いてく手応え次第では、もう来年行けるかもって思えたら、もう来年の春時点で、受験の申し込みしてもいいかなって思いますね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "勉強していて、手応え、本当に自分で問題解いてく手応え次第では、もう来年行けるかもって思えたら、もう来年の春時点で、受験の申し込みしてもいいかなって思いますね"
+                }
+            }
+        },
+        {
+            "id": 122,
+            "speaker": "A",
+            "utterance": "ねえ。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "ねえ。"
+            }
+        },
+        {
+            "id": 123,
+            "speaker": "A",
+            "utterance": "受験の申し込みをしてもいい",
+            "utterance_request": {
+                "utterance_request": "{confidence_positive_summary}"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "受験の申し込みをしてもいい"
+            }
+        },
+        {
+            "id": 124,
+            "speaker": "B",
+            "utterance": "（笑）"
+        },
+        {
+            "id": 125,
+            "speaker": "A",
+            "utterance": "申し込み自体はいつなんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail_time",
+                "utterance": "申し込み自体はいつなんですか？"
+            }
+        },
+        {
+            "id": 126,
+            "speaker": "B",
+            "utterance": "申し込みも４月の中旬ぐらい、中旬から下旬。"
+        },
+        {
+            "id": 127,
+            "speaker": "A",
+            "utterance": "あっ、結構早いんですね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "detail_time",
+                "utterance": "あっ、結構早いんですね。"
+            }
+        },
+        {
+            "id": 128,
+            "speaker": "B",
+            "utterance": "そうなんです。"
+        },
+        {
+            "id": 129,
+            "speaker": "A",
+            "utterance": "じゃあ、今年はっていうわけには、なかなかちょっとあれですかね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "disturbance_time",
+                "utterance": "じゃあ、今年はっていうわけには、なかなかちょっとあれですかね。"
+            }
+        },
+        {
+            "id": 130,
+            "speaker": "B",
+            "utterance": "今年はもう、そうですね。"
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "４月に申し込みだと、まだ自分の知識が足りないかなっていうのが見えてます。",
+            "understand": {
+                "MI": {
+                    "disconfidence_1": "４月に申し込みだと、まだ自分の知識が足りないかなっていうのが見えてます"
+                }
+            }
+        },
+        {
+            "id": 132,
+            "speaker": "A",
+            "utterance": "ええ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ええ。"
+            }
+        },
+        {
+            "id": 133,
+            "speaker": "A",
+            "utterance": "でも、その見えてることも大事ですもんね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "disconfidence",
+                "utterance": "でも、その見えてることも大事ですもんね。"
+            }
+        },
+        {
+            "id": 134,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 135,
+            "speaker": "A",
+            "utterance": "それだから、３月に、さっき言ってたみたいに、ちょっと整理をして、４月から新たな気持ちでやって、で、来年の４月には、もしかしたら申し込みをして、で、８月試験をして。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": [
+                    "commitment_action",
+                    "commitment_starttime"
+                ],
+                "utterance": "それだから、３月に、さっき言ってたみたいに、ちょっと整理をして、４月から新たな気持ちでやって、で、来年の４月には、もしかしたら申し込みをして、で、８月試験をして。"
+            }
+        },
+        {
+            "id": 136,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 137,
+            "speaker": "A",
+            "utterance": "その先はどうでしょうね、資格を取得したら、なんか自分の姿はそのころどうでしょうね？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "その先はどうでしょうね、資格を取得したら、なんか自分の姿はそのころどうでしょうね？"
+            }
+        },
+        {
+            "id": 138,
+            "speaker": "B",
+            "utterance": "そうですね、一応、今の部署の中で社労士の資格を持ってる人が誰もいないのと、今一番知識のある、一番年齢上のボスが、あと２年で退職なので、そうすると、知識のある人がいなくなってしまうので、そこでかなり役に立つんじゃないかとは、思ってます。",
+            "understand": {
+                "MI": {
+                    "reason_quantity_positive_1": "今の部署の中で社労士の資格を持ってる人が誰もいないのと、今一番知識のある、一番年齢上のボスが、あと２年で退職なので、そうすると、知識のある人がいなくなってしまう"
+                }
+            }
+        },
+        {
+            "id": 139,
+            "speaker": "A",
+            "utterance": "そうすると、ボスがいなくなるのが、２年先？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment_time",
+                "utterance": "そうすると、ボスがいなくなるのが、２年先？"
+            }
+        },
+        {
+            "id": 140,
+            "speaker": "B",
+            "utterance": "そうです。"
+        },
+        {
+            "id": 141,
+            "speaker": "A",
+            "utterance": "そうすると、またその年代も、きちんと考えたほうがいいかもしれないですよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "commitment_time",
+                "utterance": "そうすると、またその年代も、きちんと考えたほうがいいかもしれないですよね。"
+            }
+        },
+        {
+            "id": 142,
+            "speaker": "B",
+            "utterance": "そうですね、そこも１つの、１つの締め切りというか。"
+        },
+        {
+            "id": 143,
+            "speaker": "A",
+            "utterance": "でも、２年ね、今のお話からすれば１年で取れば、そのボスがいる間に、資格を持ったまま、職場でもいろいろと対応できるかもしれないし、で、いなくなった後には「もう任せてちょうだい」になりますよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "commitment_time",
+                "utterance": "でも、２年ね、今のお話からすれば１年で取れば、そのボスがいる間に、資格を持ったまま、職場でもいろいろと対応できるかもしれないし、で、いなくなった後には「もう任せてちょうだい」になりますよね。"
+            }
+        },
+        {
+            "id": 144,
+            "speaker": "B",
+            "utterance": "そうですよね。"
+        },
+        {
+            "id": 145,
+            "speaker": "A",
+            "utterance": "あー、そうすると、もしもその資格が取れたら、次は何か資格取ろうかなーなんて思ってますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "あー、そうすると、もしもその資格が取れたら、次は何か資格取ろうかなーなんて思ってますか？"
+            }
+        },
+        {
+            "id": 146,
+            "speaker": "B",
+            "utterance": "そこで、社労士が取れれば、一番業務に関係する知識は、それで１つの区切りがつくので、で、少し労務とか総務に近い部署の、経理の資格なんかも、続けて取れればなーと思います。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "経理の資格なんかも、続けて取れれば"
+                }
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "A",
+            "utterance": "あー、経理の資格。",
+            "utterance_request": {
+                "utterance_request": "{detail_positive_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "あー、経理の資格。"
+            }
+        },
+        {
+            "id": 148,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 149,
+            "speaker": "A",
+            "utterance": "そうすると、経理だとどんな資格になるんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "そうすると、経理だとどんな資格になるんですか？"
+            }
+        },
+        {
+            "id": 150,
+            "speaker": "B",
+            "utterance": "一応、今、自分では日商簿記３級は持っているので、それの１つ上の、日商簿記２級を持っておけば、いろんなときに便利かなーと思ってます。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "日商簿記２級を持っておけば"
+                }
+            }
+        },
+        {
+            "id": 151,
+            "speaker": "A",
+            "utterance": "その簿記があると、計算とかが速くなるっていうわけじゃないでしょうけど、具体的にはどういうことに使えますか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "その簿記があると、計算とかが速くなるっていうわけじゃないでしょうけど、具体的にはどういうことに使えますか？"
+            }
+        },
+        {
+            "id": 152,
+            "speaker": "B",
+            "utterance": "そうですね、経理で伝票を作るときに仕訳が必要になったりとかして、やっぱり全く知識がないと、その仕訳って何というところから始まるので、それが分かっていると、経理と連携して作業するときに、渡された伝票が一体何のための伝票なのかとかが、すぐに分かったりして、便利かなというのと、会社の決算の資料とかも、自分が作らなくても、見たときにぱっと、それが何を意味しているのか分かると、役員に提出する資料を作るときとかに便利かなと思いました。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "経理で伝票を作るときに仕訳が必要になったりとかして、やっぱり全く知識がないと、その仕訳って何というところから始まるので、それが分かっていると、経理と連携して作業するときに、渡された伝票が一体何のための伝票なのかとかが、すぐに分かったりして、便利かなというのと、会社の決算の資料とかも、自分が作らなくても、見たときにぱっと、それが何を意味しているのか分かると、役員に提出する資料を作るときとかに便利かな"
+                }
+            }
+        },
+        {
+            "id": 153,
+            "speaker": "A",
+            "utterance": "そうですね、資格を持ってると勉強するので、なんでも便利にできそうですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "そうですね、資格を持ってると勉強するので、なんでも便利にできそうですね。"
+            }
+        },
+        {
+            "id": 154,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 155,
+            "speaker": "B",
+            "utterance": "特に、取ったら仕事でどういうところで使えるのかっていうのが想像できる資格だと、より、どれぐらい役立つかが分かって、勉強したくなりますね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "取ったら仕事でどういうところで使えるのかっていうのが想像できる資格だと、より、どれぐらい役立つかが分かって、勉強したくなります"
+                }
+            }
+        },
+        {
+            "id": 156,
+            "speaker": "A",
+            "utterance": "あー、本当に実践に使えるものをそうやって、まずは社労士？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": [
+                    "reason",
+                    "commitment"
+                ],
+                "utterance": "あー、本当に実践に使えるものをそうやって、まずは社労士？"
+            }
+        },
+        {
+            "id": 157,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 158,
+            "speaker": "A",
+            "utterance": "次が簿記？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "次が簿記？"
+            }
+        },
+        {
+            "id": 159,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 160,
+            "speaker": "A",
+            "utterance": "もっと聞いても大丈夫ですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "もっと聞いても大丈夫ですか？"
+            }
+        },
+        {
+            "id": 161,
+            "speaker": "B",
+            "utterance": "いいですよ。"
+        },
+        {
+            "id": 162,
+            "speaker": "A",
+            "utterance": "あっ。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あっ。"
+            }
+        },
+        {
+            "id": 163,
+            "speaker": "B",
+            "utterance": "（笑）"
+        },
+        {
+            "id": 164,
+            "speaker": "A",
+            "utterance": "次はなんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "detail",
+                "utterance": "次はなんですか？"
+            }
+        },
+        {
+            "id": 165,
+            "speaker": "B",
+            "utterance": "で、もう１つ、資格という形にこだわらず、事務なので、パソコンでエクセルを使うことが多くて、で、まだまだエクセルで使いこなせない機能がたくさんあるので、それを覚えたいなと思ってます。",
+            "understand": {
+                "MI": {
+                    "detail_1": "資格という形にこだわらず、事務なので、パソコンでエクセルを使うことが多くて、で、まだまだエクセルで使いこなせない機能がたくさんあるので、それを覚えたい"
+                }
+            }
+        },
+        {
+            "id": 166,
+            "speaker": "A",
+            "utterance": "あー、次はエクセル。",
+            "utterance_request": {
+                "utterance_request": "あー、次は{detail_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "あー、次はエクセル。"
+            }
+        },
+        {
+            "id": 167,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 168,
+            "speaker": "A",
+            "utterance": "まさか、もうひと声聞くと、まだ出ますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "まさか、もうひと声聞くと、まだ出ますか？"
+            }
+        },
+        {
+            "id": 169,
+            "speaker": "B",
+            "utterance": "（笑）"
+        },
+        {
+            "id": 170,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 171,
+            "speaker": "B",
+            "utterance": "で、エクセルの中でも、なんていうんでしょう、マクロといって。",
+            "understand": {
+                "MI": {
+                    "detail_1": "エクセルの中でも、なんていうんでしょう、マクロといって"
+                }
+            }
+        },
+        {
+            "id": 172,
+            "speaker": "A",
+            "utterance": "ええ、マクロ。",
+            "utterance_request": {
+                "utterance_request": "ええ、{detail_summary}。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "ええ、マクロ。"
+            }
+        },
+        {
+            "id": 173,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 174,
+            "speaker": "B",
+            "utterance": "事務の女の子がさくさく使っているようなものというよりは、だんだん、エンジニアの人がデータベースで処理するような、そういうものにつながっていく、そういう処理、そこまでできるようになれば、会社で使っている、その人事系のシステムで、もっと時間短縮でいろんな資料が作れたり、今まで手作業でやっているものが、自動化できたりするんじゃないかなーと思ってます。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "会社で使っている、その人事系のシステムで、もっと時間短縮でいろんな資料が作れたり、今まで手作業でやっているものが、自動化できたりするんじゃないか"
+                }
+            }
+        },
+        {
+            "id": 175,
+            "speaker": "A",
+            "utterance": "あー、本当に会社をこういうふうに運営していく上で、どんどん便利になるような資格を考えて、取っていこうっていう意気込みですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "あー、本当に会社をこういうふうに運営していく上で、どんどん便利になるような資格を考えて、取っていこうっていう意気込みですね。"
+            }
+        },
+        {
+            "id": 176,
+            "speaker": "B",
+            "utterance": "そうですねー。"
+        },
+        {
+            "id": 177,
+            "speaker": "A",
+            "utterance": "（笑）",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "（笑）"
+            }
+        },
+        {
+            "id": 178,
+            "speaker": "B",
+            "utterance": "今のところは、今、働いてる会社で、より自分が役に立つ存在だということが、アピールできるような、実際役に立つような資格だったり、そういうスキルだったり、そういうのを付けたいなっていうのが、大まかなところですね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "今、働いてる会社で、より自分が役に立つ存在だということが、アピールできるような、実際役に立つような資格だったり、そういうスキルだったり、そういうのを付けたい"
+                }
+            }
+        },
+        {
+            "id": 179,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 180,
+            "speaker": "A",
+            "utterance": "では、なるべく最短で、そういった資格がどんどん取れるような、雰囲気ですよね、今のお話聞いてると。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "では、なるべく最短で、そういった資格がどんどん取れるような、雰囲気ですよね、今のお話聞いてると。"
+            }
+        },
+        {
+            "id": 181,
+            "speaker": "B",
+            "utterance": "（笑）"
+        },
+        {
+            "id": 182,
+            "speaker": "B",
+            "utterance": "なんか、話をしていて徐々に、漠然と資格取りたいな、勉強したいなから、スケジュール立てて、じゃあ、２年以内に取ろうかな、みたいな気持ちに、少しずつなれてきた気がします。",
+            "understand": {
+                "MI": {
+                    "commitment_time_positive_1": "スケジュール立てて、じゃあ、２年以内に取ろうかな、みたいな気持ちに、少しずつなれてきた"
+                }
+            }
+        },
+        {
+            "id": 183,
+            "speaker": "A",
+            "utterance": "あー、それは良かったです。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、それは良かったです。"
+            }
+        },
+        {
+            "id": 184,
+            "speaker": "A",
+            "utterance": "はい、ぜひね、いい仕事をするためにも。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "はい、ぜひね、いい仕事をするためにも。"
+            }
+        },
+        {
+            "id": 185,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 186,
+            "speaker": "A",
+            "utterance": "ええ、資格を取って、お勉強をずっとね、できたらいいなーと思います。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "ええ、資格を取って、お勉強をずっとね、できたらいいなーと思います。"
+            }
+        },
+        {
+            "id": 187,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 188,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 189,
+            "speaker": "A",
+            "utterance": "どうもありがとうございました。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "どうもありがとうございました。"
+            }
+        },
+        {
+            "id": 190,
+            "speaker": "B",
+            "utterance": "ありがとうございました。"
+        }
+    ]
+}

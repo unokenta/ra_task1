@@ -1,0 +1,1933 @@
+{
+    "info": "info",
+    "utterances": [
+        {
+            "id": 0,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 1,
+            "speaker": "A",
+            "utterance": "こんにちは、ホリコシさん。",
+            "system_behavior": {
+                "purpose": "挨拶",
+                "utterance": "こんにちは、ホリコシさん。"
+            }
+        },
+        {
+            "id": 2,
+            "speaker": "B",
+            "utterance": "こんにちは。"
+        },
+        {
+            "id": 3,
+            "speaker": "A",
+            "utterance": "今ちょっとお伺いしたいんですけど、何かしたいなーとか、習い事でもいいんですけど、なんかやりたいなーと思ってることってありますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "theme",
+                "utterance": "今ちょっとお伺いしたいんですけど、何かしたいなーとか、習い事でもいいんですけど、なんかやりたいなーと思ってることってありますか？"
+            }
+        },
+        {
+            "id": 4,
+            "speaker": "B",
+            "utterance": "そうですね、最近はちょっと料理とかお菓子作りにはまってまして、もう少しそれをいろんなバリエーションとか、上手なものを作れるようになりたいなと思ってますね。",
+            "understand": {
+                "MI": {
+                    "theme_positive_1": "料理とかお菓子作りにはまってまして、もう少しそれをいろんなバリエーションとか、上手なものを作れるようになりたい"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 6,
+            "speaker": "A",
+            "utterance": "上手になりたいんですね。",
+            "utterance_request": {
+                "utterance_request": "{theme_positive_summary}んですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "theme",
+                "utterance": "上手になりたいんですね。"
+            }
+        },
+        {
+            "id": 7,
+            "speaker": "B",
+            "utterance": "上手に、おいしくというパラメーターもそうですし、もう１つ、おいしくだけじゃなく、いろんな料理を作れるように、料理とかお菓子を作れるようになりたいなと思っています。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "上手に、おいしくというパラメーターもそうです",
+                    "detail_positive_2": "いろんな料理を作れるように、料理とかお菓子を作れるようになりたい"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "speaker": "A",
+            "utterance": "それは、なんでそういうふうに思ったんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "reason",
+                "utterance": "それは、なんでそういうふうに思ったんですか？"
+            }
+        },
+        {
+            "id": 9,
+            "speaker": "B",
+            "utterance": "入り口は、なんとなく単純に料理が楽しいなというところから始まって、大学に入ってからちょっと高校生のときより時間に余裕ができたので、空いてる時間に、少し、家の夕食を作るもそうですし、ちょっと節約したいというか、学食じゃなくてもお弁当持っていこうと思って、自分でお弁当作るようになったというのが大きいですね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "料理が楽しい",
+                    "reason_2": "大学に入ってからちょっと高校生のときより時間に余裕ができた",
+                    "reason_3": "節約したいというか、学食じゃなくてもお弁当持っていこうと思って、自分でお弁当作るようになった"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "speaker": "A",
+            "utterance": "そうなんですか。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "そうなんですか。"
+            }
+        },
+        {
+            "id": 11,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 12,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 13,
+            "speaker": "A",
+            "utterance": "じゃあ、料理は自分でされるんですね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、料理は自分でされるんですね？"
+            }
+        },
+        {
+            "id": 14,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 15,
+            "speaker": "B",
+            "utterance": "うちでは、家族みんなするんですけれど、私もしますし。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "私もします"
+                }
+            }
+        },
+        {
+            "id": 16,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 17,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 18,
+            "speaker": "A",
+            "utterance": "今も、それは継続して作られてらっしゃいますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "今も、それは継続して作られてらっしゃいますか？"
+            }
+        },
+        {
+            "id": 19,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 20,
+            "speaker": "B",
+            "utterance": "夜の予定がないときになってしまいますけれど、やっぱり、ちょっと夕方に用事があって、自分が家で夕食をとらないときは作らないんですけれど、時間があるときは結構作りますし、お弁当も毎日持っていってます。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "時間があるときは結構作りますし、お弁当も毎日持っていってます"
+                }
+            }
+        },
+        {
+            "id": 21,
+            "speaker": "A",
+            "utterance": "お弁当も毎日持っていってるんですね。",
+            "utterance_request": {
+                "utterance_request": "{confidence_summary}ですね。"
+            },
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "お弁当も毎日持っていってるんですね。"
+            }
+        },
+        {
+            "id": 22,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 23,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 24,
+            "speaker": "A",
+            "utterance": "お菓子もおっしゃってましたけど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "お菓子もおっしゃってましたけど。"
+            }
+        },
+        {
+            "id": 25,
+            "speaker": "B",
+            "utterance": "お菓子は、それはほんとに食べるより作るのが楽しくてという感じなんですけれど、やっぱり人の家に遊びに行ったりするときに持っていくと、結構喜ばれるので、買うよりも自分で好きなものをいろいろと作ったらいいかなというのが１つと、私、乳糖不耐症といって、牛乳アレルギーとは違うんですけれど、乳製品をとると、おなか下してしまうんですね。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "お菓子は、それはほんとに食べるより作るのが楽しくてという感じ",
+                    "reason_positive_2": "やっぱり人の家に遊びに行ったりするときに持っていくと、結構喜ばれるので、買うよりも自分で好きなものをいろいろと作ったらいいかな",
+                    "reason_negative_3": "私、乳糖不耐症といって、牛乳アレルギーとは違うんですけれど、乳製品をとると、おなか下してしまうんです"
+                }
+            }
+        },
+        {
+            "id": 26,
+            "speaker": "A",
+            "utterance": "はーはー、はーはー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はーはー、はーはー。"
+            }
+        },
+        {
+            "id": 27,
+            "speaker": "B",
+            "utterance": "市販のお菓子だと、洋菓子って結構バターとか、牛乳とか使ってるじゃないですか。"
+        },
+        {
+            "id": 28,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 29,
+            "speaker": "B",
+            "utterance": "それで、自分も食べられるものを自分で作れたらいいかなというのもあって。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "自分も食べられるものを自分で作れたらいい"
+                }
+            }
+        },
+        {
+            "id": 30,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 31,
+            "speaker": "B",
+            "utterance": "それもあって作りますね、結構。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "それもあって作ります"
+                }
+            }
+        },
+        {
+            "id": 32,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 33,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 34,
+            "speaker": "A",
+            "utterance": "自分で作ると安心というか、間違いは。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "自分で作ると安心というか、間違いは。"
+            }
+        },
+        {
+            "id": 35,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 36,
+            "speaker": "B",
+            "utterance": "食べても大丈夫なので。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "食べても大丈夫なので"
+                }
+            }
+        },
+        {
+            "id": 37,
+            "speaker": "A",
+            "utterance": "なものしか選ばないですもんね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "reason",
+                "utterance": "なものしか選ばないですもんね。"
+            }
+        },
+        {
+            "id": 38,
+            "speaker": "A",
+            "utterance": "あー、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "あー、なるほど。"
+            }
+        },
+        {
+            "id": 39,
+            "speaker": "A",
+            "utterance": "へー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "へー。"
+            }
+        },
+        {
+            "id": 40,
+            "speaker": "A",
+            "utterance": "じゃあ、そういう経験があったから、そういう、「自分で作ろう」みたいな感じになったんですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "じゃあ、そういう経験があったから、そういう、「自分で作ろう」みたいな感じになったんですかね？"
+            }
+        },
+        {
+            "id": 41,
+            "speaker": "B",
+            "utterance": "そうですね、乳糖不耐症だからというだけではなくて、単純に料理をすることも楽しいんですけれど、料理だと、例えばシチューとかだと、市販のルーって絶対乳製品が入ってるんですけれど、それを自分で豆乳とか使って作ることで、自分も食べられるものができるので、それは楽しいですね。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "乳糖不耐症だから",
+                    "reason_positive_2": "単純に料理をすることも楽しい",
+                    "reason_positive_3": "自分で豆乳とか使って作ることで、自分も食べられるものができる"
+                }
+            }
+        },
+        {
+            "id": 42,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 43,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 44,
+            "speaker": "A",
+            "utterance": "それはちっちゃいころからおなかは弱いんですか、乳製品を取ると？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "それはちっちゃいころからおなかは弱いんですか、乳製品を取ると？"
+            }
+        },
+        {
+            "id": 45,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 46,
+            "speaker": "B",
+            "utterance": "小学生のときから給食に出てくる牛乳とかは飲めなかったんですけれど、その症状って、みんなそうなんですけれど、大人になるにつれて悪くなっていくものらしくて、なので、すごく小さいころとかは大丈夫だったんですけれど、やっぱり年を重ねるにつれて、どんどん乳製品に弱くなってしまったので、それでやっぱりどんどん自分で作るようになったというのも、たぶんあると思いますね。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "年を重ねるにつれて、どんどん乳製品に弱くなってしまった",
+                    "confidence_2": "どんどん自分で作るようになった"
+                }
+            }
+        },
+        {
+            "id": 47,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 48,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 49,
+            "speaker": "A",
+            "utterance": "じゃあ、それは今のほうがきつくなってるんですね？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "reason",
+                "utterance": "じゃあ、それは今のほうがきつくなってるんですね？"
+            }
+        },
+        {
+            "id": 50,
+            "speaker": "B",
+            "utterance": "そうですね、はい。"
+        },
+        {
+            "id": 51,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 52,
+            "speaker": "A",
+            "utterance": "じゃあ、それが作る、楽しいというのもあるんでしょうけど、きっかけの１つでもある？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "じゃあ、それが作る、楽しいというのもあるんでしょうけど、きっかけの１つでもある？"
+            }
+        },
+        {
+            "id": 53,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 54,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 55,
+            "speaker": "B",
+            "utterance": "自分で、お菓子はあんまり太りたくないんで、あんまり食べないようにはしてるんですけれど、それでも、自分が食べられるお菓子を作りたいなというのもあるので。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "太りたくない",
+                    "detail_positive_2": "自分が食べられるお菓子を作りたい"
+                }
+            }
+        },
+        {
+            "id": 56,
+            "speaker": "A",
+            "utterance": "太りたくないんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "太りたくないんですか？"
+            }
+        },
+        {
+            "id": 57,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 58,
+            "speaker": "B",
+            "utterance": "やっぱり、私と同年代の女性は、みんなあまり太りたくないと思う人が多いと思うんですけれど、見た目的なこともありますし、あと大学の部活で陸上やってるので、１５００とか、３０００とか、中長距離種目やってるんですけれど、その上でやっぱり軽いほうが圧倒的に有利なので、太らないようにはしようと思ってますね。"
+        },
+        {
+            "id": 59,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 60,
+            "speaker": "A",
+            "utterance": "はー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はー。"
+            }
+        },
+        {
+            "id": 61,
+            "speaker": "A",
+            "utterance": "それで何か困ったこととかって、今までありました？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "それで何か困ったこととかって、今までありました？"
+            }
+        },
+        {
+            "id": 62,
+            "speaker": "B",
+            "utterance": "困ったこと、もちろん体が重いと、重りをつけて走ってることになってしまうので、記録が悪くなるんですね。"
+        },
+        {
+            "id": 63,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 64,
+            "speaker": "B",
+            "utterance": "ただ、だからといって減量をしすぎてしまうと、２年前ぐらいに、それでお肉食べると脂肪が多いから太ってしまうなと思って控えていたら、動物性のたんぱく質だったり、鉄分が足りなくなって、結局、それで貧血になってしまって、それはそれで走れなくなってしまったんですよ。"
+        },
+        {
+            "id": 65,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 66,
+            "speaker": "B",
+            "utterance": "なので、健康的に減量するというか、陸上競技のために、健康的にきちんと鉄分とか必要な栄養素はとりながら、かつ体重を落としていくというのが、今ちょっと必要かなと思ってますね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "健康的に減量するというか、陸上競技のために、健康的にきちんと鉄分とか必要な栄養素はとりながら、かつ体重を落としていくというのが、今ちょっと必要"
+                }
+            }
+        },
+        {
+            "id": 67,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 68,
+            "speaker": "A",
+            "utterance": "それを踏まえても、料理が上手になりたいというのはあるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "それを踏まえても、料理が上手になりたいというのはあるんですか？"
+            }
+        },
+        {
+            "id": 69,
+            "speaker": "B",
+            "utterance": "そうですね、ありますね。"
+        },
+        {
+            "id": 70,
+            "speaker": "B",
+            "utterance": "やっぱり、自分でどうしたら鉄分豊富な料理を作れるかというか、やっぱり一般的によくいわれてるのは、ホウレンソウはよく鉄分がたくさん入ってるよとか、そういうのも少しちょっと調べて、どうしたら貧血にならないような、予防できるような、かつ低カロリーな食事が作れるかなっていうのも考えてますね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "ホウレンソウはよく鉄分がたくさん入ってるよとか、そういうのも少しちょっと調べて",
+                    "detail_positive_2": "どうしたら貧血にならないような、予防できるような、かつ低カロリーな食事が作れるか"
+                }
+            }
+        },
+        {
+            "id": 71,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 72,
+            "speaker": "A",
+            "utterance": "栄養学的なところなんですね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "reason",
+                "utterance": "栄養学的なところなんですね？"
+            }
+        },
+        {
+            "id": 73,
+            "speaker": "B",
+            "utterance": "栄養学もそうですね。"
+        },
+        {
+            "id": 74,
+            "speaker": "B",
+            "utterance": "どんな食品にはどんな栄養素が含まれているというのもそうですし、例えばカルシウムってただとるだけじゃダメで、牛乳がいいというのは、カルシウムとリンのバランスがいいから吸収しやすい、ただカルシウムが多いだけではダメという、そういう辺りとかもちょっと面白いなと思いながら調べてますね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "どんな食品にはどんな栄養素が含まれているというのもそうですし、例えばカルシウムってただとるだけじゃダメで、牛乳がいいというのは、カルシウムとリンのバランスがいいから吸収しやすい、ただカルシウムが多いだけではダメという、そういう辺りとかもちょっと面白いなと思いながら調べてます"
+                }
+            }
+        },
+        {
+            "id": 75,
+            "speaker": "A",
+            "utterance": "吸収率ですよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "吸収率ですよね。"
+            }
+        },
+        {
+            "id": 76,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 77,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 78,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 79,
+            "speaker": "A",
+            "utterance": "じゃあ、そういうことを考えて、もう普段から料理とかされてるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、そういうことを考えて、もう普段から料理とかされてるんですか？"
+            }
+        },
+        {
+            "id": 80,
+            "speaker": "B",
+            "utterance": "それもあるんですけど、やっぱりそればっかり考えてるとちょっと大変なので、たまに気にしながらも、日頃はほんとに家にある材料で作りやすく、短い時間でもできるのというのも考えると、なかなか、ほんとはもう少し栄養に気を使いたいところも、ちょっと「時間ないな」という部分もあったりするんですけれど。",
+            "understand": {
+                "MI": {
+                    "disturbance_thought_negative_1": "そればっかり考えてるとちょっと大変",
+                    "confidence_2": "日頃はほんとに家にある材料で作りやすく、短い時間でもできるのというのも考える",
+                    "disturbance_confidence_3": "ほんとはもう少し栄養に気を使いたいところも、ちょっと「時間ないな」という部分もあったりする"
+                }
+            }
+        },
+        {
+            "id": 81,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 82,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 83,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 84,
+            "speaker": "B",
+            "utterance": "それもう少し詳しくなれば、短い時間である材料でささっと、かつ鉄分とれるというものも作れるようになればいいなと思うんですけれど。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "短い時間である材料でささっと、かつ鉄分とれるというものも作れるようになればいいな"
+                }
+            }
+        },
+        {
+            "id": 85,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 86,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 87,
+            "speaker": "A",
+            "utterance": "時間がないんですか、今？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail_time",
+                "utterance": "時間がないんですか、今？"
+            }
+        },
+        {
+            "id": 88,
+            "speaker": "B",
+            "utterance": "時間、やっぱりそうですね。"
+        },
+        {
+            "id": 89,
+            "speaker": "B",
+            "utterance": "学校から家帰って「さあ、作る」ってなると、結構もうぱぱっと、１５分、３０分ぐらいでぱぱっとできるほうがいいなと思ってしまうんで、なかなかいろんな、いろんな具材を買ってきて、いろんな、切ったり、炒めたり、ゆでたりってやってると、時間がかなりかかってしまうので、どうしても使う野菜の種類が少なくなってしまったり、「これだけでいいや」ってなってしまったりすると、ちょっと栄養素的には補いきれない部分もあるんで。",
+            "understand": {
+                "MI": {
+                    "disturbance_quantity_1": "１５分、３０分ぐらいでぱぱっとできるほうがいいなと思ってしまう",
+                    "disturbance_reason_2": "いろんな、いろんな具材を買ってきて、いろんな、切ったり、炒めたり、ゆでたりってやってると、時間がかなりかかってしまう"
+                }
+            }
+        },
+        {
+            "id": 90,
+            "speaker": "A",
+            "utterance": "でも、普段自分で作ってるわけですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "でも、普段自分で作ってるわけですか？"
+            }
+        },
+        {
+            "id": 91,
+            "speaker": "B",
+            "utterance": "毎日ではないんですけれど、はい、結構作りますね。"
+        },
+        {
+            "id": 92,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 93,
+            "speaker": "A",
+            "utterance": "お菓子なんかはどうですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "お菓子なんかはどうですか？"
+            }
+        },
+        {
+            "id": 94,
+            "speaker": "B",
+            "utterance": "お菓子は、そうですね、お菓子のこと考えると、ちょっと栄養とはかなり外れてしまうんですけれど、最初は何がきっかけだったか、あんまり覚えてないんですけれど、やっぱり作って、お菓子って普通の料理より見た目にもきれいなので、見た目がきれいなものが出来上がると楽しくて、で、人に持っていくとやっぱり喜ばれるんで、それがうれしいですね、やっぱり。",
+            "understand": {
+                "MI": {
+                    "thought_positive_1": "見た目がきれいなものが出来上がると楽しくて",
+                    "confidence_2": "人に持っていくとやっぱり喜ばれる"
+                }
+            }
+        },
+        {
+            "id": 95,
+            "speaker": "B",
+            "utterance": "人の家に遊びに行ったり、鍋したりするときに、結構よく持っていきますね。"
+        },
+        {
+            "id": 96,
+            "speaker": "A",
+            "utterance": "持ってくんですね？",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "持ってくんですね？"
+            }
+        },
+        {
+            "id": 97,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 98,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 99,
+            "speaker": "A",
+            "utterance": "ホリコシさんだけですか。",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "ホリコシさんだけですか。"
+            }
+        },
+        {
+            "id": 100,
+            "speaker": "A",
+            "utterance": "皆さん、そういう？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "皆さん、そういう？"
+            }
+        },
+        {
+            "id": 101,
+            "speaker": "A",
+            "utterance": "ホリコシさんは、お菓子担当みたいな感じなんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "ホリコシさんは、お菓子担当みたいな感じなんですか？"
+            }
+        },
+        {
+            "id": 102,
+            "speaker": "A",
+            "utterance": "そういうわけじゃない？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "そういうわけじゃない？"
+            }
+        },
+        {
+            "id": 103,
+            "speaker": "B",
+            "utterance": "今、そうなってきてますかね。"
+        },
+        {
+            "id": 104,
+            "speaker": "B",
+            "utterance": "私がいつも持っていくんで。"
+        },
+        {
+            "id": 105,
+            "speaker": "B",
+            "utterance": "ただ、やっぱり人の家に行くとき、一応ちょっとした手土産持っていく人、多いじゃないですか。"
+        },
+        {
+            "id": 106,
+            "speaker": "B",
+            "utterance": "その代わりではないですけれど、それをちょっと作ってみるっていう感じですね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "それをちょっと作ってみる"
+                }
+            }
+        },
+        {
+            "id": 107,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 108,
+            "speaker": "A",
+            "utterance": "どんなのを作るんですか？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "confidence",
+                "utterance": "どんなのを作るんですか？"
+            }
+        },
+        {
+            "id": 109,
+            "speaker": "B",
+            "utterance": "どんなの。"
+        },
+        {
+            "id": 110,
+            "speaker": "B",
+            "utterance": "世の中にはというか、マクロビを意識した、乳製品使わない、バター使わないというレシピが、結構レシピ本が出ていて、その中で私のお気に入りが、タルトのレシピ本なんですね。"
+        },
+        {
+            "id": 111,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 112,
+            "speaker": "B",
+            "utterance": "なんで、結構、乳製品使わないタルトとかを作って持っていくことが多いですね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "乳製品使わないタルトとかを作って"
+                }
+            }
+        },
+        {
+            "id": 113,
+            "speaker": "A",
+            "utterance": "ふーん、なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "ふーん、なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 114,
+            "speaker": "A",
+            "utterance": "じゃあ、そういうレシピとかを見て、料理がうまくなろうというふうに、今されてることなんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、そういうレシピとかを見て、料理がうまくなろうというふうに、今されてることなんですか？"
+            }
+        },
+        {
+            "id": 115,
+            "speaker": "B",
+            "utterance": "一応そうですね。"
+        },
+        {
+            "id": 116,
+            "speaker": "B",
+            "utterance": "なかなかオリジナルでやると、何度かやったことはあるんですけれど、アレンジするとやっぱりどうしても、うまくいかないことが多くて、結局レシピ通りに作るのが一番おいしいんだなと思って、なるべくアレンジはしないようにしてますね。"
+        },
+        {
+            "id": 117,
+            "speaker": "A",
+            "utterance": "今、アプリとかも、あると思いますよね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "今、アプリとかも、あると思いますよね。"
+            }
+        },
+        {
+            "id": 118,
+            "speaker": "A",
+            "utterance": "そういうのも使うんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "そういうのも使うんですか？"
+            }
+        },
+        {
+            "id": 119,
+            "speaker": "B",
+            "utterance": "アプリ、公式の、例えば食品会社が出している、ネット上のレシピとかは使うんですけれど、一般の人が投稿しているようなレシピって、やっぱりどうしても専門の人じゃないんで、それは、作ってみたこと何回かあるんですけれど、やっぱりうまくいかなかったりするので。"
+        },
+        {
+            "id": 120,
+            "speaker": "A",
+            "utterance": "ふーん、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "ふーん、なるほど。"
+            }
+        },
+        {
+            "id": 121,
+            "speaker": "B",
+            "utterance": "たまに試行錯誤して、自分なりのアレンジ加えて、いいレシピが見つかれば、それを作ることもあるんですけれど、基本的には、プロの栄養士さんとかが考えたものを使ってますね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "基本的には、プロの栄養士さんとかが考えたものを使ってます"
+                }
+            }
+        },
+        {
+            "id": 122,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 123,
+            "speaker": "A",
+            "utterance": "その通りやるのが。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "その通りやるのが。"
+            }
+        },
+        {
+            "id": 124,
+            "speaker": "B",
+            "utterance": "一番うまくいきますね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "一番うまくいきます"
+                }
+            }
+        },
+        {
+            "id": 125,
+            "speaker": "A",
+            "utterance": "１回作っちゃうと、もうそのレシピ要らないですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "１回作っちゃうと、もうそのレシピ要らないですか？"
+            }
+        },
+        {
+            "id": 126,
+            "speaker": "A",
+            "utterance": "覚えちゃいますか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "覚えちゃいますか？"
+            }
+        },
+        {
+            "id": 127,
+            "speaker": "B",
+            "utterance": "いや、覚えられないです。"
+        },
+        {
+            "id": 128,
+            "speaker": "B",
+            "utterance": "調味料の細かい配分がなかなか覚えられないので、調味料の配分も、やっぱりレシピに従うのが一番おいしくなると思ってるんで、毎回レシピ見ますね。",
+            "understand": {
+                "MI": {
+                    "thought_1": "調味料の配分も、やっぱりレシピに従うのが一番おいしくなると思ってる"
+                }
+            }
+        },
+        {
+            "id": 129,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "thought",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 130,
+            "speaker": "A",
+            "utterance": "じゃあ、ホリコシさんにとって、料理をおいしくするというのは、レシピなしでは？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、ホリコシさんにとって、料理をおいしくするというのは、レシピなしでは？"
+            }
+        },
+        {
+            "id": 131,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 132,
+            "speaker": "B",
+            "utterance": "毎回レシピを見ながらやるんですけれど、やっぱり母とかは慣れているのか、レシピほとんど見ないで、自分のもう味付け決まって適当に作るんで、そういうのをできるのが一番楽でいいのかなと思っていて、それを目指してるというかいちいちレシピ見なくても、できるようになるといいと思いますね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "やっぱり母とかは慣れているのか、レシピほとんど見ないで、自分のもう味付け決まって適当に作るんで、そういうのをできるのが一番楽でいいのかな",
+                    "detail_positive_2": "いちいちレシピ見なくても、できるようになるといい"
+                }
+            }
+        },
+        {
+            "id": 133,
+            "speaker": "A",
+            "utterance": "それがホリコシさんにとっては、料理がうまくなる、上手になるっていうことなんでしょうか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "detail",
+                "utterance": "それがホリコシさんにとっては、料理がうまくなる、上手になるっていうことなんでしょうか？"
+            }
+        },
+        {
+            "id": 134,
+            "speaker": "B",
+            "utterance": "自分にとって、上手になるというのは、やっぱりおいしくなる、おいしいって人によって違うんで、自分も含め、食べてくれる家族とかがおいしいと思ってくれる料理を作るのが、自分にとって上手になることだと思ってますね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "自分にとって、上手になるというのは、やっぱりおいしくなる、おいしいって人によって違うんで、自分も含め、食べてくれる家族とかがおいしいと思ってくれる料理を作るのが、自分にとって上手になることだと思ってます"
+                }
+            }
+        },
+        {
+            "id": 135,
+            "speaker": "A",
+            "utterance": "うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん。"
+            }
+        },
+        {
+            "id": 136,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "detail",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 137,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 138,
+            "speaker": "A",
+            "utterance": "でも、今、ご家族の方とかは一緒に住んでらっしゃる？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "utterance": "でも、今、ご家族の方とかは一緒に住んでらっしゃる？"
+            }
+        },
+        {
+            "id": 139,
+            "speaker": "B",
+            "utterance": "はい、実家に住んでます。"
+        },
+        {
+            "id": 140,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 141,
+            "speaker": "A",
+            "utterance": "じゃあ、料理作ってあげたりとかもするんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、料理作ってあげたりとかもするんですか？"
+            }
+        },
+        {
+            "id": 142,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 143,
+            "speaker": "B",
+            "utterance": "家族の分は作りますね。"
+        },
+        {
+            "id": 144,
+            "speaker": "A",
+            "utterance": "すごいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "すごいですね。"
+            }
+        },
+        {
+            "id": 145,
+            "speaker": "B",
+            "utterance": "いえいえ。"
+        },
+        {
+            "id": 146,
+            "speaker": "A",
+            "utterance": "へー、なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "へー、なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 147,
+            "speaker": "A",
+            "utterance": "じゃあ、普段から作ってあげて「おいしい」とかって言われたりします？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、普段から作ってあげて「おいしい」とかって言われたりします？"
+            }
+        },
+        {
+            "id": 148,
+            "speaker": "B",
+            "utterance": "特に、「まずい」と言われなければいいのかなと思ってるんで、一応「おいしかった？」とか、「味付けどう？」とかは、一応毎回聞いてますね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "「おいしかった？」とか、「味付けどう？」とかは、一応毎回聞いてます"
+                }
+            }
+        },
+        {
+            "id": 149,
+            "speaker": "B",
+            "utterance": "「もっとこのほうがいい」って言われたりもするんで。",
+            "understand": {
+                "MI": {
+                    "reason_negative_1": "「もっとこのほうがいい」って言われたりもする"
+                }
+            }
+        },
+        {
+            "id": 150,
+            "speaker": "A",
+            "utterance": "うんうん、うんうん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うんうん、うんうん。"
+            }
+        },
+        {
+            "id": 151,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 152,
+            "speaker": "A",
+            "utterance": "そういう感じなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "そういう感じなんですね。"
+            }
+        },
+        {
+            "id": 153,
+            "speaker": "A",
+            "utterance": "普段から食べてもらって。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "普段から食べてもらって。"
+            }
+        },
+        {
+            "id": 154,
+            "speaker": "B",
+            "utterance": "そうですね、はい。"
+        },
+        {
+            "id": 155,
+            "speaker": "A",
+            "utterance": "フィードバックみたいなのが。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "フィードバックみたいなのが。"
+            }
+        },
+        {
+            "id": 156,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 157,
+            "speaker": "B",
+            "utterance": "もらうようにしてます。"
+        },
+        {
+            "id": 158,
+            "speaker": "A",
+            "utterance": "あー、なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 159,
+            "speaker": "A",
+            "utterance": "それはいいですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "それはいいですね。"
+            }
+        },
+        {
+            "id": 160,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 161,
+            "speaker": "A",
+            "utterance": "感想がダイレクトなんで。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "感想がダイレクトなんで。"
+            }
+        },
+        {
+            "id": 162,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 163,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 164,
+            "speaker": "A",
+            "utterance": "何かリクエストとかもされるんですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "何かリクエストとかもされるんですか？"
+            }
+        },
+        {
+            "id": 165,
+            "speaker": "B",
+            "utterance": "リクエストというか、「何食べたい？」って聞いても、あんまり、「なんでもいい」って言われてしまうので、レシピ本を渡して「この中から選んで」って聞くことが多いですね。",
+            "understand": {
+                "MI": {
+                    "disturbance_reason_negative_1": "「何食べたい？」って聞いても、あんまり、「なんでもいい」って言われてしまう",
+                    "confidence_2": "レシピ本を渡して「この中から選んで」って聞く"
+                }
+            }
+        },
+        {
+            "id": 166,
+            "speaker": "A",
+            "utterance": "あー、そうなんですね。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "あー、そうなんですね。"
+            }
+        },
+        {
+            "id": 167,
+            "speaker": "B",
+            "utterance": "そうすれば、それの通りに作ればいいんで。"
+        },
+        {
+            "id": 168,
+            "speaker": "A",
+            "utterance": "もうメニューみたいな感じな？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "もうメニューみたいな感じな？"
+            }
+        },
+        {
+            "id": 169,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 170,
+            "speaker": "B",
+            "utterance": "レシピ本を５冊ぐらい渡して、「選んで」って言いますね。",
+            "understand": {
+                "MI": {
+                    "confidence_1": "レシピ本を５冊ぐらい渡して、「選んで」って言います"
+                }
+            }
+        },
+        {
+            "id": 171,
+            "speaker": "A",
+            "utterance": "もうほんとメニューですね。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "confidence",
+                "utterance": "もうほんとメニューですね。"
+            }
+        },
+        {
+            "id": 172,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 173,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど、ふーん、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど、なるほど、ふーん、なるほど。"
+            }
+        },
+        {
+            "id": 174,
+            "speaker": "A",
+            "utterance": "では、今後もそれは続くんですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "では、今後もそれは続くんですかね？"
+            }
+        },
+        {
+            "id": 175,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 176,
+            "speaker": "B",
+            "utterance": "うまくなるのもそうですし、やっぱりあとバリエーションを増やしたいというのもあって、やっぱりどうしても似てきちゃうというか、作りやすいものって決まってきちゃって、買いやすい材料とか、なので、もう少しそれを、幅を広げられたらいいなとは思ってますね。",
+            "understand": {
+                "MI": {
+                    "detail_positive_1": "バリエーションを増やしたい",
+                    "disturbance_reason_2": "どうしても似てきちゃうというか、作りやすいものって決まってきちゃって、買いやすい材料とか"
+                }
+            }
+        },
+        {
+            "id": 177,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 178,
+            "speaker": "A",
+            "utterance": "それはレシピをたくさん買うとか、そういうことじゃなくて？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "それはレシピをたくさん買うとか、そういうことじゃなくて？"
+            }
+        },
+        {
+            "id": 179,
+            "speaker": "B",
+            "utterance": "なんでしょう、レシピ本あっても、やっぱり「これはちょっと作りにくそうだな」って敬遠してしまったり、あまり使わない調味料とかは、「買っても、これにしか使わないからな」っていって、作るの諦めてしまうものもあるので、その辺をちょっと、妥協せずにというか、使わなさそうな調味料もちょっと挑戦して買ってみるとかして、幅を増やしていきたいですね。",
+            "understand": {
+                "MI": {
+                    "disturbance_reason_negative_1": "レシピ本あっても、やっぱり「これはちょっと作りにくそうだな」って敬遠してしまったり、あまり使わない調味料とかは、「買っても、これにしか使わないからな」っていって、作るの諦めてしまう",
+                    "commitment_positive_2": "使わなさそうな調味料もちょっと挑戦して買ってみる"
+                }
+            }
+        },
+        {
+            "id": 180,
+            "speaker": "A",
+            "utterance": "うーん、あ、今後は？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "うーん、あ、今後は？"
+            }
+        },
+        {
+            "id": 181,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 182,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど、うんうん。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "なるほど、なるほど、うんうん。"
+            }
+        },
+        {
+            "id": 183,
+            "speaker": "A",
+            "utterance": "お菓子についてはどうですか？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "お菓子についてはどうですか？"
+            }
+        },
+        {
+            "id": 184,
+            "speaker": "B",
+            "utterance": "お菓子もそうですね、自宅にはオーブンがあるんで、わりとなんでもできるんですけど、「やっぱりこれはちょっと面倒くさそうだな」とか、あと材料が高いものも多くて、乳製品使わないとなると、やっぱりどうしても代用の何か別のものってちょっと値段が張るので、買うのをためらってしまうものもあるんですけれど、仕方ないなと思って買えればいいなと思いますね。",
+            "understand": {
+                "MI": {
+                    "disturbance_thought_negative_1": "やっぱりこれはちょっと面倒くさそうだな",
+                    "disturbance_reason_negative_2": "乳製品使わないとなると、やっぱりどうしても代用の何か別のものってちょっと値段が張る",
+                    "detail_3": "仕方ないなと思って買えればいいなと思います"
+                }
+            }
+        },
+        {
+            "id": 185,
+            "speaker": "A",
+            "utterance": "じゃあ、買えさえすれば、また発展していくってことですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "じゃあ、買えさえすれば、また発展していくってことですかね？"
+            }
+        },
+        {
+            "id": 186,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 187,
+            "speaker": "B",
+            "utterance": "ただ、買うだけ買って、大量に余らせてしまって、賞味期限切れて捨てちゃうというのが結構あるんで、それがもったいないんですよ。",
+            "understand": {
+                "MI": {
+                    "disturbance_negative_1": "買うだけ買って、大量に余らせてしまって、賞味期限切れて捨てちゃうというのが結構あるんで、それがもったい"
+                }
+            }
+        },
+        {
+            "id": 188,
+            "speaker": "A",
+            "utterance": "今までに？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "disturbance",
+                "utterance": "今までに？"
+            }
+        },
+        {
+            "id": 189,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 190,
+            "speaker": "A",
+            "utterance": "あー。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "あー。"
+            }
+        },
+        {
+            "id": 191,
+            "speaker": "B",
+            "utterance": "そのバランスをうまくやっていければ、いいかなと思いますね。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "バランスをうまくやっていければ、いいかな"
+                }
+            }
+        },
+        {
+            "id": 192,
+            "speaker": "A",
+            "utterance": "おのずと増えていくという感じですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "おのずと増えていくという感じですかね？"
+            }
+        },
+        {
+            "id": 193,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 194,
+            "speaker": "B",
+            "utterance": "あとは、手間を惜しまないというところですかね。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "手間を惜しまない"
+                }
+            }
+        },
+        {
+            "id": 195,
+            "speaker": "B",
+            "utterance": "工程が多いと、お菓子作りは特に面倒くさいので、タルトは何回も何回も焼き直すので、その手間を惜しまずに、頑張りたいと思いますね。",
+            "understand": {
+                "MI": {
+                    "commitment_positive_1": "手間を惜しまずに、頑張りたいと思います"
+                }
+            }
+        },
+        {
+            "id": 196,
+            "speaker": "A",
+            "utterance": "ふーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "ふーん。"
+            }
+        },
+        {
+            "id": 197,
+            "speaker": "A",
+            "utterance": "煮込み料理なんかもきっとそうですよね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "commitment",
+                "utterance": "煮込み料理なんかもきっとそうですよね？"
+            }
+        },
+        {
+            "id": 198,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 199,
+            "speaker": "B",
+            "utterance": "時間かかりますね。"
+        },
+        {
+            "id": 200,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 201,
+            "speaker": "B",
+            "utterance": "そういうのは、時間のあるときには作れるんですけれど、学校帰って時間ないと、ちょっとどうしても「煮込みは今日はやめておこう」ってなってしまうんで。",
+            "understand": {
+                "MI": {
+                    "disturbance_reason_negative_1": "時間ないと、ちょっとどうしても「煮込みは今日はやめておこう」ってなってしまう"
+                }
+            }
+        },
+        {
+            "id": 202,
+            "speaker": "A",
+            "utterance": "うん、うん、うん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うん、うん、うん。"
+            }
+        },
+        {
+            "id": 203,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 204,
+            "speaker": "A",
+            "utterance": "じゃあ、料理がうまくなるに対して、時間をつくることとかっていうのはできるんですかね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、料理がうまくなるに対して、時間をつくることとかっていうのはできるんですかね？"
+            }
+        },
+        {
+            "id": 205,
+            "speaker": "B",
+            "utterance": "そうですね。"
+        },
+        {
+            "id": 206,
+            "speaker": "B",
+            "utterance": "時間さえあれば、凝った料理は作れるというのはありますね。",
+            "understand": {
+                "MI": {
+                    "confidence_positive_1": "時間さえあれば、凝った料理は作れる"
+                }
+            }
+        },
+        {
+            "id": 207,
+            "speaker": "B",
+            "utterance": "休日なんかは、結構できるんで。",
+            "understand": {
+                "MI": {
+                    "confidence_time_positive_1": "休日なんかは、結構できる"
+                }
+            }
+        },
+        {
+            "id": 208,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 209,
+            "speaker": "A",
+            "utterance": "なるほど、なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "confidence",
+                "utterance": "なるほど、なるほど。"
+            }
+        },
+        {
+            "id": 210,
+            "speaker": "A",
+            "utterance": "じゃあ、普段から作られてるんですもんね？",
+            "system_behavior": {
+                "purpose": "closed質問",
+                "purpose_attribute": "confidence",
+                "utterance": "じゃあ、普段から作られてるんですもんね？"
+            }
+        },
+        {
+            "id": 211,
+            "speaker": "B",
+            "utterance": "そうですね、はい。"
+        },
+        {
+            "id": 212,
+            "speaker": "A",
+            "utterance": "で、皆さんおいしくしてあげたい。",
+            "system_behavior": {
+                "purpose": "interpretation",
+                "purpose_attribute": "importance",
+                "utterance": "で、皆さんおいしくしてあげたい。"
+            }
+        },
+        {
+            "id": 213,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 214,
+            "speaker": "B",
+            "utterance": "喜んでもらえるのが一番だなと思ってるんで。",
+            "understand": {
+                "MI": {
+                    "importance_positive_1": "喜んでもらえるのが一番"
+                }
+            }
+        },
+        {
+            "id": 215,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 216,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 217,
+            "speaker": "A",
+            "utterance": "うーん。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "うーん。"
+            }
+        },
+        {
+            "id": 218,
+            "speaker": "A",
+            "utterance": "じゃあ、そのためにはどうしていきましょうかね、次？",
+            "system_behavior": {
+                "purpose": "open質問",
+                "purpose_attribute": "commitment",
+                "utterance": "じゃあ、そのためにはどうしていきましょうかね、次？"
+            }
+        },
+        {
+            "id": 219,
+            "speaker": "B",
+            "utterance": "ほんとに手間を惜しんでしまうことが、一番ネックになってるところなので、そこは手間を惜しまずというのと、あと慣れてくれば、手際よく短い時間でもちょっと凝ったものはできると思ってるんで、練習ですかね。",
+            "understand": {
+                "MI": {
+                    "disturbance_reason_negative_1": "手間を惜しんでしまうことが、一番ネックになってる",
+                    "commitment_positive_2": "練習です"
+                }
+            }
+        },
+        {
+            "id": 220,
+            "speaker": "B",
+            "utterance": "何度も何度もやれば、慣れで、時間もどんどん早くなってくと思うんで、やっぱり積み重ねが必要ですかね。",
+            "understand": {
+                "MI": {
+                    "reason_positive_1": "何度も何度もやれば、慣れで、時間もどんどん早くなってくと思うんで、やっぱり積み重ねが必要"
+                }
+            }
+        },
+        {
+            "id": 221,
+            "speaker": "A",
+            "utterance": "はい。",
+            "system_behavior": {
+                "purpose": "相槌",
+                "utterance": "はい。"
+            }
+        },
+        {
+            "id": 222,
+            "speaker": "B",
+            "utterance": "はい。"
+        },
+        {
+            "id": 223,
+            "speaker": "A",
+            "utterance": "なるほど。",
+            "system_behavior": {
+                "purpose": "feedback",
+                "purpose_attribute": "commitment",
+                "utterance": "なるほど。"
+            }
+        },
+        {
+            "id": 224,
+            "speaker": "A",
+            "utterance": "ありがとうございました。",
+            "system_behavior": {
+                "purpose": "対話終了感謝",
+                "utterance": "ありがとうございました。"
+            }
+        },
+        {
+            "id": 225,
+            "speaker": "B",
+            "utterance": "ありがとうございます。"
+        }
+    ]
+}
